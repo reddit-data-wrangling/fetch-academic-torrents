@@ -64,7 +64,7 @@ def paginate(kind: str, subreddit: str, after: int, before: int | None) -> Itera
                     path,
                     {
                         "subreddit": subreddit,
-                        "after": cursor,
+                        "after": cursor if cursor else None,
                         "before": before,
                         "sort": "asc",
                         "limit": "auto",
