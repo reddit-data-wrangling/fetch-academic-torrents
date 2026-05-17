@@ -19,6 +19,7 @@ import sys
 import time
 import urllib.parse
 import urllib.request
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Iterator
 
@@ -108,23 +109,69 @@ def paginate(kind: str, subreddit: str, after: int, before: int | None) -> Itera
             cursor = last_ts
 
 
-def write_stream(items: Iterator[dict], out_path: Path, cursor_path: Path) -> int:
+def _fmt_duration(seconds: float) -> str:
+    if seconds < 60:
+        return f"{seconds:.0f}s"
+    if seconds < 3600:
+        return f"{seconds / 60:.1f}m"
+    return f"{seconds / 3600:.1f}h"
+
+
+def _render_progress(count: int, cursor_ts: int, start_wall: float,
+                     after: int, before: int | None) -> str:
+    elapsed = max(1e-3, time.time() - start_wall)
+    rate = count / elapsed
+    end_ts = before if before is not None else int(time.time())
+    span = max(1, end_ts - after)
+    done = max(0, min(span, cursor_ts - after))
+    frac = done / span
+    eta = (elapsed / frac - elapsed) if 0 < frac < 1 else 0
+    bar_w = 24
+    filled = int(bar_w * frac)
+    bar = "#" * filled + "-" * (bar_w - filled)
+    date = datetime.fromtimestamp(cursor_ts, tz=timezone.utc).strftime("%Y-%m-%d")
+    return (f"[{bar}] {frac * 100:5.1f}% | {count:>7} items | @{date} | "
+            f"{rate:5.0f}/s | elapsed {_fmt_duration(elapsed)} | "
+            f"eta {_fmt_duration(eta)}")
+
+
+def write_stream(items: Iterator[dict], out_path: Path, cursor_path: Path,
+                 after: int, before: int | None) -> int:
     out_path.parent.mkdir(parents=True, exist_ok=True)
     cctx = zstandard.ZstdCompressor(level=10)
     count = 0
     mode = "ab" if out_path.exists() else "wb"
+    is_tty = sys.stderr.isatty()
+    start_wall = time.time()
+    last_paint = 0.0
+    last_ts = after
     with open(out_path, mode) as raw, cctx.stream_writer(raw) as writer:
         for item in items:
-            writer.write((json.dumps(item, separators=(",", ":")) + "\n").encode("utf-8"))
+            writer.write(
+                (json.dumps(item, separators=(",", ":")) + "\n").encode("utf-8")
+            )
             count += 1
             ts = item.get("created_utc")
-            if isinstance(ts, (int, float)) and count % 1000 == 0:
+            if isinstance(ts, (int, float)):
+                last_ts = int(ts)
+            if count % 1000 == 0 and isinstance(ts, (int, float)):
                 cursor_path.write_text(str(int(ts)))
-                print(f"  {count} items, cursor={int(ts)}", file=sys.stderr)
+            now = time.time()
+            if is_tty and now - last_paint >= 0.25:
+                line = _render_progress(count, last_ts, start_wall, after, before)
+                print(f"\r{line}", end="", file=sys.stderr, flush=True)
+                last_paint = now
+            elif not is_tty and count % 1000 == 0:
+                line = _render_progress(count, last_ts, start_wall, after, before)
+                print(line, file=sys.stderr, flush=True)
+    if is_tty and count:
+        line = _render_progress(count, last_ts, start_wall, after, before)
+        print(f"\r{line}", file=sys.stderr, flush=True)
     return count
 
 
-def fetch_kind(subreddit: str, kind: str, outdir: Path, after: int, before: int | None) -> None:
+def fetch_kind(subreddit: str, kind: str, outdir: Path, after: int,
+               before: int | None) -> None:
     out_path = outdir / f"{subreddit}_{kind}.zst"
     cursor_path = outdir / f"{subreddit}_{kind}.cursor"
     resume_from = after
@@ -134,9 +181,16 @@ def fetch_kind(subreddit: str, kind: str, outdir: Path, after: int, before: int 
             print(f"resuming {kind} from {resume_from}", file=sys.stderr)
         except ValueError:
             pass
-    print(f"fetching r/{subreddit} {kind} after={resume_from} before={before}", file=sys.stderr)
+    print(
+        f"fetching r/{subreddit} {kind} after={resume_from} before={before}",
+        file=sys.stderr,
+    )
     n = write_stream(
-        paginate(kind, subreddit, resume_from, before), out_path, cursor_path
+        paginate(kind, subreddit, resume_from, before),
+        out_path,
+        cursor_path,
+        resume_from,
+        before,
     )
     print(f"wrote {n} {kind} -> {out_path}", file=sys.stderr)
 

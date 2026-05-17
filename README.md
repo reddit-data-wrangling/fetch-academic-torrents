@@ -81,6 +81,24 @@ Fallback paths, in order:
 3. PullPush API (`api.pullpush.io`) for full-text search across all of Reddit (slower, rate-limited).
 4. Official Reddit API via PRAW for live state and post-2025 data.
 
+**Single-subreddit fetch via the API (fallback path #2)** — appropriate for niche/small subs (up to roughly low millions of items) or a quick quality-assessment pull before committing to the torrent:
+
+```bash
+# Full pull of one subreddit (both kinds) into data/raw/<sub>_{submissions,comments}.zst
+python scripts/fetch_subreddit.py linusrants --kind both --outdir data/raw
+
+# Bounded by epoch range, e.g. all of 2020 only
+python scripts/fetch_subreddit.py linusrants --after 1577836800 --before 1609459200
+
+# Fetch + emit a quality report (count, time range, deleted-body share, suspicious gaps)
+python scripts/assess_subreddit.py linusrants
+
+# Re-report on a previously-fetched dump without hitting the API again
+python scripts/assess_subreddit.py linusrants --skip-fetch
+```
+
+Resumable: each fetch writes a sidecar `<sub>_<kind>.cursor` file every 1000 items; re-running picks up where it left off.
+
 ### Phase 2 — Storage layout
 
 ```

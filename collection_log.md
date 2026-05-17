@@ -20,3 +20,20 @@ Edges = last `created_utc` reached during paging (sidecar `.cursor` files). The 
 
 - One bug fixed at the start: the API rejects `after=0` ("must be a valid date"), so [scripts/fetch_subreddit.py:67](../scripts/fetch_subreddit.py#L67) now passes `None` when the cursor is 0, letting `urlencode` drop the parameter.
 - One transient HTTP 422 hit during r/linux comments around timestamp 1328745842 (Feb 2012); the script's exponential-backoff retry recovered without intervention.
+
+## 2026-05-17
+
+Quality-assessment fetch of r/linusrants via the new [scripts/assess_subreddit.py](../scripts/assess_subreddit.py) (wraps `fetch_subreddit.fetch_kind` and re-reads the .zst to emit count / time range / field coverage / deleted-body share / suspicious-gap report).
+
+| Subreddit  | Submissions | Comments | Subm. edge | Comm. edge |
+| ---------- | ----------: | -------: | ---------- | ---------- |
+| linusrants |         210 |    1,596 | 2026-04-26 | 2026-05-14 |
+
+Resume from the 2026-05-10 cursors back-filled the Arctic Shift comment edge from 2021-10-22 → 2026-05-14 (+1 comment), confirming the lag-not-truncation hypothesis in the note above.
+
+### Arctic Shift quality findings (r/linusrants)
+
+- **Submissions `selftext` is 90% scrubbed** ([deleted]/[removed]/empty) across 210 posts spanning 2014–2026 — text analysis on submission bodies is largely impossible for this sub. Titles/metadata are intact.
+- **Comments are clean**: only 3.2% (51/1596) of `body` fields are deleted/removed.
+- **No duplicate ids** in either kind after pagination + dedup.
+- **Possible silent gaps in comments** at 2017-03, 2019-04, 2019-05 (1 comment each, vs. neighbouring months in the dozens) — worth manual spot-check before treating monthly time series as reliable.
