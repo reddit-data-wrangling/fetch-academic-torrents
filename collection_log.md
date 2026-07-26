@@ -31,6 +31,16 @@ Quality-assessment fetch of r/linusrants via the new [scripts/assess_subreddit.p
 
 Resume from the 2026-05-10 cursors back-filled the Arctic Shift comment edge from 2021-10-22 → 2026-05-14 (+1 comment), confirming the lag-not-truncation hypothesis in the note above.
 
+## 2026-07-26 — bulk torrent source withdrawn (no fetch)
+
+u/Watchful1 took down their Academic Torrents uploads at Reddit's request ([announcement](https://www.reddit.com/r/pushshift/comments/1v50ved/upon_reddits_request_i_am_taking_down_my_academic/)). Verified the whole landscape directly:
+
+- **Dead** (page 404, tracker scrape returns `d5:filesdee` = zero peers): the subreddit-partitioned dumps `3e3f64d…` (our old primary, 2005-06→2025-12), `1614740…` (→2024-12), `56aa49f…` (→2023-12); and the full-corpus dumps `30dee5f…` (2005-06→2025-06) and `9c263fc…` (2005-06→2023-12). The `.torrent` metadata for these still returns HTTP 200 and passes infohash verification — but there are no seeders, so `torrent_fetch.py` would hang in `aria2c` at 0%. `--dry-run` still looks healthy; do not trust it.
+- **Alive** (still listed, healthy swarms): monthly full-corpus dumps — `bec5590…` 2025-06 (~13 seeders), `b6a7ccf…` 2025-07 (~17), `8412b89…` 2026-01 (~23). These are month-partitioned (all subreddits per month), not per-subreddit.
+- **Alive**: Arctic Shift API — spot-checked `posts/search` + `comments/search` for r/wikipedia, both HTTP 200 with full records, sub-second. Now the primary path and the only source for pre-2025-06 per-subreddit history.
+
+**Plan (to be run server-side, not from the dev machine):** Track A = Arctic Shift API for the target subreddit allowlist, full history, first (fragile source). Track B = download + seed the surviving monthly full-corpus torrents (2025-06→present, ~1 TB budget) as archive + backfill, then filter target subs out locally. `load_to_mongo.py` dedupes the two tracks by Reddit `id`. See README §Source availability / Phase 1. No data fetched in this session.
+
 ### Arctic Shift quality findings (r/linusrants)
 
 - **Submissions `selftext` is 90% scrubbed** ([deleted]/[removed]/empty) across 210 posts spanning 2014–2026 — text analysis on submission bodies is largely impossible for this sub. Titles/metadata are intact.

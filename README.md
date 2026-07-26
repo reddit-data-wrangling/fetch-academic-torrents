@@ -2,19 +2,31 @@
 
 Planning and tooling for fetching Reddit data from Academic Torrents and complementary sources.
 
-## Target dataset
+## ⚠️ Source availability (verified 2026-07-26)
 
-**Subreddit comments/submissions 2005-06 to 2025-12**
-Academic Torrents hash: `3e3f64dee22dc304cdd2546254ca1f8e8ae542b4`
-URL: https://academictorrents.com/details/3e3f64dee22dc304cdd2546254ca1f8e8ae542b4
+**The subreddit-partitioned bulk torrent this repo was built around has been withdrawn.** u/Watchful1 took down their Academic Torrents uploads at Reddit's request ([announcement](https://www.reddit.com/r/pushshift/comments/1v50ved/upon_reddits_request_i_am_taking_down_my_academic/)). Verified state of every known bulk torrent:
 
-- Format: zstandard-compressed newline-delimited JSON (`.zst` of `.ndjson`), one object per line, separate files for `comments` and `submissions`, partitioned per-subreddit (the "Subreddit" variant) rather than per-month.
-- Lineage: Originally seeded from Pushshift dumps; from 2024-04 onward maintained as `.zst` only by u/Watchful1 / Arthur Heitmann's Arctic Shift pipeline. Pushshift itself was shut down in mid-2023 after Reddit's API changes.
+| Torrent | Infohash | Status |
+|---|---|---|
+| Subreddit 2005-06 → 2025-12 (**old primary**) | `3e3f64dee22dc304cdd2546254ca1f8e8ae542b4` | **dead** — page 404, tracker returns no peers |
+| Subreddit 2005-06 → 2024-12 | `1614740ac8c94505e4ecb9d88be8bed7b6afddd4` | **dead** — 404, no peers |
+| Subreddit 2005-06 → 2023-12 | `56aa49f9653ba545f48df2e33679f014d2829c10` | **dead** — 404, no peers |
+| Reddit full 2005-06 → 2025-06 | `30dee5f0406da7a353aff6a8caa2d54fd01f2ca1` | **dead** — 404, no peers |
+| Reddit full 2005-06 → 2023-12 | `9c263fc85366c1ef8f5bb9da0203f4c8c8db75f4` | **dead** — 404, no peers |
+| **Reddit monthly 2025-06** | `bec5590bd3bc6c0f2d868f36ec92bec1aff4480e` | **alive** — ~13 seeders |
+| **Reddit monthly 2025-07** | `b6a7ccf72368a7d39c018c423e01bc15aa551122` | **alive** — ~17 seeders |
+| **Reddit monthly 2026-01** | `8412b89151101d88c915334c45d9c223169a1a60` | **alive** — ~23 seeders |
+
+Note the `.torrent` *metadata* for the dead hashes still downloads (HTTP 200) and passes infohash verification, but the swarm is empty — `aria2c` will hang at 0%. Do not treat a successful `--dry-run` as proof the data is fetchable.
+
+**What survives, and the acquisition strategy it implies:**
+
+1. **Arctic Shift API** (`arctic-shift.photon-reddit.com`) — live, full history, but per-subreddit and rate-limited. **This is now the only source for pre-2025-06 per-subreddit history**, and it is the *fragile* source: a live API Reddit can switch off at any time. Capture the subreddits you care about here **first**. → [scripts/fetch_subreddit.py](scripts/fetch_subreddit.py).
+2. **Recent monthly full-corpus torrents** (2025-06 onward) — still seeded, ~15-20 GB compressed each, containing *every* subreddit for one month (single `RC_YYYY-MM.zst` / `RS_YYYY-MM.zst` files, **not** per-subreddit). Resilient once downloaded (bittorrent can't be clawed back), but seeders are dwindling — grab soon and **seed back**. These serve as both a recent-months archive and a superset backfill.
+
+**Data format** (unchanged): zstandard-compressed newline-delimited JSON (`.zst` of `.ndjson`), one object per line, separate files for `comments` and `submissions`.
 - Compression caveat: Files use a non-standard window size (`2^31`); naive `zstd`/`zstandard` decoders fail with *"Frame requires too much memory for decoding"*. Use `zstandard.ZstdDecompressor(max_window_size=2**31)` or the helpers in [Watchful1/PushshiftDumps](https://github.com/Watchful1/PushshiftDumps).
-- Sibling torrents (useful as cross-checks / smaller scopes):
-  - 2005-06 → 2024-12 (subreddit-partitioned): `1614740ac8c94505e4ecb9d88be8bed7b6afddd4`
-  - 2005-06 → 2023-12 (full, comments+submissions): `9c263fc85366c1ef8f5bb9da0203f4c8c8db75f4`
-  - Per-month single-period torrents (e.g. `2023-02`: `9971c68d2909843a100ae955c6ab6de3e09c04a1`).
+- Lineage: Originally seeded from Pushshift dumps; from 2024-04 onward maintained as `.zst` only by u/Watchful1 / Arthur Heitmann's Arctic Shift pipeline. Pushshift itself was shut down in mid-2023 after Reddit's API changes.
 
 ## Systematic data-quality assessment
 
@@ -60,28 +72,37 @@ Each check should emit a small JSON/Parquet report committed alongside the data 
 
 Before downloading ~2+ TB of compressed data, narrow the scope:
 
-- Which subreddits? (If <~200, the per-subreddit torrent variant is far cheaper.)
+- Which subreddits? (Drives the Track A allowlist; the per-subreddit torrent that once made large lists cheap is gone.)
 - Which time window?
 - Comments, submissions, or both?
 - Do we need post-ingest mutations (final score, current deletion state)?
 
-### Phase 1 — Bulk acquisition
+### Phase 1 — Acquisition (post-takedown strategy)
 
-Primary path: **the subreddit-partitioned torrent** (this hash) when the subreddit list is known and comparatively small.
+The per-subreddit bulk torrent is gone (see the **Source availability** section at the top). Acquisition is now a two-track capture, ordered by how fast each source can disappear.
 
-1. Install a headless BitTorrent client (`transmission-daemon`, `aria2c --enable-dht --bt-metadata-only-mode=false`, or `qbittorrent-nox`).
-2. Fetch the `.torrent` from Academic Torrents; verify infohash equals `3e3f64dee22dc304cdd2546254ca1f8e8ae542b4`.
-3. Use *selective download* to pull only the `.zst` files for target subreddits — the torrent's file structure is one pair (`comments`, `submissions`) per subreddit.
-4. Seed back for ≥1× share ratio; this dataset depends on community seeders.
-5. Verify each file: zstd frame check + line-count + `created_utc` min/max.
+**Track A — Arctic Shift API for target subreddits (do first; fragile source).**
+The API is the only remaining source for full per-subreddit history, and Reddit can switch it off at any time — so pull the subreddits you care about before anything else.
 
-Fallback paths, in order:
-1. Direct HTTPS mirror of the same files via Arctic Shift's [download links](https://github.com/ArthurHeitmann/arctic_shift/blob/master/download_links.md).
-2. Arctic Shift API / web download tool (`arctic-shift.photon-reddit.com/download-tool`) for ad-hoc pulls.
-3. PullPush API (`api.pullpush.io`) for full-text search across all of Reddit (slower, rate-limited).
-4. Official Reddit API via PRAW for live state and post-2025 data.
+1. Define the subreddit allowlist (`subs.txt`, one per line).
+2. `python scripts/fetch_subreddit.py <sub> --kind both --outdir data/raw` for each, full history. Resumable via sidecar `.cursor` files.
+3. Verify each file: zstd frame check + line-count + `created_utc` min/max. Optionally `scripts/assess_subreddit.py` for a quality report.
 
-**Single-subreddit fetch via the API (fallback path #2)** — appropriate for niche/small subs (up to roughly low millions of items) or a quick quality-assessment pull before committing to the torrent:
+**Track B — recent monthly full-corpus torrents (resilient, but seeders dwindling).**
+Grab the still-seeded monthly dumps (2025-06 onward) as a recent-months archive and superset backfill. These are month-partitioned full-corpus files — one `RC_YYYY-MM.zst` + `RS_YYYY-MM.zst` covering *all* subreddits — so selective per-subreddit download does **not** apply; you download whole months and filter locally.
+
+1. Install a headless BitTorrent client (`aria2c --enable-dht`, `transmission-daemon`, or `qbittorrent-nox`).
+2. Fetch each monthly `.torrent` from Academic Torrents (infohashes in the availability table above; re-scrape the tracker to confirm live seeders before committing).
+3. Download whole months to disk (~15-20 GB compressed each; budget ~1 TB for a full 2025-06→present series).
+4. **Seed back** — these swarms are thin and this data now survives only through community seeders.
+5. Filter target subreddits out of the monthly megafiles into the repo's per-sub `<sub>_{comments,submissions}.zst` layout (streaming, `max_window_size=2**31`); `load_to_mongo.py` dedupes against Track A by Reddit `id`.
+
+Further fallbacks:
+1. Direct HTTPS mirror via Arctic Shift's [download links](https://github.com/ArthurHeitmann/arctic_shift/blob/master/download_links.md).
+2. PullPush API (`api.pullpush.io`) for full-text search across all of Reddit (slower, rate-limited).
+3. Official Reddit API via PRAW for live state and post-2025 data.
+
+**Single-subreddit fetch via the API (Track A)** — the primary path now; also appropriate for niche/small subs (up to roughly low millions of items) or a quick quality-assessment pull:
 
 ```bash
 # Full pull of one subreddit (both kinds) into data/raw/<sub>_{submissions,comments}.zst
@@ -143,7 +164,8 @@ No downstream artefact ships without:
 
 ## References
 
-- Academic Torrents listing: https://academictorrents.com/details/3e3f64dee22dc304cdd2546254ca1f8e8ae542b4
+- Academic Torrents listing (subreddit dump, now 404 — withdrawn): https://academictorrents.com/details/3e3f64dee22dc304cdd2546254ca1f8e8ae542b4
+- Takedown announcement: https://www.reddit.com/r/pushshift/comments/1v50ved/upon_reddits_request_i_am_taking_down_my_academic/
 - Watchful1, *PushshiftDumps* (helper scripts, decompression notes): https://github.com/Watchful1/PushshiftDumps
 - ArthurHeitmann, *Arctic Shift* (Pushshift successor, dumps + API): https://github.com/ArthurHeitmann/arctic_shift
 - Arctic Shift web UI: https://arctic-shift.photon-reddit.com/
