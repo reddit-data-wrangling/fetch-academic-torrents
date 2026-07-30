@@ -1,0 +1,119 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "inventory.schema.json",
+  "title": "Subreddit collection inventory",
+  "type": "object",
+  "required": ["schema_version", "collection", "holdings"],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "collection": {
+      "type": "string",
+      "minLength": 1
+    },
+    "holdings": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/holding"
+      }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "nullable_non_negative_integer": {
+      "type": ["integer", "null"],
+      "minimum": 0
+    },
+    "holding": {
+      "type": "object",
+      "required": [
+        "subreddit",
+        "kind",
+        "source",
+        "time_range",
+        "records",
+        "raw",
+        "mongo",
+        "qa",
+        "acquired_at",
+        "notes"
+      ],
+      "properties": {
+        "subreddit": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[^/\\s]+$"
+        },
+        "kind": {
+          "enum": ["submissions", "comments", "both"]
+        },
+        "source": {
+          "type": "string"
+        },
+        "time_range": {
+          "type": "object",
+          "required": ["first_created_utc", "last_created_utc"],
+          "properties": {
+            "first_created_utc": {
+              "$ref": "#/$defs/nullable_non_negative_integer"
+            },
+            "last_created_utc": {
+              "$ref": "#/$defs/nullable_non_negative_integer"
+            }
+          },
+          "additionalProperties": false
+        },
+        "records": {
+          "$ref": "#/$defs/nullable_non_negative_integer"
+        },
+        "raw": {
+          "type": "object",
+          "required": ["path", "bytes"],
+          "properties": {
+            "path": {
+              "type": "string"
+            },
+            "bytes": {
+              "$ref": "#/$defs/nullable_non_negative_integer"
+            }
+          },
+          "additionalProperties": false
+        },
+        "mongo": {
+          "type": "object",
+          "required": ["uri", "database", "collection"],
+          "properties": {
+            "uri": {
+              "type": "string"
+            },
+            "database": {
+              "type": "string"
+            },
+            "collection": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false
+        },
+        "qa": {
+          "type": "object",
+          "required": ["status"],
+          "properties": {
+            "status": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false
+        },
+        "acquired_at": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

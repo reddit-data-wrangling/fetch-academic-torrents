@@ -1,0 +1,106 @@
+I can identify movie-related subs systematically, but doing it **accurately** requires a systematic web crawl/search rather than relying on memory. Many movie-related subreddits are small, renamed, inactive, or genre/franchise-specific, so I would verify each one before including it.
+
+The resulting dataset would be much more valuable than a simple list. For each subreddit, I'd include:
+
+| Field               | Description                                                      |
+| ------------------- | ---------------------------------------------------------------- |
+| Subreddit           | e.g., r/TrueFilm                                                 |
+| Category            | General discussion, Horror, Director, Franchise, etc.            |
+| Primary topic       | One-line description                                             |
+| Approximate size    | Number of members (current)                                      |
+| Activity            | High / Medium / Low (posts per week)                             |
+| Created             | Year                                                             |
+| Related communities | Similar subreddits                                               |
+| Research usefulness | Consumer behavior, criticism, fandom, industry, production, etc. |
+
+For example:
+
+| Subreddit       | Category       | Focus                                      |
+| --------------- | -------------- | ------------------------------------------ |
+| r/movies        | General        | Mainstream movie discussion                |
+| r/TrueFilm      | Film criticism | Academic and analytical discussion         |
+| r/boxoffice     | Industry       | Revenue, theatrical performance            |
+| r/Letterboxd    | Consumption    | Logging, reviewing, recommendation culture |
+| r/horror        | Genre          | Horror films                               |
+| r/criterion     | Classic cinema | Criterion Collection and film canon        |
+| r/Filmmakers    | Production     | Independent filmmaking                     |
+| r/Screenwriting | Production     | Screenwriting craft                        |
+
+Then I would systematically enumerate:
+
+* **General film discussion** (~20)
+* **Film criticism & theory** (~20)
+* **Industry / box office / awards** (~20)
+* **Production & filmmaking** (~40)
+* **Streaming & home theater** (~30)
+* **Physical media** (~20)
+* **Genre communities** (~100)
+
+  * Horror
+  * Sci-fi
+  * Fantasy
+  * Action
+  * Thriller
+  * Crime
+  * Noir
+  * Western
+  * Romance
+  * Comedy
+  * Documentary
+  * Animation
+  * Anime films
+  * Experimental
+  * Short films
+* **International cinema** (~50)
+
+  * Japanese
+  * Korean
+  * Chinese
+  * Hong Kong
+  * French
+  * Italian
+  * Spanish
+  * German
+  * Nordic
+  * Bollywood
+  * Tollywood
+  * Nollywood
+  * Latin American
+  * Iranian
+  * etc.
+* **Directors** (~40–60)
+
+  * Kubrick
+  * Scorsese
+  * Nolan
+  * Tarantino
+  * Villeneuve
+  * Fincher
+  * Lynch
+  * Wong Kar-wai
+  * Kurosawa
+  * and many others
+* **Franchises & studios** (~80–120)
+
+  * Star Wars
+  * Marvel
+  * DC
+  * Alien
+  * Predator
+  * Jurassic Park
+  * Godzilla
+  * Harry Potter
+  * Lord of the Rings
+  * James Bond
+  * Mission: Impossible
+  * Pixar
+  * Disney
+  * A24
+  * Studio Ghibli
+  * etc.
+
+The final catalog would likely contain **300–500 active communities**, because Reddit's movie ecosystem is larger than it first appears once director-, country-, and franchise-specific communities are included.
+
+For research purposes, I'd also add **metadata** such as subscriber counts, posting frequency, and a "research domain" label (e.g., *consumer behavior*, *fandom*, *film criticism*, *industry economics*). That makes it immediately usable for sampling, network analysis, or LLM-assisted qualitative research.
+
+This is a fairly large project—it would involve searching and validating several hundred communities—but it's entirely feasible. The end result would be a curated, deduplicated catalog rather than an unverified dump of subreddit names.

@@ -1,0 +1,443 @@
+Here's a comprehensive collection of active and useful subreddits organized by topic. I've prioritized communities that are valuable for developers, contributors, power users, and people following upstream Linux development.
+
+---
+
+# Linux Kernel Development
+
+## Core Kernel
+
+* r/kernel
+
+  * Linux kernel internals
+  * Development discussions
+  * Patch-related questions
+
+* r/linuxkernel
+
+  * Kernel programming
+  * Driver development
+  * Scheduling
+  * Memory management
+
+* r/linux
+
+  * Major kernel releases
+  * LKML news
+  * Ecosystem announcements
+
+## Systems Programming
+
+* r/C_Programming
+
+  * Kernel C programming
+  * Low-level APIs
+
+* r/embedded
+
+  * Embedded Linux
+  * Kernel customization
+  * BSP development
+
+* r/osdev
+
+  * Operating system implementation
+  * Filesystems
+  * Memory managers
+  * Bootloaders
+
+* r/programming
+
+  * Occasionally discusses Linux kernel innovations
+
+---
+
+# Linux Distributions
+
+## General
+
+* r/linux
+* r/linuxquestions
+* r/linux4noobs
+* r/linuxadmin
+* r/selfhosted
+* r/homelab
+
+---
+
+## Debian Family
+
+* r/debian
+* r/Ubuntu
+* r/linuxmint
+* r/pop_os
+* r/elementaryos
+* r/kubuntu
+* r/lubuntu
+* r/xubuntu
+* r/ubuntu
+
+---
+
+## Fedora Family
+
+* r/Fedora
+* r/FedoraWorkstation
+* r/FedoraServer
+* r/FedoraSilverblue
+
+---
+
+## Arch Family
+
+* r/archlinux
+* r/EndeavourOS
+* r/ManjaroLinux
+* r/ArtixLinux
+* r/CachyOS
+* r/GarudaLinux
+
+---
+
+## openSUSE
+
+* r/openSUSE
+
+---
+
+## Red Hat Enterprise
+
+* r/redhat
+* r/RockyLinux
+* r/AlmaLinux
+* r/CentOS
+
+---
+
+## Nix Ecosystem
+
+* r/NixOS
+* r/nix
+
+---
+
+## Immutable / Atomic Systems
+
+* r/FedoraSilverblue
+* r/bluBuild
+* r/UniversalBlue
+
+---
+
+## Rolling Releases
+
+* r/archlinux
+* r/openSUSE
+* r/Gentoo
+
+---
+
+## Source-based
+
+* r/Gentoo
+* r/voidlinux
+
+---
+
+## Lightweight
+
+* r/voidlinux
+* r/alpinelinux
+* r/slackware
+
+---
+
+## Security-focused
+
+* r/Qubes
+* r/tails
+* r/KaliLinux
+* r/ParrotOS
+
+---
+
+## Specialty
+
+* r/chromeos
+* r/SteamDeck
+* r/SteamOS
+
+---
+
+# Linux Desktop Environments
+
+## GNOME
+
+* r/gnome
+* r/gnome_shell
+
+Topics:
+
+* GTK
+* Mutter
+* Extensions
+* libadwaita
+* Wayland
+
+---
+
+## KDE Plasma
+
+* r/kde
+* r/kdecommunity
+
+Topics:
+
+* Plasma
+* Frameworks
+* Kirigami
+* Qt
+
+---
+
+## Xfce
+
+* r/xfce
+
+---
+
+## Cinnamon
+
+* r/cinnamonDE
+
+---
+
+## MATE
+
+* r/MATE
+
+---
+
+## LXQt
+
+* r/LXQt
+
+---
+
+## Budgie
+
+* r/budgie
+
+---
+
+## COSMIC
+
+* r/System76
+* r/pop_os
+
+(The new COSMIC desktop is primarily discussed here.)
+
+---
+
+# Wayland and Display Systems
+
+* r/wayland
+* r/linux
+
+Related topics:
+
+* Compositors
+* Protocols
+* Display stacks
+
+---
+
+# Window Managers
+
+## Tiling
+
+* r/i3wm
+* r/swaywm
+* r/hyprland
+* r/bspwm
+* r/awesomewm
+* r/dwm
+* r/qtile
+* r/xmonad
+
+---
+
+## Dynamic
+
+* r/hyprland
+* r/swaywm
+
+---
+
+# Linux Graphics Stack
+
+* r/mesa3d
+* r/linux_gaming
+* r/vulkan
+* r/opengl
+
+Topics:
+
+* Mesa
+* Vulkan
+* AMDGPU
+* Intel graphics
+* NVIDIA on Linux
+
+---
+
+# Driver Development
+
+* r/linuxkernel
+* r/kernel
+* r/linuxquestions
+
+---
+
+# Packaging & Build Systems
+
+* r/NixOS
+* r/archlinux
+* r/Gentoo
+* r/debian
+
+Topics include:
+
+* RPM
+* DEB
+* PKGBUILD
+* Portage
+* Flatpak
+* Snap
+* AppImage
+
+---
+
+# Init Systems
+
+* r/systemd
+* r/Gentoo
+* r/voidlinux
+
+---
+
+# Filesystems & Storage
+
+Useful communities include:
+
+* r/zfs
+* r/btrfs
+* r/linuxadmin
+* r/selfhosted
+
+---
+
+# Containers & Virtualization
+
+* r/docker
+* r/podman
+* r/kubernetes
+* r/lxc
+* r/proxmox
+* r/linuxadmin
+
+---
+
+# Embedded Linux
+
+* r/embedded
+* r/raspberry_pi
+* r/beaglebone
+* r/linux
+
+---
+
+# Linux Gaming
+
+* r/linux_gaming
+* r/SteamDeck
+* r/SteamOS
+* r/wine_gaming
+* r/ProtonDB
+
+---
+
+# Audio
+
+* r/linuxaudio
+* r/pipewire
+
+---
+
+# Self-hosting & Servers
+
+* r/selfhosted
+* r/homelab
+* r/linuxadmin
+* r/sysadmin
+
+---
+
+# Security
+
+* r/netsec
+* r/linuxadmin
+* r/privacy
+* r/opensource
+
+---
+
+# Open Source Development
+
+* r/opensource
+* r/foss
+* r/programming
+* r/linux
+
+---
+
+# Linux News
+
+* r/linux
+* r/opensource
+* r/foss
+* r/programming
+* r/LinuxActionShow (archival/community discussions)
+
+---
+
+## Highest-Value Communities
+
+If you only subscribe to 20–25 Linux-related subreddits, these provide the broadest coverage of kernel development, distributions, desktop environments, and the Linux ecosystem:
+
+* r/kernel
+* r/linuxkernel
+* r/linux
+* r/linuxquestions
+* r/linuxadmin
+* r/linux4noobs
+* r/archlinux
+* r/debian
+* r/Fedora
+* r/openSUSE
+* r/NixOS
+* r/Gentoo
+* r/voidlinux
+* r/Ubuntu
+* r/gnome
+* r/kde
+* r/xfce
+* r/hyprland
+* r/swaywm
+* r/wayland
+* r/systemd
+* r/linux_gaming
+* r/selfhosted
+* r/homelab
+* r/opensource
+
+This set provides excellent coverage of upstream kernel work, distribution-specific discussions, desktop environments, systems programming, packaging, infrastructure, and the broader open-source Linux ecosystem.

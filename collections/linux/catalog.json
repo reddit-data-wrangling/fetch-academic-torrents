@@ -1,0 +1,3814 @@
+{
+  "schema_version": 1,
+  "collection": "linux",
+  "communities": [
+    {
+      "subreddit": "AlmaLinux",
+      "classification": {
+        "category": "",
+        "primary_topic": "Community gathering spot around AlmaLinux OS\n\nAn Open Source, free, community-owned, RHEL-compatible Linux OS. Focused on stability. Desktop,  SBC’s, hyperscale, supercomputing, or cloud - use it where you need it!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 6430,
+        "created_year": 2020,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1627,
+        "comments": 10522,
+        "earliest_post": "2020-12-31",
+        "earliest_comment": "2021-01-12"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=AlmaLinux"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "AlpineLinux",
+      "classification": {
+        "category": "",
+        "primary_topic": "Unofficial community devoted to Alpine Linux, a  security-oriented, lightweight Linux distribution based on musl libc and busybox.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 4690,
+        "created_year": 2016,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2105,
+        "comments": 10370,
+        "earliest_post": "2016-08-02",
+        "earliest_comment": "2016-08-14"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=AlpineLinux"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "AppImage",
+      "classification": {
+        "category": "",
+        "primary_topic": "Download an application, make it executable, and run! No need to install. No system libraries are altered. Distribute your desktop Linux application in the AppImage format and win users running all common Linux distributions.\n\nRULES:\n1. This is for Q&A regarding AppImage\n2. Never encourage users to download applications from anywhere but the trusted application authors' official download pages\n3. Never promote tools that claim to \"install\" AppImages, as AppImages don't need to be \"installed\"",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 508,
+        "created_year": 2017,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 408,
+        "comments": 723,
+        "earliest_post": "2017-08-05",
+        "earliest_comment": "2018-01-10"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=AppImage"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "archlinux",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit for the Arch Linux user community for support and useful news.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 288763,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 115118,
+        "comments": 1280431,
+        "earliest_post": "2009-01-24",
+        "earliest_comment": "2009-01-24"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=archlinux"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "artixlinux",
+      "classification": {
+        "category": "",
+        "primary_topic": "A community for the non-systemd linux distribution Artix linux",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 3024,
+        "created_year": 2018,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2704,
+        "comments": 15785,
+        "earliest_post": "2018-06-01",
+        "earliest_comment": "2018-06-12"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ArtixLinux"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "awesomewm",
+      "classification": {
+        "category": "",
+        "primary_topic": "Subreddit dedicated to the Awesome Window Manager (AwesomeWM)",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 11568,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 5294,
+        "comments": 25083,
+        "earliest_post": "2010-12-21",
+        "earliest_comment": "2011-09-24"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=awesomewm"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "bash",
+      "classification": {
+        "category": "",
+        "primary_topic": "Wake me up when September ends.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 70528,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 19277,
+        "comments": 144748,
+        "earliest_post": "2008-01-25",
+        "earliest_comment": "2008-01-25"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=bash"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "BeagleBone",
+      "classification": {
+        "category": "",
+        "primary_topic": "This subreddit has gone dark as part of a mass protest against Reddit's recent API changes, which break third-party apps and moderation tools. ++ The sub will remain private for at least 48hr from 0000UTC on 12th June 2023. ++ We look forward to seeing you later, and thank you for your understanding.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 3478,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1410,
+        "comments": 4909,
+        "earliest_post": "2011-12-04",
+        "earliest_comment": "2011-12-04"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=beaglebone"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "bedrocklinux",
+      "classification": {
+        "category": "",
+        "primary_topic": "Bedrock Linux is a meta Linux distribution which allows users to utilize features from other, typically mutually exclusive distributions.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1966,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1019,
+        "comments": 5066,
+        "earliest_post": "2012-08-04",
+        "earliest_comment": "2012-08-04"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=bedrocklinux"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "bluBuild",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=bluBuild"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "bspwm",
+      "classification": {
+        "category": "",
+        "primary_topic": "Community for sharing, discussing, and contributing to the tiling wm project  BSPWM. For further discussion please visit                                                           IRC: #bspwm @ irc.libera.chat Matrix: #bspwm:matrix.org",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 7737,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 3545,
+        "comments": 17671,
+        "earliest_post": "2014-01-03",
+        "earliest_comment": "2014-01-10"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=bspwm"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "btrfs",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit dedicated to the discussion, usage, and maintenance of the BTRFS filesystem. This is a quirky FS and we need to stick together if we want to avoid headaches!\n\nThere are no dumb questions and all discussion is welcome. But we highly recommend reading some of the [BTRFS Documentation](https://btrfs.readthedocs.io/en/latest/index.html) to see if your question might have already been answered.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 7871,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 4327,
+        "comments": 44240,
+        "earliest_post": "2013-12-12",
+        "earliest_comment": "2013-12-12"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=btrfs"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "budgie",
+      "classification": {
+        "category": "",
+        "primary_topic": "please go to r/PetBudgies :)",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1581,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 326,
+        "comments": 702,
+        "earliest_post": "2012-10-17",
+        "earliest_comment": "2012-10-18"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=budgie"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "cachyos",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit for the CachyOS user community for support and useful news.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 4311,
+        "created_year": 2022,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 19562,
+        "comments": 212010,
+        "earliest_post": "2022-03-02",
+        "earliest_comment": "2022-08-17"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=CachyOS"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "CentOS",
+      "classification": {
+        "category": "",
+        "primary_topic": "CentOS (Community Enterprise Operating System) was a Linux distribution that attempted to provide a free, enterprise-class, community-supported computing platform which aimed to be functionally compatible with its upstream source, Red Hat Enterprise Linux (RHEL).\n\nHowever that is no longer the case. \n\nhttps://blog.centos.org/2020/12/future-is-centos-stream/",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 16705,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 5503,
+        "comments": 32954,
+        "earliest_post": "2010-11-10",
+        "earliest_comment": "2010-12-26"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=CentOS"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "chromeos",
+      "classification": {
+        "category": "",
+        "primary_topic": "The largest independent, community-run forum for discussions related to Chromebooks and everything else ChromeOS.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 574154,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 116112,
+        "comments": 928581,
+        "earliest_post": "2009-07-08",
+        "earliest_comment": "2009-07-08"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=chromeos"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "CinnamonDE",
+      "classification": {
+        "category": "",
+        "primary_topic": "Love your Linux, Feel at Home, Get things Done!\n\nCinnamon is a desktop environment developed by Linux Mint.\n\nIt provides advanced modern features on top of a traditional desktop layout.\n\nJust like Linux Mint, it aims to be easy to use, powerful and flexible.\n\nIt is compatible with and available in most Linux distributions.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 2607,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 568,
+        "comments": 1466,
+        "earliest_post": "2014-05-27",
+        "earliest_comment": "2014-05-27"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=cinnamonDE"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "commandline",
+      "classification": {
+        "category": "",
+        "primary_topic": "This is for anything regarding the command line, in any operating system. All questions (including dumb ones), tips, and links to interesting programs/console applications you've found or made yourself are welcome. Linux / BSD / OSX / Windows CLI and TUI apps or questions or comments, we're happy to take them all!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 99253,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 26512,
+        "comments": 195001,
+        "earliest_post": "2010-09-30",
+        "earliest_comment": "2010-09-30"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=commandline"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "debian",
+      "classification": {
+        "category": "",
+        "primary_topic": "Subreddit to discuss all the Debian things, the Universal Operating System",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 97690,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 47661,
+        "comments": 524264,
+        "earliest_post": "2008-07-28",
+        "earliest_comment": "2008-08-19"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=debian"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "DistroHopping",
+      "classification": {
+        "category": "",
+        "primary_topic": "Pros/Cons of each distribution, personal experiences, that kind of stuff.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 27064,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 6861,
+        "comments": 113391,
+        "earliest_post": "2012-10-03",
+        "earliest_comment": "2012-10-03"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=DistroHopping"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "docker",
+      "classification": {
+        "category": "",
+        "primary_topic": "[Docker](http://www.docker.io) is an open-source project to easily create lightweight, portable, self-sufficient containers from any application. The same container that a developer builds and tests on a laptop can run at scale, in production, on VMs, bare metal, OpenStack clusters, public clouds and more.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 225535,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 48695,
+        "comments": 284117,
+        "earliest_post": "2013-07-26",
+        "earliest_comment": "2013-09-17"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=docker"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "dwm",
+      "classification": {
+        "category": "",
+        "primary_topic": "Suckless Window Manager",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 3006,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2395,
+        "comments": 4195,
+        "earliest_post": "2012-03-29",
+        "earliest_comment": "2014-09-27"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=dwm"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "elementaryos",
+      "classification": {
+        "category": "",
+        "primary_topic": "News & Discussion for elementary OS",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 23613,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 16846,
+        "comments": 113402,
+        "earliest_post": "2012-07-23",
+        "earliest_comment": "2012-09-04"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=elementaryos"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "embedded",
+      "classification": {
+        "category": "",
+        "primary_topic": "This sub is dedicated to discussion and questions about embedded systems: \"a controller programmed and controlled by a real-time operating system (RTOS) with a dedicated function within a larger mechanical or electrical system, often with real-time computing constraints.\"",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 198889,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 49284,
+        "comments": 527613,
+        "earliest_post": "2009-07-16",
+        "earliest_comment": "2009-12-07"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=embedded"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "EndeavourOS",
+      "classification": {
+        "category": "",
+        "primary_topic": "A terminal centric distro with a vibrant community at its core. This is an unofficial subreddit!\n\nhttps://endeavouros.com",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 18785,
+        "created_year": 2019,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 8735,
+        "comments": 65695,
+        "earliest_post": "2019-06-02",
+        "earliest_comment": "2019-07-02"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=EndeavourOS"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Fedora",
+      "classification": {
+        "category": "",
+        "primary_topic": "A community for users, developers and people interested in Fedora Linux, and news and information about it.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 119247,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 78583,
+        "comments": 724527,
+        "earliest_post": "2008-09-02",
+        "earliest_comment": "2008-09-08"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Fedora"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "FedoraServer",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=FedoraServer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "FedoraSilverblue",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 586,
+        "created_year": 2021,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 167,
+        "comments": 481,
+        "earliest_post": "2021-08-26",
+        "earliest_comment": "2022-02-21"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=FedoraSilverblue"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "FedoraWorkstation",
+      "classification": {
+        "category": "",
+        "primary_topic": "An independent community of Fedora Workstation (Gnome edition) users.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 5,
+        "created_year": 2026,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 7,
+        "comments": null,
+        "earliest_post": "2026-05-13",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=FedoraWorkstation"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "findmeadistro",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=findmeadistro"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "FindMeALinuxDistro",
+      "classification": {
+        "category": "",
+        "primary_topic": "Get yourself a new distro!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1138,
+        "created_year": 2023,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1860,
+        "comments": 26068,
+        "earliest_post": "2023-07-25",
+        "earliest_comment": "2023-07-26"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=FindMeALinuxDistro"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "flatpak",
+      "classification": {
+        "category": "",
+        "primary_topic": "Flatpak is a system for building, distributing, and running sandboxed desktop applications on Linux.\n\nConsider getting involved!\nhttps://flatpak.org/",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 4510,
+        "created_year": 2017,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2553,
+        "comments": 11852,
+        "earliest_post": "2018-06-07",
+        "earliest_comment": "2018-06-27"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=flatpak"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "foss",
+      "classification": {
+        "category": "",
+        "primary_topic": "We are dedicated to the discussion of Free and Open Source Software, or FOSS.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 13227,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 4327,
+        "comments": 22905,
+        "earliest_post": "2008-09-24",
+        "earliest_comment": "2013-02-18"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=foss"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "FreeGaming",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 2558,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 324,
+        "comments": 564,
+        "earliest_post": "2011-07-08",
+        "earliest_comment": "2011-07-08"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=freegaming"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "freesoftware",
+      "classification": {
+        "category": "",
+        "primary_topic": "\"Free software\" means software that respects users' freedom and community. Roughly, it means that the users have the freedom to run, copy, distribute, study, change and improve the software. Thus, \"free software\" is a matter of liberty, not price. To understand the concept, you should think of \"free\" as in \"free speech,\" not as in \"free beer\".",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 29155,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 8874,
+        "comments": 41229,
+        "earliest_post": "2008-07-27",
+        "earliest_comment": "2008-07-27"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=freesoftware"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "GarudaLinux",
+      "classification": {
+        "category": "",
+        "primary_topic": "Discuss the Arch based Garuda Linux - our official community place is the forum! 🙋🏻‍♂️",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 6170,
+        "created_year": 2020,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2534,
+        "comments": 10412,
+        "earliest_post": "2020-09-29",
+        "earliest_comment": "2020-10-06"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=GarudaLinux"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Gentoo",
+      "classification": {
+        "category": "",
+        "primary_topic": "The place to find relevant information on Gentoo Linux",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 29455,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 19298,
+        "comments": 211142,
+        "earliest_post": "2009-02-03",
+        "earliest_comment": "2009-02-03"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Gentoo"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "gnome",
+      "classification": {
+        "category": "",
+        "primary_topic": "GNOME is a free and open-source software environment project supported by a non-profit foundation. Together, the community of contributors and the Foundation create a computing platform and software ecosystem, composed entirely of free software, that is designed to be elegant, efficient, and easy to use.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 98522,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 33466,
+        "comments": 327703,
+        "earliest_post": "2008-06-28",
+        "earliest_comment": "2009-04-02"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=gnome"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "gnome_shell",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=gnome_shell"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "gnu",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 15653,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2728,
+        "comments": 12904,
+        "earliest_post": "2008-01-25",
+        "earliest_comment": "2008-09-02"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=gnu"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "homelab",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to your friendly /r/homelab, where techies and sysadmin from everywhere are welcome to share their labs, projects, builds, etc.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 763612,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 296450,
+        "comments": 3849185,
+        "earliest_post": "2012-06-19",
+        "earliest_comment": "2012-06-19"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=homelab"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "hyprland",
+      "classification": {
+        "category": "",
+        "primary_topic": "Hyprland is a dynamic tiling Wayland compositor that doesn't sacrifice on its looks.\n\nThis is an unofficial community, it is not affiliated nor endorsed by hyprwm.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 30114,
+        "created_year": 2022,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 19920,
+        "comments": 171442,
+        "earliest_post": "2022-07-29",
+        "earliest_comment": "2022-08-14"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=hyprland"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "i3wm",
+      "classification": {
+        "category": "",
+        "primary_topic": "We are the unofficial FAQ subreddit for the i3 window manager.\n\nThis subreddit has voted to protest reddit's changes and will be set in read-only mode: https://www.reddit.com/r/ModCoord/comments/148ks6u/indefinite_blackout_next_steps_polling_your/\n\nIf you need help, prefer asking at https://github.com/i3/i3/discussions",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 57601,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 14467,
+        "comments": 96517,
+        "earliest_post": "2012-08-24",
+        "earliest_comment": "2012-08-27"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=i3wm"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Kalilinux",
+      "classification": {
+        "category": "",
+        "primary_topic": "Dedicated to Kali Linux, a complete re-build of BackTrack Linux, adhering to Debian's development standards with an all-new infrastructure.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 113458,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 27678,
+        "comments": 119250,
+        "earliest_post": "2013-03-28",
+        "earliest_comment": "2013-04-08"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=KaliLinux"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "kde",
+      "classification": {
+        "category": "",
+        "primary_topic": "KDE is an international community creating free and open source software.\n\nVisit our main page to know more: https://kde.org\n\n---\n\nThis is not a technical support forum. Please visit https://discuss.kde.org for user support.\n\n---\n\nThis is not a bug tracker. Please visit https://bugs.kde.org to report bugs.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 125375,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 75832,
+        "comments": 672360,
+        "earliest_post": "2008-01-25",
+        "earliest_comment": "2008-02-28"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=kde"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "kdecommunity",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=kdecommunity"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "kernel",
+      "classification": {
+        "category": "",
+        "primary_topic": "A moderated community dedicated to technical discussion about the Linux kernel.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 18177,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2527,
+        "comments": 9753,
+        "earliest_post": "2010-11-16",
+        "earliest_comment": "2010-11-17"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=kernel"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "kubernetes",
+      "classification": {
+        "category": "",
+        "primary_topic": "Kubernetes discussion, news, support, and link sharing.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 157111,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 52275,
+        "comments": 346551,
+        "earliest_post": "2014-09-06",
+        "earliest_comment": "2014-10-16"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=kubernetes"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Kubuntu",
+      "classification": {
+        "category": "",
+        "primary_topic": "Kubuntu news, articles, tools and discussion. Kubuntu is an official derivative of the Ubuntu operating system, which uses the KDE Plasma Desktop.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 14030,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 7756,
+        "comments": 43901,
+        "earliest_post": "2009-09-05",
+        "earliest_comment": "2009-10-31"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=kubuntu"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "linux",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to /r/Linux!\n\nThis is a community for sharing news about Linux, interesting developments and press.\n\nIf you're looking for tech support, /r/Linux4Noobs and /r/linuxquestions are friendly communities that can help you.\n\nPlease also check out:\n\n\nhttps://lemmy.ml/c/linux and\nKbin.social/m/Linux\n\n\nPlease refrain from posting help requests here, cheers.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1646022,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 297054,
+        "comments": 5419506,
+        "earliest_post": "2008-01-25",
+        "earliest_comment": "2008-01-25"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=linux"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "linux4noobs",
+      "classification": {
+        "category": "",
+        "primary_topic": "Linux introductions, tips and tutorials. Questions are encouraged. Any distro, any platform! Explicitly noob-friendly.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 275669,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 228711,
+        "comments": 1624633,
+        "earliest_post": "2009-05-09",
+        "earliest_comment": "2009-05-11"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=linux4noobs"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "linux_devices",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 15882,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 4217,
+        "comments": 10693,
+        "earliest_post": "2010-01-04",
+        "earliest_comment": "2010-01-07"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=linux_devices"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "linux_gaming",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit for discussions and news about gaming on the GNU/Linux family of operating systems (including the Steam Deck).",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 313561,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 156897,
+        "comments": 2671658,
+        "earliest_post": "2009-07-21",
+        "earliest_comment": "2009-07-21"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=linux_gaming"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "LinuxActionShow",
+      "classification": {
+        "category": "",
+        "primary_topic": "Linux Action Show is the world's largest and longest running Linux-based podcast.\n\nJupiter Broadcasting is the home of many fantastic online shows. Like Linux Action Show, Coder Radio, Linux Unplugged, TechSNAP, Unfilter, SciByte, FauxShow & more!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 14185,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 33033,
+        "comments": 163944,
+        "earliest_post": "2011-08-11",
+        "earliest_comment": "2011-08-11"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=LinuxActionShow"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "linuxadmin",
+      "classification": {
+        "category": "",
+        "primary_topic": "users voted",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 219414,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 25573,
+        "comments": 305878,
+        "earliest_post": "2009-10-12",
+        "earliest_comment": "2009-10-12"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=linuxadmin"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "linuxaudio",
+      "classification": {
+        "category": "",
+        "primary_topic": "Dedicated to Linux and audio",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 20633,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 9537,
+        "comments": 69860,
+        "earliest_post": "2011-05-18",
+        "earliest_comment": "2011-05-18"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=linuxaudio"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "linuxdev",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 5673,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 678,
+        "comments": 2032,
+        "earliest_post": "2012-03-21",
+        "earliest_comment": "2012-03-21"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=linuxdev"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "linuxfromscratch",
+      "classification": {
+        "category": "",
+        "primary_topic": "A Subreddit discussing Linux From Scratch and how to build it.\nPost anything related to Linux From Scratch or any opinions that you would like to share.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 7243,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1122,
+        "comments": 5910,
+        "earliest_post": "2013-08-05",
+        "earliest_comment": "2013-08-05"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=linuxfromscratch"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "linuxhardware",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit where you can ask questions about what hardware supports GNU/Linux, how to get things working, places to buy from (i.e. they support GNU/Linux) and so on. No hard and fast rules as such, posts will be treated on their own merit.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 87272,
+        "created_year": 2016,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 17298,
+        "comments": 163645,
+        "earliest_post": "2016-10-13",
+        "earliest_comment": "2016-10-13"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=LinuxHardware"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "linuxkernel",
+      "classification": {
+        "category": "",
+        "primary_topic": "Home of the Linux kernel community.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 385,
+        "created_year": 2018,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 65,
+        "comments": 59,
+        "earliest_post": "2018-10-31",
+        "earliest_comment": "2020-07-02"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=linuxkernel"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "linuxmemes",
+      "classification": {
+        "category": "",
+        "primary_topic": "A pissed off sub about Linux",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 140221,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 48404,
+        "comments": 1182315,
+        "earliest_post": "2012-04-05",
+        "earliest_comment": "2012-04-11"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=linuxmemes"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "linuxmint",
+      "classification": {
+        "category": "",
+        "primary_topic": "News, Discussion, and Support for Linux Mint\n\nThe Linux Mint Subreddit: for news, discussion and support for the Linux distribution Linux Mint.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 118039,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 90728,
+        "comments": 861224,
+        "earliest_post": "2010-04-13",
+        "earliest_comment": "2010-04-14"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=linuxmint"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "linuxprojects",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit dedicated to showcasing unique and interesting projects involving Linux based operating systems.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 6238,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 331,
+        "comments": 364,
+        "earliest_post": "2013-01-01",
+        "earliest_comment": "2013-01-01"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=linuxprojects"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "linuxquestions",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit for asking question about Linux and all things pertaining to it.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 291284,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 258959,
+        "comments": 2273916,
+        "earliest_post": "2009-11-03",
+        "earliest_comment": "2009-11-04"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=linuxquestions"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "linuxunplugged",
+      "classification": {
+        "category": "",
+        "primary_topic": "An open show powered by community LINUX Unplugged takes the best attributes of open collaboration and turns it into a weekly show about Linux.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 2229,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2142,
+        "comments": 2254,
+        "earliest_post": "2017-05-09",
+        "earliest_comment": "2017-05-09"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=linuxunplugged"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Lubuntu",
+      "classification": {
+        "category": "",
+        "primary_topic": "Lubuntu related News, Tips, Stories, and questions.  A place for Lubuntu users to gather, exchange information and ideas, and share their love for Lubuntu.\n\n<https://lubuntu.me/links>",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 5918,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 3947,
+        "comments": 16167,
+        "earliest_post": "2012-06-20",
+        "earliest_comment": "2012-06-28"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=lubuntu"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "LXC",
+      "classification": {
+        "category": "",
+        "primary_topic": "[LXC ] (https://linuxcontainers.org) stands for Linux containers and is a open source Linux container project in development since 2009. LXC provides lightweight OS containers, tools for container management and a wide choice of container OS templates. \n\nLXC is supported in the vanilla Linux kernel and works out of the box on most Linux distributions.\n\nLXC is developed by Daniel Lezcano, Stéphane Graber(Ubuntu) and Serge Hallyn(Ubuntu) and a team of open source developers.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1801,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1221,
+        "comments": 2098,
+        "earliest_post": "2014-08-04",
+        "earliest_comment": "2014-11-06"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=lxc"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "lxde",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=lxde"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "LXQt",
+      "classification": {
+        "category": "",
+        "primary_topic": "The Lightweight Desktop Environment is the product of the merge between the LXDE-Qt and the Razor-qt projects: A lightweight, modular, blazing-fast and user-friendly desktop environment.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1355,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 683,
+        "comments": 1917,
+        "earliest_post": "2014-06-03",
+        "earliest_comment": "2014-10-16"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=LXQt"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "ManjaroLinux",
+      "classification": {
+        "category": "",
+        "primary_topic": "Manjaro is a GNU/Linux distribution based on Arch.\nA rolling release distro featuring a user-friendly installer, tested updates and a community of friendly users for support.  \nOfficial releases include Xfce, KDE, Gnome, and the minimal CLI-Installer Architect. \nCommunity releases include Awesome, bspwm, Budgie, Cinnamon, i3, LXDE, LXQT, Mate, OpenBox and builds for ARM devices like the Raspberry Pi and the Pinebook.\n\n[This is not an official forum.](/r/ManjaroLinux/wiki/index)",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 72343,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 33135,
+        "comments": 211870,
+        "earliest_post": "2013-06-14",
+        "earliest_comment": "2013-06-15"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ManjaroLinux"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "mate",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1116,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 327,
+        "comments": 462,
+        "earliest_post": "2009-10-08",
+        "earliest_comment": "2012-07-31"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=MATE"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "mesa3d",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=mesa3d"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "MXLinux",
+      "classification": {
+        "category": "",
+        "primary_topic": "MX Linux is a cooperative venture between the antiX and MX Linux communities. It is a family of operating systems that are designed to combine elegant and efficient desktops with high stability and solid performance.  MX's graphical tools provide an easy way to do a wide variety of tasks, while the Live USB and snapshot tools inherited from antiX add impressive portability and remastering capabilities.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 8334,
+        "created_year": 2017,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 3814,
+        "comments": 19188,
+        "earliest_post": "2017-02-03",
+        "earliest_comment": "2017-02-03"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=mxlinux"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Nix",
+      "classification": {
+        "category": "",
+        "primary_topic": "Nix is a pure functional package manager for Linux and OSX.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 4599,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1225,
+        "comments": 3951,
+        "earliest_post": "2015-08-20",
+        "earliest_comment": "2019-05-11"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=nix"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "NixOS",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 35345,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 20779,
+        "comments": 181850,
+        "earliest_post": "2011-08-26",
+        "earliest_comment": "2011-11-09"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=NixOS"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "openbox",
+      "classification": {
+        "category": "",
+        "primary_topic": "This is the home of the subreddit for the Openbox Window Manager which runs on Linux and BSD.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 3272,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 895,
+        "comments": 3156,
+        "earliest_post": "2009-04-29",
+        "earliest_comment": "2009-04-29"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=openbox"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "opensource",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit for everything open source related (for this context, we go off the definition of open source here http://en.wikipedia.org/wiki/Open_source)",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 254110,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 100418,
+        "comments": 339299,
+        "earliest_post": "2008-02-01",
+        "earliest_comment": "2008-03-12"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=opensource"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "opensourcegames",
+      "classification": {
+        "category": "",
+        "primary_topic": "Links to projects that do not provide access to game source (and ideally asset source as well) will be removed.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 13277,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 3787,
+        "comments": 10977,
+        "earliest_post": "2009-12-04",
+        "earliest_comment": "2009-12-04"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=opensourcegames"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "openSUSE",
+      "classification": {
+        "category": "",
+        "primary_topic": "openSUSE is a Linux-based, open, free and secure operating system for PC, laptops, servers and ARM devices.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 36732,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 29301,
+        "comments": 234931,
+        "earliest_post": "2010-03-03",
+        "earliest_comment": "2010-03-03"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=openSUSE"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "openwrt",
+      "classification": {
+        "category": "",
+        "primary_topic": "OpenWrt news, tools, tips and discussion. Related projects, such as DD-WRT, Tomato and OpenSAN, are also on-topic.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 38215,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 19786,
+        "comments": 136013,
+        "earliest_post": "2010-04-28",
+        "earliest_comment": "2011-11-11"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=openwrt"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "osdev",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 29589,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 9380,
+        "comments": 84648,
+        "earliest_post": "2010-09-27",
+        "earliest_comment": "2011-03-05"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=osdev"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "ParrotOS",
+      "classification": {
+        "category": "",
+        "primary_topic": "Old subreddit on Parrot operating system. No longer active and maintained. Our official sub-reddit: https://www.reddit.com/r/ParrotSecurity/",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 4812,
+        "created_year": 2017,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1085,
+        "comments": 2432,
+        "earliest_post": "2017-11-04",
+        "earliest_comment": "2017-12-28"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ParrotOS"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "pipewire",
+      "classification": {
+        "category": "",
+        "primary_topic": "PipeWire is a project that aims to greatly improve handling of audio and video under Linux.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1102,
+        "created_year": 2021,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 773,
+        "comments": 1827,
+        "earliest_post": "2021-01-21",
+        "earliest_comment": "2021-01-22"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=pipewire"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "podman",
+      "classification": {
+        "category": "",
+        "primary_topic": "A community for users, developers and people interested in Podman, Buildah, Skopeo and all other projects that use libpod.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 6242,
+        "created_year": 2019,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2176,
+        "comments": 12368,
+        "earliest_post": "2019-01-04",
+        "earliest_comment": "2019-01-14"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=podman"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "pop_os",
+      "classification": {
+        "category": "",
+        "primary_topic": "Pop!_OS is an operating system for STEM and creative professionals who use their computer as a tool to discover and create. Unleash your potential on secure, reliable open source software. Based on your exceptional curiosity, we sense you have a lot of it. (You can also find us on https://lemmy.world/c/pop_os)",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 79933,
+        "created_year": 2017,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 65950,
+        "comments": 454266,
+        "earliest_post": "2017-06-23",
+        "earliest_comment": "2017-06-29"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=pop_os"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "postmarketOS",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=postmarketOS"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "protondb",
+      "classification": {
+        "category": "",
+        "primary_topic": "yo mama",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 5,
+        "created_year": 2022,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2,
+        "comments": 5,
+        "earliest_post": "2022-07-17",
+        "earliest_comment": "2022-12-16"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ProtonDB"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Proxmox",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to r/Proxmox , the main subreddit regarding the Proxmox hypervisor!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 132574,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 43499,
+        "comments": 421355,
+        "earliest_post": "2014-03-23",
+        "earliest_comment": "2014-08-13"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=proxmox"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "qtile",
+      "classification": {
+        "category": "",
+        "primary_topic": "Qtile is a tiling window manager for X11 and Wayland written in python. \n\nIRC: #qtile @ irc.oftc.net\nDiscord: https://discord.gg/MmrhPCrPM9",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 3122,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1625,
+        "comments": 8352,
+        "earliest_post": "2012-11-12",
+        "earliest_comment": "2012-11-30"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=qtile"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Qubes",
+      "classification": {
+        "category": "",
+        "primary_topic": "Qubes OS is a security-oriented operating system that allows you to compartmentalize your data and activities into isolated environments called \"qubes\" so that a single cyberattack can't take down your entire digital life in one fell swoop.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 16198,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 9499,
+        "comments": 44134,
+        "earliest_post": "2012-09-25",
+        "earliest_comment": "2014-10-10"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Qubes"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "raspberry_pi",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 3213353,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 192855,
+        "comments": 1231202,
+        "earliest_post": "2011-10-10",
+        "earliest_comment": "2011-10-10"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=raspberry_pi"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "redhat",
+      "classification": {
+        "category": "",
+        "primary_topic": "Discussion for Red Hat and Red Hat technologies!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 43685,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 14011,
+        "comments": 105829,
+        "earliest_post": "2009-12-04",
+        "earliest_comment": "2010-01-25"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=redhat"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "RockyLinux",
+      "classification": {
+        "category": "",
+        "primary_topic": "An open enterprise operating system project.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 9259,
+        "created_year": 2020,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1472,
+        "comments": 9790,
+        "earliest_post": "2020-12-09",
+        "earliest_comment": "2020-12-09"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=RockyLinux"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "selfhosted",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place to share, discuss, discover, assist with, gain assistance for, and critique self-hosted alternatives to our favorite web apps, web services, and online tools.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 473081,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 132275,
+        "comments": 2007487,
+        "earliest_post": "2014-07-08",
+        "earliest_comment": "2014-07-08"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=selfhosted"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "slackware",
+      "classification": {
+        "category": "",
+        "primary_topic": "The Slackware Linux distribution",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 5512,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2038,
+        "comments": 17717,
+        "earliest_post": "2008-11-04",
+        "earliest_comment": "2010-08-17"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=slackware"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "snapcraft",
+      "classification": {
+        "category": "",
+        "primary_topic": "Snaps are app packages for desktop, cloud and IoT that are easy to install, secure, cross‐platform and dependency‐free. Snaps are discoverable and installable from the Snap Store, the app store for Linux with an audience of millions.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 4,
+        "created_year": 2024,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 12,
+        "comments": 3,
+        "earliest_post": "2018-08-18",
+        "earliest_comment": "2021-12-18"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=snapcraft"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "SolusProject",
+      "classification": {
+        "category": "",
+        "primary_topic": "A modern, desktop-focused Linux distro built from scratch. \n\nOfficial subreddit of the Solus Project and operating system (getsol.us)",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 11379,
+        "created_year": 2015,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 10974,
+        "comments": 65100,
+        "earliest_post": "2015-04-10",
+        "earliest_comment": "2015-05-24"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=solusproject"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "SteamDeck",
+      "classification": {
+        "category": "",
+        "primary_topic": "The Unofficial Subreddit for the Valve Steam Deck!\n\nFind discussions, games running on Deck, hardware / software mods and much more!\n\n(Please read the rules and check megathreads before posting!)",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 840726,
+        "created_year": 2021,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 450583,
+        "comments": 7951412,
+        "earliest_post": "2021-07-15",
+        "earliest_comment": "2021-07-15"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=SteamDeck"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "steamdeckhq",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to the Official SteamDeckHQ Reddit! Come on over to discuss all things Steam Deck, Linux Gaming, and more! Ask questions, meet awesome people, and post your own builds!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 22103,
+        "created_year": 2022,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1890,
+        "comments": 22537,
+        "earliest_post": "2022-07-05",
+        "earliest_comment": "2023-05-02"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=SteamDeckHQ"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "SteamOS",
+      "classification": {
+        "category": "",
+        "primary_topic": "Talk and information about the Steam operating system.\n\n\nDo not install current versions of SteamOS. Wait for 3.0 from Valve.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 25386,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 7470,
+        "comments": 86741,
+        "earliest_post": "2013-09-23",
+        "earliest_comment": "2013-09-23"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=SteamOS"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "SteamPlay",
+      "classification": {
+        "category": "",
+        "primary_topic": "Let's talk about Steam Play",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 14924,
+        "created_year": 2018,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 5275,
+        "comments": 28663,
+        "earliest_post": "2018-08-22",
+        "earliest_comment": "2018-08-22"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=SteamPlay"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "swaywm",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit dedicated to the Sway window manager, a drop-in replacement for the i3 window manager, but for Wayland instead of X11.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 14260,
+        "created_year": 2015,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 7510,
+        "comments": 52125,
+        "earliest_post": "2016-02-17",
+        "earliest_comment": "2017-01-14"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=swaywm"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "sysadmin",
+      "classification": {
+        "category": "",
+        "primary_topic": "A reddit dedicated to the profession of Computer System Administration.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 977787,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 533130,
+        "comments": 11013487,
+        "earliest_post": "2009-03-08",
+        "earliest_comment": "2009-03-12"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=sysadmin"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "System76",
+      "classification": {
+        "category": "",
+        "primary_topic": "System76 proudly engineers and manufactures premium Linux computers and keyboards at our factory in Denver, Colorado. Our user-driven products alongside Pop!_OS give creators, makers, and builders the means to bring forth the future.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 14446,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 6502,
+        "comments": 45173,
+        "earliest_post": "2017-03-10",
+        "earliest_comment": "2017-03-15"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=System76"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "systemd",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit for discussions, news, and questions about systemd.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 2232,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1227,
+        "comments": 4459,
+        "earliest_post": "2012-07-11",
+        "earliest_comment": "2012-07-11"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=systemd"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "tails",
+      "classification": {
+        "category": "",
+        "primary_topic": "Tails is a live operating system aimed at protecting your privacy and anonymity that you can start on almost any computer from a USB stick or a DVD.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 112276,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 24558,
+        "comments": 111498,
+        "earliest_post": "2013-07-17",
+        "earliest_comment": "2013-09-24"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=tails"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "terminal_porn",
+      "classification": {
+        "category": "",
+        "primary_topic": "Fuck u/spez",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 7775,
+        "created_year": 2020,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 374,
+        "comments": 1190,
+        "earliest_post": "2020-08-12",
+        "earliest_comment": "2020-08-12"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=terminal_porn"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "termux",
+      "classification": {
+        "category": "",
+        "primary_topic": "Termux is a top-notch terminal emulator and Linux environment application for Android OS. In this official community of the project on Reddit we share our configurations, useful scripts, program, experience between each other and help troubleshoot issues.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 58236,
+        "created_year": 2015,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 18484,
+        "comments": 124868,
+        "earliest_post": "2015-11-10",
+        "earliest_comment": "2016-08-27"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=termux"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Ubuntu",
+      "classification": {
+        "category": "",
+        "primary_topic": "The Ubuntu community on Reddit",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 241066,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 144292,
+        "comments": 1119198,
+        "earliest_post": "2008-01-26",
+        "earliest_comment": "2008-02-07"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Ubuntu"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Universalblue",
+      "classification": {
+        "category": "",
+        "primary_topic": "The Universal Blue project builds a diverse set of continuously delivered operating system images using Fedora Atomic Desktop's support for bootable OCI containers. That's nerdspeak for the ultimate Linux client: the reliability of a Chromebook, but with the flexibility and power of a traditional Linux desktop.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 7,
+        "created_year": 2024,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 59,
+        "comments": 246,
+        "earliest_post": "2025-01-29",
+        "earliest_comment": "2025-04-26"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=UniversalBlue"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "unixporn",
+      "classification": {
+        "category": "",
+        "primary_topic": "Submit screenshots of all your *NIX desktops, themes, and nifty configurations, or submit anything else that will make ricers happy. Maybe a server running on an Amiga, or a Thinkpad signed by Bjarne Stroustrup? Show the world how pretty your computer can be!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 515028,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 158735,
+        "comments": 1363773,
+        "earliest_post": "2011-09-27",
+        "earliest_comment": "2011-09-28"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=unixporn"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "VFIO",
+      "classification": {
+        "category": "",
+        "primary_topic": "This is a subreddit to discuss all things related to VFIO and gaming on virtual machines in general.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 39681,
+        "created_year": 2016,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 17869,
+        "comments": 136865,
+        "earliest_post": "2016-01-04",
+        "earliest_comment": "2016-01-08"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=VFIO"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "voidlinux",
+      "classification": {
+        "category": "",
+        "primary_topic": "Void Linux is a general operating system based on the Linux Kernel.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 15605,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 16044,
+        "comments": 114397,
+        "earliest_post": "2015-05-21",
+        "earliest_comment": "2015-05-21"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=voidlinux"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "wayland",
+      "classification": {
+        "category": "",
+        "primary_topic": "Mailing list: https://lists.freedesktop.org/mailman/listinfo/wayland-devel    \nChat channel: #wayland - ircs://irc.oftc.net/#wayland",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 5393,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1943,
+        "comments": 7591,
+        "earliest_post": "2012-04-23",
+        "earliest_comment": "2012-04-23"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=wayland"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "wine_gaming",
+      "classification": {
+        "category": "",
+        "primary_topic": "Wine (originally an acronym for \"Wine Is Not an Emulator\") is a compatibility layer capable of running Windows applications on several POSIX-compliant operating systems, such as Linux, Mac OSX, & BSD. This subreddit is for the discussion of using WINE to play video games.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 45855,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 13310,
+        "comments": 70905,
+        "earliest_post": "2013-12-16",
+        "earliest_comment": "2013-12-19"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=wine_gaming"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "xfce",
+      "classification": {
+        "category": "",
+        "primary_topic": "Xfce is a fast and lightweight open source desktop environment for unix-like systems like Linux and BSD. It is used in distributions like Xubuntu, Linux Mint, Manjaro, MX Linux, Debian, and FreeBSD.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 19511,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 7567,
+        "comments": 46297,
+        "earliest_post": "2008-08-26",
+        "earliest_comment": "2008-08-26"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=xfce"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "xmonad",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 5256,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2729,
+        "comments": 11547,
+        "earliest_post": "2009-11-08",
+        "earliest_comment": "2009-11-09"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=xmonad"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "xubuntu",
+      "classification": {
+        "category": "",
+        "primary_topic": "Xubuntu is an elegant and easy to use Linux-based operating system with the mixing of Xfce and Ubuntu.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 5928,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2367,
+        "comments": 9537,
+        "earliest_post": "2008-09-02",
+        "earliest_comment": "2008-09-02"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=xubuntu"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "zfs",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 34556,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 11334,
+        "comments": 132475,
+        "earliest_post": "2012-04-12",
+        "earliest_comment": "2012-04-15"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=zfs"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,5254 @@
+{
+  "schema_version": 1,
+  "collection": "sci-fi",
+  "communities": [
+    {
+      "subreddit": "12Monkeys",
+      "classification": {
+        "category": "",
+        "primary_topic": "/r/12Monkeys is the unofficial subreddit for discussion of all things 12 Monkeys including the 1995 film and the 2015-2018 TV series.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 8526,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 4792,
+        "comments": 52169,
+        "earliest_post": "2014-05-17",
+        "earliest_comment": "2015-01-17"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=12Monkeys"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "alien",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 46709,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 12573,
+        "comments": 163116,
+        "earliest_post": "2009-07-03",
+        "earliest_comment": "2009-10-08"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Alien"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "alteredcarbon",
+      "classification": {
+        "category": "",
+        "primary_topic": "Subreddit for Netflix original series Altered Carbon, as well as books written by Richard Morgan",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 32888,
+        "created_year": 2016,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 5553,
+        "comments": 76705,
+        "earliest_post": "2016-01-20",
+        "earliest_comment": "2016-01-21"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=AlteredCarbon"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "AlternateHistory",
+      "classification": {
+        "category": "",
+        "primary_topic": "The original alternate history subreddit",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 223052,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 89138,
+        "comments": 1032670,
+        "earliest_post": "2010-06-20",
+        "earliest_comment": "2013-08-31"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=AlternateHistory"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "andor",
+      "classification": {
+        "category": "",
+        "primary_topic": "Andor is a Star Wars series that follows the formative years of Rebel spy Cassian Andor in a prequel to Star Wars: Rogue One. Streaming on Disney+.\n\nSeason 2 premieres April 22nd, 2025.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 60488,
+        "created_year": 2018,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 34094,
+        "comments": 1092310,
+        "earliest_post": "2020-12-29",
+        "earliest_comment": "2022-08-01"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=andor"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "artificial",
+      "classification": {
+        "category": "",
+        "primary_topic": "Reddit’s home for Artificial Intelligence (AI)",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1032046,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 118666,
+        "comments": 614656,
+        "earliest_post": "2008-07-06",
+        "earliest_comment": "2008-07-06"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=artificial"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "ArtificialInteligence",
+      "classification": {
+        "category": "",
+        "primary_topic": "The goal of the r/ArtificialIntelligence is to provide a gateway to the many different facets of the Artificial Intelligence community, and to promote discussion relating to the ideas and concepts that we know of as AI. These could include philosophical and social questions, art and design, technical papers, machine learning, how to develop AI/ML projects, AI in business, how AI is affecting our lives, what the future may hold, and many other topics. Welcome.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1308826,
+        "created_year": 2016,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 176908,
+        "comments": 1149373,
+        "earliest_post": "2016-05-06",
+        "earliest_comment": "2016-10-25"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ArtificialInteligence"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "AskScienceFiction",
+      "classification": {
+        "category": "",
+        "primary_topic": "**It's like Ask Science, but all questions and answers are written with answers gleaned from the universe itself.** Use in-universe knowledge, rules, and common sense to answer the questions. Or as **fanlore.org** calls it [Watsonian, not a Doylist point of view](http://fanlore.org/wiki/Watsonian_vs._Doylist)",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 866183,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 210814,
+        "comments": 3145441,
+        "earliest_post": "2011-07-01",
+        "earliest_comment": "2011-07-03"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=AskScienceFiction"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Astronomy",
+      "classification": {
+        "category": "",
+        "primary_topic": "The amateur hobby of humanity since the dawn of time and scientific study of celestial objects.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 2988721,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 155304,
+        "comments": 1008754,
+        "earliest_post": "2008-03-28",
+        "earliest_comment": "2008-05-20"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=astronomy"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "audible",
+      "classification": {
+        "category": "",
+        "primary_topic": "This subreddit is for fans of Audible, the online audiobook service. We welcome any discussions of Audible including discussion of audiobooks and sales.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 139615,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 54948,
+        "comments": 811926,
+        "earliest_post": "2008-12-18",
+        "earliest_comment": "2008-12-18"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=audible"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "audiodrama",
+      "classification": {
+        "category": "",
+        "primary_topic": "A community to discuss audio drama in all its various forms. All types of fictional storytelling are welcome here. Audio drama creators are highly encouraged to promote and link to their productions.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 277396,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 51611,
+        "comments": 382890,
+        "earliest_post": "2010-11-29",
+        "earliest_comment": "2011-01-27"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=audiodrama"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "babylon5",
+      "classification": {
+        "category": "",
+        "primary_topic": "Discussion of all things Babylon 5",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 37525,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 19378,
+        "comments": 476477,
+        "earliest_post": "2010-02-08",
+        "earliest_comment": "2010-07-03"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Babylon5"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Biopunk",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Biopunk"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "bladerunner",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit dedicated to Blade Runner and Blade Runner 2049. The 1982 dystopian science fiction action film directed by Ridley Scott and starring Harrison Ford, Rutger Hauer, and Sean Young - and it’s sequel directed by Denis Villeneuve.\n\nBanner design by u/neovapor",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 121863,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 28233,
+        "comments": 290185,
+        "earliest_post": "2010-12-21",
+        "earliest_comment": "2010-12-21"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=bladerunner"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "BookCollecting",
+      "classification": {
+        "category": "",
+        "primary_topic": "For collectors and lovers of books new & old.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 51197,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 22347,
+        "comments": 149886,
+        "earliest_post": "2011-03-20",
+        "earliest_comment": "2011-03-20"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=bookcollecting"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "BookOfBobaFett",
+      "classification": {
+        "category": "",
+        "primary_topic": "\"The Book of Boba Fett\" finds legendary bounty hunter Boba Fett and mercenary Fennec Shand navigating the galaxy’s underworld when they return to the sands of Tatooine to stake their claim on the territory once ruled by Jabba the Hutt and his crime syndicate. Streaming on DisneyPlus!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 109278,
+        "created_year": 2020,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 10684,
+        "comments": 172079,
+        "earliest_post": "2020-12-18",
+        "earliest_comment": "2020-12-18"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=BookOfBobaFett"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "BookPublishing",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 533,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 33,
+        "comments": 97,
+        "earliest_post": "2010-09-05",
+        "earliest_comment": "2023-02-10"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=bookpublishing"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "BSG",
+      "classification": {
+        "category": "",
+        "primary_topic": "/r/BSG has gone private in protest of recent API changes. So Say We All",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 57974,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 21115,
+        "comments": 317009,
+        "earliest_post": "2008-08-30",
+        "earliest_comment": "2009-01-16"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=BSG"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "comicbooks",
+      "classification": {
+        "category": "",
+        "primary_topic": "A reddit for fans of comic books, graphic novels, and digital comics.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 4018991,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 526674,
+        "comments": 7571370,
+        "earliest_post": "2008-03-28",
+        "earliest_comment": "2008-03-28"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=comicbooks"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "conlangs",
+      "classification": {
+        "category": "",
+        "primary_topic": "This subreddit is focused on the discussion of conlangs, tools, and activities to aid you in the construction of your own conlang, and creating a community environment where we can all enjoy conlanging together",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 104746,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 75497,
+        "comments": 1019284,
+        "earliest_post": "2010-03-01",
+        "earliest_comment": "2010-06-14"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=conlangs"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "cosplay",
+      "classification": {
+        "category": "",
+        "primary_topic": "/r/cosplay: is a  community where Cosplayers of all ages, and talent levels can post their work.  Read the community rules in full here: https://www.reddit.com/r/cosplay/wiki/rules/  before posting.  No NSFW content (our definition, not yours), no advertising, or pay sites of any kind.  Violation of the rules typically result in being banned.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 2331344,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 358442,
+        "comments": 1434261,
+        "earliest_post": "2008-07-27",
+        "earliest_comment": "2008-07-29"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=cosplay"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Cyberpunk",
+      "classification": {
+        "category": "",
+        "primary_topic": "A genre of science fiction set in a lawless subculture in an oppressive society dominated by computer technology and big corporations.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 888281,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 165695,
+        "comments": 1566878,
+        "earliest_post": "2008-05-27",
+        "earliest_comment": "2009-07-19"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Cyberpunk"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "DaystromInstitute",
+      "classification": {
+        "category": "",
+        "primary_topic": "Serious, in-depth discussion about Star Trek.\n\nNominate posts and comments as Exemplary Contributions by replying with \"M-5, nominate this.\"",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 93351,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 34012,
+        "comments": 1082041,
+        "earliest_post": "2013-03-03",
+        "earliest_comment": "2013-03-03"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=DaystromInstitute"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "DeepSpaceNine",
+      "classification": {
+        "category": "",
+        "primary_topic": "The subreddit for everything Star Trek: Deep Space Nine!\nFeel free to post pics, videos, articles, your opinions & questions... anything to do with the show or the actors.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 78665,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 22054,
+        "comments": 607261,
+        "earliest_post": "2009-06-09",
+        "earliest_comment": "2009-09-02"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=DeepSpaceNine"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "DestinyTheGame",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to Destiny Reddit! This sub is for discussing Bungie's Destiny 2 and its predecessor, Destiny. Please read the sidebar rules and be sure to search for your question before posting.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 3322599,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2295854,
+        "comments": 42056838,
+        "earliest_post": "2013-02-07",
+        "earliest_comment": "2013-02-07"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=DestinyTheGame"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "doctorwho",
+      "classification": {
+        "category": "",
+        "primary_topic": "Reddit's Doctor Who Fan Community - News, Discussion, Artwork and Fan Creations!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 954178,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 326249,
+        "comments": 4761114,
+        "earliest_post": "2008-03-28",
+        "earliest_comment": "2008-03-29"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=DoctorWho"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "dune",
+      "classification": {
+        "category": "",
+        "primary_topic": "Dune is a landmark science fiction novel first published in 1965 and the first in a 6-book saga penned by author Frank Herbert. Widely considered one of the greatest works within the sci-fi genre, Dune has been the subject of various film and TV adaptations, including the Academy Award winning 2021 film Dune directed by Denis Villeneuve.\n\n\nDune: Part Two opened on March 1, 2024.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 607346,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 91085,
+        "comments": 1290229,
+        "earliest_post": "2010-10-16",
+        "earliest_comment": "2010-10-17"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Dune"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "dystopia",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 9809,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 4391,
+        "comments": 41135,
+        "earliest_post": "2011-02-06",
+        "earliest_comment": "2011-02-21"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=dystopia"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "EliteDangerous",
+      "classification": {
+        "category": "",
+        "primary_topic": "The official unofficial subreddit for Elite Dangerous, we even have devs lurking the sub!\n\nElite Dangerous brings gaming’s original open world adventure to the modern generation with a stunning recreation of the entire Milky Way galaxy.  Here battles rage, governments fall, and humanity’s frontier expands – and you can impact it all. Welcome to the definitive massively multiplayer space epic.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 355172,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 494511,
+        "comments": 8598396,
+        "earliest_post": "2012-11-08",
+        "earliest_comment": "2012-11-08"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=EliteDangerous"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "EmpireDidNothingWrong",
+      "classification": {
+        "category": "",
+        "primary_topic": "Here we honor those brave men and women that died fighting the rebel scum.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 508102,
+        "created_year": 2015,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 41910,
+        "comments": 421262,
+        "earliest_post": "2015-07-21",
+        "earliest_comment": "2015-07-21"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=EmpireDidNothingWrong"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "evangelion",
+      "classification": {
+        "category": "",
+        "primary_topic": "God's in his heaven. All's right with the world.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1042882,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 159238,
+        "comments": 1577279,
+        "earliest_post": "2009-09-06",
+        "earliest_comment": "2011-04-02"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=evangelion"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Fantasy",
+      "classification": {
+        "category": "",
+        "primary_topic": "r/Fantasy is the internet's largest discussion forum for the greater Speculative Fiction genre. Fans of fantasy, science fiction, horror, alt history, and more can all find a home with us. We welcome respectful dialogue related to speculative fiction in literature, games, film, and the wider world. We ask all users help us create a welcoming environment by reporting posts/comments that do not follow the subreddit rules.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 3762888,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 272908,
+        "comments": 7441080,
+        "earliest_post": "2008-07-29",
+        "earliest_comment": "2008-11-18"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Fantasy"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "farscape",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit for those who enjoy the SciFi original series *Farscape*.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 21870,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 6553,
+        "comments": 93460,
+        "earliest_post": "2010-07-05",
+        "earliest_comment": "2010-07-06"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Farscape"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "firefly",
+      "classification": {
+        "category": "",
+        "primary_topic": "/r/Firefly, for all your Joss Whedon Sci-Fi western needs. The Reddit for everything in the Verse! Can't stop the signal. Shiny.\n\nr/Firefly has gone dark in protest against Reddit's API changes which will kill 3rd party apps.\n\nhttps://www.reddit.com/r/Save3rdPartyApps/comments/1476ioa/reddit_blackout_2023_save_3rd_party_apps/",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 155225,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 34455,
+        "comments": 495143,
+        "earliest_post": "2009-03-31",
+        "earliest_comment": "2010-01-07"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Firefly"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "ForAllMankindTV",
+      "classification": {
+        "category": "",
+        "primary_topic": "For All Mankind is a science fiction television series on Apple TV+. It depicts an alternate history where the Soviets complete the first manned Moon landing and the Cold War-era space race never ended.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 49396,
+        "created_year": 2019,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 15056,
+        "comments": 330165,
+        "earliest_post": "2019-09-26",
+        "earliest_comment": "2019-11-01"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ForAllMankindTV"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "FoundationTV",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place to discuss the Apple TV+ adaptation of Isaac Asimov's Foundation series. Respect and enjoy the peace.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 37207,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 9152,
+        "comments": 223208,
+        "earliest_post": "2020-04-26",
+        "earliest_comment": "2020-04-26"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=FoundationTV"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "fringe",
+      "classification": {
+        "category": "",
+        "primary_topic": "Fan community for the TV show \"Fringe,\" starring Anna Torv, Joshua Jackson, and John Noble, which aired from 2008 to 2013.\n\n\"When you open your mind to the impossible, sometimes you find the truth.\" —Walter Bishop",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 36140,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 15016,
+        "comments": 172793,
+        "earliest_post": "2009-02-12",
+        "earliest_comment": "2010-04-04"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Fringe"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Futurology",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit devoted to the field of Future(s) Studies and evidence-based speculation about the development of humanity, technology, and civilization.\n\n\n\n\n --------   You can also find us in the fediverse at - https://futurology.today",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 21465718,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 338024,
+        "comments": 12772418,
+        "earliest_post": "2011-12-12",
+        "earliest_comment": "2011-12-13"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Futurology"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Ghost_in_the_Shell",
+      "classification": {
+        "category": "",
+        "primary_topic": "「攻殻機動隊」Ghost in the Shell\n\nA futuristic, police/noir thriller, set around the mid-21st Century, dealing with the reality of corporate power structures, and cyber terrorism, against a backdrop of technological advancement, and transhumanist cyberisation, in a Neo-Japanese state.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 48741,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 14628,
+        "comments": 191684,
+        "earliest_post": "2012-02-09",
+        "earliest_comment": "2012-02-09"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Ghost_in_the_Shell"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "ghostintheshell",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ghostintheshell"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "graphicnovels",
+      "classification": {
+        "category": "",
+        "primary_topic": "Let's talk about graphic novels – from action-packed adventures to intimate memoirs, from meticulous non-fiction to wild surrealism! Share your favorites, showcase your collections, and discuss the latest graphic novel news!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 342855,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 45254,
+        "comments": 557066,
+        "earliest_post": "2008-12-28",
+        "earliest_comment": "2008-12-29"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=graphicnovels"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Gundam",
+      "classification": {
+        "category": "",
+        "primary_topic": "Gundam, now open for business. No refunds.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 247724,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 203372,
+        "comments": 4034185,
+        "earliest_post": "2011-06-15",
+        "earliest_comment": "2011-06-16"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Gundam"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "halo",
+      "classification": {
+        "category": "",
+        "primary_topic": "Reddit's home for all things Halo, the game franchise developed by Halo Studios",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1938133,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 883000,
+        "comments": 12920721,
+        "earliest_post": "2008-07-16",
+        "earliest_comment": "2008-07-16"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=halo"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "HardScienceFiction",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=HardScienceFiction"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Highrepublic",
+      "classification": {
+        "category": "",
+        "primary_topic": "Discussions, memes, and theories related to the Star Wars High Republic era",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 19617,
+        "created_year": 2020,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 10264,
+        "comments": 131291,
+        "earliest_post": "2020-01-07",
+        "earliest_comment": "2020-02-25"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Highrepublic"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "horrorlit",
+      "classification": {
+        "category": "",
+        "primary_topic": "This is a place to discuss horror literature.  Any book is up for discussion as long as that discussion is respectful.  It doesn't matter if you're into Stephen King, Octavia Butler, Jack Ketchum or Shirley Jackson, this is the place to share that love and discuss to your heart's content.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 497763,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 66573,
+        "comments": 1622500,
+        "earliest_post": "2012-08-29",
+        "earliest_comment": "2012-08-29"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=horrorlit"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "ImaginaryFuturism",
+      "classification": {
+        "category": "",
+        "primary_topic": "Paintings and drawings featuring all things futuristic. Whether it's retro or advanced technology, utopian cityscapes or ruined warscapes, if there's a sci-fi future, you'll see it here.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 73154,
+        "created_year": 2016,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 7230,
+        "comments": 17884,
+        "earliest_post": "2016-01-22",
+        "earliest_comment": "2016-01-22"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ImaginaryFuturism"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "ImaginaryLeviathans",
+      "classification": {
+        "category": "",
+        "primary_topic": "Paintings and drawings featuring giant creatures in and of the sea or sky.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 270444,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 14469,
+        "comments": 83829,
+        "earliest_post": "2013-08-03",
+        "earliest_comment": "2013-08-13"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ImaginaryLeviathans"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "ImaginaryNetwork",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place for conversation about the Imaginary Network Expanded (INE).",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 16344,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1674,
+        "comments": 12328,
+        "earliest_post": "2013-10-26",
+        "earliest_comment": "2013-10-26"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ImaginaryNetwork"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "ImaginarySciFi",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ImaginarySciFi"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "ImaginaryStarscapes",
+      "classification": {
+        "category": "",
+        "primary_topic": "Paintings and drawings featuring real or imagined nebula, stars, and other celestial wonders.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 59688,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 7803,
+        "comments": 13981,
+        "earliest_post": "2013-07-24",
+        "earliest_comment": "2013-07-27"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ImaginaryStarscapes"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "ImaginaryTechnology",
+      "classification": {
+        "category": "",
+        "primary_topic": "Technology-based Sci-fi and Fantasy **pictorial art** featuring robots, cyborgs, mechanisms, vehicles, spaceships, futuristic cars or other transport\n\nother tags: science fiction, scifi, future, science-fiction, sci-fi",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 277384,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 23677,
+        "comments": 145337,
+        "earliest_post": "2012-01-23",
+        "earliest_comment": "2012-01-23"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ImaginaryTechnology"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "IsaacArthur",
+      "classification": {
+        "category": "",
+        "primary_topic": "The official Subreddit for the Isaac Arthur YouTube channel. This Sub focuses on discussing his videos and exploring concepts in science with an emphasis on futurism, space exploration, along with a healthy dose of science fiction.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 29695,
+        "created_year": 2016,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 16732,
+        "comments": 315396,
+        "earliest_post": "2016-09-11",
+        "earliest_comment": "2016-09-11"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=IsaacArthur"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "lightsabers",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to /r/lightsabers, the one and only official subreddit dedicated to everything lightsabers. Feel free to post anything regarding lightsabers, be it a sink tube or a camera flashgun. From STL renders to finished products, from hilts to accessories, it can be discussed here.\nNote - please do not ask the mods about specific products or recommendations.\n2023 update: we have revived /r/LightsaberBST for vendors who wish to post items for sale (limit 1 post per day). As always, be nice.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 181508,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 105863,
+        "comments": 745050,
+        "earliest_post": "2012-06-20",
+        "earliest_comment": "2012-06-20"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=lightsabers"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "LowerDecks",
+      "classification": {
+        "category": "",
+        "primary_topic": "An unofficial fan community dedicated to discussion and news about Star Trek: Lower Decks.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 22374,
+        "created_year": 2018,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 10331,
+        "comments": 191947,
+        "earliest_post": "2020-05-19",
+        "earliest_comment": "2020-05-20"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=LowerDecks"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "mapmaking",
+      "classification": {
+        "category": "",
+        "primary_topic": "/r/mapmaking is participating in the Reddit Blackout. [For more information, see here.](https:redd.it/1476ioa) If you're looking for a community of map makers to discuss and work with on creation, check out [this Discord server](https://discord.gg/5NsJG4pzrr). It's not officially affiliated with /r/mapmaking, but if you follow their rules you'll find a great community.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 152241,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 49660,
+        "comments": 274091,
+        "earliest_post": "2011-04-16",
+        "earliest_comment": "2011-05-01"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=mapmaking"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "masseffect",
+      "classification": {
+        "category": "",
+        "primary_topic": "This subreddit is the unofficial forum for those who love the Mass Effect universe including the games, comics, and books!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 422072,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 324042,
+        "comments": 6990543,
+        "earliest_post": "2010-01-04",
+        "earliest_comment": "2010-01-21"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=masseffect"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "MawInstallation",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subReddit dedicated to in-depth discussion of the Star Wars franchise with an emphasis on in-universe lore. \n\nNamed after Grand Moff Tarkin's secret Imperial Research Center, from Legends, where the Death Star was designed, MawInstallation is for in-depth discussion of all Star Wars lore, as well as also examining it as a work of fiction.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 202511,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 33697,
+        "comments": 1000512,
+        "earliest_post": "2014-07-03",
+        "earliest_comment": "2014-07-03"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=MawInstallation"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "nasa",
+      "classification": {
+        "category": "",
+        "primary_topic": "r/NASA is for anything related to the National Aeronautics and Space Administration; the latest news, events, current and future missions, and more.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 5735171,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 63910,
+        "comments": 526040,
+        "earliest_post": "2008-07-17",
+        "earliest_comment": "2010-12-02"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=nasa"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "NoMansSkyTheGame",
+      "classification": {
+        "category": "",
+        "primary_topic": "The unofficial subreddit for the discussion of No Man's Sky. A fantasy science-fiction game set in an infinite, procedurally-generated universe.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 981186,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1033379,
+        "comments": 10598035,
+        "earliest_post": "2014-06-12",
+        "earliest_comment": "2014-06-12"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=NoMansSkyTheGame"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "OTMemes",
+      "classification": {
+        "category": "",
+        "primary_topic": "Your best memes from the Original Trilogy of Star Wars.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 387784,
+        "created_year": 2017,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 46713,
+        "comments": 545216,
+        "earliest_post": "2017-01-29",
+        "earliest_comment": "2017-01-29"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=OTMemes"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "postapocalyptic",
+      "classification": {
+        "category": "",
+        "primary_topic": "Home of the Post-Apocalyptic genre. \n\nIf it involves the end of the world, discuss it here.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 15761,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 6122,
+        "comments": 27280,
+        "earliest_post": "2011-05-18",
+        "earliest_comment": "2011-05-18"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=PostApocalyptic"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "PostCyberpunk",
+      "classification": {
+        "category": "",
+        "primary_topic": "Any topics & art relating to post-cyberpunk are welcome here.\n\n//                                                \n\nBiopunk, Solarpunk, Far-future-postcyberpunk, Nanopunk, Neuropunk and general post-cyberpunk.\n\n//                                               \n\nPost-cyberpunk is often more realistic or up-to-date or mature  or optimistic/utopian or combines dystopian with utopian elements.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 2221,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 106,
+        "comments": 85,
+        "earliest_post": "2012-06-13",
+        "earliest_comment": "2012-06-13"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=postcyberpunk"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "predator",
+      "classification": {
+        "category": "",
+        "primary_topic": "For fans of the intergalactic bad-ass hunter of the science fiction horror film series, games and comics.  \nDark Mode recommended.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 35169,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 28095,
+        "comments": 320255,
+        "earliest_post": "2011-01-05",
+        "earliest_comment": "2012-06-22"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=predator"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "PrequelMemes",
+      "classification": {
+        "category": "",
+        "primary_topic": "Memes of the Star Wars Prequels.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 3738919,
+        "created_year": 2016,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1198950,
+        "comments": 12809599,
+        "earliest_post": "2016-12-27",
+        "earliest_comment": "2016-12-27"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=PrequelMemes"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "printSF",
+      "classification": {
+        "category": "",
+        "primary_topic": "**A place to discuss published speculative fiction**—novels, short stories, comics, and more. Not sure if a book counts? Then post it! Science Fiction, Fantasy, Alt. History, Postmodern Lit., and more are all welcome here. **The key is that it be speculative, not that it fit some arbitrary genre guidelines**. Any sort of link or text post is welcome as long as it is about printed / text / static SF material.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 330720,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 43754,
+        "comments": 1204875,
+        "earliest_post": "2010-08-01",
+        "earliest_comment": "2010-08-11"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=printSF"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "publishing",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit dedicated to modern & traditional publishing, for profit and for fun. All are welcome.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 34859,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 18266,
+        "comments": 91884,
+        "earliest_post": "2008-11-14",
+        "earliest_comment": "2010-04-05"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=publishing"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "PubTips",
+      "classification": {
+        "category": "",
+        "primary_topic": "PubTips is the go-to place for traditional publishing news and professional AMAs with authors, agents, editors, publicists, etc. We offer query critiques and answer writing and publishing questions with a focus on the traditional publishing market.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 62997,
+        "created_year": 2016,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 54751,
+        "comments": 472778,
+        "earliest_post": "2016-10-22",
+        "earliest_comment": "2016-10-26"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=PubTips"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "pulp",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to /r/Pulp, your destination for lurid, sensational, or otherwise shallow fiction of questionable quality.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 12811,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 4750,
+        "comments": 7842,
+        "earliest_post": "2011-09-30",
+        "earliest_comment": "2015-05-13"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=pulp"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "RedDwarf",
+      "classification": {
+        "category": "",
+        "primary_topic": "The official subreddit of Red Dwarf\n       The cult sci-fi comedy show!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 60985,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 18541,
+        "comments": 299313,
+        "earliest_post": "2010-01-01",
+        "earliest_comment": "2010-04-19"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=RedDwarf"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "RetroFuturism",
+      "classification": {
+        "category": "",
+        "primary_topic": "This subreddit focuses on the futurist visions of eras past. However posts may also contain contemporary art with a retrofuturist theme.\n\nFuturism was born out of humanity's sudden thrust into technological revolution. To the many that witnessed the dramatic, rapid change, it seemed a technological utopia was fast approaching. This unbridled optimism caused the collective imagination to run wild.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1317331,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 36376,
+        "comments": 524796,
+        "earliest_post": "2009-12-22",
+        "earliest_comment": "2011-05-13"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=RetroFuturism"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "RimWorld",
+      "classification": {
+        "category": "",
+        "primary_topic": "Discussion, screenshots, and links, get all your RimWorld content here!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 535796,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 416777,
+        "comments": 6365037,
+        "earliest_post": "2013-09-19",
+        "earliest_comment": "2013-09-20"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=rimworld"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "risa",
+      "classification": {
+        "category": "",
+        "primary_topic": "JUSTICE FOR LOWER DECKS",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 31944,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 13455,
+        "comments": 147593,
+        "earliest_post": "2017-09-02",
+        "earliest_comment": "2017-09-27"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Risa"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "RogueOne",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=RogueOne"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "sciencefiction",
+      "classification": {
+        "category": "",
+        "primary_topic": "This reddit is for fans and creators of Science Fiction and related media in any form. SF topics should involve plausible ideas reached through the rational application of science. General speculative fiction posts are fine as long as they primarily focus on Science Fiction.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 261114,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 68659,
+        "comments": 644567,
+        "earliest_post": "2010-09-18",
+        "earliest_comment": "2011-09-28"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=sciencefiction"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "ScienceFictionBooks",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to a Science Fiction book club! We read Science fiction books from the old masters to new authors and everything in between!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 13830,
+        "created_year": 2016,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2024,
+        "comments": 35673,
+        "earliest_post": "2016-02-04",
+        "earliest_comment": "2017-11-02"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ScienceFictionBooks"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "sciencefictionconventions",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=sciencefictionconventions"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "ScienceFictionMovies",
+      "classification": {
+        "category": "",
+        "primary_topic": "Since r/movies covers too much.  This is for the specific genre of Science Fiction.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 701,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 356,
+        "comments": 125,
+        "earliest_post": "2014-08-05",
+        "earliest_comment": "2017-12-17"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ScienceFictionMovies"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "scifi",
+      "classification": {
+        "category": "",
+        "primary_topic": "Science Fiction, or Speculative Fiction if you prefer. Fantasy too.  Asimov, Bradbury, Clarke, Dick, Heinlein and other SF books.  SF movies and TV shows.  Fantasy stuff like Tolkien and Game of Thrones.  Laser guns, space ships, and time travel.  etc.   Star Trek, Battlestar, Star Wars, etc.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 4356708,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 185212,
+        "comments": 3799390,
+        "earliest_post": "2008-01-27",
+        "earliest_comment": "2008-02-07"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=scifi"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "SciFi_Games",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to r/Scifi_Games – a hub for everything related to science fiction in gaming.\nThis community is dedicated to sci-fi games of all kinds — from indie passion projects to AAA releases, from early prototypes to fully launched titles.\nYou can post:\n• Gameplay clips\n• Development progress\n• Indie projects\n• Trailers\n• In-engine showcases\n• Concept art\n• Technical breakdowns\n• Worldbuilding discussions\n• Sci-fi game news\n• Genre analysis\n• Recommendations",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 3,
+        "created_year": 2026,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 19,
+        "comments": 26,
+        "earliest_post": "2026-02-25",
+        "earliest_comment": "2026-02-26"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=scifi_games"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "SciFiArt",
+      "classification": {
+        "category": "",
+        "primary_topic": "Science Fiction, Fantasy and Speculative Art",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 28752,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 9614,
+        "comments": 16223,
+        "earliest_post": "2013-02-14",
+        "earliest_comment": "2013-02-14"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=SciFiArt"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "scificollecting",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=scificollecting"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "SciFiModels",
+      "classification": {
+        "category": "",
+        "primary_topic": "The subreddit dedicated to the hobby of Science Fiction model making. Star Wars, Star Trek, Battlestar Galactica, Forbidden Planet, War of the Worlds, Space: 1999, 2001: A Space Odyssey, Firefly, Blade Runner, Babylon 5, Stargate, etc.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 21406,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 6725,
+        "comments": 35411,
+        "earliest_post": "2012-10-28",
+        "earliest_comment": "2012-11-12"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=SciFiModels"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "SciFiTV",
+      "classification": {
+        "category": "",
+        "primary_topic": "News, updates, trailers, discussions & more relating to science fiction & fantasy television.  Feel free to ask questions and/or start discussions on your favorite sci fi TV shows, old & new.  And please post stories that you believe will be of interest to the community. If you have a website, you are welcome to post links to your articles here if they relate to sci fi TV & don’t violate Reddit’s spam rules. We also ask that you post other links and join discussions to help build our community.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1777,
+        "created_year": 2017,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 5247,
+        "comments": 4873,
+        "earliest_post": "2017-09-01",
+        "earliest_comment": "2018-09-04"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=SciFiTV"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "scifiwriting",
+      "classification": {
+        "category": "",
+        "primary_topic": "We are a community for writers of science fiction! We are here to discuss, critique, and share our stories.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 84910,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 25190,
+        "comments": 381141,
+        "earliest_post": "2012-11-20",
+        "earliest_comment": "2012-11-20"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=scifiwriting"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Section31",
+      "classification": {
+        "category": "",
+        "primary_topic": "Fan sub Section 31 new spin off movie from Star Trek franchise.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 5,
+        "created_year": 2024,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 5,
+        "comments": 2,
+        "earliest_post": "2024-03-28",
+        "earliest_comment": "2024-03-28"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Section31"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "selfpublish",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place to discuss just about everything in the world of indie books. *Not* a place for self-promotion.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 165032,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 69524,
+        "comments": 810107,
+        "earliest_post": "2011-04-04",
+        "earliest_comment": "2011-04-05"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=selfpublish"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "SequelMemes",
+      "classification": {
+        "category": "",
+        "primary_topic": "Memes of the Star Wars Sequels",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 468575,
+        "created_year": 2017,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 73762,
+        "comments": 1027023,
+        "earliest_post": "2017-01-14",
+        "earliest_comment": "2017-01-14"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=SequelMemes"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "severanceTVshow",
+      "classification": {
+        "category": "",
+        "primary_topic": "Mark leads a team of office workers whose memories have been surgically divided between their work and personal lives. When a mysterious colleague appears outside of work, it begins a journey to discover the truth about their jobs.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 21465,
+        "created_year": 2022,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 5027,
+        "comments": 110068,
+        "earliest_post": "2022-02-18",
+        "earliest_comment": "2022-02-18"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=severanceTVshow"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "ShittyDaystrom",
+      "classification": {
+        "category": "",
+        "primary_topic": "The Shitty Daystrom Research Institute is a shitty subreddit dedicated to shitty discussion of everything and anything related to the Star Trek franchise.\n\nJoin our discord: https://discord.gg/D3KM2JsB79",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 43624,
+        "created_year": 2015,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 41852,
+        "comments": 905200,
+        "earliest_post": "2015-07-19",
+        "earliest_comment": "2015-07-19"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ShittyDaystrom"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "SiloSeries",
+      "classification": {
+        "category": "",
+        "primary_topic": "/r/SiloSeries is the subreddit for news and discussion of Silo, the post-apocalyptic television show on Apple TV+. For discussion of the WOOL series of books written by Hugh Howey, visit /r/wool.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 74491,
+        "created_year": 2020,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 7654,
+        "comments": 245468,
+        "earliest_post": "2020-06-09",
+        "earliest_comment": "2020-06-20"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=SiloSeries"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "singularity",
+      "classification": {
+        "category": "",
+        "primary_topic": "Everything pertaining to the technological singularity and related topics, e.g. AI, human enhancement, etc.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 3593846,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 126776,
+        "comments": 3802739,
+        "earliest_post": "2008-03-24",
+        "earliest_comment": "2008-03-24"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=singularity"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "SkeletonCrew",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=SkeletonCrew"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "solarpunk",
+      "classification": {
+        "category": "",
+        "primary_topic": "Solarpunk is a genre and aesthetic that envisions collective futures that are vibrant with life, as well as all the actions, policies, and technologies that make them real. We are interested in science fiction, social movements, engineering, style, and anything that inspires a future society that is just and in harmony with its ecology.\n\nYou might also enjoy: solarpunkconference.com, slrpnk.net/, https://wts2.wt.social/wt/solarpunk, and https://discord.gg/3tf6FqGAJs",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 151878,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 27288,
+        "comments": 373145,
+        "earliest_post": "2014-11-02",
+        "earliest_comment": "2014-11-02"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=solarpunk"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "space",
+      "classification": {
+        "category": "",
+        "primary_topic": "Share & discuss informative content on:\n\n* Astrophysics\n* Cosmology\n* Space Exploration\n* Planetary Science\n* Astrobiology",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 27588812,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 495849,
+        "comments": 9994131,
+        "earliest_post": "2008-02-24",
+        "earliest_comment": "2008-03-14"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=space"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "spaceopera",
+      "classification": {
+        "category": "",
+        "primary_topic": "Space opera is a subgenre of science fiction. It has been developed in many popular culture media forms: novels, comics, movies, video games, animes, and more. Examples of space opera are Asimov's \"Foundation Trilogy,\" Herbert's \"Dune,\" Star Wars, Star Trek, Halo, Cowboy Bebop, Warhammer 40k, and more. Space opera emphasizes an exciting universe that is widely populated and settled. It can range in scope, focusing on a single space rogue to an epic struggle between galactic civilizations.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 972,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 378,
+        "comments": 813,
+        "earliest_post": "2011-02-11",
+        "earliest_comment": "2011-04-09"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=SpaceOpera"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "SpaceXLounge",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to r/SpaceXLounge, the sister subreddit to r/SpaceX, and a place for relaxed and laid-back discussion. We recommend Old Reddit with r/SpaceXLounge. This subreddit is not an official outlet for SpaceX information. This is a fan-run subreddit. Employment posts will be removed.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 382542,
+        "created_year": 2016,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 57838,
+        "comments": 1303969,
+        "earliest_post": "2016-06-10",
+        "earliest_comment": "2016-06-13"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=SpaceXLounge"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "SpeculativeEvolution",
+      "classification": {
+        "category": "",
+        "primary_topic": "Where evolution meets science fiction and art.\n\nSpeculative Evolution (also called Speculative Biology and Speculative Zoology) is the envisioning of fictional, but scientifically possible creatures that could have existed on an alternate Earth, or might actually exist somewhere on another planet or in the deep sea.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 115594,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 61148,
+        "comments": 408287,
+        "earliest_post": "2013-02-08",
+        "earliest_comment": "2013-02-10"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=speculativeevolution"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "speculativefiction",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 33,
+        "created_year": 2021,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 45,
+        "comments": 18,
+        "earliest_post": "2011-05-04",
+        "earliest_comment": "2024-02-29"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=SpeculativeFiction"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Star_Trek",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Star_Trek"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "starfleetacademy",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 35,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 244,
+        "comments": 2757,
+        "earliest_post": "2012-12-17",
+        "earliest_comment": "2019-12-03"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StarfleetAcademy"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Stargate",
+      "classification": {
+        "category": "",
+        "primary_topic": "All things dedicated to the 1994 Stargate movie and the MGM franchise: SG-1, Atlantis, Universe, Origins, video, RPG games and everything else.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 165619,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 87417,
+        "comments": 2072118,
+        "earliest_post": "2008-05-15",
+        "earliest_comment": "2008-05-16"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Stargate"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "startrek",
+      "classification": {
+        "category": "",
+        "primary_topic": "A casual, constructive, and most importantly, welcoming place on the internet to talk about Star Trek",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 987974,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 251196,
+        "comments": 7364968,
+        "earliest_post": "2008-08-21",
+        "earliest_comment": "2008-11-30"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=startrek"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "startrekadventures",
+      "classification": {
+        "category": "",
+        "primary_topic": "The primary subreddit dedicated to the \"Star Trek Adventures\" Tabletop Role Playing Game by Modiphius Entertainment.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 8214,
+        "created_year": 2016,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 5572,
+        "comments": 30765,
+        "earliest_post": "2016-07-24",
+        "earliest_comment": "2016-08-29"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StarTrekAdventures"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "StarTrekBooks",
+      "classification": {
+        "category": "",
+        "primary_topic": "Pictures of Star Trek books, that's it!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 87,
+        "created_year": 2021,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 56,
+        "comments": 2,
+        "earliest_post": "2010-11-12",
+        "earliest_comment": "2010-11-13"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StarTrekBooks"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "startrekbridgecrew",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 511,
+        "created_year": 2016,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 176,
+        "comments": 362,
+        "earliest_post": "2017-05-14",
+        "earliest_comment": "2017-06-02"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StarTrekBridgeCrew"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "StarTrekCantina",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StarTrekCantina"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "StarTrekCollecting",
+      "classification": {
+        "category": "",
+        "primary_topic": "is home to Star Trek collecting news, toys, merchandise, discussion, pics, etc. Show off your collection here.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 2,
+        "created_year": 2025,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 59,
+        "comments": 97,
+        "earliest_post": "2025-07-17",
+        "earliest_comment": "2025-07-17"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StarTrekCollecting"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "StarTrekComics",
+      "classification": {
+        "category": "",
+        "primary_topic": "Post your own Trek fan webcomics or discuss Star Trek comics.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 8,
+        "created_year": 2017,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 11,
+        "comments": 1,
+        "earliest_post": "2017-07-07",
+        "earliest_comment": "2025-02-15"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StarTrekComics"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "StarTrekDiscovery",
+      "classification": {
+        "category": "",
+        "primary_topic": "An unofficial fan community dedicated to discussion and news about Star Trek: Discovery.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 42924,
+        "created_year": 2016,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 15717,
+        "comments": 343322,
+        "earliest_post": "2016-07-23",
+        "earliest_comment": "2016-07-23"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StarTrekDiscovery"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "StarTrekEnterprise",
+      "classification": {
+        "category": "",
+        "primary_topic": "This subreddit is participating in the subreddit black out.  Please do not message the moderation team about this change. \n\nThank you.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 5553,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 784,
+        "comments": 3374,
+        "earliest_post": "2013-04-15",
+        "earliest_comment": "2013-04-15"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StarTrekEnterprise"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "startrekfleetcommand",
+      "classification": {
+        "category": "",
+        "primary_topic": "The best Reddit community for Star Trek Fleet Command!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 25300,
+        "created_year": 2018,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 11318,
+        "comments": 136499,
+        "earliest_post": "2018-09-30",
+        "earliest_comment": "2018-11-07"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StarTrekFleetCommand"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "startrekmemes",
+      "classification": {
+        "category": "",
+        "primary_topic": "Memes of the Star Trek franchise",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 137379,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 54849,
+        "comments": 894643,
+        "earliest_post": "2011-10-25",
+        "earliest_comment": "2011-10-26"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StarTrekMemes"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "StarTrekModels",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StarTrekModels"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "StarTrekMovies",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StarTrekMovies"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "startrekonline",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to /r/StarTrekOnline. A place to discuss the MMORPG based on the Star Trek Universe, Star Trek Online!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1624,
+        "created_year": 2021,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 639,
+        "comments": 2436,
+        "earliest_post": "2012-02-26",
+        "earliest_comment": "2010-02-04"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StarTrekOnline"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "startrekpicard",
+      "classification": {
+        "category": "",
+        "primary_topic": "An unofficial fan community dedicated to Star Trek: Picard. Please beware of spoilers!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 9342,
+        "created_year": 2018,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 3280,
+        "comments": 46174,
+        "earliest_post": "2019-09-24",
+        "earliest_comment": "2019-09-30"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StarTrekPicard"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "StarTrekProdigy",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit to discuss the TV show Star Trek: Prodigy. Now on Netflix and SkyShowtime! Seasons One and Two available on Blu-Ray and digital platforms everywhere.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 3659,
+        "created_year": 2019,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1352,
+        "comments": 10293,
+        "earliest_post": "2020-07-27",
+        "earliest_comment": "2020-07-27"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StarTrekProdigy"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "startreksnw",
+      "classification": {
+        "category": "",
+        "primary_topic": "Looking for the Strange New Worlds subreddit? Head to r/StrangeNewWorlds!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1676,
+        "created_year": 2020,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 146,
+        "comments": 1188,
+        "earliest_post": "2020-05-15",
+        "earliest_comment": "2020-05-15"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StarTrekSNW"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "StarTrekStarships",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit for lovers of Star Trek starships. Anything related to the ships of Star Trek welcome, art, toys, models, behind the scenes, etc.\n\n[Be Sure To Read The Rules!](https://www.reddit.com/r/StarTrekStarships/about/rules/)",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 34741,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 15122,
+        "comments": 315198,
+        "earliest_post": "2014-09-19",
+        "earliest_comment": "2014-09-19"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StarTrekStarships"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "StarTrekTimelines",
+      "classification": {
+        "category": "",
+        "primary_topic": "Player-run community for the hit mobile game, Star Trek Timelines.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 7411,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 21440,
+        "comments": 148599,
+        "earliest_post": "2014-06-12",
+        "earliest_comment": "2015-08-10"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StarTrekTimelines"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "startrekuniforms",
+      "classification": {
+        "category": "",
+        "primary_topic": "Here you can discuss various uniforms of the Star Trek franchise. This includes custom fan designs, cosplays, Star Trek Online custom uniforms, in-universe canon uniforms and much more.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 891,
+        "created_year": 2019,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 355,
+        "comments": 937,
+        "earliest_post": "2019-04-18",
+        "earliest_comment": "2019-04-18"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StarTrekUniforms"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "StarWars",
+      "classification": {
+        "category": "",
+        "primary_topic": "Unofficial community for Star Wars, an American epic space opera franchise, created by George Lucas and centered around a film series that began with the eponymous 1977 movie.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 3991410,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1026448,
+        "comments": 20379977,
+        "earliest_post": "2008-07-01",
+        "earliest_comment": "2008-07-01"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StarWars"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "StarWarsAhsoka",
+      "classification": {
+        "category": "",
+        "primary_topic": "An upcoming Star Wars series starring Rosario Dawson as Ahsoka Tano, set within the timeline of The Mandalorian.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 90699,
+        "created_year": 2020,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 4883,
+        "comments": 112393,
+        "earliest_post": "2020-12-10",
+        "earliest_comment": "2020-12-10"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StarWarsAhsoka"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "StarWarsAndor",
+      "classification": {
+        "category": "",
+        "primary_topic": "A Star Wars - Rogue One prequel show starring Diego Luna as Cassian Andor on Disney+",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 82539,
+        "created_year": 2020,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 7024,
+        "comments": 165924,
+        "earliest_post": "2020-12-10",
+        "earliest_comment": "2020-12-10"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StarWarsAndor"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "StarWarsBattlefront",
+      "classification": {
+        "category": "",
+        "primary_topic": "The subreddit dedicated to the discussion of the Star Wars: Battlefront franchise, including the entries by both EA DICE and Pandemic Studios.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 476274,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 565550,
+        "comments": 6599157,
+        "earliest_post": "2012-06-11",
+        "earliest_comment": "2012-06-12"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StarWarsBattlefront"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "starwarsbooks",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to the Star Wars Books subreddit! This is a place to discuss any and all things about Star Wars Books. If you're new to books, and want to learn more about where to start, check the sidebar or wiki tab on the menu! Otherwise MTFBWY and happy reading!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 26795,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 15916,
+        "comments": 190730,
+        "earliest_post": "2012-11-12",
+        "earliest_comment": "2012-11-12"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StarWarsBooks"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "StarWarsCantina",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place to discuss Star Wars with a huge emphasis on positivity. Criticism of any content is allowed, but do so respectfully towards the creators as well as the fans. The Cantina is here for us to celebrate what we love about Star Wars.\n\n#SWC has joined other subreddits in protest against the recently announced API changes.\n\nVisit /r/ModCoord and /r/Save3rdPartyApps for more info. See infographic [here.](https://i.redd.it/zqptto18e34b1.jpg)",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 183141,
+        "created_year": 2018,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 57174,
+        "comments": 1292502,
+        "earliest_post": "2018-03-21",
+        "earliest_comment": "2018-03-21"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StarWarsCantina"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "starwarscollecting",
+      "classification": {
+        "category": "",
+        "primary_topic": "/r/starwarscollecting is home to Star Wars collecting news, toys, merchandise, discussion, pics, etc.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 114121,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 67242,
+        "comments": 471243,
+        "earliest_post": "2013-12-18",
+        "earliest_comment": "2015-09-03"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StarWarsCollecting"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "starwarscomics",
+      "classification": {
+        "category": "",
+        "primary_topic": "The only subreddit dedicated to discussing all things Star Wars comics-related from 1977 to now and featuring cover reveals, issue previews, discourse about story beats and lines and more.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 43402,
+        "created_year": 2015,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 18154,
+        "comments": 135605,
+        "earliest_post": "2015-01-03",
+        "earliest_comment": "2015-01-03"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StarWarsComics"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "starwarscosplay",
+      "classification": {
+        "category": "",
+        "primary_topic": "WIP Subreddit!^**tm**\n\nYou are able to submit Star Wars cosplay photos as of now, and get a special flair later on!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 7726,
+        "created_year": 2015,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 4673,
+        "comments": 14808,
+        "earliest_post": "2015-10-10",
+        "earliest_comment": "2015-10-23"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StarWarsCosplay"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "StarWarsEU",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to the **Star Wars Expanded Universe** subreddit! We are primarily a source of discussion and news surrounding the Star Wars LEGENDS and STORY GROUP CANON Expanded Universe Stories.\n\nIf you want to get into Legends, Canon, or both or want to learn more about the Expanded Universe in general, you can find a few links in the sidebar that may be helpful. Feel free to ask the community as well!  Also, join our [Discord](https://discord.gg/j2A9gwQ) for even more discussion.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 314545,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 61249,
+        "comments": 1093331,
+        "earliest_post": "2012-01-27",
+        "earliest_comment": "2012-01-28"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StarWarsEU"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "starwarsgames",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit for discussing news, rumours and gameplay of all games set in the Star Wars universe.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 20028,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 11131,
+        "comments": 53242,
+        "earliest_post": "2013-03-16",
+        "earliest_comment": "2013-04-04"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StarWarsGames"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "StarWarsKenobi",
+      "classification": {
+        "category": "",
+        "primary_topic": "A Star Wars series - Hayden Christensen stars opposite his former Star Wars prequel colleague Ewan McGregor, who is reprising his role as the titular character. Obi-Wan Kenobi is set 10 years after the events of Star Wars: Episode III — Revenge of the Sith. Anakin Skywalker has become Darth Vader and Obi-Wan is still trying to recover from his greatest defeat.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 107131,
+        "created_year": 2019,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 6142,
+        "comments": 124540,
+        "earliest_post": "2019-12-17",
+        "earliest_comment": "2020-12-19"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StarWarsKenobi"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "StarWarsLeaks",
+      "classification": {
+        "category": "",
+        "primary_topic": "Production Leaks, Spoilers, Rumors & News from future Star Wars media.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 415626,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 58615,
+        "comments": 2313444,
+        "earliest_post": "2012-10-31",
+        "earliest_comment": "2012-11-01"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StarWarsLeaks"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "starwarsmemes",
+      "classification": {
+        "category": "",
+        "primary_topic": "The home for ALL Star Wars memes!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 565830,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 161596,
+        "comments": 1842656,
+        "earliest_post": "2013-04-30",
+        "earliest_comment": "2013-05-07"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StarWarsMemes"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "starwarsrebels",
+      "classification": {
+        "category": "",
+        "primary_topic": "The Reddit home for the Star Wars Rebels animated TV show.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 163389,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 24266,
+        "comments": 416869,
+        "earliest_post": "2013-05-21",
+        "earliest_comment": "2013-05-21"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StarWarsRebels"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "StarWarsSkeletonCrew",
+      "classification": {
+        "category": "",
+        "primary_topic": "Star Wars: Skeleton Crew, an Original series starring Jude Law, from executive producers Jon Watts, Christopher Ford, Jon Favreau and Dave Filoni, is streaming in 2023 only on Disney+",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 53214,
+        "created_year": 2022,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1324,
+        "comments": 18252,
+        "earliest_post": "2022-05-26",
+        "earliest_comment": "2022-05-26"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StarWarsSkeletonCrew"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "starwarsspeculation",
+      "classification": {
+        "category": "",
+        "primary_topic": "Star Wars Speculation is a community dedicated to speculative discussion of the Star Wars franchise. It is a curated space to talk about additions to canon in a larger perspective—incorporating info from leaks, analysis of the story being told, and the real life factors around it in order to best theorize what comes next.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 257497,
+        "created_year": 2015,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 49721,
+        "comments": 980804,
+        "earliest_post": "2015-09-27",
+        "earliest_comment": "2015-09-27"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StarWarsSpeculation"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "StarWarsVisions",
+      "classification": {
+        "category": "",
+        "primary_topic": "Star Wars: Visions, an Original Series of animated short films, celebrates the StarWars galaxy through the lens of the world’s best Japanese anime creators. Coming in 2021 to Disney+.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 6575,
+        "created_year": 2020,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1632,
+        "comments": 14097,
+        "earliest_post": "2020-12-10",
+        "earliest_comment": "2020-12-10"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StarWarsVisions"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "steampunk",
+      "classification": {
+        "category": "",
+        "primary_topic": "This subreddit is for people interested in the steampunk wether it is clothing, cosplay, fiction, or whatever else you may be interested in around steampunk.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 102102,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 26941,
+        "comments": 130377,
+        "earliest_post": "2008-07-03",
+        "earliest_comment": "2009-02-26"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Steampunk"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Stellaris",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place to share content, ask questions and/or talk about the 4X grand strategy game Stellaris by Paradox Development Studio.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 464090,
+        "created_year": 2015,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 334299,
+        "comments": 5088189,
+        "earliest_post": "2015-08-05",
+        "earliest_comment": "2015-08-05"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Stellaris"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "sto",
+      "classification": {
+        "category": "",
+        "primary_topic": "This is the unofficial community subreddit for Star Trek Online, the licensed Star Trek MMO, available on PC, Playstation, and Xbox. Share your glorious (or hilarious) in-game adventures through stories and screencaps, ask your game related questions, and organize events with your fellow Captains.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 61497,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 136414,
+        "comments": 2559491,
+        "earliest_post": "2010-01-10",
+        "earliest_comment": "2010-01-10"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=sto"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "StrangeNewWorlds",
+      "classification": {
+        "category": "",
+        "primary_topic": "A spoiler-friendly place to discuss the TV series Star Trek: Strange New Worlds",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 19951,
+        "created_year": 2021,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 6426,
+        "comments": 176919,
+        "earliest_post": "2021-08-04",
+        "earliest_comment": "2021-08-06"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StrangeNewWorlds"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "SWGalaxyOfHeroes",
+      "classification": {
+        "category": "",
+        "primary_topic": "Star Wars: Galaxy of Heroes is a mobile game by EA Capital Games where players collect, level and battle with heroes and villains from the Star Wars universe.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 143883,
+        "created_year": 2015,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 321407,
+        "comments": 5289765,
+        "earliest_post": "2015-09-07",
+        "earliest_comment": "2015-09-07"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=SWGalaxyOfHeroes"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "technology",
+      "classification": {
+        "category": "",
+        "primary_topic": "Subreddit dedicated to the news and discussions about the creation and use of technology and its surrounding issues.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 18028228,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2273680,
+        "comments": 36316391,
+        "earliest_post": "2008-01-25",
+        "earliest_comment": "2008-01-27"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=technology"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "TheAcolyte",
+      "classification": {
+        "category": "",
+        "primary_topic": "Leslye Headland brings a new Star Wars series to Disney+ with The Acolyte. “The Acolyte” is a mystery-thriller that will take viewers into a galaxy of shadowy secrets and emerging dark-side powers in the final days of the High Republic era.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 72432,
+        "created_year": 2020,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 5790,
+        "comments": 197559,
+        "earliest_post": "2020-12-10",
+        "earliest_comment": "2020-12-11"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=TheAcolyte"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "thebadbatch",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to the subreddit for The Bad Batch - the Star Wars television series centered around its namesake squad of extraordinary clone commandos, set in the aftermath of the Clone War.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 45598,
+        "created_year": 2020,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 12577,
+        "comments": 203550,
+        "earliest_post": "2020-05-04",
+        "earliest_comment": "2020-07-14"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=TheBadBatch"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "TheCloneWars",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to /r/TheCloneWars, the Star Wars: The Clone Wars subreddit! This community is the home for all TCW related content. Feel free to discuss episodes, submit your favorite clips, or share some of your Clone Wars gear!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 118508,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 17056,
+        "comments": 168660,
+        "earliest_post": "2012-12-16",
+        "earliest_comment": "2012-12-17"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=TheCloneWars"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "TheExpanse",
+      "classification": {
+        "category": "",
+        "primary_topic": "Subreddit for the Sci Fi space opera franchise, The Expanse. Which include the Prime video TV series, the book series by James S.A Corey, Comics, and Games.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 228501,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 62749,
+        "comments": 1552984,
+        "earliest_post": "2013-06-09",
+        "earliest_comment": "2013-06-09"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=TheExpanse"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "TheMandalorianTV",
+      "classification": {
+        "category": "",
+        "primary_topic": "The Mandalorian is a space Western and the first live-action series in the Star Wars franchise streaming on Disney+",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 635733,
+        "created_year": 2019,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 71027,
+        "comments": 1088614,
+        "earliest_post": "2019-04-20",
+        "earliest_comment": "2019-04-21"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=TheMandalorianTV"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "TheOriginalSeries",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=TheOriginalSeries"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "timetravel",
+      "classification": {
+        "category": "",
+        "primary_topic": "Time travel reddit will exist yesterday",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 122791,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 20763,
+        "comments": 282149,
+        "earliest_post": "2008-03-19",
+        "earliest_comment": "2008-03-20"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=TimeTravel"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "TNG",
+      "classification": {
+        "category": "",
+        "primary_topic": "The subreddit for everything Star Trek: The Next Generation!\nFeel free to post pics, videos, articles, your opinions & questions... anything to do with the show or the actors.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 42683,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 11959,
+        "comments": 276961,
+        "earliest_post": "2012-04-09",
+        "earliest_comment": "2012-04-10"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=TNG"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "tos",
+      "classification": {
+        "category": "",
+        "primary_topic": "/r/TOS is for all topics relating to Star Trek: The Original Series (plus TAS and the original films).",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 7697,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 4867,
+        "comments": 73970,
+        "earliest_post": "2013-06-08",
+        "earliest_comment": "2013-06-09"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=TOS"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "transhumanism",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to the Transhumanism Subreddit by Josh Universe, hosted by the International Biohacking Community. This forum is dedicated to the examination of advanced technologies and their implications for human evolution, encompassing fields such as artificial intelligence, biotechnology, and cybernetics. We promote rigorous, evidence-based discussions regarding the role of technology in enhancing and transforming human capabilities. This space is not intended for conspiracies or negative behavior.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 85718,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 19947,
+        "comments": 252715,
+        "earliest_post": "2008-11-08",
+        "earliest_comment": "2009-04-14"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=transhumanism"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "trekkies",
+      "classification": {
+        "category": "",
+        "primary_topic": "A Star Trek hangout place for all Trekkies. Feel free to post anything and all things Trek, and have fun!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 78,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 45,
+        "comments": 22,
+        "earliest_post": "2012-07-18",
+        "earliest_comment": "2017-11-06"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Trekkies"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "TrekMemes",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=TrekMemes"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Treknobabble",
+      "classification": {
+        "category": "",
+        "primary_topic": "reddit... the front page of the internet. These are the posts of the subreddit /r/Treknobabble. Its continuing mission: to explore strange new content and old favourites, to seek out new readers and other Star Trek communities, to boldly display whatever Trekkers want to upvote!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 34337,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 12371,
+        "comments": 89466,
+        "earliest_post": "2013-05-29",
+        "earliest_comment": "2013-05-29"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Treknobabble"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "voyager",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to the subreddit all about Star Trek: Voyager! The aim of this subreddit is to provide a friendly and welcoming environment to discuss all things Voyager related.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 30376,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 11258,
+        "comments": 267122,
+        "earliest_post": "2011-10-31",
+        "earliest_comment": "2011-10-31"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Voyager"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "WeirdLit",
+      "classification": {
+        "category": "",
+        "primary_topic": "Weird Literature: For news, reviews, book discussion, and anything else pertaining to weird fiction.  We cover everything from contemporary writers of the Weird, such as China Miéville, Kelly Link, M. John Harrison, K.J. Bishop, Eric Basso, and Jeff Vandermeer to foundational authors like H.P. Lovecraft, Alfred Kubin, Algernon Blackwood, Robert Chambers, and Jean Ray, to everyone in between.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 70579,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 9827,
+        "comments": 101041,
+        "earliest_post": "2014-02-16",
+        "earliest_comment": "2014-02-17"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=weirdlit"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "westworld",
+      "classification": {
+        "category": "",
+        "primary_topic": "Subreddit for the HBO series Westworld.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 990091,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 96369,
+        "comments": 1704731,
+        "earliest_post": "2014-07-23",
+        "earliest_comment": "2014-11-18"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Westworld"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "worldbuilding",
+      "classification": {
+        "category": "",
+        "primary_topic": "For artists, writers, gamemasters, musicians, programmers, philosophers and scientists alike! The creation of new worlds and new universes has long been a key element of speculative fiction, from the fantasy works of Tolkien and Le Guin, to the science-fiction universes of Delany and Asimov, to the tabletop realm of Gygax and Barker, and beyond. \n\nThis subreddit is about sharing your worlds, discovering the creations of others, and discussing the many aspects of creating new universes.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1766856,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 359359,
+        "comments": 5683854,
+        "earliest_post": "2009-11-23",
+        "earliest_comment": "2009-11-23"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=worldbuilding"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "WorldbuildingAdvice",
+      "classification": {
+        "category": "",
+        "primary_topic": "This subreddit is not a community; it is a list of high-quality worldbuilding resources curated by /u/fattestrabbit.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 7284,
+        "created_year": 2018,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 165,
+        "comments": 55,
+        "earliest_post": "2018-05-08",
+        "earliest_comment": "2018-05-10"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=WorldbuildingAdvice"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    }
+  ]
+}

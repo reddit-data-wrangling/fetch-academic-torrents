@@ -1,0 +1,119 @@
+Here's a focused collection of Reddit communities for tabletop board games,
+card games, tabletop RPGs (TTRPGs), game design, publishing, reviews, and
+individual games.
+
+# General Tabletop Gaming
+
+- r/boardgames
+- r/tabletop
+- r/boardgamegeek
+
+# Board Game Discovery
+
+- r/boardgames
+- r/soloboardgaming
+- r/boardgamedeals
+- r/Boardgamerecommender
+- r/boardgamephotos
+
+# Reviews & Evaluation
+
+- r/boardgames
+- r/boardgamegeek
+- r/soloboardgaming
+
+# Game Design
+
+- r/tabletopgamedesign
+- r/BoardgameDesign
+- r/gamedesign
+
+# Publishing, Production, Crowdfunding, and Print-and-Play
+
+- r/tabletopgamedesign
+- r/BoardgameDesign
+- r/kickstarter
+- r/printandplay
+
+# Tabletop RPGs
+
+- r/rpg
+- r/RPGdesign
+- r/osr
+- r/nsrrpg
+- r/rpg_gamers
+
+# Dungeons & Dragons
+
+- r/DnD
+- r/dndnext
+- r/DMAcademy
+- r/DnDBehindTheScreen
+- r/DnDHomebrew
+- r/UnearthedArcana
+- r/adnd
+- r/dnd3.5
+- r/dnd4e
+
+# Pathfinder
+
+- r/Pathfinder_RPG
+- r/Pathfinder2e
+
+# Other RPG Systems
+
+- r/callofcthulhu
+- r/WhiteWolfRPG
+- r/Shadowrun
+- r/traveller
+- r/cyberpunkred
+- r/40krpg
+
+# Miniatures and Wargames
+
+- r/minipainting
+- r/PrintedMinis
+- r/TerrainBuilding
+- r/wargaming
+- r/Warhammer
+- r/Warhammer40k
+- r/ageofsigmar
+- r/killteam
+- r/historicalgaming
+
+# Individual Board Games
+
+- r/Catan
+- r/TerraformingMarsGame
+- r/spiritisland
+- r/Gloomhaven
+- r/arkhamhorrorlcg
+- r/rootgame
+- r/wingspan
+- r/twilightimperium
+- r/dominion
+- r/Carcassonne
+
+# Collectible Card Games
+
+- r/magicTCG
+- r/EDH
+- r/spikes
+- r/pkmntcg
+- r/yugioh
+- r/FleshandBloodTCG
+- r/Lorcana
+
+# Classic and Abstract Games
+
+- r/chess
+- r/baduk
+
+# Digital Adaptations
+
+- r/TabletopSimulator
+- r/BGA
+
+The collection covers casual board gaming, Eurogames, tabletop RPGs,
+collectible card games, miniature wargaming, game design, publishing, reviews,
+conventions, and hobby craftsmanship.

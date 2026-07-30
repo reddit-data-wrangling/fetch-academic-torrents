@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "collection": "tv-series",
+  "communities": [
+    {
+      "subreddit": "bigbangtheory",
+      "classification": {
+        "category": "",
+        "primary_topic": "The Big Bang Theory | You're in my spot",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 179742,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 47481,
+        "comments": 897442,
+        "earliest_post": "2010-12-13",
+        "earliest_comment": "2010-12-15"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=bigbangtheory"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    }
+  ]
+}

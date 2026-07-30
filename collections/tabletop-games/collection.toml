@@ -1,0 +1,4 @@
+title = "Tabletop games"
+state = "planning"
+mongo_database = "reddit"
+notes = "Catalogue created from the supplied tabletop-games taxonomy; selection is not complete."

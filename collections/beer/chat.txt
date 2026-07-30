@@ -1,0 +1,288 @@
+For beer, the Reddit ecosystem is smaller than movies or music, but it's still rich and spans the **entire beer value chain**: production → distribution → retail → consumption → evaluation → collecting → individual styles → regional beer cultures. A comprehensive research corpus would likely contain **100–200 active subreddits**, with the exact number depending on whether you include local brewery communities. The largest hubs are r/beer, r/CraftBeer, and r/Homebrewing, with numerous related communities for styles, brewing, and regional beer scenes. ([Gummy Search][1])
+
+## 1. General Beer Discussion
+
+These are the primary communities for beer consumption and general discussion.
+
+| Subreddit      | Focus                                  |
+| -------------- | -------------------------------------- |
+| r/beer         | General beer discussion                |
+| r/CraftBeer    | Craft beer culture                     |
+| r/beerporn     | Beer photography and sharing           |
+| r/BeerReviews  | Beer reviews                           |
+| r/BeerAdvocate | Discussion around BeerAdvocate ratings |
+| r/drunk        | Informal drinking culture              |
+| r/alcohol      | Alcohol discussion including beer      |
+
+---
+
+## 2. Beer Consumption & Evaluation
+
+Communities focused on tasting, reviewing, and discovering beers.
+
+* r/beer
+* r/CraftBeer
+* r/BeerReviews
+* r/beerporn
+* r/Untappd
+* r/RateBeer
+* r/BeerTrade
+* r/beerexchange
+* r/beerwithaview
+
+Research topics include:
+
+* sensory evaluation
+* tasting notes
+* consumer preferences
+* new releases
+* brewery recommendations
+* food pairings
+
+---
+
+## 3. Brewing & Production
+
+Communities covering commercial and home brewing.
+
+| Subreddit     | Focus                            |
+| ------------- | -------------------------------- |
+| r/Homebrewing | Home brewing                     |
+| r/TheBrewery  | Professional brewing             |
+| r/brewery     | Brewery ownership and operations |
+| r/Brewing     | Brewing techniques               |
+| r/yeast       | Fermentation science             |
+| r/mead        | Mead production                  |
+| r/cider       | Cider production                 |
+| r/kombucha    | Fermentation techniques          |
+
+Topics include:
+
+* malt
+* hops
+* yeast
+* recipe formulation
+* fermentation
+* quality control
+* packaging
+
+The professional-oriented communities, such as r/brewery, frequently discuss equipment, accounting, staffing, and brewery operations in addition to brewing science. ([Gummy Search][2])
+
+---
+
+## 4. Beer Industry & Market
+
+Useful for studying the commercial beer ecosystem.
+
+* r/TheBrewery
+* r/brewery
+* r/CraftBeer
+* r/beer
+* r/beernews
+* r/beerindustry
+* r/breweries
+
+Topics:
+
+* brewery openings
+* acquisitions
+* craft beer market
+* distribution
+* legislation
+* pricing
+* retail
+
+---
+
+## 5. Homebrewing Equipment
+
+* r/Homebrewing
+* r/kegerators
+* r/draftbeer
+* r/keezer
+* r/grainfather
+* r/picobrew
+
+---
+
+## 6. Draft Systems & Serving
+
+* r/draftbeer
+* r/kegerators
+* r/beer
+* r/TheBrewery
+
+Topics:
+
+* dispensing
+* CO₂ systems
+* draft maintenance
+* foam control
+
+---
+
+## 7. Beer Styles
+
+Communities devoted to specific beer styles are less numerous than genre communities in music, but many styles have dedicated subreddits.
+
+### IPA
+
+* r/IPA
+* r/hazyIPA
+
+### Stouts & Porters
+
+* r/stout
+* r/porter
+
+### Sours
+
+* r/SourBeer
+
+### Belgian Beer
+
+* r/BelgianBeer
+
+### German Beer
+
+* r/GermanBeer
+
+### Lambic
+
+* r/lambic
+
+### Pilsner & Lager
+
+* r/lager
+* r/pilsner
+
+### Wheat Beer
+
+* r/hefeweizen
+
+### Cask Ale
+
+* r/RealAle
+
+---
+
+## 8. Regional Beer Communities
+
+These are particularly valuable for studying local beer markets.
+
+Examples include:
+
+* r/AusBeer
+* r/UKandIrishBeer
+* r/CanadianBeer
+* r/portlandbeer
+* r/torontocraftbeer
+* r/VancouverCraftBeer
+* r/ColoradoBeer
+* r/ChicagoBeer
+* r/SeattleBeer
+* r/MichiganCraftBeer
+* r/NJBeer
+* r/OhioBeer
+* r/TexasBeer
+* r/SanDiegoBeer
+* r/BostonBeer
+
+Many of these regional communities are closely linked to the major beer discussion communities. ([Gummy Search][1])
+
+---
+
+## 9. Brewery-Specific Communities
+
+Some larger breweries have dedicated communities, for example:
+
+* r/SierraNevada
+* r/TreeHouseBrewing
+* r/NewBelgium
+* r/OtherHalfBrewing
+
+There are also communities for local breweries and taprooms, though many are small.
+
+---
+
+## 10. Collecting & Trading
+
+* r/beertrade
+* r/beerexchange
+* r/beer
+* r/CraftBeer
+
+Topics:
+
+* bottle trading
+* cellar management
+* limited releases
+* aging
+
+---
+
+## 11. Beer Tourism
+
+* r/beer
+* r/CraftBeer
+* regional beer subreddits
+
+Common discussions:
+
+* brewery trails
+* taproom recommendations
+* beer festivals
+* travel itineraries
+
+---
+
+## 12. Beer & Food
+
+* r/beer
+* r/CraftBeer
+* r/foodandbeer
+* r/BeerAndFood
+
+Topics:
+
+* pairing
+* cooking with beer
+* tasting menus
+
+---
+
+## 13. Adjacent Fermented Beverages
+
+Although outside beer proper, these communities are often relevant to brewing research.
+
+* r/mead
+* r/cider
+* r/winemaking
+* r/kombucha
+* r/fermentation
+
+---
+
+## Suggested taxonomy for a comprehensive Reddit study
+
+| Category                     | Estimated active communities |
+| ---------------------------- | ---------------------------: |
+| General beer discussion      |                        10–15 |
+| Beer reviews & tasting       |                        10–15 |
+| Homebrewing                  |                        20–30 |
+| Commercial brewing           |                        10–15 |
+| Beer industry & market       |                        10–15 |
+| Equipment & draft systems    |                        10–15 |
+| Beer styles                  |                        20–30 |
+| Regional beer communities    |                        40–80 |
+| Brewery-specific communities |                        20–50 |
+| Beer trading & collecting    |                         5–10 |
+| Beer tourism & festivals     |                         5–10 |
+| Adjacent fermented beverages |                        10–15 |
+
+### Estimated total coverage
+
+A well-curated Reddit corpus for beer research would include approximately **100–200 active subreddits**, depending on how comprehensively you include regional and brewery-specific communities. Compared with movies or music, the ecosystem is more concentrated around a few large hubs (r/beer, r/CraftBeer, r/Homebrewing), with numerous specialized communities for brewing, local beer scenes, and particular styles. This taxonomy is suitable for research on **beer markets, consumer preferences, brewing practices, sensory evaluation, and regional beer cultures**. ([Gummy Search][1])
+
+[1]: https://gummysearch.com/r/beer/?utm_source=chatgpt.com "r/beer - Subreddit Stats & Analysis"
+[2]: https://gummysearch.com/r/brewery/?utm_source=chatgpt.com "r/brewery - Subreddit Stats & Analysis"

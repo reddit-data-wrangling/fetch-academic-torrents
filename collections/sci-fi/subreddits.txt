@@ -1,0 +1,231 @@
+# Candidate discovery frame — verify before selection.
+# Sources include collections/sci-fi/chat.txt and related-community
+# snowballing. Major fictional universes are included as separate strata.
+
+## General discussion and criticism
+scifi
+sciencefiction
+printSF
+AskScienceFiction
+speculativefiction
+ScienceFictionBooks
+ScienceFictionMovies
+SciFiTV
+Fantasy
+
+## Writing, worldbuilding, and publishing
+scifiwriting
+worldbuilding
+WorldbuildingAdvice
+mapmaking
+conlangs
+SpeculativeEvolution
+ImaginaryTechnology
+ImaginaryFuturism
+BookPublishing
+publishing
+PubTips
+selfpublish
+
+## Subgenres and movements
+Cyberpunk
+PostCyberpunk
+solarpunk
+spaceopera
+
+# Missing at 2026-07-30; retained for historical review.
+HardScienceFiction
+dystopia
+postapocalyptic
+AlternateHistory
+TimeTravel
+RetroFuturism
+# Missing at 2026-07-30; retained for historical review.
+Biopunk
+steampunk
+WeirdLit
+horrorlit
+
+## Visual media, comics, games, and audio
+SciFiArt
+
+# Missing at 2026-07-30; retained for historical review.
+ImaginarySciFi
+ImaginaryStarscapes
+ImaginaryLeviathans
+ImaginaryNetwork
+comicbooks
+graphicnovels
+SciFi_Games
+audiodrama
+audible
+
+## Science, technology, space, and futures
+Futurology
+transhumanism
+space
+SpaceXLounge
+nasa
+IsaacArthur
+Astronomy
+technology
+ArtificialInteligence
+artificial
+singularity
+
+## Culture, collecting, and events
+# Missing at 2026-07-30; retained for historical review.
+scificollecting
+SciFiModels
+
+# Missing at 2026-07-30; retained for historical review.
+sciencefictionconventions
+BookCollecting
+cosplay
+pulp
+
+## Major literary and screen universes
+dune
+bladerunner
+alien
+predator
+TheExpanse
+Stargate
+BSG
+babylon5
+farscape
+doctorwho
+RedDwarf
+firefly
+fringe
+FoundationTV
+SiloSeries
+severanceTVshow
+ForAllMankindTV
+12Monkeys
+alteredcarbon
+westworld
+
+## Science-fiction anime
+Gundam
+evangelion
+
+# The chat names r/ghostintheshell, which is missing; this is the verified
+# community for the franchise.
+Ghost_in_the_Shell
+
+# Missing at 2026-07-30; retained from the chat-derived discovery list.
+ghostintheshell
+
+## Science-fiction games
+masseffect
+halo
+DestinyTheGame
+NoMansSkyTheGame
+EliteDangerous
+Stellaris
+RimWorld
+
+## Star Wars ecosystem
+StarWars
+StarWarsCantina
+MawInstallation
+StarWarsEU
+StarWarsLeaks
+starwarsspeculation
+
+### Star Wars series and installments
+andor
+StarWarsAndor
+TheMandalorianTV
+# Missing at 2026-07-30; retained for historical review.
+RogueOne
+StarWarsAhsoka
+StarWarsKenobi
+TheCloneWars
+starwarsrebels
+thebadbatch
+BookOfBobaFett
+
+# The original candidate is missing; r/StarWarsSkeletonCrew is the verified
+# series community.
+StarWarsSkeletonCrew
+
+# Missing at 2026-07-30; retained for historical review.
+SkeletonCrew
+TheAcolyte
+StarWarsVisions
+Highrepublic
+
+### Star Wars books, comics, games, and material culture
+starwarsbooks
+starwarscomics
+starwarsgames
+StarWarsBattlefront
+SWGalaxyOfHeroes
+lightsabers
+starwarscollecting
+starwarscosplay
+
+### Star Wars fandom and meme cultures
+starwarsmemes
+PrequelMemes
+SequelMemes
+OTMemes
+EmpireDidNothingWrong
+
+## Star Trek ecosystem
+startrek
+
+# Missing at 2026-07-30; retained for historical review.
+Star_Trek
+DaystromInstitute
+
+# Missing at 2026-07-30; retained for historical review.
+StarTrekCantina
+ShittyDaystrom
+Treknobabble
+
+### Star Trek series and installments
+tos
+
+# Missing at 2026-07-30; retained for historical review.
+TheOriginalSeries
+TNG
+DeepSpaceNine
+voyager
+StarTrekEnterprise
+StarTrekDiscovery
+startrekpicard
+LowerDecks
+StarTrekProdigy
+StrangeNewWorlds
+startreksnw
+starfleetacademy
+Section31
+
+# Missing at 2026-07-30; retained for historical review.
+StarTrekMovies
+
+### Star Trek books, games, and material culture
+StarTrekBooks
+StarTrekComics
+startrekonline
+sto
+startrekfleetcommand
+StarTrekTimelines
+startrekbridgecrew
+startrekadventures
+StarTrekStarships
+
+# Missing at 2026-07-30; retained for historical review.
+StarTrekModels
+startrekuniforms
+StarTrekCollecting
+
+### Star Trek fandom and meme cultures
+# Missing at 2026-07-30; retained for historical review.
+TrekMemes
+startrekmemes
+trekkies
+risa

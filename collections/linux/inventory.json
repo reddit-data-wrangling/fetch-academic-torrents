@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "collection": "linux",
+  "holdings": [
+    {
+      "subreddit": "kernel",
+      "kind": "both",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "",
+        "bytes": null
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27017",
+        "database": "reddit",
+        "collection": ""
+      },
+      "qa": {
+        "status": "unknown"
+      },
+      "acquired_at": "",
+      "notes": "Present according to docs/operations/collection-log.md; counts not recorded"
+    },
+    {
+      "subreddit": "linux",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": 5378339,
+      "raw": {
+        "path": "",
+        "bytes": null
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27017",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "unknown"
+      },
+      "acquired_at": "",
+      "notes": "Count from docs/operations/collection-log.md; raw file absent"
+    },
+    {
+      "subreddit": "linux",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": 295825,
+      "raw": {
+        "path": "",
+        "bytes": null
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27017",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "unknown"
+      },
+      "acquired_at": "",
+      "notes": "Count from docs/operations/collection-log.md; raw file absent"
+    },
+    {
+      "subreddit": "linux4noobs",
+      "kind": "both",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "",
+        "bytes": null
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27017",
+        "database": "reddit",
+        "collection": ""
+      },
+      "qa": {
+        "status": "unknown"
+      },
+      "acquired_at": "",
+      "notes": "Present according to docs/operations/collection-log.md; counts not recorded"
+    },
+    {
+      "subreddit": "linuxquestions",
+      "kind": "both",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "",
+        "bytes": null
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27017",
+        "database": "reddit",
+        "collection": ""
+      },
+      "qa": {
+        "status": "unknown"
+      },
+      "acquired_at": "",
+      "notes": "Present according to docs/operations/collection-log.md; counts not recorded"
+    },
+    {
+      "subreddit": "osdev",
+      "kind": "both",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "",
+        "bytes": null
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27017",
+        "database": "reddit",
+        "collection": ""
+      },
+      "qa": {
+        "status": "unknown"
+      },
+      "acquired_at": "",
+      "notes": "Present according to docs/operations/collection-log.md; counts not recorded"
+    },
+    {
+      "subreddit": "rust",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": 1593774,
+      "raw": {
+        "path": "",
+        "bytes": null
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27017",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "unknown"
+      },
+      "acquired_at": "",
+      "notes": "May belong in OSS; raw file absent"
+    },
+    {
+      "subreddit": "rust",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": 139590,
+      "raw": {
+        "path": "",
+        "bytes": null
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27017",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "unknown"
+      },
+      "acquired_at": "",
+      "notes": "May belong in OSS; raw file absent"
+    }
+  ]
+}

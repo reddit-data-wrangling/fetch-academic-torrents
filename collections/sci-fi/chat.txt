@@ -1,0 +1,421 @@
+If you're building a serious Reddit feed for science fiction—covering the history of the genre, publishing, production, fandom, criticism, conventions, TV, film, and books—I'd organize it like this.
+
+---
+
+# General Science Fiction
+
+These are the core communities.
+
+* r/scifi
+* r/sciencefiction
+* r/printSF
+* r/Fantasy (covers speculative fiction broadly)
+* r/speculativefiction
+
+The first three are the foundation of Reddit's SF community, with r/scifi being the largest general forum and r/printSF specializing in books and literary discussion. ([FeedSpot][1])
+
+---
+
+# Science Fiction Literature
+
+## Books
+
+* r/printSF
+* r/sciencefiction
+* r/scifi
+* r/books
+* r/suggestmeabook
+* r/bookclub
+
+Topics include:
+
+* Golden Age SF
+* New Wave
+* Hard SF
+* Space Opera
+* Military SF
+* Cyberpunk
+* Climate fiction
+* First contact
+* AI fiction
+* Time travel
+
+---
+
+# Classic Science Fiction
+
+Communities where classic authors are frequently discussed:
+
+* r/printSF
+* r/scifi
+* r/books
+
+Authors commonly discussed:
+
+* Isaac Asimov
+* Arthur C. Clarke
+* Robert Heinlein
+* Ursula K. Le Guin
+* Philip K. Dick
+* Stanisław Lem
+* Octavia Butler
+* Gene Wolfe
+* Frank Herbert
+* C. J. Cherryh
+* Greg Egan
+* Alastair Reynolds
+* Lois McMaster Bujold
+
+---
+
+# Science Fiction History
+
+For historical context:
+
+* r/scifi
+* r/printSF
+* r/history
+* r/AskHistorians
+
+Topics:
+
+* pulp magazines
+* Hugo Awards history
+* Campbell era
+* New Wave movement
+* cyberpunk movement
+* feminist SF
+* Soviet SF
+* Japanese SF
+* Chinese SF
+* magazine history
+
+---
+
+# Authors & Writing
+
+* r/scifi
+* r/printSF
+* r/writing
+* r/fantasywriters
+* r/worldbuilding
+
+---
+
+# Publishing
+
+* r/publishing
+* r/selfpublish
+* r/PubTips
+* r/writing
+
+---
+
+# Movies
+
+General:
+
+* r/scifi
+* r/movies
+* r/TrueFilm
+
+Dedicated franchises:
+
+* r/StarWars
+* r/startrek
+* r/bladerunner
+* r/Alien
+* r/predator
+* r/Dune
+* r/TheExpanse
+* r/Stargate
+* r/Babylon5
+* r/Farscape
+* r/DoctorWho
+
+---
+
+# Television
+
+General:
+
+* r/scifi
+* r/television
+
+Individual series:
+
+* r/TheExpanse
+* r/DoctorWho
+* r/startrek
+* r/Stargate
+* r/FoundationTV
+* r/SiloSeries
+* r/severanceTVshow
+* r/ForAllMankindTV
+
+---
+
+# Anime Science Fiction
+
+* r/anime
+* r/Gundam
+* r/evangelion
+* r/ghostintheshell
+* r/Cyberpunk
+
+---
+
+# Comics
+
+* r/comicbooks
+* r/ImageComics
+* r/DCcomics
+* r/Marvel
+
+Frequently discussed SF titles include:
+
+* Saga
+* Descender
+* Black Science
+* East of West
+* The Incal
+
+---
+
+# Games
+
+* r/masseffect
+* r/halo
+* r/DestinyTheGame
+* r/NoMansSkyTheGame
+* r/EliteDangerous
+* r/Stellaris
+* r/rimworld
+
+---
+
+# Science Fiction Production
+
+Communities discussing adaptation and production:
+
+* r/Screenwriting
+* r/Filmmakers
+* r/television
+* r/movies
+
+Topics:
+
+* adaptation
+* visual effects
+* production design
+* practical effects
+* concept art
+
+---
+
+# Worldbuilding
+
+* r/worldbuilding
+* r/mapmaking
+* r/conlangs
+
+---
+
+# Hard Science Fiction
+
+Communities that appreciate scientific realism:
+
+* r/printSF
+* r/askscience
+* r/space
+* r/Physics
+
+---
+
+# Space Exploration
+
+* r/space
+* r/SpaceXLounge
+* r/nasa
+* r/IsaacArthur
+
+These frequently intersect with hard SF.
+
+---
+
+# Futurism
+
+* r/Futurology
+* r/singularity
+* r/transhumanism
+
+---
+
+# Artificial Intelligence
+
+* r/LocalLLaMA
+* r/artificial
+* r/MachineLearning
+
+Useful for discussions of AI in fiction versus reality.
+
+---
+
+# Book Recommendations
+
+* r/suggestmeabook
+* r/booksuggestions
+* r/printSF
+
+Recommendation threads on r/printSF frequently surface both classics and modern works. ([Reddit Reads][2])
+
+---
+
+# Awards
+
+Communities discussing:
+
+* Hugo Awards
+* Nebula Awards
+* Arthur C. Clarke Award
+* BSFA Award
+* Locus Award
+
+Usually:
+
+* r/scifi
+* r/sciencefiction
+* r/printSF
+
+---
+
+# Conventions & Fandom
+
+General:
+
+* r/scifi
+* r/sciencefiction
+* r/cosplay
+
+Events commonly discussed:
+
+* Worldcon
+* World Fantasy Convention
+* Dragon Con
+* Eastercon
+* Eurocon
+* Comic-Con
+* Readercon
+* WisCon
+
+Science fiction conventions remain central gathering places for readers, authors, publishers, artists, and fans. ([Wikipedia][3])
+
+---
+
+# Science Fiction Art
+
+* r/ImaginaryTechnology
+* r/ImaginaryFuturism
+* r/ImaginaryStarscapes
+* r/ImaginaryLeviathans
+* r/ImaginaryNetwork
+
+---
+
+# Academic & Critical Discussion
+
+* r/printSF
+* r/literature
+* r/AskLiteraryStudies
+* r/TrueFilm
+
+Topics:
+
+* genre theory
+* literary criticism
+* SF history
+* philosophy
+* political themes
+
+---
+
+# Collecting
+
+* r/bookcollecting
+* r/bookshelf
+* r/comicbookcollecting
+
+---
+
+# Vintage Science Fiction
+
+Useful for fans of the magazine era:
+
+* r/printSF
+* r/pulp
+* r/books
+
+Topics:
+
+* Amazing Stories
+* Astounding
+* Galaxy
+* Analog
+* If
+* Worlds of Tomorrow
+
+---
+
+# Adjacent Genres
+
+* r/Fantasy
+* r/horrorlit
+* r/horror
+* r/weirdlit
+* r/solarpunk
+* r/cyberpunk
+* r/postcyberpunk
+
+---
+
+# Best Overall Subscription List
+
+If you wanted a curated feed of about 30 subreddits that covers nearly every aspect of science fiction, I'd recommend:
+
+* r/scifi
+* r/sciencefiction
+* r/printSF
+* r/Fantasy
+* r/books
+* r/bookclub
+* r/suggestmeabook
+* r/booksuggestions
+* r/history
+* r/AskHistorians
+* r/literature
+* r/AskLiteraryStudies
+* r/worldbuilding
+* r/writing
+* r/fantasywriters
+* r/publishing
+* r/PubTips
+* r/movies
+* r/TrueFilm
+* r/television
+* r/startrek
+* r/StarWars
+* r/TheExpanse
+* r/Dune
+* r/DoctorWho
+* r/Futurology
+* r/space
+* r/IsaacArthur
+* r/cosplay
+* r/bookcollecting
+
+This combination covers the full lifecycle of science fiction: its history, literary criticism, publishing industry, authorship, adaptation to film and television, fandom, conventions, collecting, and the scientific and philosophical ideas that inspire the genre.
+
+[1]: https://forums.feedspot.com/science_fiction_forums/?utm_source=chatgpt.com "Top 15 Science Fiction Forums in 2026"
+[2]: https://www.redditreads.com/r/sciencefiction?utm_source=chatgpt.com "r/sciencefiction book recommendations - reddit reads"
+[3]: https://en.wikipedia.org/wiki/Science_fiction_convention?utm_source=chatgpt.com "Science fiction convention"
+

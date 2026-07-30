@@ -1,0 +1,102 @@
+# Candidate discovery frame — verify before selection.
+# Source: collections/tabletop-games/chat.txt.
+
+## General tabletop gaming, discovery, and reviews
+boardgames
+tabletop
+
+# Missing at 2026-07-30; retained from the supplied taxonomy.
+boardgamegeek
+soloboardgaming
+Boardgamedeals
+boardgamerecommender
+
+# Missing at 2026-07-30; retained from the supplied taxonomy.
+boardgamephotos
+
+## Design, publishing, crowdfunding, and print-and-play
+tabletopgamedesign
+BoardgameDesign
+gamedesign
+kickstarter
+printandplay
+
+## General tabletop RPGs and RPG design
+rpg
+RPGdesign
+osr
+NSRRPG
+rpg_gamers
+
+## Dungeons & Dragons
+DnD
+dndnext
+DMAcademy
+DnDBehindTheScreen
+DnDHomebrew
+UnearthedArcana
+adnd
+
+# The supplied r/dnd3.5 name is syntactically invalid; this is the verified
+# D&D 3.0/3.5 edition community.
+DungeonsAndDragons35e
+
+# The supplied r/dnd4e is missing; r/4eDnD is the verified 4th-edition
+# community.
+4eDnD
+
+# Missing at 2026-07-30; retained from the supplied taxonomy.
+dnd4e
+
+# The chat's r/dnd3.5 cannot be retained as a candidate because Reddit
+# subreddit names do not allow periods.
+
+## Pathfinder and other RPG systems
+Pathfinder_RPG
+Pathfinder2e
+callofcthulhu
+WhiteWolfRPG
+Shadowrun
+traveller
+cyberpunkred
+40krpg
+
+## Miniatures, terrain, and wargames
+minipainting
+PrintedMinis
+TerrainBuilding
+wargaming
+Warhammer
+Warhammer40k
+ageofsigmar
+killteam
+historicalgaming
+
+## Individual board games
+Catan
+TerraformingMarsGame
+spiritisland
+Gloomhaven
+arkhamhorrorlcg
+rootgame
+wingspan
+twilightimperium
+dominion
+Carcassonne
+
+## Collectible card games
+magicTCG
+EDH
+spikes
+pkmntcg
+yugioh
+FleshandBloodTCG
+Lorcana
+
+## Classic and abstract games
+chess
+baduk
+
+## Digital tabletop adaptations
+tabletopsimulator
+BGA

@@ -1,0 +1,160 @@
+# Candidate discovery frame — verify before selection.
+# The referenced chat.txt is empty. Starting points are the original seed list,
+# the r/beer regional directory, and related-community links from r/beer,
+# r/CraftBeer, r/Homebrewing, and r/TheBrewery.
+
+## General discussion, tasting, reviews, releases, and visual culture
+beer
+CraftBeer
+beerporn
+beerreviews
+Tastingcraftbeer
+NewBeerFriday
+beerreleases
+beerblogs
+beervideos
+beerwithaview
+showerbeer
+beercirclejerk
+
+## Styles, traditions, and dietary or alcohol alternatives
+BelgianBeer
+Lager
+sourbeer
+IPA
+lambic
+barleywine
+realale
+NABEER
+GlutenFreeBeer
+
+## Homebrewing, professional brewing, ingredients, and equipment
+Homebrewing
+homebrewingUK
+brewing
+TheBrewery
+
+# Missing at 2026-07-30; retained from r/TheBrewery's historical sidebar.
+PublicHouse
+
+# Missing at 2026-07-30; retained from the original ChatGPT-derived seed list.
+beerindustry
+beerrecipes
+homebrewrecipes
+TheHopyard
+grainfather
+brewgearfs
+Cerveceros
+kegerators
+
+# Missing at 2026-07-30; retained from r/Homebrewing's historical sidebar.
+Autobrew
+
+## Collecting, apps, food, and material culture
+breweriana
+BeerCans
+BeerGlass
+beerlabels
+Untappd
+cookwithbeer
+beerandpizza
+
+## United States — state communities
+bamabeer
+ArizonaBeer
+ArkansasBeer
+COBeer
+ctbeer
+FloridaBrew
+iowabeer
+mainebeer
+MDbeer
+michiganbeer
+minnesotabeer
+msbeer
+nebraskabeer
+nhbeer
+njbeer
+NYbeer
+OH_Beer
+OklahomaBeer
+PaCraftBeer
+
+# Missing at 2026-07-30; retained from r/beer's regional directory.
+RIBreweries
+sdbeer
+texasbeer
+VermontBeer
+VABEER
+WAbeer
+WestVirginiaBeer
+wisconsinbeer
+
+## United States — metro and regional communities
+ashevillebeer
+atlbeer
+AustinBeer
+charlestonbeer
+CharlotteBeer
+chicagobeer
+cincinnatibeer
+collegestationbeer
+ColumbusBeer
+DFWBeer
+denverbeer
+HoustonBeer
+indybeer
+JaxBrew
+KansasCityBeer
+knoxvillebeer
+LasVegasBeer
+lehighvalleycraftbeer
+LABeer
+MemphisBeer
+NashvilleBeer
+newenglandbeer
+NewOrleansBeer
+nycbeer
+NEOHBeer
+ocbeer
+orlandobeer
+
+# Missing at 2026-07-30; retained from r/beer's regional directory.
+phillycraftbeer
+PittsburghBeers
+portlandbeer
+trianglencbeer
+SFBeer
+seattlebeer
+SoFlaBeer
+
+# Missing at 2026-07-30; retained from r/beer's regional directory.
+StLouisBeer
+dcbeer
+WCNYBeer
+
+## Canada
+beercanada
+AlbertaBeer
+maritimecraftbeer
+hamiltoncraftbeer
+NiagaraBeer
+ontariocraftbeer
+BeerInOttawa
+BiereQc
+torontocraftbeer
+VancouverCraftBeer
+VancouverIslandBeer
+KWBrews
+
+## Other national and language communities
+AusBeer
+Bier
+bieresdefrance
+NZBeer
+UK_beer
+
+## Adjacent fermentation
+cider
+Ciderporn
+mead

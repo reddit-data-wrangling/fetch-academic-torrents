@@ -1,0 +1,5 @@
+title = "Music"
+state = "paused"
+mongo_uri = "mongodb://localhost:27019"
+mongo_database = "reddit"
+notes = "Acquisition paused by the project owner; preserve existing raw and Mongo holdings."

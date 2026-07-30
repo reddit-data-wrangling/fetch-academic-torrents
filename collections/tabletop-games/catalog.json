@@ -1,0 +1,2086 @@
+{
+  "schema_version": 1,
+  "collection": "tabletop-games",
+  "communities": [
+    {
+      "subreddit": "40krpg",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to 40kRPG, a place to discuss things related to roleplaying in the 40k universe. While we are primarily focused on the tabletop RPG's, posts related to roleplaying activities in other media are welcome so long as they are collaborative in nature.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 28776,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 18007,
+        "comments": 145284,
+        "earliest_post": "2011-09-02",
+        "earliest_comment": "2011-09-02"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=40krpg"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "4eDnD",
+      "classification": {
+        "category": "",
+        "primary_topic": "A community for the discussion of 4th edition Dungeons and Dragons, DM advice, homebrew discussion, roleplay ideas, ETC for your 4e Game.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 4135,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2037,
+        "comments": 23228,
+        "earliest_post": "2013-02-16",
+        "earliest_comment": "2014-08-10"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=4eDnD"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "adnd",
+      "classification": {
+        "category": "",
+        "primary_topic": "Your subreddit, as requested in r/RPG, for all discussions pertaining to Advanced Dungeons and Dragons, or Dungeons and Dragons 2nd Edition.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 10842,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 8791,
+        "comments": 114713,
+        "earliest_post": "2012-12-18",
+        "earliest_comment": "2012-12-18"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=adnd"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "ageofsigmar",
+      "classification": {
+        "category": "",
+        "primary_topic": "The Reddit community for Warhammer: Age of Sigmar and the Mortal Realms",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 234565,
+        "created_year": 2015,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 187568,
+        "comments": 1762136,
+        "earliest_post": "2015-06-30",
+        "earliest_comment": "2015-07-01"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ageofsigmar"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "arkhamhorrorlcg",
+      "classification": {
+        "category": "",
+        "primary_topic": "This subreddit is to discuss and share information about the Fantasy Flight Games LCG, Arkham Horror.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 43589,
+        "created_year": 2016,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 41125,
+        "comments": 557760,
+        "earliest_post": "2016-07-29",
+        "earliest_comment": "2016-07-29"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=arkhamhorrorlcg"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "baduk",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place for players of Go/Weiqi/Baduk.  We have discussions, go problems, game reviews, news, events, tournaments, lessons and more!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 46236,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 35793,
+        "comments": 434423,
+        "earliest_post": "2008-04-03",
+        "earliest_comment": "2008-05-09"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=baduk"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "BGA",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 52,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 72,
+        "comments": 114,
+        "earliest_post": "2012-02-03",
+        "earliest_comment": "2012-02-03"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=BGA"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Boardgamedeals",
+      "classification": {
+        "category": "",
+        "primary_topic": "Deal posts only.\n\nAffiliate links are not allowed.\n\nSelf promoting posts are limited to one post per week, on Fridays only.\n\nKickstarter (or similar) submissions are not allowed.\n\nMassdrop (or similar) submissions are not allowed.\n\nOnly submit deals or back-in-stocks for highly sought-after games.\n\nUse the following format (does not apply to deals bot):\n\n[Store] Product-name and Price (US or EU deal)\n\nExample:\n\n[Amazon] Settlers Of Catan - $25 (US only)\n\nFor multiple deals use self posts.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 124470,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 30232,
+        "comments": 201809,
+        "earliest_post": "2013-10-08",
+        "earliest_comment": "2013-11-30"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=boardgamedeals"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "BoardgameDesign",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to the premier hub for Board Game, Tabletop Game, and Card Game design on Reddit!\n  \n\nHere, you'll find a treasure trove of inspiration, expert insights, and invaluable resources covering every aspect of game design, from conception to production, marketing, and even crowdfunding.\n  \n\nGet ready to unleash your creativity and join fellow enthusiasts in crafting the next big hit in the world of hobby game design!\n  \n\nHappy designing!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 24124,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 13662,
+        "comments": 125709,
+        "earliest_post": "2011-08-14",
+        "earliest_comment": "2011-08-14"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=BoardgameDesign"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "boardgamegeek",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=boardgamegeek"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "boardgamephotos",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=boardgamephotos"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "boardgamerecommender",
+      "classification": {
+        "category": "",
+        "primary_topic": "This subreddit is the home of boardgamerecommender, a bot I wrote which generates board game recommendations. See https://www.reddit.com/r/boardgamerecommender/comments/41owd0/the_new_home_of_uboardgamerecommender/ for full details!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 924,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 16088,
+        "comments": 24700,
+        "earliest_post": "2014-07-04",
+        "earliest_comment": "2014-07-04"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Boardgamerecommender"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "boardgames",
+      "classification": {
+        "category": "",
+        "primary_topic": "The #1 Reddit source for news, information, and discussion about modern board games and board game culture. Join the community and come discuss games like Codenames, Wingspan, Brass, and all your other favorite games!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 5299450,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 390611,
+        "comments": 8714545,
+        "earliest_post": "2008-09-24",
+        "earliest_comment": "2009-07-17"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=boardgames"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "callofcthulhu",
+      "classification": {
+        "category": "",
+        "primary_topic": "# Call of Cthulhu\nWelcome to the Call of Cthulhu Reddit Community!\n\nCall of Cthulhu is a tabletop Role Playing Game created by Chaosium that focuses on the themes of cosmic horror made famous by the fiction of H.P. Lovecraft. \n\nHere we welcome experienced players and newcomers alike to discuss the game and related materials. After checking out the useful resources and links below, feel free to ask questions or share experiences you or others have had with Call of Cthulhu.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 72491,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 32707,
+        "comments": 290827,
+        "earliest_post": "2012-08-30",
+        "earliest_comment": "2013-01-22"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=callofcthulhu"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Carcassonne",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to the Carcassonne reddit community! Whether you're new to the game, an experienced tile-layer, or simply visiting, all are welcome who enjoy this amazing game.  \n  \nCarcassonne is a tile-laying game where players collectively construct the area around the medieval French city of Carcassonne while competing to place followers on various features and score the most points.\n\nSubreddit Rules:\n\n1. Enjoy your stay!\n\n2. Be respectful; no derogatory language.\n\n3. No unrelated content.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 10796,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 4648,
+        "comments": 39789,
+        "earliest_post": "2011-12-17",
+        "earliest_comment": "2012-02-12"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Carcassonne"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Catan",
+      "classification": {
+        "category": "",
+        "primary_topic": "The internets #1 Catan community",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 117540,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 29026,
+        "comments": 253972,
+        "earliest_post": "2010-11-29",
+        "earliest_comment": "2011-01-18"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Catan"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "chess",
+      "classification": {
+        "category": "",
+        "primary_topic": "All about the game of chess, including discussions on professional tournaments, game analysis and theory. If you are new to the game, check out /r/chessbeginners and before posting here please read our rules: https://www.reddit.com/r/chess/wiki/index.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1625596,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 394311,
+        "comments": 6252484,
+        "earliest_post": "2008-05-26",
+        "earliest_comment": "2008-09-06"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=chess"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "cyberpunkred",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to Night City, punk! That's where players and GM discuss the Cyberpunk Red pen and paper RPG.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 52107,
+        "created_year": 2017,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 25699,
+        "comments": 316017,
+        "earliest_post": "2018-02-12",
+        "earliest_comment": "2018-05-17"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=cyberpunkred"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "DMAcademy",
+      "classification": {
+        "category": "",
+        "primary_topic": "/r/DMAcademy is a subreddit for Dungeons & Dragons Dungeon Masters to ask questions - new and experienced, all are welcome!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 653554,
+        "created_year": 2016,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 295285,
+        "comments": 4608394,
+        "earliest_post": "2016-06-24",
+        "earliest_comment": "2016-06-25"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=DMAcademy"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "DnD",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit dedicated to the various iterations of Dungeons & Dragons, from its First Edition roots to its One D&D future.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 4072418,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1380758,
+        "comments": 19596378,
+        "earliest_post": "2009-10-10",
+        "earliest_comment": "2009-10-11"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=DnD"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "dnd4e",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=dnd4e"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "DnDBehindTheScreen",
+      "classification": {
+        "category": "",
+        "primary_topic": "/r/DnDBehindTheScreen is a subreddit for Dungeons & Dragons Dungeon Masters to trade tools, guides and resources. A growing archive of hundreds of years of D&D experience, all in one place! Welcome Wanderer!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 529741,
+        "created_year": 2015,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 53709,
+        "comments": 463243,
+        "earliest_post": "2015-02-05",
+        "earliest_comment": "2015-02-06"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=DnDBehindTheScreen"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "DnDHomebrew",
+      "classification": {
+        "category": "",
+        "primary_topic": "r/DnDHomebrew covers all your needs for homebrew D&D Content. Do you want unique options for your games? Do you feel limited by the official ones? If so, this sub is for you.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 233052,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 111148,
+        "comments": 581791,
+        "earliest_post": "2013-07-26",
+        "earliest_comment": "2013-07-27"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=DnDHomebrew"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "dndnext",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place to discuss Dungeons & Dragons.\nFor more D&D discussion:  \n\nDiscord: https://discord.gg/dndnext  \n\nLemmy: https://ttrpg.network/",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 788376,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 280991,
+        "comments": 8881002,
+        "earliest_post": "2012-10-17",
+        "earliest_comment": "2012-10-17"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=dndnext"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "dominion",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 22037,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 15168,
+        "comments": 190432,
+        "earliest_post": "2010-12-17",
+        "earliest_comment": "2011-01-21"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=dominion"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "DungeonsAndDragons35e",
+      "classification": {
+        "category": "",
+        "primary_topic": "A Subreddit for devoted D&D 3.0 and 3.5 edition players of the pen-and-paper RPG. (Pathfinder 1e content is allowed but is not a main focus of this subreddit).",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 5003,
+        "created_year": 2015,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 3179,
+        "comments": 29254,
+        "earliest_post": "2015-08-11",
+        "earliest_comment": "2015-08-14"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=DungeonsAndDragons35e"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "EDH",
+      "classification": {
+        "category": "",
+        "primary_topic": "For discussing Magic: the Gathering EDH/Commander!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 310067,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 396663,
+        "comments": 10851716,
+        "earliest_post": "2011-02-25",
+        "earliest_comment": "2011-02-25"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=EDH"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "FleshandBloodTCG",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome! /r/FleshAndBloodTCG is for discussing Flesh & Blood, a new trading card game created for gamers, by gamers. The game rewards good decisions, not good luck. It’s highly interactive, with action beginning from the very first turn. New players, game veterans, collectors, and observers are all encouraged to join and participate!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 25344,
+        "created_year": 2020,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 22462,
+        "comments": 270017,
+        "earliest_post": "2020-10-27",
+        "earliest_comment": "2020-12-09"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=FleshandBloodTCG"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "gamedesign",
+      "classification": {
+        "category": "",
+        "primary_topic": "For topics related to the design of games for interactive entertainment systems - video games, board games, tabletop RPGs, or any other type. /r/GameDesign is not a subreddit about general game development, nor is it a programming subreddit.  This is a place to talk about Game Design and what it entails.\n\nUse this community to network, discuss crafting rulesets and general game design, and share game design tips with other game designers. Designers of all experience levels are welcome!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 250976,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 51306,
+        "comments": 606181,
+        "earliest_post": "2009-10-28",
+        "earliest_comment": "2009-10-30"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=gamedesign"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Gloomhaven",
+      "classification": {
+        "category": "",
+        "primary_topic": "Gloomhaven, Jaws of the Lion, and Frosthaven are cooperative games of tactical combat, battling monsters and advancing a player's own individual goals in a persistent and changing world that is played over many game sessions. In the process, players will enhance their abilities with experience and loot, discover new locations to explore and plunder, and expand an ever-branching story fueled by the decisions they make.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 113707,
+        "created_year": 2016,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 46432,
+        "comments": 628135,
+        "earliest_post": "2016-12-06",
+        "earliest_comment": "2017-01-19"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Gloomhaven"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "historicalgaming",
+      "classification": {
+        "category": "",
+        "primary_topic": "A sub for fans of video games dealing with history.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 7,
+        "comments": null,
+        "earliest_post": "2014-07-23",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=historicalgaming"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "kickstarter",
+      "classification": {
+        "category": "",
+        "primary_topic": "At /r/Kickstarter we aim to promote a healthy space for project creators and backers to talk. Please check out our self-promotion sticky before posting your project.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 90287,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 118877,
+        "comments": 258006,
+        "earliest_post": "2010-05-10",
+        "earliest_comment": "2011-01-30"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=kickstarter"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "killteam",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit dedicated to Warhammer 40000 specialist game, Kill Team.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 111228,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 108800,
+        "comments": 1146472,
+        "earliest_post": "2018-07-31",
+        "earliest_comment": "2018-08-01"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=killteam"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Lorcana",
+      "classification": {
+        "category": "",
+        "primary_topic": "Community and subreddit for Disney Lorcana TCG.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 70526,
+        "created_year": 2021,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 41083,
+        "comments": 631966,
+        "earliest_post": "2021-12-18",
+        "earliest_comment": "2022-08-30"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Lorcana"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "magicTCG",
+      "classification": {
+        "category": "",
+        "primary_topic": "A diverse community of players devoted to Magic: the Gathering, a trading card game (\"TCG\") produced by Wizards of the Coast and originally designed by Richard Garfield. \n\nJoin us discussing news, tournaments, gameplay, deckbuilding, strategy, lore, fan art, and more.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 819575,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 732121,
+        "comments": 20504732,
+        "earliest_post": "2008-10-03",
+        "earliest_comment": "2008-10-16"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=magicTCG"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "minipainting",
+      "classification": {
+        "category": "",
+        "primary_topic": "A community for painting miniatures and models.  Everything from tabletop wargames to board games, display pieces or just for fun!\n\nPainters of all skill levels are welcome!   From beginners who have never held a brush to pros who have been painting for years.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1193967,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 379600,
+        "comments": 2471845,
+        "earliest_post": "2011-03-03",
+        "earliest_comment": "2011-03-03"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=minipainting"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "NSRRPG",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place to discuss NSR tabletop RPGs",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 2499,
+        "created_year": 2022,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 680,
+        "comments": 1584,
+        "earliest_post": "2022-09-22",
+        "earliest_comment": "2022-09-27"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=nsrrpg"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "osr",
+      "classification": {
+        "category": "",
+        "primary_topic": "This is a subreddit for news and discussion of Old School Renaissance topics. We primarily focus on D&D (LBB, 1st ed. AD&D, etc.) and the retroclones. Other Old School games (Traveller, Runequest, Tunnels & Trolls, et al) are of course open for discussion.\n\nThis is *not* a place to rant about how (your least favorite edition) sucks! In fact, I hope discussion arises about how later editions do things right, and how to incorporate them into OSR-styled games.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 44608,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 55069,
+        "comments": 850541,
+        "earliest_post": "2011-09-13",
+        "earliest_comment": "2011-09-14"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=osr"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Pathfinder2e",
+      "classification": {
+        "category": "",
+        "primary_topic": "A tabletop roleplaying game community for everything related to Pathfinder Second Edition.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 129494,
+        "created_year": 2018,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 127363,
+        "comments": 2901350,
+        "earliest_post": "2018-03-06",
+        "earliest_comment": "2018-03-09"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Pathfinder2e"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Pathfinder_RPG",
+      "classification": {
+        "category": "",
+        "primary_topic": "For everything related to the Pathfinder RPG!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 153056,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 181804,
+        "comments": 2985586,
+        "earliest_post": "2012-03-21",
+        "earliest_comment": "2012-03-21"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Pathfinder_RPG"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "pkmntcg",
+      "classification": {
+        "category": "",
+        "primary_topic": "A forum dedicated to the competitive aspect of the Pokémon Trading Card Game, where trainers can discuss strategies, share deck ideas, and stay updated on the latest news and events related to the game.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 113956,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 78399,
+        "comments": 801677,
+        "earliest_post": "2011-01-10",
+        "earliest_comment": "2011-01-10"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=pkmntcg"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "printandplay",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to r/printandplay! This is a forum dedicated to the hobby of crafting and playing print and play (PnP) games. Here, you can share links to download legit free or paid PnP games, share your pictures and techniques of crafting your PnP games, and share session reports, impressions and reviews of PnP games.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 10074,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 3467,
+        "comments": 19167,
+        "earliest_post": "2014-03-06",
+        "earliest_comment": "2014-07-20"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=printandplay"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "PrintedMinis",
+      "classification": {
+        "category": "",
+        "primary_topic": "This subreddit is dedicated to 3D Printing Miniatures for Tabletop Games. Got a print you want to show off? perhaps you're looking for files? This is the subreddit for you.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 135926,
+        "created_year": 2016,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 61688,
+        "comments": 364086,
+        "earliest_post": "2016-12-15",
+        "earliest_comment": "2016-12-20"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=PrintedMinis"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "rootgame",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 32639,
+        "created_year": 2018,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 12874,
+        "comments": 154768,
+        "earliest_post": "2018-08-10",
+        "earliest_comment": "2018-08-14"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=rootgame"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "rpg",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit for all things related to tabletop roleplaying games",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1549776,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 237289,
+        "comments": 5045734,
+        "earliest_post": "2008-01-29",
+        "earliest_comment": "2008-03-19"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=rpg"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "rpg_gamers",
+      "classification": {
+        "category": "",
+        "primary_topic": "RPG_Gamers is a subreddit for fans of all video game RPGs from JRPGs (Final Fantasy, Dragon Quest), Western RPGs (Fallout, Baldur's Gate), action games with RPG elements (Diablo, League of Legends), and discussions related to them.\n\nSubreddit in general revolves around discussion of RPG videogames, recommendations for new games to try, news of upcoming RPGs, and reviews of recently released RPGs. Memes and other related filler content is not presently allowed.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 215743,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 56355,
+        "comments": 1035626,
+        "earliest_post": "2011-09-04",
+        "earliest_comment": "2011-09-05"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=rpg_gamers"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "RPGdesign",
+      "classification": {
+        "category": "",
+        "primary_topic": "A gathering place for anyone, either casually or professionally, designing, hacking, or otherwise working with the mechanics of pen-and-paper tabletop role-playing games.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 81565,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 42357,
+        "comments": 766933,
+        "earliest_post": "2014-08-19",
+        "earliest_comment": "2014-10-15"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=RPGdesign"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Shadowrun",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to /r/Shadowrun, chummer.\n\nHere at /r/Shadowrun we talk shop about all things in the shadows. Discussion is primarily aimed at exploring narratives found in the Sixth World. Mostly the pen and paper role playing game, but also the board games, video games, and literature of Shadowrun.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 58289,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 47832,
+        "comments": 740127,
+        "earliest_post": "2011-04-08",
+        "earliest_comment": "2011-04-08"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Shadowrun"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "soloboardgaming",
+      "classification": {
+        "category": "",
+        "primary_topic": "All about exploring, discussing, and playing board games solo... as in solitary, alone, one-player, without others, etc. Solitaire Board Gaming: Get together and play by yourself!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 64003,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 28814,
+        "comments": 492428,
+        "earliest_post": "2014-05-10",
+        "earliest_comment": "2014-05-10"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=soloboardgaming"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "spikes",
+      "classification": {
+        "category": "",
+        "primary_topic": "The serious, play-to-win side of the Magic: The Gathering community.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 100916,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 64696,
+        "comments": 1279700,
+        "earliest_post": "2012-08-21",
+        "earliest_comment": "2012-08-21"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=spikes"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "spiritisland",
+      "classification": {
+        "category": "",
+        "primary_topic": "Your place for all things Spirit Island! Ask questions, discuss strategies, and participate in weekly events.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 20524,
+        "created_year": 2018,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 11448,
+        "comments": 167841,
+        "earliest_post": "2018-08-07",
+        "earliest_comment": "2018-08-07"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=spiritisland"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "tabletop",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place to discuss everything involving physical tabletop gaming.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 32953,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 18939,
+        "comments": 59308,
+        "earliest_post": "2009-01-26",
+        "earliest_comment": "2009-01-27"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=tabletop"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "tabletopgamedesign",
+      "classification": {
+        "category": "",
+        "primary_topic": "All things related to *designing* Board Games, Card Games, RPGs & more!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 80621,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 47765,
+        "comments": 460620,
+        "earliest_post": "2011-10-14",
+        "earliest_comment": "2011-10-14"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=tabletopgamedesign"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "tabletopsimulator",
+      "classification": {
+        "category": "",
+        "primary_topic": "Tabletop Simulator is the only simulator where you can let your aggression out by flipping the table! There are no rules to follow: just you, a physics sandbox, and your friends. Make your own games and play how YOU want! Unlimited gaming possibilities!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 52667,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 23132,
+        "comments": 101870,
+        "earliest_post": "2014-03-06",
+        "earliest_comment": "2014-03-11"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=TabletopSimulator"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "TerraformingMarsGame",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit dedicated to anything about the board game Terraforming Mars, including any video game adaptations.\nUnofficial TM Discord server: TBD",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 13512,
+        "created_year": 2018,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 7451,
+        "comments": 82946,
+        "earliest_post": "2018-09-10",
+        "earliest_comment": "2018-09-10"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=TerraformingMarsGame"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "TerrainBuilding",
+      "classification": {
+        "category": "",
+        "primary_topic": "This sub-reddit is for those who craft, build, and paint terrain.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 174454,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 54104,
+        "comments": 458794,
+        "earliest_post": "2013-07-22",
+        "earliest_comment": "2013-07-22"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=TerrainBuilding"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "traveller",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit for the discussion of the Traveller Role Playing Game!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 14494,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 17849,
+        "comments": 153847,
+        "earliest_post": "2012-04-09",
+        "earliest_comment": "2012-06-25"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=traveller"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "twilightimperium",
+      "classification": {
+        "category": "",
+        "primary_topic": "r/Twilight Imperium is a subreddit dedicated to Fantasy Flight Games' flagship title, Twilight Imperium. We discuss strategies, rules, variants, and give advice to new players.\n\n\nJoin us in the war for the Imperial Throne!\n\n\n*Pax Magnifica Bellum Gloriosum*",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 32742,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 26272,
+        "comments": 363847,
+        "earliest_post": "2011-11-06",
+        "earliest_comment": "2011-11-24"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=twilightimperium"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "UnearthedArcana",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit for D&D 5e homebrew. Fun and smart additions to the game, the friendly Discord of Many Things, and thousands of past submissions to search.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 300477,
+        "created_year": 2015,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 129547,
+        "comments": 1155769,
+        "earliest_post": "2015-05-06",
+        "earliest_comment": "2015-05-10"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=UnearthedArcana"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "wargaming",
+      "classification": {
+        "category": "",
+        "primary_topic": "A community for tabletop wargames, whether historical, sci-fi or fantasy in all scales.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 47958,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 27662,
+        "comments": 199281,
+        "earliest_post": "2009-02-20",
+        "earliest_comment": "2009-10-07"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=wargaming"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Warhammer",
+      "classification": {
+        "category": "",
+        "primary_topic": "A hub for all things Warhammer 40,000, Age of Sigmar, and more! All facets of the hobby are welcome. Check out the directory below for even more awesome Warhammer Communities.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 390153,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 269215,
+        "comments": 2614307,
+        "earliest_post": "2009-01-18",
+        "earliest_comment": "2009-01-18"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Warhammer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Warhammer40k",
+      "classification": {
+        "category": "",
+        "primary_topic": "Warhammer 40k is a franchise created by Games Workshop, detailing the far future and the grim darkness it holds. The main attraction of 40k is the miniatures, but there are also many video games, board games, books, ect. that are all connected in the 40k universe. This subreddit is for anything and everything related to Warhammer 40k.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1171131,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 937566,
+        "comments": 9964324,
+        "earliest_post": "2011-12-10",
+        "earliest_comment": "2011-12-21"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Warhammer40k"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "WhiteWolfRPG",
+      "classification": {
+        "category": "",
+        "primary_topic": "An unofficial community for fans of White Wolf's roleplaying games, notably the World of Darkness (Vampire: The Masquerade, Werewolf: The Apocalypse, Mage: The Ascension, etc.), Exalted, and Chronicles of Darkness (Vampire: The Requiem, Werewolf: The Forsaken, Mage: The Awakening, etc.).",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 54883,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 62187,
+        "comments": 961344,
+        "earliest_post": "2012-05-29",
+        "earliest_comment": "2012-06-02"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=WhiteWolfRPG"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "wingspan",
+      "classification": {
+        "category": "",
+        "primary_topic": "Wingspan is a relaxing, award-winning strategy card game about birds for 1 to 5 players. Each bird you play extends a chain of powerful combinations in one of your three habitats. Your goal is to discover and attract the best birds to your network of wildlife preserves.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 23857,
+        "created_year": 2019,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 7937,
+        "comments": 66045,
+        "earliest_post": "2019-03-07",
+        "earliest_comment": "2019-10-14"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=wingspan"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "yugioh",
+      "classification": {
+        "category": "",
+        "primary_topic": "The subreddit for the Yu-Gi-Oh! card game, video games, anime and manga.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 905593,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 440104,
+        "comments": 7774089,
+        "earliest_post": "2010-08-18",
+        "earliest_comment": "2010-08-18"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=yugioh"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    }
+  ]
+}

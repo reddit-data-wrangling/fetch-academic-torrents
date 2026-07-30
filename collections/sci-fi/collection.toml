@@ -1,0 +1,4 @@
+title = "Science fiction"
+state = "planning"
+mongo_database = "reddit"
+notes = "Cross-media science-fiction catalogue; discovery and selection are not complete."

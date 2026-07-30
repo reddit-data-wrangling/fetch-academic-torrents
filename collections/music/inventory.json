@@ -1,0 +1,1062 @@
+{
+  "schema_version": 1,
+  "collection": "music",
+  "holdings": [
+    {
+      "subreddit": "BandCamp",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/BandCamp_comments.zst",
+        "bytes": 17485388
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "BandCamp",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/BandCamp_submissions.zst",
+        "bytes": 18598033
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "DistroKidHelpDesk",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/DistroKidHelpDesk_comments.zst",
+        "bytes": 7403194
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "DistroKidHelpDesk",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/DistroKidHelpDesk_submissions.zst",
+        "bytes": 3683646
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "indieheads",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/indieheads_comments.zst",
+        "bytes": 450568581
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "indieheads",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/indieheads_submissions.zst",
+        "bytes": 120294063
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "LetsTalkMusic",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/LetsTalkMusic_comments.zst",
+        "bytes": 194737009
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "LetsTalkMusic",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/LetsTalkMusic_submissions.zst",
+        "bytes": 21878222
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "listentothis",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/listentothis_comments.zst",
+        "bytes": 212782835
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "listentothis",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/listentothis_submissions.zst",
+        "bytes": 305320449
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "musicbusiness",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/musicbusiness_comments.zst",
+        "bytes": 6468405
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "musicbusiness",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/musicbusiness_submissions.zst",
+        "bytes": 4102519
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "MusicDistribution",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/MusicDistribution_comments.zst",
+        "bytes": 1945550
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "MusicDistribution",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/MusicDistribution_submissions.zst",
+        "bytes": 741287
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "musicindustry",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/musicindustry_comments.zst",
+        "bytes": 19120677
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "musicindustry",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/musicindustry_submissions.zst",
+        "bytes": 6336881
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "musiclaw",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/musiclaw_comments.zst",
+        "bytes": 16899
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "musiclaw",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/musiclaw_submissions.zst",
+        "bytes": 40845
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "musicmarketing",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/musicmarketing_comments.zst",
+        "bytes": 30093487
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "musicmarketing",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/musicmarketing_submissions.zst",
+        "bytes": 10054852
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "musicproduction",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/musicproduction_comments.zst",
+        "bytes": 154285599
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "musicproduction",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/musicproduction_submissions.zst",
+        "bytes": 58380221
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "MusicPromotion",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/MusicPromotion_comments.zst",
+        "bytes": 47216654
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "MusicPromotion",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/MusicPromotion_submissions.zst",
+        "bytes": 65992031
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "musicpublishing",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/musicpublishing_comments.zst",
+        "bytes": 109942
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "musicpublishing",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/musicpublishing_submissions.zst",
+        "bytes": 125655
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "musicsuggestions",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/musicsuggestions_comments.zst",
+        "bytes": 524173126
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "musicsuggestions",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/musicsuggestions_submissions.zst",
+        "bytes": 72715584
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "recordlabels",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/recordlabels_comments.zst",
+        "bytes": 921712
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "recordlabels",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/recordlabels_submissions.zst",
+        "bytes": 713290
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "SellingBeats",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/SellingBeats_comments.zst",
+        "bytes": 6440
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "SellingBeats",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/SellingBeats_submissions.zst",
+        "bytes": 20123
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "Songwriting",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/Songwriting_comments.zst",
+        "bytes": 120611353
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "Songwriting",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/Songwriting_submissions.zst",
+        "bytes": 47860137
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "SoundCloudMusic",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/SoundCloudMusic_comments.zst",
+        "bytes": 797714
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "SoundCloudMusic",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/SoundCloudMusic_submissions.zst",
+        "bytes": 6044971
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "synclicensing",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/synclicensing_comments.zst",
+        "bytes": 614297
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "synclicensing",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/synclicensing_submissions.zst",
+        "bytes": 243693
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "TouringMusicians",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/TouringMusicians_comments.zst",
+        "bytes": 4882864
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "TouringMusicians",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/TouringMusicians_submissions.zst",
+        "bytes": 1819538
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "UnitedMasters",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/UnitedMasters_comments.zst",
+        "bytes": 1079773
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "UnitedMasters",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/UnitedMasters_submissions.zst",
+        "bytes": 1201457
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "WeAreTheMusicMakers",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/WeAreTheMusicMakers_comments.zst",
+        "bytes": 437080082
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "WeAreTheMusicMakers",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/WeAreTheMusicMakers_submissions.zst",
+        "bytes": 106946044
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    }
+  ]
+}

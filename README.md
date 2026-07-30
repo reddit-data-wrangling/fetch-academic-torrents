@@ -1,175 +1,362 @@
-# data-gathering
+# Reddit domain collections
 
-Planning and tooling for fetching Reddit data from Academic Torrents and complementary sources.
+This repository contains research plans and command-line tools for building
+topic-based Reddit datasets. It currently covers open-source software, Linux,
+movies, science fiction, music, comics, TV series, beer, and tabletop games.
 
-## ⚠️ Source availability (verified 2026-07-26)
+The project is a data-collection workspace, not a Python package. It keeps four
+different concepts separate:
 
-**The subreddit-partitioned bulk torrent this repo was built around has been withdrawn.** u/Watchful1 took down their Academic Torrents uploads at Reddit's request ([announcement](https://www.reddit.com/r/pushshift/comments/1v50ved/upon_reddits_request_i_am_taking_down_my_academic/)). Verified state of every known bulk torrent:
+1. candidate communities in `subreddits.txt`;
+2. verified metadata in `catalog.json`;
+3. reviewed acquisition targets in `targets.txt`; and
+4. acquired holdings in `inventory.json`.
 
-| Torrent | Infohash | Status |
-|---|---|---|
-| Subreddit 2005-06 → 2025-12 (**old primary**) | `3e3f64dee22dc304cdd2546254ca1f8e8ae542b4` | **dead** — page 404, tracker returns no peers |
-| Subreddit 2005-06 → 2024-12 | `1614740ac8c94505e4ecb9d88be8bed7b6afddd4` | **dead** — 404, no peers |
-| Subreddit 2005-06 → 2023-12 | `56aa49f9653ba545f48df2e33679f014d2829c10` | **dead** — 404, no peers |
-| Reddit full 2005-06 → 2025-06 | `30dee5f0406da7a353aff6a8caa2d54fd01f2ca1` | **dead** — 404, no peers |
-| Reddit full 2005-06 → 2023-12 | `9c263fc85366c1ef8f5bb9da0203f4c8c8db75f4` | **dead** — 404, no peers |
-| **Reddit monthly 2025-06** | `bec5590bd3bc6c0f2d868f36ec92bec1aff4480e` | **alive** — ~13 seeders |
-| **Reddit monthly 2025-07** | `b6a7ccf72368a7d39c018c423e01bc15aa551122` | **alive** — ~17 seeders |
-| **Reddit monthly 2026-01** | `8412b89151101d88c915334c45d9c223169a1a60` | **alive** — ~23 seeders |
+Start with the [collection catalogue](collections/README.md) and
+[collection workflow](collections/WORKFLOW.md). For historical fetches,
+destinations, and recovery notes, see the
+[operations log](docs/operations/collection-log.md).
 
-Note the `.torrent` *metadata* for the dead hashes still downloads (HTTP 200) and passes infohash verification, but the swarm is empty — `aria2c` will hang at 0%. Do not treat a successful `--dry-run` as proof the data is fetchable.
+## Repository map
 
-**What survives, and the acquisition strategy it implies:**
+| Path | Purpose |
+| --- | --- |
+| [`collections/`](collections/README.md) | Domain scopes, catalogues, selections, targets, and inventories |
+| [`COLLECTION_PROGRESS.md`](COLLECTION_PROGRESS.md) | Collection progress for VS Code Markdown Preview |
+| [`collections/schemas/`](collections/schemas/) | JSON Schema references for catalogue and inventory files |
+| [`scripts/`](scripts/) | Catalogue, acquisition, inspection, loading, and reporting commands |
+| [`docs/`](docs/README.md) | Cross-collection documentation and operational history |
+| `data/` | Local raw and derived data; ignored by Git |
 
-1. **Arctic Shift API** (`arctic-shift.photon-reddit.com`) — live, full history, but per-subreddit and rate-limited. **This is now the only source for pre-2025-06 per-subreddit history**, and it is the *fragile* source: a live API Reddit can switch off at any time. Capture the subreddits you care about here **first**. → [scripts/fetch_subreddit.py](scripts/fetch_subreddit.py).
-2. **Recent monthly full-corpus torrents** (2025-06 onward) — still seeded, ~15-20 GB compressed each, containing *every* subreddit for one month (single `RC_YYYY-MM.zst` / `RS_YYYY-MM.zst` files, **not** per-subreddit). Resilient once downloaded (bittorrent can't be clawed back), but seeders are dwindling — grab soon and **seed back**. These serve as both a recent-months archive and a superset backfill.
+Raw captures use a shared flat layout:
 
-**Data format** (unchanged): zstandard-compressed newline-delimited JSON (`.zst` of `.ndjson`), one object per line, separate files for `comments` and `submissions`.
-- Compression caveat: Files use a non-standard window size (`2^31`); naive `zstd`/`zstandard` decoders fail with *"Frame requires too much memory for decoding"*. Use `zstandard.ZstdDecompressor(max_window_size=2**31)` or the helpers in [Watchful1/PushshiftDumps](https://github.com/Watchful1/PushshiftDumps).
-- Lineage: Originally seeded from Pushshift dumps; from 2024-04 onward maintained as `.zst` only by u/Watchful1 / Arthur Heitmann's Arctic Shift pipeline. Pushshift itself was shut down in mid-2023 after Reddit's API changes.
+```text
+data/raw/<subreddit>_submissions.zst
+data/raw/<subreddit>_comments.zst
+```
 
-## Systematic data-quality assessment
+A subreddit can belong to several domain collections without duplicating its
+raw files.
 
-The dataset is the most comprehensive Reddit corpus publicly available, but it is **not complete**. Quality varies by era; checks must be run before any analytic claim.
+## Requirements and installation
 
-### 1. Known structural gaps
+- Python 3.11 or newer (`tomllib` is used by the collection tooling)
+- `pip`
+- MongoDB only when using the loader
+- `aria2c` only for the legacy torrent script
 
-| Era | Source | Known issues |
-|---|---|---|
-| 2005-06 → ~2018 | Pushshift live-ingest | Dangling parent/link references; ~0.043% of comments and ~0.65% of submissions estimated missing; under-coverage during Pushshift outages. See Gaffney & Matias 2018 (*Caveat emptor*) and Hessel's [gap analysis](https://www.cs.cornell.edu/~jhessel/reddit/gaps.html). |
-| ~2018 → 2022 | Pushshift mature | Higher fidelity, but score/edit fields reflect a snapshot near ingest time, not the final state. Deleted/removed content is captured pre-deletion only when ingested in time. |
-| 2023-04 → 2023-06 | Reddit API blackout / Pushshift wind-down | Substantial degradation; many subreddits went private during the June 2023 protest. Treat this window as partially missing. |
-| 2023-07 → 2024-03 | Reformatted by Arctic Shift, additional sources merged | Improved relative to raw Pushshift but methodology differs; field semantics may shift. |
-| 2024-04 → 2025-12 | Arctic Shift only | Single-source; no longer cross-validated against Pushshift. Coverage of small/new/quarantined subreddits is the main risk. |
-
-### 2. Field-level concerns
-
-- **`score`, `ups`, `num_comments`** – snapshot at ingest, not final; useless for "final score" research without re-fetching via Reddit API.
-- **`body`, `selftext`** – `[deleted]` / `[removed]` reflect status *at ingest*; original text is preserved only if Pushshift/Arctic Shift saw it before deletion.
-- **`author`** – becomes `[deleted]` after account deletion; same caveat.
-- **`edited`** – boolean/timestamp captures only the state seen at ingest; later edits are not tracked.
-- **`subreddit`, `subreddit_id`** – consistent, but renamed/banned subreddits keep historical names.
-- **NSFW / quarantined / private subreddits** – under-represented, especially post-2023.
-
-### 3. Validation checklist
-
-Before using any slice of this dataset, run:
-
-1. **Volume sanity check** – count rows per month per subreddit; compare against published Pushshift monthly totals and Arctic Shift release notes. Flag months that deviate >10%.
-2. **Sequential-id audit** – `id` fields are base-36 monotonically increasing per object type. Sort by id, look for gaps; quantify "unknown unknowns".
-3. **Reference closure** – for a sample of comments, confirm `parent_id` / `link_id` resolve to a row in the same dump. Report dangling-reference rate.
-4. **Deletion-state distribution** – fraction of `[deleted]` / `[removed]` per month; spikes indicate ingest issues.
-5. **Schema drift** – diff JSON keys between e.g. 2012, 2018, 2022, 2024 samples; document fields that appear/disappear.
-6. **Duplicate detection** – `(id, subreddit)` should be unique; duplicates indicate merge-pipeline bugs.
-7. **Spot-check vs live API** – sample 1k IDs, fetch via official Reddit API or Arctic Shift API, compare `body`/`score`/`removed_by_category`. Quantifies post-ingest mutation.
-8. **Time-zone and `created_utc`** – confirm monotone ordering per subreddit; epoch values.
-
-Each check should emit a small JSON/Parquet report committed alongside the data so downstream users can see the quality envelope.
-
-## Data-gathering plan
-
-### Phase 0 — Decide what we actually need
-
-Before downloading ~2+ TB of compressed data, narrow the scope:
-
-- Which subreddits? (Drives the Track A allowlist; the per-subreddit torrent that once made large lists cheap is gone.)
-- Which time window?
-- Comments, submissions, or both?
-- Do we need post-ingest mutations (final score, current deletion state)?
-
-### Phase 1 — Acquisition (post-takedown strategy)
-
-The per-subreddit bulk torrent is gone (see the **Source availability** section at the top). Acquisition is now a two-track capture, ordered by how fast each source can disappear.
-
-**Track A — Arctic Shift API for target subreddits (do first; fragile source).**
-The API is the only remaining source for full per-subreddit history, and Reddit can switch it off at any time — so pull the subreddits you care about before anything else.
-
-1. Define the subreddit allowlist (`subs.txt`, one per line).
-2. `python scripts/fetch_subreddit.py <sub> --kind both --outdir data/raw` for each, full history. Resumable via sidecar `.cursor` files.
-3. Verify each file: zstd frame check + line-count + `created_utc` min/max. Optionally `scripts/assess_subreddit.py` for a quality report.
-
-**Track B — recent monthly full-corpus torrents (resilient, but seeders dwindling).**
-Grab the still-seeded monthly dumps (2025-06 onward) as a recent-months archive and superset backfill. These are month-partitioned full-corpus files — one `RC_YYYY-MM.zst` + `RS_YYYY-MM.zst` covering *all* subreddits — so selective per-subreddit download does **not** apply; you download whole months and filter locally.
-
-1. Install a headless BitTorrent client (`aria2c --enable-dht`, `transmission-daemon`, or `qbittorrent-nox`).
-2. Fetch each monthly `.torrent` from Academic Torrents (infohashes in the availability table above; re-scrape the tracker to confirm live seeders before committing).
-3. Download whole months to disk (~15-20 GB compressed each; budget ~1 TB for a full 2025-06→present series).
-4. **Seed back** — these swarms are thin and this data now survives only through community seeders.
-5. Filter target subreddits out of the monthly megafiles into the repo's per-sub `<sub>_{comments,submissions}.zst` layout (streaming, `max_window_size=2**31`); `load_to_mongo.py` dedupes against Track A by Reddit `id`.
-
-Further fallbacks:
-1. Direct HTTPS mirror via Arctic Shift's [download links](https://github.com/ArthurHeitmann/arctic_shift/blob/master/download_links.md).
-2. PullPush API (`api.pullpush.io`) for full-text search across all of Reddit (slower, rate-limited).
-3. Official Reddit API via PRAW for live state and post-2025 data.
-
-**Single-subreddit fetch via the API (Track A)** — the primary path now; also appropriate for niche/small subs (up to roughly low millions of items) or a quick quality-assessment pull:
+From the repository root:
 
 ```bash
-# Full pull of one subreddit (both kinds) into data/raw/<sub>_{submissions,comments}.zst
-python scripts/fetch_subreddit.py linusrants --kind both --outdir data/raw
+python -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
 
-# Bounded by epoch range, e.g. all of 2020 only
-python scripts/fetch_subreddit.py linusrants --after 1577836800 --before 1609459200
+The Python dependencies are `zstandard` and `pymongo`. There is no package
+installation step, test suite, linter configuration, or build step.
 
-# Fetch + emit a quality report (count, time range, deleted-body share, suspicious gaps)
+## Safe first steps
+
+These commands make no network requests and do not connect to MongoDB:
+
+```bash
+# Show collection states and list sizes.
+python scripts/collect.py list
+
+# Show selected targets and local raw-file coverage.
+python scripts/collect.py status linux
+
+# Audit a collection's local structure and selection gates.
+python scripts/audit_collection.py movies
+
+# Render a catalogue to standard output.
+python scripts/report_catalog.py movies
+```
+
+All current `targets.txt` files may be empty while collection design is in
+progress. That is intentional: candidate lists are not download queues.
+
+## Progress dashboard
+
+Refresh the Markdown dashboard from the repository root:
+
+```bash
+python scripts/report_progress.py
+```
+
+Open `COLLECTION_PROGRESS.md` in VS Code and run **Markdown: Open Preview**
+(`Ctrl+Shift+V` on Windows/Linux or `Cmd+Shift+V` on macOS). No server, open
+port, or browser process is required. The report groups progress by collection
+theme and subreddit using the collection manifests, catalogues, optional
+`progress.md` logs, and local raw files.
+
+## Collection workflow
+
+The full procedure, file roles, and review rules are in
+[collections/WORKFLOW.md](collections/WORKFLOW.md). The operational sequence is:
+
+### 1. Define and catalogue candidates
+
+Write the research boundary in `scope.md`, then add candidate names to
+`subreddits.txt`, one name per line without the `r/` prefix.
+
+```bash
+# Networked: query Arctic Shift and update factual catalogue fields.
+python scripts/catalog_subreddits.py movies
+
+# Local only: remove catalogue rows no longer present in subreddits.txt.
+python scripts/catalog_subreddits.py movies --prune-only
+
+# Generate a reviewable Markdown snapshot.
+python scripts/report_catalog.py movies \
+  --output collections/movies/report.md
+```
+
+The catalogue command preserves manual classification and selection fields.
+Metadata such as subscriber and archive counts is a dated snapshot, not a
+guarantee of current state or download completeness.
+
+### 2. Review and select a panel
+
+Document the sampling rationale in `selection.md`. For each target:
+
+- add the canonical name to `targets.txt`;
+- set `selection.selected` to `true` in its `catalog.json` entry; and
+- ensure `verification.status` is `verified`.
+
+Then run:
+
+```bash
+python scripts/audit_collection.py movies
+```
+
+The audit checks the catalogue envelope, duplicate name-list entries, target
+presence, verification state, selection flags, active-without-targets errors,
+and local raw-file coverage. It is not a full JSON Schema validator.
+
+### 3. Acquire reviewed targets
+
+Only `collect.py fetch` is state-gated. It requires a non-empty reviewed target
+list and `state = "active"` in `collection.toml`; it also runs the audit before
+making API requests.
+
+```bash
+python scripts/collect.py fetch movies --kind both --outdir data/raw
+```
+
+To fetch one subreddit outside collection orchestration:
+
+```bash
+# Full available history.
+python scripts/fetch_subreddit.py wikipedia --kind both --outdir data/raw
+
+# A bounded experiment. Use a scratch directory so its cursor and partial data
+# cannot be mistaken for a full-history capture.
+python scripts/fetch_subreddit.py wikipedia \
+  --after 1577836800 \
+  --before 1609459200 \
+  --outdir data/scratch/wikipedia-2020
+```
+
+The fetcher appends zstd frames and stores a resume timestamp in
+`<subreddit>_<kind>.cursor`. Keep each raw file and its cursor together. Do not
+reuse an output directory for a different time window. If a process is killed
+while writing, validate or replace the affected file before resuming; an
+incomplete final zstd frame can make later reads fail.
+
+The cursor advances by timestamp. When a page contains more same-second items
+than the API returns, the current implementation may skip records at that
+timestamp. Treat completeness as something to measure, not assume.
+
+### 4. Inspect and assess raw captures
+
+```bash
+# Preview records without opening a MongoDB connection.
+python scripts/smoke_load_to_mongo.py wikipedia \
+  --kind submissions \
+  --num 3
+
+# Summarize observed fields and types.
+python scripts/smoke_load_to_mongo.py wikipedia \
+  --kind submissions \
+  --schema \
+  --num 100
+
+# Fetch, then report counts, duplicate IDs, time range, field coverage,
+# deleted-body share, and a simple monthly-gap heuristic.
 python scripts/assess_subreddit.py linusrants
 
-# Re-report on a previously-fetched dump without hitting the API again
+# Reassess existing files without a network request.
 python scripts/assess_subreddit.py linusrants --skip-fetch
 ```
 
-Resumable: each fetch writes a sidecar `<sub>_<kind>.cursor` file every 1000 items; re-running picks up where it left off.
+`assess_subreddit.py` normalizes its subreddit argument to lowercase, while the
+fetcher preserves case in filenames. For mixed-case names, use the lowercase
+filename convention or invoke the smoke test directly on the actual files.
 
-### Phase 2 — Storage layout
+### 5. Inventory and load
 
+```bash
+# Record paths and sizes using filesystem metadata only.
+python scripts/inventory_raw.py linux --scope candidates
+
+# Also stream every matching file for counts and time edges.
+python scripts/inventory_raw.py linux --scope candidates --scan
+
+# Load reviewed targets into MongoDB.
+python scripts/collect.py load linux \
+  --kind both \
+  --mongo-uri mongodb://localhost:27017 \
+  --db reddit
 ```
+
+`--scan` fully decompresses each file and can take a long time. Inventory paths
+are absolute local paths, so refresh the inventory after moving data. The
+inventory command copies the manifest's intended MongoDB destination but does
+not query MongoDB; destination fields alone do not prove that records were
+loaded.
+
+Unlike `fetch`, `collect.py load` is not gated by collection state and does not
+automatically read `mongo_uri` or `mongo_database` from `collection.toml`.
+Pass the destination explicitly. The underlying loader skips missing input
+files with a warning and upserts by Reddit `id`, making repeated loads
+idempotent.
+
+## Command reference
+
+| Command | Network or external state | Purpose |
+| --- | --- | --- |
+| `collect.py list` | None | List collections, states, candidates, and targets |
+| `collect.py status` | Local filesystem only | Show raw coverage for targets |
+| `report_progress.py` | Local files only; writes Markdown | Refresh `COLLECTION_PROGRESS.md` |
+| `catalog_subreddits.py` | Arctic Shift, except `--prune-only` | Verify names and refresh metadata |
+| `report_catalog.py` | Local filesystem only | Render a Markdown catalogue |
+| `audit_collection.py` | Local filesystem only | Check selection gates and raw coverage |
+| `collect.py fetch` | Arctic Shift; writes raw files | Fetch all reviewed targets sequentially |
+| `fetch_subreddit.py` | Arctic Shift; writes raw files | Fetch one subreddit |
+| `assess_subreddit.py` | Arctic Shift unless `--skip-fetch` | Fetch and/or print a quality report |
+| `smoke_load_to_mongo.py` | Local filesystem only | Preview records or observed schema |
+| `inventory_raw.py` | Local filesystem; writes inventory | Record local raw holdings |
+| `collect.py load` | MongoDB | Load all reviewed targets |
+| `load_to_mongo.py` | MongoDB | Load one or more named subreddits |
+| `torrent_fetch.py` | Academic Torrents and BitTorrent | Legacy selective torrent client |
+
+Every command supports `--help`.
+
+## Source availability
+
+Source availability is volatile. Recheck endpoints, torrent listings, peer
+counts, data-use terms, and institutional requirements before starting a large
+collection.
+
+### Dated source snapshot: 2026-07-26
+
+The maintainer of the Reddit dumps
+[announced their withdrawal from Academic Torrents](https://www.reddit.com/r/pushshift/comments/1v50ved/upon_reddits_request_i_am_taking_down_my_academic/)
+at Reddit's request. At the time of the repository's check:
+
+- the full-history, subreddit-partitioned torrent hard-coded in
+  `torrent_fetch.py` had no peers, even though its `.torrent` metadata remained
+  downloadable;
+- other full-history torrents checked by the project also had no peers;
+- some month-partitioned, full-corpus torrents still had peers; and
+- the Arctic Shift search API responded successfully.
+
+Treat those as dated observations, not current guarantees. A successful
+`torrent_fetch.py --dry-run` verifies metadata and file selection only; it does
+not prove that peers can serve the data.
+
+The repository currently implements per-subreddit acquisition through the
+Arctic Shift API. Recent monthly torrents contain whole-month `RC_YYYY-MM.zst`
+and `RS_YYYY-MM.zst` files for all subreddits. This repository does not yet
+implement downloading or filtering those monthly files. The legacy
+`torrent_fetch.py` only understands the withdrawn, subreddit-partitioned
+torrent and should be considered archival code.
+
+## Data format and storage
+
+Raw files are zstandard-compressed newline-delimited JSON, with separate files
+for submissions and comments. Reddit dump files can require a decoder window
+of `2^31`; naive decoders may fail with “Frame requires too much memory for
+decoding.” Repository readers use:
+
+```python
+zstandard.ZstdDecompressor(max_window_size=2**31)
+```
+
+The implemented layout is:
+
+```text
 data/
-  raw/                  # untouched .zst from torrent, never modified
+  raw/
     <subreddit>_comments.zst
+    <subreddit>_comments.cursor
     <subreddit>_submissions.zst
-  parquet/              # columnar, partitioned by year-month
-    comments/year=YYYY/month=MM/<subreddit>.parquet
-    submissions/year=YYYY/month=MM/<subreddit>.parquet
-  qa/                   # output of validation checklist above
-    <subreddit>/<check>.json
+    <subreddit>_submissions.cursor
+  torrent/
+    <infohash>.torrent
 ```
 
-`.zst` is kept for reproducibility; analytic code reads Parquet.
+Parquet normalization, structured QA artefacts, and monthly-torrent filtering
+are planned but not implemented.
 
-### Phase 3 — Decode and normalise
+## Data-quality limitations
 
-- Streaming decode with `zstandard.ZstdDecompressor(max_window_size=2**31).stream_reader(...)` → `io.TextIOWrapper` → line-by-line `orjson.loads`.
-- Project to a stable schema (a documented subset of fields) before writing Parquet; keep raw JSON in an overflow column for forensic queries.
-- Process in chunks (e.g. 100k rows) to bound memory; parallelise across files, not within a file.
-- Code lives under `scripts/`; mirror the directory shape of [Watchful1/PushshiftDumps](https://github.com/Watchful1/PushshiftDumps) where useful (`filter_file.py`, `combine_folder_multiprocess.py`, `to_csv.py`).
+Archived Reddit data is not a faithful final-state copy of Reddit:
 
-### Phase 4 — Enrichment (optional, only if needed)
+- coverage varies by source and time period;
+- scores, edit state, deletion state, and comment counts are snapshots;
+- deleted or removed text is available only when captured before removal;
+- schema and field semantics change over time;
+- private, quarantined, banned, small, and new communities may be
+  under-represented; and
+- API pagination, interrupted writes, source outages, and merges can introduce
+  gaps or duplicates.
 
-- Re-fetch a sample (or all) target IDs via Reddit API to capture final score and current deletion state. Store as a sidecar table joined on `id`.
-- Cross-link with external corpora (e.g. Hessel's gap reports, prior research datasets) by `id`.
+The implemented assessment reports counts, unique IDs, time ranges, monthly
+volume, common field types, and deleted-body share. It does not establish
+completeness. Before publication, also consider:
 
-### Phase 5 — Quality-gate publication
+1. comparing monthly volume with an independent source;
+2. checking duplicate IDs and malformed records;
+3. measuring unresolved `parent_id` and `link_id` references;
+4. tracking deletion-state and schema drift over time;
+5. documenting acquisition dates, source URLs or hashes, and exact target
+   lists; and
+6. creating a data card that records known gaps and transformations.
 
-No downstream artefact ships without:
-- The QA checklist outputs from Phase 1/3.
-- A `DATA_CARD.md` per derived dataset documenting source torrent hash, time range, subreddit list, schema, known gaps, and the date Reddit-API enrichment was run.
+Do not interpret gaps between IDs inside a subreddit as missing records:
+Reddit IDs are assigned across the platform, so such gaps are expected.
 
-## Open questions
+## Responsible use
 
-- Hard upper bound on disk and bandwidth budget?
-- Subreddit allowlist (drives Phase 0 → Phase 1 scope)?
-- Is post-ingest mutation (final score, current deletion state) in scope, or is ingest-time state acceptable?
-- Storage target: local disk, S3/R2, or institutional NAS?
-- Legal/IRB review needed before redistributing derived artefacts?
+Reddit data can contain personal, sensitive, deleted, or subsequently edited
+material. Before collecting, analysing, or redistributing it:
+
+- follow applicable law, platform terms, research-ethics review, and
+  institutional policy;
+- collect only what the research question requires;
+- protect raw data and avoid publishing identifiable text unnecessarily;
+- document retention and deletion procedures; and
+- distinguish public availability from ethical permission to reuse data.
+
+## Roadmap
+
+- Download and filter recent monthly full-corpus torrents.
+- Normalize raw NDJSON into a documented Parquet schema.
+- Emit machine-readable QA reports rather than console-only summaries.
+- Add automated tests, formatting, and JSON Schema validation.
+- Produce a data card for each published derived dataset.
 
 ## References
 
-- Academic Torrents listing (subreddit dump, now 404 — withdrawn): https://academictorrents.com/details/3e3f64dee22dc304cdd2546254ca1f8e8ae542b4
-- Takedown announcement: https://www.reddit.com/r/pushshift/comments/1v50ved/upon_reddits_request_i_am_taking_down_my_academic/
-- Watchful1, *PushshiftDumps* (helper scripts, decompression notes): https://github.com/Watchful1/PushshiftDumps
-- ArthurHeitmann, *Arctic Shift* (Pushshift successor, dumps + API): https://github.com/ArthurHeitmann/arctic_shift
-- Arctic Shift web UI: https://arctic-shift.photon-reddit.com/
-- Baumgartner et al., *The Pushshift Reddit Dataset*, ICWSM 2020: https://arxiv.org/abs/2001.08435
-- Gaffney & Matias, *Caveat emptor, computational social science: Large-scale missing data in a widely-published Reddit corpus*, PLOS ONE 2018: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6034852/
-- Hessel, *Reddit Dataset Update* (gap analysis): https://www.cs.cornell.edu/~jhessel/reddit/gaps.html
-- Wellformedness, *Streaming decompression for the Reddit dumps*: https://www.wellformedness.com/blog/streaming-decompression-reddit-dumps/
+- [Academic Torrents legacy subreddit dump](https://academictorrents.com/details/3e3f64dee22dc304cdd2546254ca1f8e8ae542b4)
+- [Withdrawal announcement](https://www.reddit.com/r/pushshift/comments/1v50ved/upon_reddits_request_i_am_taking_down_my_academic/)
+- [Watchful1/PushshiftDumps](https://github.com/Watchful1/PushshiftDumps)
+- [ArthurHeitmann/arctic_shift](https://github.com/ArthurHeitmann/arctic_shift)
+- [Arctic Shift web interface](https://arctic-shift.photon-reddit.com/)
+- [Baumgartner et al., “The Pushshift Reddit Dataset”](https://arxiv.org/abs/2001.08435)
+- [Gaffney and Matias, “Caveat emptor, computational social science”](https://pmc.ncbi.nlm.nih.gov/articles/PMC6034852/)
+- [Hessel, “Reddit Dataset Update”](https://www.cs.cornell.edu/~jhessel/reddit/gaps.html)

@@ -1,0 +1,4 @@
+title = "Movies"
+state = "planning"
+mongo_database = "reddit"
+notes = "Systematic discovery and catalogue design in progress."

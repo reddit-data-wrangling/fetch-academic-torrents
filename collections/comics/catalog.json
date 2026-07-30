@@ -1,0 +1,3430 @@
+{
+  "schema_version": 1,
+  "collection": "comics",
+  "communities": [
+    {
+      "subreddit": "AlanMoore",
+      "classification": {
+        "category": "",
+        "primary_topic": "Everything Alan Moore related is welcome here. Moore's comics, books, magazines interviews, review, essays and even things that he might not have direct relation to but that you feel deep in your heart captures the essence of Alan Moore's mythos.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 12145,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 5052,
+        "comments": 48449,
+        "earliest_post": "2011-10-08",
+        "earliest_comment": "2011-11-01"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=AlanMoore"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "altcomix",
+      "classification": {
+        "category": "",
+        "primary_topic": "This subreddit is for alternative comics, art comics, gekiga, and underground comix; for independent comics please visit r/indiecomics.  For more information about the comics found on this subreddit, please see the r/altcomix/wiki.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 15630,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 15293,
+        "comments": 43007,
+        "earliest_post": "2012-11-16",
+        "earliest_comment": "2012-11-21"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=altcomix"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Avengers",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 294188,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 62208,
+        "comments": 790771,
+        "earliest_post": "2011-02-03",
+        "earliest_comment": "2011-12-19"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Avengers"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "batman",
+      "classification": {
+        "category": "",
+        "primary_topic": "The Dark Knight.  The Caped Crusader.  The World's Greatest Detective.  Ol' Pointy Ears.  A place to discuss the Batman and all things Batman related.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 767901,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 327608,
+        "comments": 5268073,
+        "earliest_post": "2009-01-19",
+        "earliest_comment": "2009-01-19"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=batman"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "bdfrancophonie",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=bdfrancophonie"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Berserk",
+      "classification": {
+        "category": "",
+        "primary_topic": "For fans of the manga Berserk and its adaptations.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 592193,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 199611,
+        "comments": 2826472,
+        "earliest_post": "2010-05-19",
+        "earliest_comment": "2010-09-03"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Berserk"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "bleach",
+      "classification": {
+        "category": "",
+        "primary_topic": "A community for the manga/anime series Bleach and it's spinoff series Burn the Witch. Banner by /u/Aluip",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1357148,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 246534,
+        "comments": 4837938,
+        "earliest_post": "2010-03-05",
+        "earliest_comment": "2010-03-18"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Bleach"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "boomstudios",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to r/boomstudios, an unofficial subreddit dedicated to BOOM! Studios comic books and characters.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 2573,
+        "created_year": 2016,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1208,
+        "comments": 3360,
+        "earliest_post": "2016-08-23",
+        "earliest_comment": "2016-08-23"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=boomstudios"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "BPRD",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=BPRD"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "BronzeAgeComics",
+      "classification": {
+        "category": "",
+        "primary_topic": "We love 70's comics! Give me my Luck Cage, Ms. Marvel, and Master of Kung Fu! Superman vs. Muhammad Ali! Conan! Green Lantern / Green Arrow!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 738,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 475,
+        "comments": 206,
+        "earliest_post": "2014-04-22",
+        "earliest_comment": "2014-04-22"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=BronzeAgeComics"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "cartoonists",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=cartoonists"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "CGCComics",
+      "classification": {
+        "category": "",
+        "primary_topic": "Subreddit for all things CGC, from grading tips to submission guides to shipping tutorials ... to, of course, sweet, sweet pictures of your CGC slabs.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 8067,
+        "created_year": 2015,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 9584,
+        "comments": 90724,
+        "earliest_post": "2015-10-04",
+        "earliest_comment": "2016-06-24"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=CGCComics"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "ChainsawMan",
+      "classification": {
+        "category": "",
+        "primary_topic": "Warning- Too many unmarked spoilers Ahead.\nThe largest Chainsaw Man community on the internet!\nIf you are anime only then head to r/CSMAnime",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1350815,
+        "created_year": 2018,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 190915,
+        "comments": 1808830,
+        "earliest_post": "2018-11-28",
+        "earliest_comment": "2018-12-03"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ChainsawMan"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "characterdesign",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to r/characterdesign! This subreddit is all about sharing and learning character design. Join us if you love creating characters for animations, games, and more. It's a place to showcase your work, get tips, and connect with fellow character design enthusiasts!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 27169,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 35533,
+        "comments": 169806,
+        "earliest_post": "2014-01-03",
+        "earliest_comment": "2017-06-03"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=CharacterDesign"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "comic_crits",
+      "classification": {
+        "category": "",
+        "primary_topic": "The mission of /r/Comic_Crits is to provide holistic feedback to comic creators based on the understanding that a comic is not just 'writing plus art', but rather a unique combination of both, bound together with elements of graphic design, layout, timing, 'cinematography,' and more.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 11037,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 10195,
+        "comments": 61657,
+        "earliest_post": "2010-09-06",
+        "earliest_comment": "2010-09-06"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=comic_crits"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "comicbook",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1115,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 375,
+        "comments": 290,
+        "earliest_post": "2013-01-16",
+        "earliest_comment": "2013-10-21"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=comicbook"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "comicbookart",
+      "classification": {
+        "category": "",
+        "primary_topic": "Art about comic books.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 102304,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 58413,
+        "comments": 149756,
+        "earliest_post": "2011-06-30",
+        "earliest_comment": "2012-10-22"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ComicBookArt"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "ComicBookCollabs",
+      "classification": {
+        "category": "",
+        "primary_topic": "Creators helping creators make comics.\n\nIn addition to finding collaborators, this is a great place for feedback and advice. Post your work! Ask for help! There are lots of writers and artists who are willing to discuss and critique your work. We have plenty of members who can answer your questions and give you tips regarding publishing and breaking into the industry.\n\nNow it's all up to you! Let's make comics!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 38537,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 70370,
+        "comments": 313358,
+        "earliest_post": "2011-12-05",
+        "earliest_comment": "2011-12-05"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ComicBookCollabs"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "comicbookcollecting",
+      "classification": {
+        "category": "",
+        "primary_topic": "This subreddit is dedicated to comic books, comic magazines, and comic art collecting.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 92697,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 148600,
+        "comments": 1241140,
+        "earliest_post": "2013-07-20",
+        "earliest_comment": "2013-08-27"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ComicBookCollecting"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "comicbookgrading",
+      "classification": {
+        "category": "",
+        "primary_topic": "A community for comic book collectors wanting to share information on grading/valuing their collections personally.  Discussion on the various types of flaws that can be found on comics and how they affect the grade. Can include trying to interpret why professional grading companies gave particular grades.  Also discussion around the third-party grading companies and how and when they are beneficial.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1987,
+        "created_year": 2021,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2730,
+        "comments": 25728,
+        "earliest_post": "2021-01-07",
+        "earliest_comment": "2021-01-07"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=comicbookgrading"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "ComicBookPorn",
+      "classification": {
+        "category": "",
+        "primary_topic": "High quality images of comic books.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 67166,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 3521,
+        "comments": 5380,
+        "earliest_post": "2011-08-30",
+        "earliest_comment": "2013-07-31"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=comicbookporn"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "comicbookreadingclub",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=comicbookreadingclub"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "comicbooks",
+      "classification": {
+        "category": "",
+        "primary_topic": "A reddit for fans of comic books, graphic novels, and digital comics.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 4018991,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 526674,
+        "comments": 7571370,
+        "earliest_post": "2008-03-28",
+        "earliest_comment": "2008-03-28"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=comicbooks"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "comicbookshelves",
+      "classification": {
+        "category": "",
+        "primary_topic": "Show off your comic shelves, hauls, walls, and boxes!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 10161,
+        "created_year": 2019,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 4384,
+        "comments": 33032,
+        "earliest_post": "2019-12-04",
+        "earliest_comment": "2019-12-22"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=comicbookshelves"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "comiccon",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to r/comiccon, a subreddit covering news, updates, and assistance with attending comic con and popular culture events from your region and from all over the world. This subreddit offers help and information for attending and vending at the conventions, this is a place for sharing your experiences from the cons you attend, and join in with a community of attendees who enjoy similar interests.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 57759,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 39456,
+        "comments": 251277,
+        "earliest_post": "2009-06-02",
+        "earliest_comment": "2010-03-21"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=comiccon"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "ComicFury",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ComicFury"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "comicreadingorders",
+      "classification": {
+        "category": "",
+        "primary_topic": "Dedicated to providing lists for the best experience possible when reading through a comic book event, arc, or character's history.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 6268,
+        "created_year": 2015,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1722,
+        "comments": 5959,
+        "earliest_post": "2015-06-03",
+        "earliest_comment": "2015-06-03"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=comicreadingorders"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "comics",
+      "classification": {
+        "category": "",
+        "primary_topic": "Everything related to print comics (comic books, graphic novels, and strips) and web comics.  Artists are encouraged to post their own work.  News and media for adaptations based on comic books are welcome. Read [the subreddit wiki](https://www.reddit.com/r/comics/wiki/index) for more information about the subreddit.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 2676676,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 895611,
+        "comments": 7539769,
+        "earliest_post": "2008-01-25",
+        "earliest_comment": "2008-01-25"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=comics"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "comicspeculation",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=comicspeculation"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "ComicStudies",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ComicStudies"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "comicswap",
+      "classification": {
+        "category": "",
+        "primary_topic": "Need to make room for more comics? Perhaps you have an empty shelf or long box to fill up? Always looking in the back issues of your LCS? Well this is the place for you! Find kicking deals or make some quick PayPal scrap.   \n  \nWe only allow the bartering/selling/buying of comic books and comic book-related swag.\n\nWe have some rules, but so does the Justice League. We would appreciate your attention to them. Have fun swapping and good luck finding the comics you want!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 32684,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 79582,
+        "comments": 724759,
+        "earliest_post": "2011-08-16",
+        "earliest_comment": "2011-08-16"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=comicswap"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "cosplay",
+      "classification": {
+        "category": "",
+        "primary_topic": "/r/cosplay: is a  community where Cosplayers of all ages, and talent levels can post their work.  Read the community rules in full here: https://www.reddit.com/r/cosplay/wiki/rules/  before posting.  No NSFW content (our definition, not yours), no advertising, or pay sites of any kind.  Violation of the rules typically result in being banned.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 2331344,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 358442,
+        "comments": 1434261,
+        "earliest_post": "2008-07-27",
+        "earliest_comment": "2008-07-29"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=cosplay"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "CosplayHelp",
+      "classification": {
+        "category": "",
+        "primary_topic": "This subreddit is for anyone who needs help with their cosplay. This includes armor making, sewing, wig help, etc.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 35901,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 56786,
+        "comments": 294182,
+        "earliest_post": "2014-01-24",
+        "earliest_comment": "2014-01-28"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=CosplayHelp"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Daredevil",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit for discussion of the Marvel character Daredevil.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 122355,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 56529,
+        "comments": 732972,
+        "earliest_post": "2014-05-28",
+        "earliest_comment": "2014-07-14"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Daredevil"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "darkhorse",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=darkhorse"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "darkhorsecomics",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 10774,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 3250,
+        "comments": 7216,
+        "earliest_post": "2011-07-18",
+        "earliest_comment": "2011-09-16"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=DarkHorseComics"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "DCcomics",
+      "classification": {
+        "category": "",
+        "primary_topic": "The unofficial DC Comics Subreddit\n\nA place for fans of DC's comics, graphic novels, movies, and anything else related to one of the largest comic book publishers in the world and home of the World's Greatest Superheroes!\n\nFeaturing weekly comic release discussions, creator AMAs, a friendly and helpful userbase, and much more!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1163814,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 438672,
+        "comments": 5322919,
+        "earliest_post": "2008-08-26",
+        "earliest_comment": "2010-09-27"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=DCcomics"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "deadpool",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit for all things about me! Talk about the best Marvel antihero (me) and my exploits, whether it be comic, or upcoming movie, or more!\n\n'DEADPOOL AND WOLVERINE' in theaters July 26.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 539188,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 43388,
+        "comments": 347571,
+        "earliest_post": "2009-07-18",
+        "earliest_comment": "2009-07-18"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Deadpool"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "FantasticFour",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to the Baxter Building of Reddit",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 35692,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 22476,
+        "comments": 415554,
+        "earliest_post": "2012-12-08",
+        "earliest_comment": "2013-07-17"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=FantasticFour"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "FionaStaples",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=FionaStaples"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "GeoffJohns",
+      "classification": {
+        "category": "",
+        "primary_topic": "An unofficial subreddit for all things that Geoff Johns has written! Including series such as Green Lantern, Aquaman, Avengers, and his newest, Ghost Machine!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 574,
+        "created_year": 2025,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 588,
+        "comments": 3683,
+        "earliest_post": "2025-06-03",
+        "earliest_comment": "2025-06-03"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=GeoffJohns"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "GlobalComix",
+      "classification": {
+        "category": "",
+        "primary_topic": "The official community for GlobalComix readers, creators, and publishers.\n\nYou can visit GlobalComix at https://globalcomix.com",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 965,
+        "created_year": 2020,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 5159,
+        "comments": 4133,
+        "earliest_post": "2021-10-29",
+        "earliest_comment": "2022-03-14"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=GlobalComix"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "GoldenAgeComics",
+      "classification": {
+        "category": "",
+        "primary_topic": "The sub-Reddit for all things Golden age Comics from Action Comics #1 To EC Comics of the 50's.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1428,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1400,
+        "comments": 2210,
+        "earliest_post": "2014-01-19",
+        "earliest_comment": "2014-01-20"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=GoldenAgeComics"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "graphicnovels",
+      "classification": {
+        "category": "",
+        "primary_topic": "Let's talk about graphic novels – from action-packed adventures to intimate memoirs, from meticulous non-fiction to wild surrealism! Share your favorites, showcase your collections, and discuss the latest graphic novel news!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 342855,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 45254,
+        "comments": 557066,
+        "earliest_post": "2008-12-28",
+        "earliest_comment": "2008-12-29"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=graphicnovels"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Greenlantern",
+      "classification": {
+        "category": "",
+        "primary_topic": "For the discussion and sharing of all that is Green Lantern related. (Including spinoff series or otherwise)",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 33864,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 22735,
+        "comments": 308540,
+        "earliest_post": "2010-11-19",
+        "earliest_comment": "2011-04-04"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=GreenLantern"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "HellBoy",
+      "classification": {
+        "category": "",
+        "primary_topic": "This subreddit is dedicated to all things Hellboy, including the comics by Mike Mignola published by Dark Horse, the films by Guillermo del Toro starring Ron Perlman, the film starring David Harbour (Stranger Things) and everything else relating to Hellboy!\n\nHellboy is the child of the demon Azzael and the witch Sarah Hughes, former B.P.R.D. agent and the unwilling Harbinger of the Apocalypse. He is also known as \"Anung Un Rama\", although this name does not exclusively refer to him.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 29640,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 11050,
+        "comments": 81286,
+        "earliest_post": "2011-08-06",
+        "earliest_comment": "2012-01-03"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Hellboy"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "homespun",
+      "classification": {
+        "category": "",
+        "primary_topic": "Homespun Reddit Theme",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 138,
+        "created_year": 2017,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 172,
+        "comments": 170,
+        "earliest_post": "2017-09-09",
+        "earliest_comment": "2017-09-10"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=HomeSpun"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "HorrorComics",
+      "classification": {
+        "category": "",
+        "primary_topic": "The creepy, the eerie, the spooky and the strange. If you want horror comic books and panels, this is the place to be!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 13520,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 6754,
+        "comments": 21801,
+        "earliest_post": "2012-04-24",
+        "earliest_comment": "2013-05-27"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=horrorcomics"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "HunterXHunter",
+      "classification": {
+        "category": "",
+        "primary_topic": "This subreddit is dedicated to the Japanese manga and anime series Hunter X Hunter, written by Yoshihiro Togashi and adapted by Nippon Animation and Madhouse. Any form of entertainment, information, or discussion centered around the world of HxH is welcome here.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1986655,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 182595,
+        "comments": 2862755,
+        "earliest_post": "2011-10-05",
+        "earliest_comment": "2011-10-06"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=HunterXHunter"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "IDWComics",
+      "classification": {
+        "category": "",
+        "primary_topic": "An unofficial subreddit for fans of IDW comics and characters - Usagi Yojimbo, G.I. Joe, Transformers, Star Trek, Sonic the Hedgehog, My Little Pony, and more!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 221,
+        "created_year": 2022,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 148,
+        "comments": 69,
+        "earliest_post": "2016-05-05",
+        "earliest_comment": "2016-06-20"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=IDWComics"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Illustration",
+      "classification": {
+        "category": "",
+        "primary_topic": "Beautifully designed.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 919454,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 265252,
+        "comments": 519861,
+        "earliest_post": "2008-10-18",
+        "earliest_comment": "2009-08-25"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Illustration"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "ImageComics",
+      "classification": {
+        "category": "",
+        "primary_topic": "Image Comics is a United States comic book publisher founded in 1992 by high-profile illustrators as a venue where creators could publish creator-owned properties. Its best-known series include Spawn, Monstress, Paper Girls, Saga, Invincible, Chew, and The Walking Dead.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 71372,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 21657,
+        "comments": 218829,
+        "earliest_post": "2012-05-01",
+        "earliest_comment": "2012-05-01"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ImageComics"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "indiecomics",
+      "classification": {
+        "category": "",
+        "primary_topic": "This subreddit is for independent genre comics; for alternative comics please visit r/altcomix.  For more information about the comics found on this subreddit, please see the r/indiecomics/wiki.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 5617,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 9502,
+        "comments": 9595,
+        "earliest_post": "2012-01-10",
+        "earliest_comment": "2013-08-05"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=indiecomics"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Invincible",
+      "classification": {
+        "category": "",
+        "primary_topic": "Invincible is an Image Comics and Amazon TV series named for its superhero, \"Invincible\" (\"Mark Grayson\"). Created by writer Robert Kirkman with artists Cory Walker & Ryan Ottley. S1, S2 & S3 are out now!\n\n\nMark Grayson is a normal teenager, except for the fact that his father Nolan is the most powerful superhero on the planet. Shortly after his seventeenth birthday, Mark begins to develop powers of his own and enters into his father's tutelage.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 345121,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 168077,
+        "comments": 2727990,
+        "earliest_post": "2011-08-19",
+        "earliest_comment": "2011-08-19"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Invincible"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "JuJutsuKaisen",
+      "classification": {
+        "category": "",
+        "primary_topic": "r/JujutsuKaisen is a subreddit dedicated to the ongoing manga and anime series \"Jujutsu Kaisen\" written and illustrated by Gege Akutami, and animated by MAPPA. Check out our sister sub r/Jujutsushi for serious manga discussion.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 2317795,
+        "created_year": 2018,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 190976,
+        "comments": 1841453,
+        "earliest_post": "2018-03-02",
+        "earliest_comment": "2018-03-02"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=JujutsuKaisen"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "junjiito",
+      "classification": {
+        "category": "",
+        "primary_topic": "/r/junjiito is dedicated to legendary award-winning horror mangaka Junji Itō (伊藤潤二) and friends like Kazuo Umezz (楳図かずお), Hideshi Hino (日野日出志), and other horror mangaka.\n\nBefore posting for the first time please review our Getting Started FAQ and Infographic.\n\n[NOTICE: This subreddit does not endorse piracy, please do not ask for or post links to piracy websites as this may result in a ban from the subreddit.]\n\n[CAUTION: Scam bots frequent this subreddit, please report suspicious posts.]",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 93929,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 25491,
+        "comments": 179065,
+        "earliest_post": "2012-04-27",
+        "earliest_comment": "2012-04-27"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=JunjiIto"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Kingdom",
+      "classification": {
+        "category": "",
+        "primary_topic": "Kingdom is a Japanese manga series written and illustrated by Yasuhisa Hara (泰久原).\n\nThe manga provides a fictionalized account of the Warring States period primarily through the experiences of the war orphan Shin (Xin) and his comrades as he fights to become the greatest general under the heavens, and in doing so, unifying China for the first time in history.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 92442,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 43009,
+        "comments": 827484,
+        "earliest_post": "2014-05-18",
+        "earliest_comment": "2014-05-18"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Kingdom"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "makecomics",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place for NEW comic creators to gain the encouragement, criticism, and support they need for forging their comics hobby or career.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 4222,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2881,
+        "comments": 4304,
+        "earliest_post": "2009-12-04",
+        "earliest_comment": "2009-12-05"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=makecomics"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "makingcomics",
+      "classification": {
+        "category": "",
+        "primary_topic": "Making Comics is a community built for the sole purpose of helping people create their comics. We are welcome to all, from the complete beginner to the most experienced",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 783,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 141,
+        "comments": 214,
+        "earliest_post": "2010-08-04",
+        "earliest_comment": "2016-06-25"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=MakingComics"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "manga",
+      "classification": {
+        "category": "",
+        "primary_topic": "Everything and anything manga!  (manhwa/manhua is okay too!)\n\nDiscuss weekly chapters, find/recommend a new series to read, post a picture of your collection, lurk, etc!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 4615063,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 941315,
+        "comments": 10192839,
+        "earliest_post": "2009-05-23",
+        "earliest_comment": "2009-07-02"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=manga"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "MangaCollectors",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1907593,
+        "created_year": 2017,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 186990,
+        "comments": 1836646,
+        "earliest_post": "2017-10-15",
+        "earliest_comment": "2017-10-15"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=MangaCollectors"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "mangadeals",
+      "classification": {
+        "category": "",
+        "primary_topic": "Post deals for manga, anime, anime figures and other related items!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1014929,
+        "created_year": 2018,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 9635,
+        "comments": 59863,
+        "earliest_post": "2018-01-09",
+        "earliest_comment": "2019-08-23"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=MangaDeals"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "mangaswap",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 585208,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 117702,
+        "comments": 904548,
+        "earliest_post": "2011-05-27",
+        "earliest_comment": "2011-05-27"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=MangaSwap"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Manhua",
+      "classification": {
+        "category": "",
+        "primary_topic": "The #1 place for manhua on reddit. Whether it be from mainland China, Taiwan, or Hong Kong, all Chinese comics are welcomed here. Discuss and share all your favorite manhua whether it be a physical comic, web manhua, webcomic, or webtoon, anything is welcomed.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 147489,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 67162,
+        "comments": 525264,
+        "earliest_post": "2012-07-23",
+        "earliest_comment": "2012-08-01"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=manhua"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "manhwa",
+      "classification": {
+        "category": "",
+        "primary_topic": "The community to discuss anything manhwa (Korean comics)!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1069066,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 364864,
+        "comments": 2672727,
+        "earliest_post": "2012-11-22",
+        "earliest_comment": "2012-11-22"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=manhwa"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Marvel",
+      "classification": {
+        "category": "",
+        "primary_topic": "This is a subreddit dedicated to Marvel Comics, its publications and hundreds of characters. It is not affiliated with Marvel Entertainment, LLC and is an unofficial community owned and operated by dedicated fans.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 3174579,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 472283,
+        "comments": 6424231,
+        "earliest_post": "2009-08-04",
+        "earliest_comment": "2009-10-29"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Marvel"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "marvelcomics",
+      "classification": {
+        "category": "",
+        "primary_topic": "For the discussion of Marvel Comics",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 78902,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 43042,
+        "comments": 515783,
+        "earliest_post": "2009-10-09",
+        "earliest_comment": "2011-07-25"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=MarvelComics"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "monstress",
+      "classification": {
+        "category": "",
+        "primary_topic": "For everything about the comic series Monstress by Marjorie Liu and Sana Takeda. Enjoy your stay!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 591,
+        "created_year": 2015,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 165,
+        "comments": 795,
+        "earliest_post": "2015-12-01",
+        "earliest_comment": "2018-08-24"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Monstress"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "MoonKnight",
+      "classification": {
+        "category": "",
+        "primary_topic": "Subreddit dedicated to Marvel's antihero Moon Knight.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 72989,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 22118,
+        "comments": 232481,
+        "earliest_post": "2012-03-30",
+        "earliest_comment": "2014-08-01"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=MoonKnight"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Naruto",
+      "classification": {
+        "category": "",
+        "primary_topic": "Everything related to the Naruto and Boruto series goes here. Although you could also talk about the topping too.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 2951726,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 567588,
+        "comments": 9891102,
+        "earliest_post": "2009-07-23",
+        "earliest_comment": "2009-10-30"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Naruto"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "neilgaiman",
+      "classification": {
+        "category": "",
+        "primary_topic": "An unofficial subreddit for discussing the works of the writer Neil Gaiman.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 25050,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 5019,
+        "comments": 105915,
+        "earliest_post": "2011-06-27",
+        "earliest_comment": "2011-06-27"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=NeilGaiman"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Nightwing",
+      "classification": {
+        "category": "",
+        "primary_topic": "For fans of Richard 'Dick' John Grayson, original Robin, current and future Nightwing, leader of the Titans and heir to the heroes of the DC Universe!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 51233,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 21939,
+        "comments": 295017,
+        "earliest_post": "2010-03-31",
+        "earliest_comment": "2010-03-31"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Nightwing"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "noDCnoMarvel",
+      "classification": {
+        "category": "",
+        "primary_topic": "a community dedicated to the enjoyment of comics, graphic novels, mangas, BDs, fumetti, etc. with a focus on lesser known books and artists",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 6078,
+        "created_year": 2021,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1843,
+        "comments": 9898,
+        "earliest_post": "2021-03-31",
+        "earliest_comment": "2021-03-31"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=noDCnoMarvel"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "noir",
+      "classification": {
+        "category": "",
+        "primary_topic": "In this subreddit you can post anything remotely related to noir and neo-noir. May it be film, drawings, books, music, clothes, people, et cetera. All are welcomed.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 33534,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 9646,
+        "comments": 29661,
+        "earliest_post": "2012-02-01",
+        "earliest_comment": "2012-04-14"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=noir"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "nuzlocke",
+      "classification": {
+        "category": "",
+        "primary_topic": "The Nuzlocke Challenge is a set of rules intended to create a higher level of difficulty while playing the Pokémon games. \n\nPost your personal stories, your comics, your favourite Nuzlocke links and pics, and anything else Nuzlocke-related.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 132149,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 218644,
+        "comments": 1232339,
+        "earliest_post": "2011-04-03",
+        "earliest_comment": "2011-04-03"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=nuzlocke"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "NYCC",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place for New York Comic Con discussions, pics, meet ups etc!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 14285,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 18276,
+        "comments": 135457,
+        "earliest_post": "2012-09-15",
+        "earliest_comment": "2012-09-18"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=NYCC"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "OmnibusCollectors",
+      "classification": {
+        "category": "",
+        "primary_topic": "For those who love to collect comic books of the large variety! Discuss anything from new releases, best buys or your favorite runs of all time!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 31639,
+        "created_year": 2015,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 59494,
+        "comments": 896282,
+        "earliest_post": "2015-09-12",
+        "earliest_comment": "2016-08-08"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=OmnibusCollectors"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "OnePiece",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to r/OnePiece, the community for Eiichiro Oda's manga and anime series One Piece. From the East Blue to the New World, anything related to the world of One Piece belongs here! If you've just set sail with the Straw Hat Pirates, be wary of spoilers on this subreddit!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 5090794,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 987569,
+        "comments": 20027189,
+        "earliest_post": "2010-01-14",
+        "earliest_comment": "2010-01-14"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=OnePiece"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "oneshots",
+      "classification": {
+        "category": "",
+        "primary_topic": "This subreddit is dedicated to manga One Shots. A One Shot is a work published as a single stand-alone story, rather than as part of an ongoing series",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 161,
+        "created_year": 2018,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 21,
+        "comments": 3,
+        "earliest_post": "2018-05-18",
+        "earliest_comment": "2018-05-18"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=OneShots"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "publishing",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit dedicated to modern & traditional publishing, for profit and for fun. All are welcome.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 34859,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 18266,
+        "comments": 91884,
+        "earliest_post": "2008-11-14",
+        "earliest_comment": "2010-04-05"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=publishing"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Robin",
+      "classification": {
+        "category": "",
+        "primary_topic": "All about the superhero(s) Robin. Posts here may contain other related characters, but one or more of the Robins should be the main focus of any post. \n\nPlease take a minute to read the few rules we have because three violations of any combination of them can result in a permanent ban.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 13700,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 5585,
+        "comments": 76211,
+        "earliest_post": "2010-10-19",
+        "earliest_comment": "2010-10-19"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Robin"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "SAGAcomic",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit dedicated to all things SAGA. A comic written by Brian K. Vaughan and illustrated by Fiona Staples. Published by image.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 21285,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 3714,
+        "comments": 38093,
+        "earliest_post": "2012-10-27",
+        "earliest_comment": "2013-01-27"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=SagaComic"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "scificomics",
+      "classification": {
+        "category": "",
+        "primary_topic": "Robots, aliens, future tech, and so much more. Welcome to reddit's home for sci-fi comics.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 561,
+        "created_year": 2021,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 733,
+        "comments": 483,
+        "earliest_post": "2019-11-30",
+        "earliest_comment": "2021-11-10"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=scificomics"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "SDCC",
+      "classification": {
+        "category": "",
+        "primary_topic": "All things San Diego Comic-Con!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 12719,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 9004,
+        "comments": 91377,
+        "earliest_post": "2012-03-08",
+        "earliest_comment": "2013-07-20"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=SDCC"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "selfpublish",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place to discuss just about everything in the world of indie books. *Not* a place for self-promotion.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 165032,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 69524,
+        "comments": 810107,
+        "earliest_post": "2011-04-04",
+        "earliest_comment": "2011-04-05"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=selfpublish"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "SequentialArt",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=SequentialArt"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "shoujo",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit dedicated to shoujo anime, manga and webtoons, including news and discussion, of all past, present, and future series, no matter how big or how small.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 187300,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 28244,
+        "comments": 376459,
+        "earliest_post": "2012-09-14",
+        "earliest_comment": "2013-01-08"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=shoujo"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Silveragecomics",
+      "classification": {
+        "category": "",
+        "primary_topic": "This is a community for old comics from the Silver Age which took place from 1958, when Jack Kirby and Stan Lee first collaborated together to 1968 when the second wave of Marvel comics began with Jim Steranko on S.H.I.E.L.D. and Neal Adams started at DC.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1049,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 944,
+        "comments": 1674,
+        "earliest_post": "2014-11-27",
+        "earliest_comment": "2015-04-28"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=SilverAgeComics"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "smallpresscomics",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=smallpresscomics"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Spawn",
+      "classification": {
+        "category": "",
+        "primary_topic": "Spawn snoo by killrmack.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 29450,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 18071,
+        "comments": 130487,
+        "earliest_post": "2013-05-29",
+        "earliest_comment": "2013-06-07"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Spawn"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Spiderman",
+      "classification": {
+        "category": "",
+        "primary_topic": "The subreddit for the Marvel character and friendly neighborhood wall crawler, Spider-Man",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1039483,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 352672,
+        "comments": 4941658,
+        "earliest_post": "2010-07-04",
+        "earliest_comment": "2011-02-28"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Spiderman"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Storyboarding",
+      "classification": {
+        "category": "",
+        "primary_topic": "Subreddit that deals with pre-visualization and pre-production for film and animation. Traditional and digital mediums.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 8945,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2870,
+        "comments": 9707,
+        "earliest_post": "2014-09-17",
+        "earliest_comment": "2014-09-17"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=storyboarding"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "superman",
+      "classification": {
+        "category": "",
+        "primary_topic": "Clark Kent. Kal-El. The Man of Steel. The Last Son of Krypton. A place to discuss Superman and all things Superman related.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 218401,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 97569,
+        "comments": 1729774,
+        "earliest_post": "2010-05-28",
+        "earliest_comment": "2010-07-20"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Superman"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "tapas",
+      "classification": {
+        "category": "",
+        "primary_topic": "From Wikipedia\n  \n> A tapa is an appetizer or snack in Spanish cuisine and translates to small portion of any kind of Spanish cuisine. Tapas may be cold or hot. In some bars and restaurants in Spain and across the globe, tapas have evolved into a more sophisticated cuisine. Tapas can be combined to make a full meal",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 193,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 104,
+        "comments": 30,
+        "earliest_post": "2020-07-03",
+        "earliest_comment": "2021-10-11"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=tapas"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "teentitans",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit to discuss the DC superhero-team, The (Teen) Titans. Discussion, cosplay images, fan art, fan fiction, tattoos, theories, and videos are welcome! Hate of any kind is not allowed here! Titans Go!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 74258,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 31673,
+        "comments": 416249,
+        "earliest_post": "2011-02-21",
+        "earliest_comment": "2011-11-15"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=TeenTitans"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "thewalkingdead",
+      "classification": {
+        "category": "",
+        "primary_topic": "The Official Subreddit of The Walking Dead TV & Comic Universe",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 2560542,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 319045,
+        "comments": 6573474,
+        "earliest_post": "2010-08-10",
+        "earliest_comment": "2010-08-24"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=TheWalkingDead"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "tomking",
+      "classification": {
+        "category": "",
+        "primary_topic": "Dedicated to Tom King, an American comic writer and screenwriter, and his works both completed and in progress.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 79,
+        "created_year": 2021,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 86,
+        "comments": 75,
+        "earliest_post": "2021-12-27",
+        "earliest_comment": "2021-12-27"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=TomKing"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "UsagiYojimbo",
+      "classification": {
+        "category": "",
+        "primary_topic": "Usagi Yojimbo is a comic book series created by Stan Sakai. It is set primarily at the beginning of the Edo period of Japanese history and features anthropomorphic animals replacing humans.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 490,
+        "created_year": 2017,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 58,
+        "comments": 244,
+        "earliest_post": "2017-07-31",
+        "earliest_comment": "2017-08-17"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=UsagiYojimbo"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "vagabond",
+      "classification": {
+        "category": "",
+        "primary_topic": "Reddits Home for HOUSELESS Travelers! Created by Vagabonds, for Vagabonds!\n\nHitchhikers / Trainhoppers / Rubbertramps / Vandwellers / Skoolies / Backpackers / Biketramps /  Boatpunks / Dirty Kids / Crustpunks / Squatters / All Houseless Travelers\n\n\nFeel free to share stories and pictures about your adventures on the road, or share advice and tips with newbie greenhorns, and curious lurkers! \n\nWARNING: DON'T BE AN OOGLE! This includes both TOURISTS, TROLLS, and FAKE TRAVELERS!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1191456,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 48862,
+        "comments": 706912,
+        "earliest_post": "2011-10-21",
+        "earliest_comment": "2013-05-05"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Vagabond"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "valiant",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place for fans new and old alike of the Valiant Universe of comic books and related media!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 5672,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 5349,
+        "comments": 37426,
+        "earliest_post": "2012-05-19",
+        "earliest_comment": "2013-01-02"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Valiant"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "WebComic",
+      "classification": {
+        "category": "",
+        "primary_topic": "[Closed Temporarily for Reddit Blackout]\n\nr/WebComics, the Place for Comics, On the Web!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 10182,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 10284,
+        "comments": 11119,
+        "earliest_post": "2010-02-18",
+        "earliest_comment": "2012-02-25"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=webcomic"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "webcomics",
+      "classification": {
+        "category": "",
+        "primary_topic": "Online comics",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 554907,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 336172,
+        "comments": 534565,
+        "earliest_post": "2008-01-25",
+        "earliest_comment": "2008-02-03"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=webcomics"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "webtoon",
+      "classification": {
+        "category": "",
+        "primary_topic": "A sub dedicated to discussing webtoons.\nLike /r/webtoons but smaller.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 27495,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 20344,
+        "comments": 32425,
+        "earliest_post": "2013-01-21",
+        "earliest_comment": "2016-03-06"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=webtoon"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "webtoons",
+      "classification": {
+        "category": "",
+        "primary_topic": "Subreddit for anything and everything webtoons and webcomics. We are welcoming of content from any webtoon platform.\n\nIncluding Tapas, Globalcomix, Namicomi and Naver Webtoon.\n\nLogo provided by u/makeaboomboom",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 170321,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 115928,
+        "comments": 976773,
+        "earliest_post": "2014-05-08",
+        "earliest_comment": "2015-12-19"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=webtoons"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "WholesomeComics",
+      "classification": {
+        "category": "",
+        "primary_topic": "Deep dive with comics that will make you feel great about yourself and others! Escape the daily stress with a good hearty comic and come inside, there's plenty of stories for everyone.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 101155,
+        "created_year": 2016,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 12902,
+        "comments": 35737,
+        "earliest_post": "2016-12-15",
+        "earliest_comment": "2016-12-19"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=wholesomecomics"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "WonderWoman",
+      "classification": {
+        "category": "",
+        "primary_topic": "★READ THE RULES BEFORE POSTING★ \n— — —\nA place to discuss and share all things Wonder Woman including comics, characters, movies, TV, video games, fan art, merchandise, etc.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 35969,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 27910,
+        "comments": 346110,
+        "earliest_post": "2011-07-17",
+        "earliest_comment": "2012-01-09"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=WonderWoman"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "xmen",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to the official X-Men subreddit.  The home of all things X-Men on reddit, be it comic books, film, television, gaming or any other medium that Marvel's mutants have inspired people over the last half-century.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 274973,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 149193,
+        "comments": 3074499,
+        "earliest_post": "2010-09-23",
+        "earliest_comment": "2011-04-06"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=XMen"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    }
+  ]
+}

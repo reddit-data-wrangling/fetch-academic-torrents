@@ -6,9 +6,11 @@ name matches the bulk-dump convention (``<sub>_submissions.zst`` /
 ``<sub>_comments.zst``). Resumable: a sidecar ``<output>.cursor`` records
 the last successful timestamp.
 
-The Arctic Shift API recommends bulk dumps for massive collections; this
-script is appropriate for individual subreddits up to roughly low millions
-of items. For r/AskReddit-scale subs, use the torrent instead.
+The Arctic Shift API recommends bulk dumps for massive collections. This
+script is intended for bounded or moderate per-subreddit captures; estimate
+volume and validate completeness before using it for very large communities.
+The repository's legacy torrent script is not a fallback: it targets a
+withdrawn, subreddit-partitioned torrent.
 """
 
 from __future__ import annotations

@@ -1,0 +1,4166 @@
+{
+  "schema_version": 1,
+  "collection": "oss",
+  "communities": [
+    {
+      "subreddit": "angular",
+      "classification": {
+        "category": "",
+        "primary_topic": "Angular is a web framework that empowers developers to build fast, reliable applications.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 39240,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 16491,
+        "comments": 76229,
+        "earliest_post": "2013-04-25",
+        "earliest_comment": "2013-10-11"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=angular"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "ansible",
+      "classification": {
+        "category": "",
+        "primary_topic": "Automation for the People! A Subreddit dedicated to fostering communication in the Ansible Community, includes Ansible, AWX, Ansible Galaxy, ansible-lint, Molecule, etc.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 67549,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 19211,
+        "comments": 112168,
+        "earliest_post": "2013-07-31",
+        "earliest_comment": "2013-11-21"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ansible"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "apache",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit dedicated to the Apache Webserver: here you'll find news, tips and tricks or just ask for assistance, we'll try our best to help each other!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 4286,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 4218,
+        "comments": 9667,
+        "earliest_post": "2009-05-09",
+        "earliest_comment": "2010-08-11"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=apache"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Ardour",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place to talk about Ardour and things about it.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1749,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 565,
+        "comments": 1826,
+        "earliest_post": "2014-01-27",
+        "earliest_comment": "2015-07-10"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Ardour"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "audacity",
+      "classification": {
+        "category": "",
+        "primary_topic": "subreddit for the program Audacity",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 11663,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 12763,
+        "comments": 37491,
+        "earliest_post": "2013-08-25",
+        "earliest_comment": "2013-08-31"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=audacity"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Bitwarden",
+      "classification": {
+        "category": "",
+        "primary_topic": "Bitwarden empowers enterprises, developers, and individuals to safely store and share sensitive data. With a transparent, open source approach to password management, secrets management, and passwordless and passkey innovations, Bitwarden makes it easy for users to extend robust security practices to all of their online experiences. Learn more at bitwarden.com!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 82526,
+        "created_year": 2017,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 26108,
+        "comments": 303215,
+        "earliest_post": "2017-05-05",
+        "earliest_comment": "2017-07-21"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Bitwarden"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "blender",
+      "classification": {
+        "category": "",
+        "primary_topic": "Blender is a free and open-source software for 3D modeling, animation, rendering and more. \n\n\nDownload it today at www.blender.org",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1271346,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 729425,
+        "comments": 3763986,
+        "earliest_post": "2008-06-08",
+        "earliest_comment": "2008-06-14"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=blender"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "brave_browser",
+      "classification": {
+        "category": "",
+        "primary_topic": "The best privacy online. Browse privately. Search privately. \n\nBrave is on a mission to fix the web by giving users a safer, faster and more private browsing experience, while supporting content creators through a new attention-based rewards ecosystem. Available on Android, iOS, Windows, macOS and Linux.\n  \nWant to help improve Brave? Try our Beta build: https://brave.com/download-beta",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 103220,
+        "created_year": 2018,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 63544,
+        "comments": 306445,
+        "earliest_post": "2018-03-28",
+        "earliest_comment": "2018-03-29"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=brave_browser"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "C_Programming",
+      "classification": {
+        "category": "",
+        "primary_topic": "The subreddit for the C programming language",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 184633,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 51644,
+        "comments": 573779,
+        "earliest_post": "2008-03-27",
+        "earliest_comment": "2008-07-01"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=C_Programming"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "chef",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=chef"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "chocolatey",
+      "classification": {
+        "category": "",
+        "primary_topic": "Official Subreddit of Chocolatey Software.\n\n\nChocolatey aims to automate the entire software lifecycle from install through upgrade and removal on Windows operating systems. We aim to simplify complex processes through a single unifying interface allowing you to control the chaos.\n\nChocolatey for Business allows organizations to adopt a DevOps approach that can easily manage your Windows environment, delivering applications to servers and end-users faster and more reliably.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 3036,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1167,
+        "comments": 3354,
+        "earliest_post": "2014-09-26",
+        "earliest_comment": "2014-10-27"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=chocolatey"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Clickhouse",
+      "classification": {
+        "category": "",
+        "primary_topic": "The ClickHouse Community on Reddit",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1378,
+        "created_year": 2019,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 784,
+        "comments": 2248,
+        "earliest_post": "2020-04-15",
+        "earliest_comment": "2020-05-16"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ClickHouse"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "coolgithubprojects",
+      "classification": {
+        "category": "",
+        "primary_topic": "Sharing Github projects just got easier!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 56736,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 26990,
+        "comments": 69475,
+        "earliest_post": "2014-04-21",
+        "earliest_comment": "2014-04-23"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=coolgithubprojects"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "cpp",
+      "classification": {
+        "category": "",
+        "primary_topic": "Discussions, articles and news about the C++ programming language or programming in C++.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 308809,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 57147,
+        "comments": 837563,
+        "earliest_post": "2008-05-26",
+        "earliest_comment": "2008-05-27"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=cpp"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "devops",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 376187,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 89160,
+        "comments": 838822,
+        "earliest_post": "2010-08-02",
+        "earliest_comment": "2011-06-24"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=devops"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "django",
+      "classification": {
+        "category": "",
+        "primary_topic": "News and links for Django developers.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 143466,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 60452,
+        "comments": 375732,
+        "earliest_post": "2008-01-25",
+        "earliest_comment": "2008-01-28"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=django"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "docker",
+      "classification": {
+        "category": "",
+        "primary_topic": "[Docker](http://www.docker.io) is an open-source project to easily create lightweight, portable, self-sufficient containers from any application. The same container that a developer builds and tests on a laptop can run at scale, in production, on VMs, bare metal, OpenStack clusters, public clouds and more.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 225535,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 48695,
+        "comments": 284117,
+        "earliest_post": "2013-07-26",
+        "earliest_comment": "2013-09-17"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=docker"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "eclipse",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit dedicated to the Eclipse Integrated Development Environment (IDE), and its SWT/RCP platform. Here you can discuss, get the latests news, find tips & tricks, ask for help, etc.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 4157,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 3631,
+        "comments": 7796,
+        "earliest_post": "2009-08-09",
+        "earliest_comment": "2009-08-30"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=eclipse"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "elixir",
+      "classification": {
+        "category": "",
+        "primary_topic": "Subreddit for the Elixir programming language, a dynamic, functional language designed for building scalable and maintainable applications. Learn more at https://elixir-lang.org.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 33889,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 12206,
+        "comments": 71481,
+        "earliest_post": "2012-11-13",
+        "earliest_comment": "2012-12-03"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=elixir"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "emacs",
+      "classification": {
+        "category": "",
+        "primary_topic": "The extensible, customizable, self-documenting real-time display editor.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 74987,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 50625,
+        "comments": 509423,
+        "earliest_post": "2008-06-25",
+        "earliest_comment": "2008-06-25"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=emacs"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "erlang",
+      "classification": {
+        "category": "",
+        "primary_topic": "/r/Erlang is focused around the erlang programming language and its BEAM runtime.  Other BEAM runtime languages are also welcome.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 10047,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 4102,
+        "comments": 6781,
+        "earliest_post": "2008-02-21",
+        "earliest_comment": "2008-03-23"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=erlang"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "FastAPI",
+      "classification": {
+        "category": "",
+        "primary_topic": "FastAPI is a truly ASGI, async, cutting edge framework written in python 3.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 16523,
+        "created_year": 2019,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 4204,
+        "comments": 19465,
+        "earliest_post": "2019-08-11",
+        "earliest_comment": "2019-10-18"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=FastAPI"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "ffmpeg",
+      "classification": {
+        "category": "",
+        "primary_topic": "FFmpeg is the leading multimedia framework, able to decode, encode, transcode, mux, demux, stream, filter and play pretty much anything that humans and machines have created.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 19730,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 16221,
+        "comments": 84146,
+        "earliest_post": "2011-12-29",
+        "earliest_comment": "2013-03-28"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ffmpeg"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "firefox",
+      "classification": {
+        "category": "",
+        "primary_topic": "The latest news and developments on Firefox and Mozilla. \n\nThis is an unofficial community.\n\n✨\n\nChat with us: https://matrix.to/#/#reddit-firefox:mozilla.org\n\n✨\n\nJoin us on Kbin: https://fedia.io/m/firefox",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 208986,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 180465,
+        "comments": 1522593,
+        "earliest_post": "2008-01-25",
+        "earliest_comment": "2008-02-03"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=firefox"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "flask",
+      "classification": {
+        "category": "",
+        "primary_topic": "Flask is a Python micro-framework for web development. Flask is easy to get started with and a great way to build websites and web applications.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 87747,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 20671,
+        "comments": 105452,
+        "earliest_post": "2010-08-20",
+        "earliest_comment": "2011-08-29"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=flask"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Floorp",
+      "classification": {
+        "category": "",
+        "primary_topic": "Floorp is a web browser based on Mozilla Firefox, with focus on improved performance and customizability of the browser.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 3311,
+        "created_year": 2022,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2268,
+        "comments": 9689,
+        "earliest_post": "2022-05-07",
+        "earliest_comment": "2022-05-07"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=floorp"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "forgejo",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 127,
+        "created_year": 2023,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 132,
+        "comments": 404,
+        "earliest_post": "2023-01-28",
+        "earliest_comment": "2023-01-28"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Forgejo"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "foss",
+      "classification": {
+        "category": "",
+        "primary_topic": "We are dedicated to the discussion of Free and Open Source Software, or FOSS.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 13227,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 4327,
+        "comments": 22905,
+        "earliest_post": "2008-09-24",
+        "earliest_comment": "2013-02-18"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=foss"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "freesoftware",
+      "classification": {
+        "category": "",
+        "primary_topic": "\"Free software\" means software that respects users' freedom and community. Roughly, it means that the users have the freedom to run, copy, distribute, study, change and improve the software. Thus, \"free software\" is a matter of liberty, not price. To understand the concept, you should think of \"free\" as in \"free speech,\" not as in \"free beer\".",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 29155,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 8874,
+        "comments": 41229,
+        "earliest_post": "2008-07-27",
+        "earliest_comment": "2008-07-27"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=freeSoftware"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "GIMP",
+      "classification": {
+        "category": "",
+        "primary_topic": "GIMP (GNU Image Manipulation Program) is a cross-platform image editor available for GNU/Linux, macOS, Windows and more operating systems. It is free software, you can change its source code and distribute your changes.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 235326,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 28977,
+        "comments": 126666,
+        "earliest_post": "2009-08-01",
+        "earliest_comment": "2011-06-07"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=GIMP"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "git",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 79078,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 22382,
+        "comments": 154235,
+        "earliest_post": "2008-05-07",
+        "earliest_comment": "2008-06-16"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=git"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Gitea",
+      "classification": {
+        "category": "",
+        "primary_topic": "Git with a cup of tea. \n\nPainless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD!\n\nIf you require assistance, please drop by Discord, or Discourse!\n\nhttps://discord.gg/Gitea\nhttps://forum.gitea.com/",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1981,
+        "created_year": 2019,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 479,
+        "comments": 1267,
+        "earliest_post": "2019-04-22",
+        "earliest_comment": "2019-04-23"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=gitea"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "github",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit to discuss GitHub's platform, products and features",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 131006,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 44141,
+        "comments": 185403,
+        "earliest_post": "2010-10-22",
+        "earliest_comment": "2012-07-02"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=github"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "gitlab",
+      "classification": {
+        "category": "",
+        "primary_topic": "GitLab is the DevSecOps platform. Software. Faster.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 20203,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 8065,
+        "comments": 31787,
+        "earliest_post": "2014-04-17",
+        "earliest_comment": "2014-08-07"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=gitlab"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "gnome",
+      "classification": {
+        "category": "",
+        "primary_topic": "GNOME is a free and open-source software environment project supported by a non-profit foundation. Together, the community of contributors and the Foundation create a computing platform and software ecosystem, composed entirely of free software, that is designed to be elegant, efficient, and easy to use.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 98522,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 33466,
+        "comments": 327703,
+        "earliest_post": "2008-06-28",
+        "earliest_comment": "2009-04-02"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=gnome"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "gnu",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 15653,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2728,
+        "comments": 12904,
+        "earliest_post": "2008-01-25",
+        "earliest_comment": "2008-09-02"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=gnu"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "godot",
+      "classification": {
+        "category": "",
+        "primary_topic": "The official subreddit for the Godot Engine. \n\nMeet your fellow game developers as well as engine contributors, stay up to date on Godot news, and share your projects and resources with each other. \n\nMaintained by the Godot Foundation, the non-profit taking good care of the Godot project - consider donating to https://fund.godotengine.org/ to keep us going!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 239900,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 231396,
+        "comments": 1781552,
+        "earliest_post": "2014-01-05",
+        "earliest_comment": "2014-01-18"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Godot"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "golang",
+      "classification": {
+        "category": "",
+        "primary_topic": "Ask questions and post articles about the Go programming language and related tools, events etc.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 295891,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 91964,
+        "comments": 810791,
+        "earliest_post": "2009-11-11",
+        "earliest_comment": "2009-11-11"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=golang"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "grafana",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit dedicated to Grafana: The open and composable observability platform.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 18485,
+        "created_year": 2015,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 6849,
+        "comments": 19905,
+        "earliest_post": "2016-01-15",
+        "earliest_comment": "2016-12-09"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=grafana"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "haskell",
+      "classification": {
+        "category": "",
+        "primary_topic": "The Haskell programming language community. Daily news and info about all things Haskell related: practical stuff, theory, types, libraries, jobs, patches, releases, events and conferences and more...",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 81743,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 42632,
+        "comments": 511680,
+        "earliest_post": "2008-01-27",
+        "earliest_comment": "2008-01-27"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=haskell"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "HelixEditor",
+      "classification": {
+        "category": "",
+        "primary_topic": "Helix, a kakoune/neovim-inspired editor, written in Rust.\nFor Linux, MacOS and Windows.\n\nProject started by: Blaž Hrastnik\n\nDownload: https://github.com/helix-editor/helix/releases/\n\nWebsite: https://helix-editor.com/",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 8858,
+        "created_year": 2022,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2573,
+        "comments": 22881,
+        "earliest_post": "2022-03-30",
+        "earliest_comment": "2022-06-22"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=HelixEditor"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "homeassistant",
+      "classification": {
+        "category": "",
+        "primary_topic": "Home Assistant is open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server. Available for free at home-assistant.io.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 386106,
+        "created_year": 2015,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 184334,
+        "comments": 1942193,
+        "earliest_post": "2016-02-06",
+        "earliest_comment": "2016-02-27"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=homeassistant"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "homebrew",
+      "classification": {
+        "category": "",
+        "primary_topic": "Community for homebrew/unofficial software on any console.\n\nWe're marked as NSFW to stop Reddit from placing ads, in response to actions surrounding third party apps.\n\nNeed help or just want to chat? Join our discord: https://discord.gg/nTnhAQu",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 23780,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 11251,
+        "comments": 46221,
+        "earliest_post": "2011-01-04",
+        "earliest_comment": "2009-06-02"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=homebrew"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "homelab",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to your friendly /r/homelab, where techies and sysadmin from everywhere are welcome to share their labs, projects, builds, etc.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 763612,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 296450,
+        "comments": 3849185,
+        "earliest_post": "2012-06-19",
+        "earliest_comment": "2012-06-19"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=homelab"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "huggingface",
+      "classification": {
+        "category": "",
+        "primary_topic": "The subreddit for huggingface.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 8945,
+        "created_year": 2021,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2830,
+        "comments": 5109,
+        "earliest_post": "2021-08-29",
+        "earliest_comment": "2021-09-03"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=huggingface"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "immich",
+      "classification": {
+        "category": "",
+        "primary_topic": "High performance self-hosted photo and video management solution",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 21062,
+        "created_year": 2022,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 11849,
+        "comments": 112833,
+        "earliest_post": "2022-04-02",
+        "earliest_comment": "2022-04-30"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=immich"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Inkscape",
+      "classification": {
+        "category": "",
+        "primary_topic": "An online community of Inkscape users with discussion, tutorials, and shared creations made with Inkscape: a free and open-source SVG editor.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 26654,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 16874,
+        "comments": 70192,
+        "earliest_post": "2012-02-05",
+        "earliest_comment": "2012-02-24"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Inkscape"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "java",
+      "classification": {
+        "category": "",
+        "primary_topic": "News, Technical discussions, research papers and assorted things of interest related to the Java programming language\nNO programming help, NO learning Java related questions, NO installing or downloading Java questions, NO JVM languages - Exclusively Java",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 356432,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 84688,
+        "comments": 596615,
+        "earliest_post": "2008-06-19",
+        "earliest_comment": "2008-07-10"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=java"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "javascript",
+      "classification": {
+        "category": "",
+        "primary_topic": "Chat about javascript and javascript related projects. Yes, typescript counts. Please keep self promotion to a minimum/reasonable level.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 2400786,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 178663,
+        "comments": 911406,
+        "earliest_post": "2008-01-26",
+        "earliest_comment": "2008-01-27"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=javascript"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "JAX",
+      "classification": {
+        "category": "",
+        "primary_topic": "Subreddit for the Machine Learning library JAX",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1619,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1435,
+        "comments": 2315,
+        "earliest_post": "2009-07-18",
+        "earliest_comment": "2009-07-18"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=JAX"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "jellyfin",
+      "classification": {
+        "category": "",
+        "primary_topic": "We're now read-only indefinitely due to Reddit Incorporated's poor management and decisions related to third party platforms and content \nmanagement.\n\nSee https://jellyfin.org/posts/new-forum for details of our new forum, and https://jellyfin.org/contact for contact options.\n\nMessages sent via modmail will receive no reply.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 66831,
+        "created_year": 2018,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 28843,
+        "comments": 301399,
+        "earliest_post": "2018-12-11",
+        "earliest_comment": "2018-12-11"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=jellyfin"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "joplinapp",
+      "classification": {
+        "category": "",
+        "primary_topic": "Find us on Lemmy at https://sopuli.xyz/c/joplinapp",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 6810,
+        "created_year": 2019,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2491,
+        "comments": 12539,
+        "earliest_post": "2019-05-23",
+        "earliest_comment": "2019-05-29"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=joplinapp"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Julia",
+      "classification": {
+        "category": "",
+        "primary_topic": "Julia is a high-level, high-performance dynamic programming language for technical computing, with syntax that is familiar to users of other technical computing environments.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 27054,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 6164,
+        "comments": 42586,
+        "earliest_post": "2008-12-12",
+        "earliest_comment": "2011-11-04"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Julia"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "kde",
+      "classification": {
+        "category": "",
+        "primary_topic": "KDE is an international community creating free and open source software.\n\nVisit our main page to know more: https://kde.org\n\n---\n\nThis is not a technical support forum. Please visit https://discuss.kde.org for user support.\n\n---\n\nThis is not a bug tracker. Please visit https://bugs.kde.org to report bugs.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 125375,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 75832,
+        "comments": 672360,
+        "earliest_post": "2008-01-25",
+        "earliest_comment": "2008-02-28"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=kde"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "kdenlive",
+      "classification": {
+        "category": "",
+        "primary_topic": "Everyone is welcome to share thoughts, learnings and experience with Kdenlive. Feel free to ask questions or ask for help and support, and likewise help others with your expertise and knowledge, and share your tips and tricks that make working with Kdenlive easier and more fun!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 7435,
+        "created_year": 2015,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 6644,
+        "comments": 30358,
+        "earliest_post": "2015-04-30",
+        "earliest_comment": "2015-05-25"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=kdenlive"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "KeePass",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 16651,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 5370,
+        "comments": 39374,
+        "earliest_post": "2014-06-24",
+        "earliest_comment": "2014-06-25"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=KeePass"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "KeePassXC",
+      "classification": {
+        "category": "",
+        "primary_topic": "Discuss KeePassXC on /r/KeePass.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 449,
+        "created_year": 2018,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1,
+        "comments": null,
+        "earliest_post": "2018-03-03",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=KeePassXC"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "krita",
+      "classification": {
+        "category": "",
+        "primary_topic": "Krita - Free and open source digital painting application for Illustrators, comic artists, concept artists , matte painters etc.\n\nr/krita is for sharing artworks made in Krita, general help, tips and tricks, troubleshooting etc.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 112119,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 86218,
+        "comments": 303524,
+        "earliest_post": "2012-11-18",
+        "earliest_comment": "2013-11-15"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=krita"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "kubernetes",
+      "classification": {
+        "category": "",
+        "primary_topic": "Kubernetes discussion, news, support, and link sharing.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 157111,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 52275,
+        "comments": 346551,
+        "earliest_post": "2014-09-06",
+        "earliest_comment": "2014-10-16"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=kubernetes"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "laravel",
+      "classification": {
+        "category": "",
+        "primary_topic": "Laravel is a free and open-source PHP web framework created by Taylor Otwell.\nLaravel features expressive, elegant syntax - freeing you to create without sweating the small things.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 94636,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 38882,
+        "comments": 266923,
+        "earliest_post": "2012-06-14",
+        "earliest_comment": "2012-06-22"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=laravel"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "learnprogramming",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit for all questions related to programming in any language.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 4175946,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 652759,
+        "comments": 4581630,
+        "earliest_post": "2009-09-24",
+        "earliest_comment": "2009-09-24"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=learnprogramming"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "libreoffice",
+      "classification": {
+        "category": "",
+        "primary_topic": "LibreOffice is a free (open source) and private office suite, used by millions of people around the world.\n\nIt's the successor project to OpenOffice with regular releases, extra features, and improved compatibility (.docx export).",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 14124,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 15668,
+        "comments": 69866,
+        "earliest_post": "2010-10-30",
+        "earliest_comment": "2010-10-30"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=LibreOffice"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "LibreWolf",
+      "classification": {
+        "category": "",
+        "primary_topic": "LibreWolf is a community version of Mozilla's Gecko based browser - Firefox, with increased protection against tracking and fingerprinting techniques, while also including a few security improvements.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 7614,
+        "created_year": 2021,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 4801,
+        "comments": 23768,
+        "earliest_post": "2021-01-18",
+        "earliest_comment": "2021-01-20"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=librewolf"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "libvirt",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 9,
+        "created_year": 2022,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2,
+        "comments": 1,
+        "earliest_post": "2022-04-13",
+        "earliest_comment": "2024-11-20"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=libvirt"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "linux",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to /r/Linux!\n\nThis is a community for sharing news about Linux, interesting developments and press.\n\nIf you're looking for tech support, /r/Linux4Noobs and /r/linuxquestions are friendly communities that can help you.\n\nPlease also check out:\n\n\nhttps://lemmy.ml/c/linux and\nKbin.social/m/Linux\n\n\nPlease refrain from posting help requests here, cheers.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1646022,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 297054,
+        "comments": 5419506,
+        "earliest_post": "2008-01-25",
+        "earliest_comment": "2008-01-25"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=linux"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "linux_gaming",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit for discussions and news about gaming on the GNU/Linux family of operating systems (including the Steam Deck).",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 313561,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 156897,
+        "comments": 2671658,
+        "earliest_post": "2009-07-21",
+        "earliest_comment": "2009-07-21"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=linux_gaming"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "linuxaudio",
+      "classification": {
+        "category": "",
+        "primary_topic": "Dedicated to Linux and audio",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 20633,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 9537,
+        "comments": 69860,
+        "earliest_post": "2011-05-18",
+        "earliest_comment": "2011-05-18"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=linuxaudio"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Llama_cpp",
+      "classification": {
+        "category": "",
+        "primary_topic": "LLama.cpp community for developers , enthusiasts and AI hobbysts",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1,
+        "created_year": 2026,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1,
+        "comments": null,
+        "earliest_post": "2026-04-07",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=llama_cpp"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "LocalLLaMA",
+      "classification": {
+        "category": "",
+        "primary_topic": "Subreddit to discuss about Llama, the large language model created by Meta AI.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 328652,
+        "created_year": 2023,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 120465,
+        "comments": 1936230,
+        "earliest_post": "2023-03-10",
+        "earliest_comment": "2023-03-11"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=LocalLLaMA"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "logseq",
+      "classification": {
+        "category": "",
+        "primary_topic": "Logseq is a local-first, non-linear, outliner notebook for organising and\nsharing your knowledge base and second brain.\nhttps://discord.gg/URphjhk",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 15201,
+        "created_year": 2020,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2814,
+        "comments": 20741,
+        "earliest_post": "2020-07-25",
+        "earliest_comment": "2020-07-30"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=logseq"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "lua",
+      "classification": {
+        "category": "",
+        "primary_topic": "News and discussion for the Lua programming language.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 24066,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 8905,
+        "comments": 59823,
+        "earliest_post": "2009-01-28",
+        "earliest_comment": "2009-01-28"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=lua"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "LXC",
+      "classification": {
+        "category": "",
+        "primary_topic": "[LXC ] (https://linuxcontainers.org) stands for Linux containers and is a open source Linux container project in development since 2009. LXC provides lightweight OS containers, tools for container management and a wide choice of container OS templates. \n\nLXC is supported in the vanilla Linux kernel and works out of the box on most Linux distributions.\n\nLXC is developed by Daniel Lezcano, Stéphane Graber(Ubuntu) and Serge Hallyn(Ubuntu) and a team of open source developers.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1801,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1221,
+        "comments": 2098,
+        "earliest_post": "2014-08-04",
+        "earliest_comment": "2014-11-06"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=lxc"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "mongodb",
+      "classification": {
+        "category": "",
+        "primary_topic": "News, articles, and interesting stuff in general about MongoDB (unofficial).",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 24558,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 12156,
+        "comments": 34973,
+        "earliest_post": "2010-04-23",
+        "earliest_comment": "2010-05-22"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=mongodb"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "mozilla",
+      "classification": {
+        "category": "",
+        "primary_topic": "This community has shut down and will not grant access requests during the protest. **Please do not message asking to be added to the subreddit.**   \n‌  \n/r/mozilla and /r/firefox, and 7000+ others, have gone private as part of the coordinated protest against Reddit's exorbitant new API changes, and unprofessional response to the community's concerns regarding 3rd party apps, mod tools, and accessibility options that will be impacted by this decision.\n\nMore information: https://redd.it/147cksa/",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 4805,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 16329,
+        "comments": 3148,
+        "earliest_post": "2008-09-12",
+        "earliest_comment": "2009-09-07"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=mozilla"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "mysql",
+      "classification": {
+        "category": "",
+        "primary_topic": "Discussion of MySQL and assistance for MySQL related questions",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 42720,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 17109,
+        "comments": 72423,
+        "earliest_post": "2009-04-01",
+        "earliest_comment": "2009-04-02"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=mysql"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "neovim",
+      "classification": {
+        "category": "",
+        "primary_topic": "Neovim is a hyperextensible Vim-based text editor. Learn more at neovim.io.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 116677,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 52758,
+        "comments": 479445,
+        "earliest_post": "2014-02-28",
+        "earliest_comment": "2014-04-14"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=neovim"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "NextCloud",
+      "classification": {
+        "category": "",
+        "primary_topic": "Nextcloud is an open source, self-hosted file sync & communication app platform. Access & sync your files, contacts, calendars  and communicate & collaborate across your devices. You decide what happens with your data, where it is and who can access it!\n\nIf you have questions for use in a company or government at scale (>1000 users), do yourself a favor and contact Nextcloud itself - this community is mostly home-user focused!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 52337,
+        "created_year": 2016,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 20114,
+        "comments": 128491,
+        "earliest_post": "2016-06-02",
+        "earliest_comment": "2016-06-02"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=NextCloud"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "nextjs",
+      "classification": {
+        "category": "",
+        "primary_topic": "Next.js is a React framework for building full-stack web applications",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 118051,
+        "created_year": 2016,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 45301,
+        "comments": 329301,
+        "earliest_post": "2018-01-09",
+        "earliest_comment": "2018-10-04"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=nextjs"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "NixOS",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 35345,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 20779,
+        "comments": 181850,
+        "earliest_post": "2011-08-26",
+        "earliest_comment": "2011-11-09"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=NixOS"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "node",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 297771,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 76178,
+        "comments": 486183,
+        "earliest_post": "2010-01-17",
+        "earliest_comment": "2010-01-17"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=node"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "obs",
+      "classification": {
+        "category": "",
+        "primary_topic": "Free, open source live streaming and recording software for Windows, macOS and Linux",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 185038,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 88365,
+        "comments": 412668,
+        "earliest_post": "2013-02-22",
+        "earliest_comment": "2013-02-22"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=obs"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "ocaml",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 12378,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 4456,
+        "comments": 19482,
+        "earliest_post": "2008-01-25",
+        "earliest_comment": "2008-01-26"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ocaml"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "ollama",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 46415,
+        "created_year": 2023,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 11512,
+        "comments": 93619,
+        "earliest_post": "2023-07-08",
+        "earliest_comment": "2023-08-08"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ollama"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "OnlyOffice",
+      "classification": {
+        "category": "",
+        "primary_topic": "For fans of https://www.onlyoffice.com",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 966,
+        "created_year": 2017,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2116,
+        "comments": 6492,
+        "earliest_post": "2017-12-28",
+        "earliest_comment": "2018-05-04"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=OnlyOffice"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "open_source",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=open_source"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "opensource",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit for everything open source related (for this context, we go off the definition of open source here http://en.wikipedia.org/wiki/Open_source)",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 254110,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 100418,
+        "comments": 339299,
+        "earliest_post": "2008-02-01",
+        "earliest_comment": "2008-03-12"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=opensource"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "opensourcegames",
+      "classification": {
+        "category": "",
+        "primary_topic": "Links to projects that do not provide access to game source (and ideally asset source as well) will be removed.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 13277,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 3787,
+        "comments": 10977,
+        "earliest_post": "2009-12-04",
+        "earliest_comment": "2009-12-04"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=opensourcegames"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "OpenSourceSoftware",
+      "classification": {
+        "category": "",
+        "primary_topic": "Tutorials, Intro's, Advice & Questions on all free/open source software such as Gimp, Shotcut, Blender, Virtual Dub etc.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 256,
+        "created_year": 2019,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 46,
+        "comments": 8,
+        "earliest_post": "2019-01-29",
+        "earliest_comment": "2021-03-19"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=OpenSourceSoftware"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "OpenTelemetry",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1608,
+        "created_year": 2019,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 805,
+        "comments": 1522,
+        "earliest_post": "2019-12-07",
+        "earliest_comment": "2020-11-03"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=opentelemetry"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "opentofu",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 803,
+        "created_year": 2023,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 92,
+        "comments": 162,
+        "earliest_post": "2023-09-12",
+        "earliest_comment": "2023-10-27"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=opentofu"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "opnsense",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 27664,
+        "created_year": 2015,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 11894,
+        "comments": 106870,
+        "earliest_post": "2015-02-16",
+        "earliest_comment": "2015-02-24"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=opnsense"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Paperlessngx",
+      "classification": {
+        "category": "",
+        "primary_topic": "Unofficial subreddit for Paperless-ngx",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1908,
+        "created_year": 2022,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1177,
+        "comments": 7228,
+        "earliest_post": "2022-04-03",
+        "earliest_comment": "2022-10-20"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Paperlessngx"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "PFSENSE",
+      "classification": {
+        "category": "",
+        "primary_topic": "The pfSense® project is a powerful open source firewall and routing platform based on FreeBSD. Developed and maintained by Netgate®.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 124693,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 47633,
+        "comments": 429028,
+        "earliest_post": "2010-07-18",
+        "earliest_comment": "2011-09-17"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=PFSENSE"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "PHP",
+      "classification": {
+        "category": "",
+        "primary_topic": "Share and discover the latest news about the PHP ecosystem and its community.\n\nPlease respect r/php's rules.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 180082,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 64362,
+        "comments": 773450,
+        "earliest_post": "2008-01-25",
+        "earliest_comment": "2008-03-18"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=PHP"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "pipewire",
+      "classification": {
+        "category": "",
+        "primary_topic": "PipeWire is a project that aims to greatly improve handling of audio and video under Linux.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1102,
+        "created_year": 2021,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 773,
+        "comments": 1827,
+        "earliest_post": "2021-01-21",
+        "earliest_comment": "2021-01-22"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=pipewire"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "podman",
+      "classification": {
+        "category": "",
+        "primary_topic": "A community for users, developers and people interested in Podman, Buildah, Skopeo and all other projects that use libpod.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 6242,
+        "created_year": 2019,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2176,
+        "comments": 12368,
+        "earliest_post": "2019-01-04",
+        "earliest_comment": "2019-01-14"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=podman"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "PostgreSQL",
+      "classification": {
+        "category": "",
+        "primary_topic": "The home of the most advanced Open Source database server on the worlds largest and most active Front Page of the Internet.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 53635,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 19213,
+        "comments": 105932,
+        "earliest_post": "2009-07-10",
+        "earliest_comment": "2009-07-11"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=PostgreSQL"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "programming",
+      "classification": {
+        "category": "",
+        "primary_topic": "Computer Programming",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 6744722,
+        "created_year": 2006,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 658543,
+        "comments": 8420915,
+        "earliest_post": "2006-02-28",
+        "earliest_comment": "2006-02-28"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=programming"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "PrometheusMonitoring",
+      "classification": {
+        "category": "",
+        "primary_topic": "Prometheus Monitoring subreddit",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 9988,
+        "created_year": 2015,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 3605,
+        "comments": 9634,
+        "earliest_post": "2015-08-18",
+        "earliest_comment": "2015-10-02"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=prometheusmonitoring"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Proxmox",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to r/Proxmox , the main subreddit regarding the Proxmox hypervisor!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 132574,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 43499,
+        "comments": 421355,
+        "earliest_post": "2014-03-23",
+        "earliest_comment": "2014-08-13"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=proxmox"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Puppet",
+      "classification": {
+        "category": "",
+        "primary_topic": "Make infrastructure actionable, scalable and intelligent. Infrastructure as code, task orchestration, event driven workflows.\n\nAt Puppet, open source software is in our DNA. From the earliest days of Facter to the latest version of Bolt, we’ve always been firm believers in the power of open source and welcoming community ecosystems.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 5250,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2414,
+        "comments": 10895,
+        "earliest_post": "2010-08-09",
+        "earliest_comment": "2011-07-08"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Puppet"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Python",
+      "classification": {
+        "category": "",
+        "primary_topic": "The official Python community for Reddit! Stay up to date with the latest news, packages, and meta information relating to the Python programming language. \n---\n\nIf you have questions or are new to Python use r/LearnPython",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1325561,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 247081,
+        "comments": 1538780,
+        "earliest_post": "2008-01-25",
+        "earliest_comment": "2008-01-25"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Python"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "pytorch",
+      "classification": {
+        "category": "",
+        "primary_topic": "Pytorch is an open source machine learning framework with a focus on neural networks.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 19557,
+        "created_year": 2016,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 5267,
+        "comments": 13276,
+        "earliest_post": "2017-04-07",
+        "earliest_comment": "2017-06-27"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=PyTorch"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "qemu_kvm",
+      "classification": {
+        "category": "",
+        "primary_topic": "Subreddit for the qemu-kvm/libvirt virtualization stack.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 5403,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 3385,
+        "comments": 8342,
+        "earliest_post": "2012-10-16",
+        "earliest_comment": "2012-10-16"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=qemu_kvm"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "reactjs",
+      "classification": {
+        "category": "",
+        "primary_topic": "A community for discussing anything related to the React UI framework and its ecosystem.  Join the Reactiflux Discord (reactiflux.com) for additional React discussion and help.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 445352,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 125691,
+        "comments": 864978,
+        "earliest_post": "2013-12-31",
+        "earliest_comment": "2014-05-29"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=reactjs"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "redis",
+      "classification": {
+        "category": "",
+        "primary_topic": "All about the Redis key-value store",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 8100,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2687,
+        "comments": 6285,
+        "earliest_post": "2009-06-29",
+        "earliest_comment": "2010-04-04"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=redis"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Rlanguage",
+      "classification": {
+        "category": "",
+        "primary_topic": "We are interested in implementing R programming language for statistics and data science.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 44880,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 16099,
+        "comments": 77823,
+        "earliest_post": "2011-02-11",
+        "earliest_comment": "2011-12-28"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Rlanguage"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "ruby",
+      "classification": {
+        "category": "",
+        "primary_topic": "Celebrate the weird and wonderful Ruby programming language with us!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 87439,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 44672,
+        "comments": 246369,
+        "earliest_post": "2008-01-25",
+        "earliest_comment": "2008-01-25"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ruby"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "rust",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place for all things related to the Rust programming language—an open-source systems language that emphasizes performance, reliability, and productivity.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 333805,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 140752,
+        "comments": 1617705,
+        "earliest_post": "2011-12-15",
+        "earliest_comment": "2011-12-21"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=rust"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "scipy",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 2381,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 314,
+        "comments": 544,
+        "earliest_post": "2009-09-19",
+        "earliest_comment": "2009-09-30"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=scipy"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "selfhosted",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place to share, discuss, discover, assist with, gain assistance for, and critique self-hosted alternatives to our favorite web apps, web services, and online tools.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 473081,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 132275,
+        "comments": 2007487,
+        "earliest_post": "2014-07-08",
+        "earliest_comment": "2014-07-08"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=selfhosted"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "signal",
+      "classification": {
+        "category": "",
+        "primary_topic": "An unofficial community for news and discussion about Signal, an open-source private messenger developed by the non-profit Signal Foundation.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 88059,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 24802,
+        "comments": 242086,
+        "earliest_post": "2013-04-04",
+        "earliest_comment": "2014-07-15"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Signal"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "sqlite",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 5261,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2297,
+        "comments": 8517,
+        "earliest_post": "2013-02-05",
+        "earliest_comment": "2013-05-07"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=sqlite"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "StallmanWasRight",
+      "classification": {
+        "category": "",
+        "primary_topic": "Nobody listens to him. But he was right all along.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 46653,
+        "created_year": 2015,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 12219,
+        "comments": 160343,
+        "earliest_post": "2015-10-17",
+        "earliest_comment": "2015-10-18"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=stallmanwasright"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "sveltejs",
+      "classification": {
+        "category": "",
+        "primary_topic": "Svelte is a radical new approach to building user interfaces. Whereas traditional frameworks like React and Vue do the bulk of their work in the browser, Svelte shifts that work into a compile step that happens when you build your app.\n\nInstead of using techniques like virtual DOM diffing, Svelte writes code that surgically updates the DOM when the state of your app changes.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 43875,
+        "created_year": 2016,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 17295,
+        "comments": 154112,
+        "earliest_post": "2016-12-03",
+        "earliest_comment": "2018-08-28"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=sveltejs"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "swift",
+      "classification": {
+        "category": "",
+        "primary_topic": "Swift is a general-purpose programming language built using a modern approach to safety, performance, and software design patterns.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 123873,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 57694,
+        "comments": 321811,
+        "earliest_post": "2013-11-23",
+        "earliest_comment": "2013-11-23"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=swift"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Syncthing",
+      "classification": {
+        "category": "",
+        "primary_topic": "For Syncthing related news, help, configurations",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 11013,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 3627,
+        "comments": 17941,
+        "earliest_post": "2015-03-04",
+        "earliest_comment": "2015-03-04"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Syncthing"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "tensorflow",
+      "classification": {
+        "category": "",
+        "primary_topic": "For discussion related to the Tensorflow machine learning library.  Emphasis on questions and discussion related to programming and implementation using this library.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 31104,
+        "created_year": 2015,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 9556,
+        "comments": 24759,
+        "earliest_post": "2015-11-09",
+        "earliest_comment": "2015-11-09"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=tensorflow"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Terraform",
+      "classification": {
+        "category": "",
+        "primary_topic": "Terraform discussion, resources, and other HashiCorp news.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 61463,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 16084,
+        "comments": 108178,
+        "earliest_post": "2017-12-14",
+        "earliest_comment": "2017-12-14"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Terraform"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "tinycode",
+      "classification": {
+        "category": "",
+        "primary_topic": "This subreddit is about minimalistic, often but not always simple implementations of just about everything. tiny code / minimalistic programming / yagni / kiss / dry\n\n**TL;DR: Low line count, high quality**",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 25065,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2357,
+        "comments": 9070,
+        "earliest_post": "2011-06-30",
+        "earliest_comment": "2011-06-30"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=tinycode"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "TOR",
+      "classification": {
+        "category": "",
+        "primary_topic": "News and discussion about the Tor anonymity software. New to Tor? Please read the Tor FAQ!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 309608,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 48715,
+        "comments": 308867,
+        "earliest_post": "2009-08-28",
+        "earliest_comment": "2009-08-28"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=TOR"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Traefik",
+      "classification": {
+        "category": "",
+        "primary_topic": "Traefik is a leading modern reverse proxy and load balancer that makes deploying microservices easy. Traefik integrates with your existing infrastructure components and configures itself automatically and dynamically.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 12006,
+        "created_year": 2018,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 4215,
+        "comments": 15310,
+        "earliest_post": "2018-02-15",
+        "earliest_comment": "2018-02-19"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Traefik"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "vaultwarden",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to the Vaultwarden subreddit, dedicated to discussions, support, and community collaboration around self-hosting your own secure password management with Vaultwarden. \n\nWhether you're setting up, troubleshooting, or sharing tips and enhancements, this is the place to connect with fellow users and enthusiasts of this open-source unnoficial alternative to Bitwarden.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 2962,
+        "created_year": 2021,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 677,
+        "comments": 5205,
+        "earliest_post": "2021-05-02",
+        "earliest_comment": "2021-05-12"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Vaultwarden"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "vim",
+      "classification": {
+        "category": "",
+        "primary_topic": "The place for questions and conversation on the Vim editor",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 182027,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 35683,
+        "comments": 440473,
+        "earliest_post": "2008-08-24",
+        "earliest_comment": "2008-08-24"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=vim"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Vllm",
+      "classification": {
+        "category": "",
+        "primary_topic": "A community for us all to collaborate on Vllm",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 16,
+        "created_year": 2025,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 321,
+        "comments": 1904,
+        "earliest_post": "2025-03-04",
+        "earliest_comment": "2025-03-20"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=vllm"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "vscode",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit for working with Microsoft's Visual Studio Code",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 157762,
+        "created_year": 2015,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 45879,
+        "comments": 183200,
+        "earliest_post": "2015-05-05",
+        "earliest_comment": "2015-05-18"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=vscode"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "vuejs",
+      "classification": {
+        "category": "",
+        "primary_topic": "Vue.js is a library for building interactive web interfaces.  It provides data-reactive components with a simple and flexible API.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 117356,
+        "created_year": 2015,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 34154,
+        "comments": 224369,
+        "earliest_post": "2015-06-08",
+        "earliest_comment": "2015-06-08"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=vuejs"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "WriteTheDocs",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=WriteTheDocs"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "ZedEditor",
+      "classification": {
+        "category": "",
+        "primary_topic": "Zed: The social, performant, text editor.\nhttps://zed.dev",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 6962,
+        "created_year": 2022,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 3363,
+        "comments": 22290,
+        "earliest_post": "2022-10-07",
+        "earliest_comment": "2022-10-15"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ZedEditor"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Zig",
+      "classification": {
+        "category": "",
+        "primary_topic": "The Zig Programming Language",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 21744,
+        "created_year": 2016,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 4785,
+        "comments": 44800,
+        "earliest_post": "2016-02-17",
+        "earliest_comment": "2017-10-08"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Zig"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    }
+  ]
+}

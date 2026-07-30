@@ -1,0 +1,4038 @@
+{
+  "schema_version": 1,
+  "collection": "beer",
+  "communities": [
+    {
+      "subreddit": "AlbertaBeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "Alberta's place for all Alberta Beer discussions and arguments",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 3561,
+        "created_year": 2016,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1255,
+        "comments": 10339,
+        "earliest_post": "2016-09-29",
+        "earliest_comment": "2016-09-29"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=AlbertaBeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "ArizonaBeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "Beer culture in the Copper state. r/ArizonaBeer is for quality content-based submissions and self posts with a focus on this state. If you have general beer content r/beer is for you.\n\nTrader? Try r/beertrade\n\nHomebrew and homebrewing events with local focus welcome.\n\nSelf promotion is allowed if AZ themed just please don’t spam",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 2195,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 813,
+        "comments": 2898,
+        "earliest_post": "2012-10-16",
+        "earliest_comment": "2012-10-17"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ArizonaBeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "ArkansasBeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "The place to connect for drinkers of Arkansas’ breweries and distilleries. Share your favorite local products that you’re currently drinking. Cheers!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1137,
+        "created_year": 2020,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 416,
+        "comments": 1028,
+        "earliest_post": "2020-02-21",
+        "earliest_comment": "2020-02-22"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ArkansasBeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "ashevillebeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "This subreddit is dedicated to the beers and breweries of the Greater Asheville Area and Western North Carolina.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1535,
+        "created_year": 2021,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 424,
+        "comments": 1615,
+        "earliest_post": "2021-11-15",
+        "earliest_comment": "2021-11-15"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ashevillebeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "atlbeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "We talk about beer and beer-adjacent things and sometimes things that have nothing to do with beer.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 20290,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 15254,
+        "comments": 288113,
+        "earliest_post": "2012-08-13",
+        "earliest_comment": "2012-08-13"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=atlbeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "AusBeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit to discuss your favourite beers and breweries from Australia and abroad.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 9959,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 3203,
+        "comments": 25266,
+        "earliest_post": "2011-10-22",
+        "earliest_comment": "2011-10-23"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=AusBeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "AustinBeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place to talk about beer in Austin.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 11463,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 5973,
+        "comments": 49732,
+        "earliest_post": "2011-12-10",
+        "earliest_comment": "2011-12-10"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=AustinBeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Autobrew",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Autobrew"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "bamabeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "Let's discuss Alabama-made beer and the beers that Alabamians like!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1643,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1896,
+        "comments": 5494,
+        "earliest_post": "2014-06-25",
+        "earliest_comment": "2014-06-27"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=bamabeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "barleywine",
+      "classification": {
+        "category": "",
+        "primary_topic": "Barleywine is a lifestyle",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 128,
+        "created_year": 2017,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 72,
+        "comments": 177,
+        "earliest_post": "2018-02-20",
+        "earliest_comment": "2021-01-22"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=barleywine"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "beer",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit to discuss your favorite beers and breweries, and share beer related articles. Quality content encouraged.   \n\n/r/beer discord server:  https://discord.gg/MvMVFA4Vu3",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 465959,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 149889,
+        "comments": 2262477,
+        "earliest_post": "2008-03-13",
+        "earliest_comment": "2008-03-25"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=beer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "beerandpizza",
+      "classification": {
+        "category": "",
+        "primary_topic": "Beer & Pizza. What else do you really need?",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 7277,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2332,
+        "comments": 6419,
+        "earliest_post": "2013-12-30",
+        "earliest_comment": "2014-05-28"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=beerandpizza"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "beerblogs",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit to discuss your favorite beers and breweries, and share beer related articles. Quality content encouraged. /r/beer discord server: https://discord.gg/MvMVFA4Vu3\n\nA Community of Beer Bloggers who understand that to truly enjoy a beer is to write about it.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 793,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2236,
+        "comments": 585,
+        "earliest_post": "2012-07-02",
+        "earliest_comment": "2012-07-15"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=beerblogs"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "beercanada",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place for Canadians to talk about our beer and our beer culture.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 3506,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2939,
+        "comments": 15701,
+        "earliest_post": "2012-03-17",
+        "earliest_comment": "2012-03-20"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=beercanada"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "BeerCans",
+      "classification": {
+        "category": "",
+        "primary_topic": "Is there anything better than collecting beer cans? Maybe. Nothing comes to mind just now. Let’s see what you’ve got.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 247,
+        "created_year": 2018,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 115,
+        "comments": 379,
+        "earliest_post": "2018-08-09",
+        "earliest_comment": "2020-07-02"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=BeerCans"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "beercirclejerk",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place to discuss Yinlin and only Yinlin.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 12874,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 9037,
+        "comments": 49604,
+        "earliest_post": "2011-07-03",
+        "earliest_comment": "2013-02-26"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=beercirclejerk"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "BeerGlass",
+      "classification": {
+        "category": "",
+        "primary_topic": "Sometimes bought and sometimes found.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 615,
+        "created_year": 2018,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 342,
+        "comments": 714,
+        "earliest_post": "2018-04-22",
+        "earliest_comment": "2018-04-22"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=BeerGlass"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "beerindustry",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=beerindustry"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "BeerInOttawa",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place for people to discuss the Beer scene in Ottawa. Let us know about your favourite beers and where to find them. \n\nHomebrewer? Share your tips and recipes!\n\n\n\n[Hogsback Brewing Company](hogsback.ca/)\n[Beau’s All Natural Brewing Company](www.beaus.ca)",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1371,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 896,
+        "comments": 1910,
+        "earliest_post": "2013-03-22",
+        "earliest_comment": "2013-03-31"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=BeerInOttawa"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "beerlabels",
+      "classification": {
+        "category": "",
+        "primary_topic": "Get inspired by great beer label designs, find incredible brews, inspire others, locate great resources related to beer cans and bottles, find labeling equipment, graphic designers, label printers, and free label templates.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 5,
+        "created_year": 2022,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 18,
+        "comments": null,
+        "earliest_post": "2014-11-11",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=beerlabels"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "beerporn",
+      "classification": {
+        "category": "",
+        "primary_topic": "Pictures of beers.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 139630,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 176865,
+        "comments": 733785,
+        "earliest_post": "2010-01-12",
+        "earliest_comment": "2010-01-12"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=beerporn"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "beerrecipes",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1440,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 184,
+        "comments": 443,
+        "earliest_post": "2011-07-09",
+        "earliest_comment": "2011-07-09"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=beerrecipes"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "beerreleases",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place to keep up to date with craft beer releases from around the world.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 5633,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1651,
+        "comments": 5688,
+        "earliest_post": "2014-08-04",
+        "earliest_comment": "2014-08-04"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=beerreleases"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "beerreviews",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit to discuss your favorite beers and breweries, and share beer related articles. Quality content encouraged. /r/beer discord server: https://discord.gg/MvMVFA4Vu3",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 3167,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 13923,
+        "comments": 3597,
+        "earliest_post": "2011-01-09",
+        "earliest_comment": "2011-01-09"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=beerreviews"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "beervideos",
+      "classification": {
+        "category": "",
+        "primary_topic": "Any and all videos relating to beer.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 380,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 4190,
+        "comments": 906,
+        "earliest_post": "2014-01-24",
+        "earliest_comment": "2014-01-26"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=beervideos"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "beerwithaview",
+      "classification": {
+        "category": "",
+        "primary_topic": "Pictures containing:\nForeground - Beer\nBackground - View",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 37936,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 16439,
+        "comments": 41468,
+        "earliest_post": "2012-10-07",
+        "earliest_comment": "2014-05-28"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=beerwithaview"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "BelgianBeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to the Belgian Beer reddit! Kick back with a Trappist and show your love for Belgian Beers!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1416,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 596,
+        "comments": 2659,
+        "earliest_post": "2013-01-20",
+        "earliest_comment": "2013-01-20"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=BelgianBeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Bier",
+      "classification": {
+        "category": "",
+        "primary_topic": "r/Bier: The community for German, Dutch and Belgian beer lovers.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 11184,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 3172,
+        "comments": 12211,
+        "earliest_post": "2012-02-08",
+        "earliest_comment": "2012-02-08"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Bier"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "BiereQc",
+      "classification": {
+        "category": "",
+        "primary_topic": "Un endroit pour parler des bières québécoises, des microbrasseries et des brasseries artisanales du Québec. Nouvelles et discussion du monde brassicole à Montréal et Québec.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 3253,
+        "created_year": 2015,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2568,
+        "comments": 11188,
+        "earliest_post": "2015-05-21",
+        "earliest_comment": "2015-05-29"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=BiereQc"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "bieresdefrance",
+      "classification": {
+        "category": "",
+        "primary_topic": "Un endroit pour parler et échanger à propos de bières Françaises. Partageons nos bières préférées, échangeons à propos de nos brasseries locales et aimons nous tout autant que nous aimons nos bières de France.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 450,
+        "created_year": 2020,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 120,
+        "comments": 151,
+        "earliest_post": "2020-05-03",
+        "earliest_comment": "2020-05-03"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=bieresdefrance"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "breweriana",
+      "classification": {
+        "category": "",
+        "primary_topic": "Discuss and display your beer related items such as beer trays, tap handles, beer signs, beer bottles, beer cans, beer advertising, beer promotional items, etc.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1439,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1467,
+        "comments": 4064,
+        "earliest_post": "2013-02-22",
+        "earliest_comment": "2013-02-28"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=breweriana"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "brewgearfs",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit for brewers/vinters/masers/cider makers to sell or buy used and surplus equipment from other brewers/vinters/masers/cider makers.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 5130,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1661,
+        "comments": 3485,
+        "earliest_post": "2014-02-06",
+        "earliest_comment": "2014-02-06"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=brewgearfs"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "brewing",
+      "classification": {
+        "category": "",
+        "primary_topic": "Brewing: News, info, discussion, stories and all things zymurgy. For the Professional and Homebrewer alike",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 30754,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 8321,
+        "comments": 39879,
+        "earliest_post": "2008-10-02",
+        "earliest_comment": "2009-02-06"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=brewing"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Cerveceros",
+      "classification": {
+        "category": "",
+        "primary_topic": "r/cerveceros es una comunidad para todo lo importante para saber cómo hacer cerveza en casa. Guías, tips, experimentos, preguntas, consejos, etc.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 722,
+        "created_year": 2016,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 388,
+        "comments": 254,
+        "earliest_post": "2016-09-05",
+        "earliest_comment": "2016-09-05"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Cerveceros"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "charlestonbeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place to discuss beer/breweries/bars in Charleston, SC! Please let the mods know if you think anything should be added to the sidebar. This subreddit is still new and we are willing to do anything to make it better!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 785,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 349,
+        "comments": 973,
+        "earliest_post": "2014-01-09",
+        "earliest_comment": "2014-01-09"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=charlestonbeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "CharlotteBeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "Looking to discuss craft beer in Charlotte, NC? The Charlotte Beer subreddit is the place to talk \"beer around Crown Town.\"",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 334,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 204,
+        "comments": 53,
+        "earliest_post": "2012-09-23",
+        "earliest_comment": "2012-10-23"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=CharlotteBeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "chicagobeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 15011,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 8783,
+        "comments": 73881,
+        "earliest_post": "2011-08-10",
+        "earliest_comment": "2011-08-10"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=chicagobeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "cider",
+      "classification": {
+        "category": "",
+        "primary_topic": "Cider, the fermented alcoholic beverage made from fruit juice, most commonly and traditionally apple juice, but also the juice of peaches, pears, or other fruit.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 109395,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 18708,
+        "comments": 157258,
+        "earliest_post": "2010-12-21",
+        "earliest_comment": "2010-12-21"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=cider"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Ciderporn",
+      "classification": {
+        "category": "",
+        "primary_topic": "Subreddit for lovers of cider. Come here to share stories of tasting or making of Cider.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 3900,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 719,
+        "comments": 2248,
+        "earliest_post": "2011-03-23",
+        "earliest_comment": "2011-03-23"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ciderporn"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "cincinnatibeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place to discuss, ruminate and enjoy all aspects of a great beer city: Cincinnati!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 6112,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 4218,
+        "comments": 23272,
+        "earliest_post": "2013-04-18",
+        "earliest_comment": "2013-04-20"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=cincinnatibeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "COBeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 6235,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 3583,
+        "comments": 21874,
+        "earliest_post": "2012-02-05",
+        "earliest_comment": "2012-02-07"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=COBeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "collegestationbeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "This can be a place for people interested in the craft beer scene around the BCS area to discuss the available craft brew in College Station.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 185,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 100,
+        "comments": 200,
+        "earliest_post": "2014-02-19",
+        "earliest_comment": "2014-02-19"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=collegestationbeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "ColumbusBeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "Everything Beer in Columbus Ohio",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 3776,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2242,
+        "comments": 8160,
+        "earliest_post": "2013-02-15",
+        "earliest_comment": "2013-02-15"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ColumbusBeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "cookwithbeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 7531,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1229,
+        "comments": 1419,
+        "earliest_post": "2012-01-23",
+        "earliest_comment": "2012-01-24"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=cookwithbeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "CraftBeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place for discussion and geekery concerning craft beer. A home for people who are passionate about beer and spreading the word.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 118514,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 94482,
+        "comments": 620422,
+        "earliest_post": "2010-04-01",
+        "earliest_comment": "2012-05-15"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=CraftBeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "ctbeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "Discussions and announcements related to craft beer in the state of Connecticut, with links and maps to breweries, calendar of events, brewmaster AMAs, and more.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 4760,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 4013,
+        "comments": 27150,
+        "earliest_post": "2014-01-06",
+        "earliest_comment": "2014-01-06"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ctbeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "dcbeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1837,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 724,
+        "comments": 3273,
+        "earliest_post": "2012-11-28",
+        "earliest_comment": "2012-11-28"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=dcbeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "denverbeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 58,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 5,
+        "comments": 14,
+        "earliest_post": "2020-01-28",
+        "earliest_comment": "2020-01-31"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=denverbeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "DFWBeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to r/DFWBeer. 🍻 Engage in the spirited discussions surrounding craft beer in the Dallas-Fort Worth metroplex. From local brewery updates to tasting notes, this subreddit is your go-to destination for all things craft beer-related in our vibrant community. Share your brew discoveries, trade tips, and connect with fellow beer enthusiasts who call DFW home. Cheers to the love of hops and local flavor!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 3940,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1850,
+        "comments": 10017,
+        "earliest_post": "2012-08-10",
+        "earliest_comment": "2012-08-10"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=DFWBeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "FloridaBrew",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit for Floridians who love beer, homebrewing, and beer politics",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 887,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 720,
+        "comments": 1725,
+        "earliest_post": "2013-12-13",
+        "earliest_comment": "2013-12-13"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=FloridaBrew"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "GlutenFreeBeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "After seeing posts in r/Homebrewing r/Beer and r/glutenfree ....I decided this was needed .",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 503,
+        "created_year": 2017,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 105,
+        "comments": 400,
+        "earliest_post": "2017-08-17",
+        "earliest_comment": "2017-08-17"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=GlutenFreeBeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "grainfather",
+      "classification": {
+        "category": "",
+        "primary_topic": "This sub is for the discussion of home brewing with the Grainfather -  All Grain Brewing system. \n\nThe Grainfather has been developed by the innovative New Zealand company - Imake Ltd, who also produces Mangrove Jack’s brew kits and Still Spirits distilling products.\n \nIt has taken almost two years of rigorous research and development by our expert team of industrial designers, engineers and help from commercial brewers to finally launch the Grainfather – all in one brewing system.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 4389,
+        "created_year": 2015,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1287,
+        "comments": 8559,
+        "earliest_post": "2015-08-01",
+        "earliest_comment": "2015-08-03"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=grainfather"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "hamiltoncraftbeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "Hamilton, Ontario's craft beer scene is exploding!  Keep up with news, views, and reviews.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 502,
+        "created_year": 2018,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 393,
+        "comments": 637,
+        "earliest_post": "2018-04-06",
+        "earliest_comment": "2018-04-06"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=hamiltoncraftbeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Homebrewing",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome brewers, mazers, vintners, and cider makers!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1171657,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 246454,
+        "comments": 3534927,
+        "earliest_post": "2008-06-23",
+        "earliest_comment": "2008-08-14"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Homebrewing"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "homebrewingUK",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit for discussion of homebrewing and beer related topics that are more relevant to the UK and Europe.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1249,
+        "created_year": 2015,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 642,
+        "comments": 4464,
+        "earliest_post": "2017-10-17",
+        "earliest_comment": "2020-01-08"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=homebrewingUK"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "homebrewrecipes",
+      "classification": {
+        "category": "",
+        "primary_topic": "This is for homebrew beer recipes ONLY. Please read the sidebar before posting.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 308,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 18,
+        "comments": 11,
+        "earliest_post": "2012-12-04",
+        "earliest_comment": "2012-12-04"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=homebrewrecipes"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "HoustonBeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "A repository for all things related to beer in the Houston, Tx area.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 6877,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2772,
+        "comments": 20241,
+        "earliest_post": "2012-08-14",
+        "earliest_comment": "2012-08-14"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=HoustonBeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "indybeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "Subreddit for indy beer!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 2015,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1292,
+        "comments": 6839,
+        "earliest_post": "2013-11-13",
+        "earliest_comment": "2013-11-13"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=indybeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "iowabeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "Do you like craft beer?  Do you live in Iowa?  Want to talk about Toppling Goliath or Peace Tree or El Bait Shop?  Do it here.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1348,
+        "created_year": 2015,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 562,
+        "comments": 2404,
+        "earliest_post": "2015-04-06",
+        "earliest_comment": "2015-04-06"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=iowabeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "IPA",
+      "classification": {
+        "category": "",
+        "primary_topic": "All about India Pale Ales.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1823,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1346,
+        "comments": 3159,
+        "earliest_post": "2013-02-15",
+        "earliest_comment": "2013-02-23"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=IPA"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "JaxBrew",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit for Homebrewers and Beer Enthusiasts in Jacksonville, FL and surrounding areas.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 429,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1017,
+        "comments": 1143,
+        "earliest_post": "2014-11-13",
+        "earliest_comment": "2014-11-15"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=JaxBrew"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "KansasCityBeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "A community for beer in the Kansas City region!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 39293,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1748,
+        "comments": 6616,
+        "earliest_post": "2013-12-23",
+        "earliest_comment": "2013-12-23"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=KansasCityBeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "kegerators",
+      "classification": {
+        "category": "",
+        "primary_topic": "Show off your custom built kegerator / keg fridge here!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 5016,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 3102,
+        "comments": 19375,
+        "earliest_post": "2012-12-23",
+        "earliest_comment": "2012-12-23"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=kegerators"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "knoxvillebeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "Resource and gathering place for people around Knoxville who love beer.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 415,
+        "created_year": 2016,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 66,
+        "comments": 81,
+        "earliest_post": "2016-03-17",
+        "earliest_comment": "2016-03-29"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=knoxvillebeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "KWBrews",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place for discussing local beers you can find here in the Kitchener Waterloo area.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 472,
+        "created_year": 2017,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 91,
+        "comments": 494,
+        "earliest_post": "2017-09-17",
+        "earliest_comment": "2017-09-18"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=KWBrews"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "LABeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "News and updates for all things beer in Los Angeles.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 4726,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1965,
+        "comments": 13523,
+        "earliest_post": "2013-07-30",
+        "earliest_comment": "2013-09-09"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=LABeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Lager",
+      "classification": {
+        "category": "",
+        "primary_topic": "Lager is not to be enjoyed, it is to be endured",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 73,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 61,
+        "comments": 110,
+        "earliest_post": "2014-10-17",
+        "earliest_comment": "2015-03-09"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Lager"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "lambic",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place to discuss authentic Belgian lambics including lambic related brewerania. \n\nPictures of your latest trade haul should be posted to /r/beerporn\nTrade beer in /r/beertrade\nPlease direct all non-lambic beer posts to /r/beer",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 467,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 61,
+        "comments": 308,
+        "earliest_post": "2015-03-25",
+        "earliest_comment": "2015-03-25"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=lambic"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "LasVegasBeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "This subreddit includes all the news, releases, parties, and beers for craft beer breweries in the Las Vegas valley.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1167,
+        "created_year": 2017,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 163,
+        "comments": 513,
+        "earliest_post": "2017-02-02",
+        "earliest_comment": "2017-02-03"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=LasVegasBeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "lehighvalleycraftbeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place to discuss craft beer and the breweries of the Lehigh Valley.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 122,
+        "created_year": 2018,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 22,
+        "comments": 65,
+        "earliest_post": "2018-05-25",
+        "earliest_comment": "2018-05-26"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=lehighvalleycraftbeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "mainebeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 2047,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 614,
+        "comments": 1941,
+        "earliest_post": "2012-01-16",
+        "earliest_comment": "2012-01-16"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=mainebeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "maritimecraftbeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place to discuss craft beer in Atlantic Canada - breweries, brew pubs, tap rooms, bars and the like, but also your homebrew, your passion for craft beer. I will include craft cider like Bulwark in this discussion as well. Discussion about other craft beers/breweries in the other provinces will be allowed but monitored. It's OK to talk about them, but we want to keep the focus on Atlantic Canada.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 267,
+        "created_year": 2016,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 117,
+        "comments": 390,
+        "earliest_post": "2016-03-02",
+        "earliest_comment": "2016-03-02"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=maritimecraftbeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "MDbeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place for all things related to Maryland beer",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 2884,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1357,
+        "comments": 8422,
+        "earliest_post": "2013-06-09",
+        "earliest_comment": "2013-09-09"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=MDbeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "mead",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to /r/Mead. Be friendly and civil!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 194829,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 94875,
+        "comments": 902842,
+        "earliest_post": "2010-02-11",
+        "earliest_comment": "2010-02-11"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=mead"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "MemphisBeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to the subreddit all about Memphis Beer!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 594,
+        "created_year": 2017,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 475,
+        "comments": 1041,
+        "earliest_post": "2017-12-18",
+        "earliest_comment": "2017-12-19"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=MemphisBeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "michiganbeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "All about Michigan beer! \n\nFrom home brewing to your favorite brewpub, microbrewery or full scale brewery, you can talk about it here.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 10310,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 6210,
+        "comments": 47104,
+        "earliest_post": "2012-05-02",
+        "earliest_comment": "2012-05-03"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=michiganbeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "minnesotabeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "Craft brewing in MN. Homebrewing, limited releases, events, etc..",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 5024,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 4279,
+        "comments": 27850,
+        "earliest_post": "2011-05-27",
+        "earliest_comment": "2011-05-27"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=minnesotabeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "msbeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "A community of those that love to drink beer in Mississippi. Local, home-brewed, imported, or looking for a restaurant with a great beer selection, this is your place!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 336,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 135,
+        "comments": 359,
+        "earliest_post": "2014-11-21",
+        "earliest_comment": "2014-11-22"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=msbeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "NABEER",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit for discussing non-alcoholic beer",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 11327,
+        "created_year": 2019,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 5122,
+        "comments": 61333,
+        "earliest_post": "2019-05-24",
+        "earliest_comment": "2019-06-16"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=NABEER"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "NashvilleBeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "All about the Nashville beer scene.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 2151,
+        "created_year": 2015,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 696,
+        "comments": 5113,
+        "earliest_post": "2015-06-05",
+        "earliest_comment": "2015-06-05"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=NashvilleBeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "nebraskabeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "NebraskaBeer is a place to post, share and celebrate brews made in Nebraska. \n\n***Support your local breweries!***",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1721,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1064,
+        "comments": 5380,
+        "earliest_post": "2013-09-16",
+        "earliest_comment": "2013-12-17"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=nebraskabeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "NEOHBeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place to find out about breweries, events, home brewing, and anything else beer related in NE Ohio",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 976,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 362,
+        "comments": 1256,
+        "earliest_post": "2014-07-17",
+        "earliest_comment": "2014-07-17"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=NEOHBeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "NewBeerFriday",
+      "classification": {
+        "category": "",
+        "primary_topic": "Every Friday you post a picture of a new beer/beer bottle that you have never tried before. The purpose of this subreddit is simple, it aims to make you a more adventurous beer drinker and step out of your comfort zone. Cheers!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 707,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 221,
+        "comments": 251,
+        "earliest_post": "2013-03-15",
+        "earliest_comment": "2013-03-15"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=newbeerfriday"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "newenglandbeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "From Sam Adams to Magic Hat, Harpoon to Hooker a celebration of the rich brewing traditions of New England.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 905,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 139,
+        "comments": 424,
+        "earliest_post": "2012-09-03",
+        "earliest_comment": "2012-09-18"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=newenglandbeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "NewOrleansBeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "The best place to discuss and appreciate New Orleans and all of Louisiana's fantastic funky craft beer scene.                   \n.......................................................................\nNectar of the Gods in the Tropical Swamp.\n.......................................................................\n#Recommended Subs\n\n/r/beer\n\n/r/beerporn\n\n/r/craftbeer\n\n/r/beerwithaview\n\n/r/beerreleases\n\n/r/NewOrleans\n\n/r/AskNOLA\n\n/r/NOLAbicycling",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 8041,
+        "created_year": 2018,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1898,
+        "comments": 11130,
+        "earliest_post": "2018-05-23",
+        "earliest_comment": "2018-05-24"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=NewOrleansBeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "nhbeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "Live free and brew.  \n\nA community for everything beer and brewing related in New Hampshire.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 748,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 294,
+        "comments": 507,
+        "earliest_post": "2014-03-19",
+        "earliest_comment": "2014-03-25"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=nhbeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "NiagaraBeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "A community to discuss craft breweries, local beer, local venues, and everything else beer in the area. If you'd like to discuss local wines, whiskeys, and such that's okay as well but mostly centered around the love of beer.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 141,
+        "created_year": 2021,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 37,
+        "comments": 86,
+        "earliest_post": "2021-06-18",
+        "earliest_comment": "2021-06-19"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=NiagaraBeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "njbeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place to discuss NJ beer - Releases, Events, Stores, NJ Breweries, and other beer related happenings related to New Jersey.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 14099,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 9262,
+        "comments": 75699,
+        "earliest_post": "2014-04-15",
+        "earliest_comment": "2014-04-16"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=njbeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "NYbeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "Any news, info or fun facts relating to the NY beer scene are welcome. Noticed NYC has its own beer subreddit, thought the rest of the state deserved one too.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 582,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 155,
+        "comments": 312,
+        "earliest_post": "2014-07-24",
+        "earliest_comment": "2014-08-13"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=NYBeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "nycbeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 4443,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1994,
+        "comments": 12412,
+        "earliest_post": "2011-11-08",
+        "earliest_comment": "2011-11-09"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=nycbeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "NZBeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "All things Beer in New Zealand",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 938,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 426,
+        "comments": 1609,
+        "earliest_post": "2012-11-22",
+        "earliest_comment": "2012-11-23"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=NZBeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "ocbeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "News and updates for all things beer in Orange County.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 979,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 308,
+        "comments": 1186,
+        "earliest_post": "2014-01-24",
+        "earliest_comment": "2014-01-24"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ocbeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "OH_Beer",
+      "classification": {
+        "category": "",
+        "primary_topic": "This is an inviting place for all Ohio craft beer drinkers and beer lovers to stop by. Whether you’re a home brewer or exploring for the next spot to grab a pint I invite you to create and join our Ohio Craft Beer conversations.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 140,
+        "created_year": 2020,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 135,
+        "comments": 50,
+        "earliest_post": "2020-02-18",
+        "earliest_comment": "2020-02-18"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=OH_Beer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "OklahomaBeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "A community for beer lovers in Oklahoma. Come discuss brews, favorite pubs, events, or anything else relevant to the beer community in the state!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1582,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 408,
+        "comments": 1581,
+        "earliest_post": "2013-03-17",
+        "earliest_comment": "2013-03-17"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=OklahomaBeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "ontariocraftbeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place to talk Ontario Craft Beer.  Any local brew news and discussions about up and coming events, Taste reviews on new and old Craft beers. Open talk about some of the best produced beer in the World!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 560,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 229,
+        "comments": 712,
+        "earliest_post": "2014-10-02",
+        "earliest_comment": "2016-09-07"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ontariocraftbeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "orlandobeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "A community to discuss all that is /r/beer in /r/orlando.  A new market deserves a new subreddit.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 375,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 190,
+        "comments": 308,
+        "earliest_post": "2014-08-26",
+        "earliest_comment": "2014-10-09"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=orlandobeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "PaCraftBeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place to share, discuss and learn about craft beer and the breweries crafting it in Pennsylvania.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 243,
+        "created_year": 2020,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 164,
+        "comments": 258,
+        "earliest_post": "2020-04-25",
+        "earliest_comment": "2020-04-25"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=PaCraftBeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "phillycraftbeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=phillycraftbeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "PittsburghBeers",
+      "classification": {
+        "category": "",
+        "primary_topic": "Discussing locally brewed and locally available beers and events in the city of Pittsburgh.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 5111,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1782,
+        "comments": 13308,
+        "earliest_post": "2012-12-31",
+        "earliest_comment": "2012-12-31"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=PittsburghBeers"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "portlandbeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "This is a place to post new releases of beers or events that come to the Portland, Oregon breweries",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 6011,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 3225,
+        "comments": 24520,
+        "earliest_post": "2012-07-12",
+        "earliest_comment": "2012-07-12"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=portlandbeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "PublicHouse",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=PublicHouse"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "realale",
+      "classification": {
+        "category": "",
+        "primary_topic": "Beer, festivals, CAMRA news, real ale pubs and anything to be a UK version of /r/beer really.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 667,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 84,
+        "comments": 143,
+        "earliest_post": "2009-11-10",
+        "earliest_comment": "2009-11-10"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=realale"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "RIBreweries",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=RIBreweries"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "sdbeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to SDBeer, for all things related to South Dakota Craft Beer!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 385,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1493,
+        "comments": 310,
+        "earliest_post": "2016-07-05",
+        "earliest_comment": "2016-07-05"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=sdbeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "seattlebeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "/r/seattlebeer represents the fans of excellent brews made in the greater Seattle area and home brewers located in Seattle. Tell us what you're drinking, brewing, or excited about. News, reviews, and posts about your favorite beer bar are all welcome here! Drink well, Seattle.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 664,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 213,
+        "comments": 641,
+        "earliest_post": "2013-12-21",
+        "earliest_comment": "2013-12-31"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=seattlebeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "SFBeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "A regional beer subreddit for those living (or just interested) in beer happenings in the San Francisco Bay Area.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1886,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 818,
+        "comments": 2468,
+        "earliest_post": "2013-03-20",
+        "earliest_comment": "2013-03-22"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=SFBeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "showerbeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "Work soft. Showerbeer hard.\n\nJoin Our Discord \nhttps://discord.gg/XRJJMqpqJT",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 192088,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 120111,
+        "comments": 723422,
+        "earliest_post": "2011-12-13",
+        "earliest_comment": "2011-12-13"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=showerbeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "SoFlaBeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "r/SoFlaBeer is a community for South Florida beer enthusiasts, drinkers, traders, and homebrewers to discuss and share local events, breweries, bottle shops, etc.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 312,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 47,
+        "comments": 54,
+        "earliest_post": "2014-01-07",
+        "earliest_comment": "2014-01-08"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=SoFlaBeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "sourbeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "Berliner Weisse, Flanders Reds, Flanders Browns, Oud Bruins, Lambics and Gueuze.. these are a few of our favorite things.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 2934,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1483,
+        "comments": 5918,
+        "earliest_post": "2012-09-05",
+        "earliest_comment": "2012-09-05"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=SourBeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "StLouisBeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StLouisBeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Tastingcraftbeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit dedicated to **text reviews and tasting notes** for beer. Feel free to post your thoughts about any beer you are drinking here.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 191,
+        "created_year": 2017,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 30,
+        "comments": 24,
+        "earliest_post": "2017-04-04",
+        "earliest_comment": "2017-04-04"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Tastingcraftbeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "texasbeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "Beer from the Lone Star State",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 4203,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1973,
+        "comments": 7373,
+        "earliest_post": "2011-06-25",
+        "earliest_comment": "2011-06-28"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=texasbeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "TheBrewery",
+      "classification": {
+        "category": "",
+        "primary_topic": "TheBrewery is a professional community focused on issues related to the production of Beer, Wine and Liquor. This subreddit is for the discussion of all things related to the industry such as Business Plans, Marketing, Startup, Licensing, Distribution, and Technical issues.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 117186,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 37304,
+        "comments": 526411,
+        "earliest_post": "2011-07-25",
+        "earliest_comment": "2011-07-25"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=TheBrewery"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "TheHopyard",
+      "classification": {
+        "category": "",
+        "primary_topic": "We've got /r/TheBrewery, but that focuses too much on the making of beer. /r/Homebrewing, but we don't care if your beer is infected. /r/beer? Obviously no. The hop enthusiasts with green thumbs (or aspiring to have them) need a place to congregate. So this is a subreddit for pro and hobbyist hop growers to post pictures, articles, studies, releases, tips and tricks, anything related to hops and hop growing.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 80534,
+        "created_year": 2015,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 3300,
+        "comments": 18990,
+        "earliest_post": "2015-05-25",
+        "earliest_comment": "2015-05-26"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=TheHopyard"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "torontocraftbeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "/r/TorontoCraftBeer is a community for discussion and geekery concerning craft beer in the Greater Toronto Area.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 7546,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 6786,
+        "comments": 57426,
+        "earliest_post": "2014-07-29",
+        "earliest_comment": "2014-07-29"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=torontocraftbeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "trianglencbeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit to promote the craft beer scene across the greater Triangle area (Raleigh, Durham, Chapel Hill, and beyond) in central North Carolina.\n\nSee the Triangle Area Beer Maps pinned at the top for a comprehensive list of breweries & taprooms to visit across the region.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1392,
+        "created_year": 2021,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 312,
+        "comments": 1629,
+        "earliest_post": "2021-11-23",
+        "earliest_comment": "2021-11-27"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=trianglencbeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "UK_beer",
+      "classification": {
+        "category": "",
+        "primary_topic": "A UK based sub for people to gather and talk about beer related things.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 7512,
+        "created_year": 2020,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 6217,
+        "comments": 47262,
+        "earliest_post": "2020-12-07",
+        "earliest_comment": "2020-12-09"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=UK_Beer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Untappd",
+      "classification": {
+        "category": "",
+        "primary_topic": "This is a place to share Untappd news, pictures of beers, questions on badges, and common camaraderie of your favorite app, Untappd.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 16770,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 9447,
+        "comments": 74443,
+        "earliest_post": "2012-11-28",
+        "earliest_comment": "2012-12-08"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Untappd"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "VABEER",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place for news and discussion of the burgeoning Virginia Craft Beer scene.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 613,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 183,
+        "comments": 158,
+        "earliest_post": "2013-09-16",
+        "earliest_comment": "2013-09-19"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=VABEER"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "VancouverCraftBeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "A community for craft beer enthusiasts in British Columbia to discuss their favourite breweries, industry trends, and discover new beers!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 5570,
+        "created_year": 2018,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1641,
+        "comments": 21961,
+        "earliest_post": "2018-03-15",
+        "earliest_comment": "2018-03-15"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=VancouverCraftBeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "VancouverIslandBeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place for Vancouver Islanders to talk about beer, cider, distilling, homebrew, and craft news & events.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 932,
+        "created_year": 2019,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 309,
+        "comments": 796,
+        "earliest_post": "2019-08-19",
+        "earliest_comment": "2019-08-19"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=VancouverIslandBeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "VermontBeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 2873,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 810,
+        "comments": 3978,
+        "earliest_post": "2013-08-09",
+        "earliest_comment": "2013-08-09"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=VermontBeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "WAbeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place to discuss beers, breweries and events in Washington state.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 2204,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 657,
+        "comments": 3517,
+        "earliest_post": "2012-10-24",
+        "earliest_comment": "2012-10-25"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=WAbeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "WCNYBeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "News about beer in the Western & Central New York areas (Buffalo, Rochester, Syracuse).",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1176,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 394,
+        "comments": 731,
+        "earliest_post": "2014-02-13",
+        "earliest_comment": "2014-02-13"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=WCNYBeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "WestVirginiaBeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "The West Virginia beer scene. News and updates from the West Virginia beer scene and breweries. Created by a fellow West Virginian who is passionate about beer.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 460,
+        "created_year": 2020,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 120,
+        "comments": 263,
+        "earliest_post": "2020-02-27",
+        "earliest_comment": "2020-03-20"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=WestVirginiaBeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "wisconsinbeer",
+      "classification": {
+        "category": "",
+        "primary_topic": "Dedicated to beer brewed in Wisconsin and out state's proud brewing heritage.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 3725,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1345,
+        "comments": 7638,
+        "earliest_post": "2012-09-28",
+        "earliest_comment": "2013-01-19"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=wisconsinbeer"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    }
+  ]
+}

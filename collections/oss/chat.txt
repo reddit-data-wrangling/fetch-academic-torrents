@@ -1,0 +1,689 @@
+Below is a comprehensive set of subreddits covering the open-source software movement, major foundations, programming ecosystems, and individual open-source projects. This list emphasizes communities that are active, technically focused, and useful for contributors as well as users.
+
+---
+
+# Open Source Software (General)
+
+These are the core communities for OSS news, discussion, licensing, and collaboration.
+
+* r/opensource
+* r/foss
+* r/open_source
+* r/freeSoftware
+* r/linux
+* r/programming
+* r/software
+* r/compsci
+
+Topics include:
+
+* New open-source projects
+* Licensing (GPL, MIT, Apache, BSD)
+* Community governance
+* Project sustainability
+* Contributor experiences
+
+---
+
+# Free Software Movement
+
+Communities focused on software freedom and digital rights.
+
+* r/freeSoftware
+* r/gnu
+* r/stallmanwasright
+* r/privacy
+* r/degoogle
+* r/selfhosted
+
+---
+
+# Programming & Development
+
+General developer communities where OSS projects are frequently discussed.
+
+* r/programming
+* r/coding
+* r/learnprogramming
+* r/webdev
+* r/compsci
+* r/softwarearchitecture
+* r/devops
+
+---
+
+# Git & Collaboration
+
+* r/git
+* r/github
+* r/gitlab
+* r/devops
+
+Topics:
+
+* Pull requests
+* Code review
+* CI/CD
+* Repository management
+
+---
+
+# Open Source Foundations
+
+Communities surrounding major nonprofit organizations.
+
+## Linux Foundation
+
+* r/linux
+
+---
+
+## Apache Software Foundation
+
+* r/apache
+
+---
+
+## Eclipse Foundation
+
+* r/eclipse
+
+---
+
+## Mozilla
+
+* r/firefox
+* r/mozilla
+
+---
+
+## KDE
+
+* r/kde
+
+---
+
+## GNOME
+
+* r/gnome
+
+---
+
+## Blender Foundation
+
+* r/blender
+
+---
+
+## LibreOffice
+
+* r/libreoffice
+
+---
+
+# Programming Languages
+
+## Rust
+
+* r/rust
+
+Projects:
+
+* rustc
+* Cargo
+* Clippy
+* Tokio
+* Bevy
+
+---
+
+## Go
+
+* r/golang
+
+Projects:
+
+* Go compiler
+* Kubernetes
+* Docker
+* Hugo
+
+---
+
+## Python
+
+* r/Python
+
+Projects:
+
+* CPython
+* Django
+* Flask
+* FastAPI
+* NumPy
+* SciPy
+
+---
+
+## JavaScript
+
+* r/javascript
+* r/node
+
+Projects:
+
+* Node.js
+* Deno
+* Bun
+* React
+* Vue
+* Angular
+
+---
+
+## C++
+
+* r/cpp
+
+---
+
+## C
+
+* r/C_Programming
+
+---
+
+## Java
+
+* r/java
+
+---
+
+## Swift
+
+* r/swift
+
+---
+
+## Zig
+
+* r/Zig
+
+---
+
+## Haskell
+
+* r/haskell
+
+---
+
+## OCaml
+
+* r/ocaml
+
+---
+
+## Elixir
+
+* r/elixir
+
+---
+
+## Erlang
+
+* r/erlang
+
+---
+
+## Lua
+
+* r/lua
+
+---
+
+## Ruby
+
+* r/ruby
+
+---
+
+## PHP
+
+* r/PHP
+
+---
+
+# Web Frameworks
+
+* r/reactjs
+* r/vuejs
+* r/angular
+* r/sveltejs
+* r/nextjs
+* r/laravel
+* r/django
+* r/flask
+* r/FastAPI
+
+---
+
+# Databases
+
+## PostgreSQL
+
+* r/PostgreSQL
+
+---
+
+## MySQL
+
+* r/mysql
+
+---
+
+## SQLite
+
+* r/sqlite
+
+---
+
+## Redis
+
+* r/redis
+
+---
+
+## MongoDB
+
+* r/mongodb
+
+---
+
+## ClickHouse
+
+* r/ClickHouse
+
+---
+
+# Infrastructure Projects
+
+## Docker
+
+* r/docker
+
+---
+
+## Podman
+
+* r/podman
+
+---
+
+## Kubernetes
+
+* r/kubernetes
+
+---
+
+## Helm
+
+* r/kubernetes
+
+---
+
+## Terraform / OpenTofu
+
+* r/Terraform
+* r/opentofu
+
+---
+
+## Ansible
+
+* r/ansible
+
+---
+
+## Puppet
+
+* r/Puppet
+
+---
+
+## Chef
+
+* r/chef
+
+---
+
+## Prometheus
+
+* r/prometheusmonitoring
+
+---
+
+## Grafana
+
+* r/grafana
+
+---
+
+# Observability
+
+* r/opentelemetry
+* r/grafana
+* r/prometheusmonitoring
+
+---
+
+# Editors & IDEs
+
+## Vim
+
+* r/vim
+
+---
+
+## Neovim
+
+* r/neovim
+
+---
+
+## Emacs
+
+* r/emacs
+
+---
+
+## VS Code
+
+* r/vscode
+
+---
+
+## Helix
+
+* r/HelixEditor
+
+---
+
+## Zed
+
+* r/ZedEditor
+
+---
+
+# Office & Productivity
+
+* r/libreoffice
+* r/OnlyOffice
+* r/joplinapp
+* r/logseq
+* r/obsidianmd
+
+---
+
+# Graphics & Multimedia
+
+## Blender
+
+* r/blender
+
+---
+
+## Krita
+
+* r/krita
+
+---
+
+## GIMP
+
+* r/GIMP
+
+---
+
+## Inkscape
+
+* r/Inkscape
+
+---
+
+## Kdenlive
+
+* r/kdenlive
+
+---
+
+## OBS Studio
+
+* r/obs
+
+---
+
+## FFmpeg
+
+* r/ffmpeg
+
+---
+
+# Audio
+
+* r/audacity
+* r/Ardour
+* r/pipewire
+* r/linuxaudio
+
+---
+
+# Browsers
+
+* r/firefox
+* r/brave_browser
+* r/librewolf
+* r/floorp
+
+---
+
+# Self-hosted Software
+
+* r/selfhosted
+
+Projects discussed include:
+
+* Nextcloud
+* Immich
+* Jellyfin
+* Paperless-ngx
+* Gitea
+* Forgejo
+* Vaultwarden
+* Home Assistant
+
+---
+
+# Home Automation
+
+* r/homeassistant
+* r/homeautomation
+
+---
+
+# Privacy
+
+* r/privacy
+* r/degoogle
+* r/selfhosted
+
+Projects:
+
+* Signal
+* Tor
+* Mullvad
+* KeePassXC
+* Bitwarden
+* LibreWolf
+
+---
+
+# Password Managers
+
+* r/Bitwarden
+* r/KeePass
+
+---
+
+# Virtualization
+
+* r/proxmox
+* r/qemu_kvm
+* r/libvirt
+
+---
+
+# Containers
+
+* r/docker
+* r/podman
+* r/lxc
+
+---
+
+# Networking
+
+* r/networking
+* r/opnsense
+* r/PFSENSE
+
+---
+
+# Security
+
+* r/netsec
+* r/blueteamsec
+* r/redteamsec
+
+---
+
+# Open Hardware
+
+* r/RISCV
+* r/arduino
+* r/esp32
+* r/raspberry_pi
+
+---
+
+# Artificial Intelligence
+
+## Frameworks
+
+* r/PyTorch
+* r/tensorflow
+* r/JAX
+
+## Open Models
+
+* r/LocalLLaMA
+
+Projects discussed include:
+
+* llama.cpp
+* Ollama
+* vLLM
+* Hugging Face Transformers
+* Mistral
+* Qwen
+* DeepSeek
+* Gemma
+
+---
+
+# Scientific Computing
+
+* r/scipy
+* r/Julia
+* r/Rlanguage
+
+---
+
+# Package Managers
+
+* r/NixOS
+* r/homebrew
+* r/chocolatey
+
+---
+
+# Gaming
+
+* r/Godot
+* r/linux_gaming
+* r/opensourcegames
+
+---
+
+# Documentation
+
+* r/WriteTheDocs
+
+---
+
+# Maintainers & Contributors
+
+These communities often discuss the realities of maintaining open-source projects:
+
+* r/opensource
+* r/github
+* r/gitlab
+* r/programming
+* r/devops
+
+Topics include:
+
+* Burnout
+* Governance
+* Funding
+* Sponsorship
+* Contributor onboarding
+* Community management
+
+---
+
+# Best Overall Subscription List
+
+If you want broad coverage of the open-source ecosystem with about 30 subscriptions, I'd recommend:
+
+* r/opensource
+* r/foss
+* r/freeSoftware
+* r/programming
+* r/github
+* r/git
+* r/gitlab
+* r/linux
+* r/selfhosted
+* r/devops
+* r/docker
+* r/kubernetes
+* r/Python
+* r/rust
+* r/golang
+* r/javascript
+* r/PostgreSQL
+* r/neovim
+* r/emacs
+* r/blender
+* r/Godot
+* r/homeassistant
+* r/privacy
+* r/degoogle
+* r/firefox
+* r/libreoffice
+* r/grafana
+* r/prometheusmonitoring
+* r/LocalLLaMA
+* r/WriteTheDocs
+
+This collection spans the philosophy of free software, contributor culture, modern software engineering, infrastructure, productivity tools, and many of today's most influential open-source projects.

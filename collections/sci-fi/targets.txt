@@ -1,0 +1,1 @@
+# Populate only after catalogue verification and panel selection.

@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "collection": "movies",
+  "holdings": [
+    {
+      "subreddit": "ifyoulikeblank",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/ifyoulikeblank_comments.zst",
+        "bytes": 171110410
+      },
+      "mongo": {
+        "uri": "",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "ifyoulikeblank",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/ifyoulikeblank_submissions.zst",
+        "bytes": 57251077
+      },
+      "mongo": {
+        "uri": "",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    }
+  ]
+}

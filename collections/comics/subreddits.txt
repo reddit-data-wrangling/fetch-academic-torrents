@@ -1,0 +1,159 @@
+# Candidate discovery frame — verify before selection.
+# Sources: collections/comics/chat.txt, the original seed list, and
+# related-community links from r/comicbooks, r/comics, r/graphicnovels, and
+# r/makingcomics.
+
+## General discussion, criticism, reading, and recommendations
+comicbooks
+comics
+graphicnovels
+comicbook
+comicbookart
+ComicBookPorn
+comicreadingorders
+
+# Missing at 2026-07-30; retained from the chat-derived discovery list.
+comicbookreadingclub
+comicbookshelves
+noDCnoMarvel
+WholesomeComics
+
+# Missing at 2026-07-30; retained from the chat-derived discovery list.
+ComicStudies
+
+# Missing at 2026-07-30; retained from the chat-derived discovery list.
+SequentialArt
+
+## Creation, critique, collaboration, and publishing
+makingcomics
+makecomics
+ComicBookCollabs
+comic_crits
+
+# Missing at 2026-07-30; retained from the chat-derived discovery list.
+cartoonists
+Storyboarding
+characterdesign
+Illustration
+selfpublish
+publishing
+homespun
+
+## Webcomics and digital platforms
+webcomics
+WebComic
+webtoon
+webtoons
+tapas
+
+# Missing at 2026-07-30; retained from the chat-derived discovery list.
+ComicFury
+GlobalComix
+nuzlocke
+
+## Manga, manhwa, manhua, and collecting
+manga
+manhwa
+Manhua
+oneshots
+shoujo
+MangaCollectors
+mangadeals
+mangaswap
+
+## Major manga series and creators
+OnePiece
+Naruto
+Berserk
+vagabond
+Kingdom
+JuJutsuKaisen
+ChainsawMan
+bleach
+HunterXHunter
+junjiito
+
+## Independent, alternative, and small-press comics
+indiecomics
+altcomix
+
+# Missing at 2026-07-30; retained from the chat-derived discovery list.
+smallpresscomics
+ImageComics
+
+# Missing at 2026-07-30; retained from the chat-derived discovery list.
+darkhorse
+darkhorsecomics
+IDWComics
+boomstudios
+valiant
+
+## Marvel publishing and comics universes
+Marvel
+marvelcomics
+Spiderman
+xmen
+Avengers
+Daredevil
+FantasticFour
+deadpool
+MoonKnight
+
+## DC publishing and comics universes
+DCcomics
+batman
+superman
+Greenlantern
+Nightwing
+WonderWoman
+Robin
+teentitans
+
+## Major non-Marvel/DC series and universes
+Invincible
+thewalkingdead
+SAGAcomic
+Spawn
+HellBoy
+
+# Missing at 2026-07-30; retained from the chat-derived discovery list.
+BPRD
+monstress
+UsagiYojimbo
+
+## Genre, tradition, and historical periods
+HorrorComics
+scificomics
+noir
+GoldenAgeComics
+Silveragecomics
+BronzeAgeComics
+
+# Missing at 2026-07-30; retained from the original seed list.
+bdfrancophonie
+
+## Collecting, grading, speculation, and exchange
+comicbookcollecting
+CGCComics
+comicswap
+
+# Missing at 2026-07-30; retained from the chat-derived discovery list.
+comicspeculation
+OmnibusCollectors
+comicbookgrading
+
+## Conventions and cosplay
+comiccon
+SDCC
+NYCC
+cosplay
+CosplayHelp
+
+## Comics creators
+AlanMoore
+neilgaiman
+
+# Missing at 2026-07-30; retained from the chat-derived discovery list.
+FionaStaples
+tomking
+GeoffJohns

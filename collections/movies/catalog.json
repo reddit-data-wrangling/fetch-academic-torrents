@@ -1,0 +1,5414 @@
+{
+  "schema_version": 1,
+  "collection": "movies",
+  "communities": [
+    {
+      "subreddit": "4kbluray",
+      "classification": {
+        "category": "",
+        "primary_topic": "Subreddit for all things 4K Blu-ray, reviews, tech and hardware. \n\nDISCORD SERVER:\n\nhttps://discord.gg/wZpRwSb9aD\n\nFROM SCREEN TO SHELF (YOUTUBE):\n\nhttps://www.youtube.com/channel/UCUFdwQLdWNerqrZcNziYY1w\n\nFROM SCREEN TO SHELF (SPOTIFY):\n\nhttps://open.spotify.com/show/3N0hzUHK2afJ8n9KQMn5Ky?si=09ee5c0f1a9f409c)\n\nZAVVI AFFILIATE:    \n\nhttps://tidd.ly/3sr2TgS\n(Commissions Earned)",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 84427,
+        "created_year": 2016,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 88937,
+        "comments": 1647548,
+        "earliest_post": "2016-07-24",
+        "earliest_comment": "2016-07-28"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=4kbluray"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "A24",
+      "classification": {
+        "category": "",
+        "primary_topic": "A24 (est. 2012) is an independent film & television studio that has helped bring indie film and filmmakers into the mainstream while also building a popular company brand",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 227674,
+        "created_year": 2016,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 36173,
+        "comments": 598375,
+        "earliest_post": "2016-11-20",
+        "earliest_comment": "2017-02-06"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=A24"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "acting",
+      "classification": {
+        "category": "",
+        "primary_topic": "This is a Subreddit where anyone and everyone who is interested in the art of Acting meet up. Here, we are a community, a family of users who help each other, share interesting topics and from time to time, organize AMA's!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 126107,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 128307,
+        "comments": 885884,
+        "earliest_post": "2009-05-13",
+        "earliest_comment": "2009-05-13"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Acting"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "ActionMovies",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1894,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 5878,
+        "comments": 95110,
+        "earliest_post": "2012-02-08",
+        "earliest_comment": "2012-02-08"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ActionMovies"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "africancinema",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place to discuss anything and everything to do with the cinema of the African continent and Diaspora.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1875,
+        "created_year": 2017,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1353,
+        "comments": 741,
+        "earliest_post": "2017-03-21",
+        "earliest_comment": "2017-03-21"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=AfricanCinema"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "AfterEffects",
+      "classification": {
+        "category": "",
+        "primary_topic": "After Effects help and inspiration the Reddit way.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 289035,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 162615,
+        "comments": 921771,
+        "earliest_post": "2009-11-09",
+        "earliest_comment": "2010-10-06"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=AfterEffects"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "AkiraKurosawa",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=AkiraKurosawa"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "AMCsAList",
+      "classification": {
+        "category": "",
+        "primary_topic": "AMC has a Subscription Service Called AMC A★List that allows you to watch 3 movies a week Starting at $19.95 a month in any format. This Subreddit is run by fans of this service, not by AMC. We discuss movies, the subscription service, perks, and sometimes AMC as a whole.\n\nDon't forget to join our Discord, link found in our community info.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 78557,
+        "created_year": 2018,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 40576,
+        "comments": 635930,
+        "earliest_post": "2018-06-20",
+        "earliest_comment": "2018-06-20"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=AMCsAList"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "animation",
+      "classification": {
+        "category": "",
+        "primary_topic": "News, Shorts, and Everything Else in the World of Animation",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1867256,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 337355,
+        "comments": 886445,
+        "earliest_post": "2008-08-26",
+        "earliest_comment": "2008-08-27"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=animation"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "anime",
+      "classification": {
+        "category": "",
+        "primary_topic": "Reddit's premier anime community.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 12363078,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1850861,
+        "comments": 38077312,
+        "earliest_post": "2008-01-25",
+        "earliest_comment": "2008-01-25"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=anime"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Animemovies",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to r/Animemovies",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 416,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 233,
+        "comments": 59,
+        "earliest_post": "2013-08-19",
+        "earliest_comment": "2018-03-25"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=AnimeMovies"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "AppleTVPlus",
+      "classification": {
+        "category": "",
+        "primary_topic": "Apple TV+ is a subscription video on demand streaming television service.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 12319,
+        "created_year": 2019,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2291,
+        "comments": 12929,
+        "earliest_post": "2019-03-25",
+        "earliest_comment": "2019-03-25"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=AppleTVPlus"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "AriAster",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit for discussing Ari Aster and his filmography. From the Director of... HEREDITARY, MIDSOMMAR, BEAU IS AFRAID & EDDINGTON.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 7929,
+        "created_year": 2019,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2996,
+        "comments": 39403,
+        "earliest_post": "2019-03-05",
+        "earliest_comment": "2019-06-18"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=AriAster"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "AsianCinema",
+      "classification": {
+        "category": "",
+        "primary_topic": "This subreddit is for all movies that are produced in Asia. Its primary goal is showcasing the unique and diverse quality of Asian Cinema that does not get the attention it should.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 2178,
+        "created_year": 2019,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2962,
+        "comments": 19596,
+        "earliest_post": "2021-05-02",
+        "earliest_comment": "2021-05-02"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=AsianCinema"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "AustralianFilm",
+      "classification": {
+        "category": "",
+        "primary_topic": "A forum featuring Australian and New Zealand Film from the Australasian region.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1448,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1408,
+        "comments": 1681,
+        "earliest_post": "2012-12-12",
+        "earliest_comment": "2012-12-12"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=AustralianFilm"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "badMovies",
+      "classification": {
+        "category": "",
+        "primary_topic": "The official subreddit for the celebration of movies that are so bad, they're good.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 173039,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 45158,
+        "comments": 592173,
+        "earliest_post": "2010-01-30",
+        "earliest_comment": "2010-01-30"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=badMovies"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "BestOfAmazonPrime",
+      "classification": {
+        "category": "",
+        "primary_topic": "Get the most out of your Amazon Prime membership Instant Video perk by checking out the best Amazon has to offer.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 23930,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2274,
+        "comments": 8296,
+        "earliest_post": "2012-03-24",
+        "earliest_comment": "2012-04-17"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=bestofamazonprime"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "blankies",
+      "classification": {
+        "category": "",
+        "primary_topic": "For fans of the Blank Check Podcast, with Griffin Newman, David Sims, and Ben Hosley.  Is Ben \"Professor Crispy\"?  Will Griffin and David ever get the premise of the show down to 30 seconds or under?  Let's listen together and find out!  #thetwofriends",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 59828,
+        "created_year": 2016,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 100992,
+        "comments": 2491630,
+        "earliest_post": "2016-07-27",
+        "earliest_comment": "2016-09-14"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=blankies"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Bluray",
+      "classification": {
+        "category": "",
+        "primary_topic": "For the discussion of all things Blu-ray.  Classics coming to Blu-ray, the latest 4K UHD release, or your new favorite movie, it is all welcome here.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 57781,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 60221,
+        "comments": 439415,
+        "earliest_post": "2010-01-22",
+        "earliest_comment": "2010-07-07"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Bluray"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "bmovies",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 4457,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 3084,
+        "comments": 4153,
+        "earliest_post": "2011-05-28",
+        "earliest_comment": "2011-05-29"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=BMovies"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "bollywood",
+      "classification": {
+        "category": "",
+        "primary_topic": "All about Bollywood movies and Hindi OTT shows",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1205349,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 175485,
+        "comments": 1962198,
+        "earliest_post": "2008-04-07",
+        "earliest_comment": "2008-04-07"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=bollywood"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "boutiquebluray",
+      "classification": {
+        "category": "",
+        "primary_topic": "Join the discussion on our Discord https://discord.gg/CfmFWxFdef. News and discussion on boutique blu-ray labels such as Criterion, Arrow, Shout! Factory and more.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 59603,
+        "created_year": 2016,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 62954,
+        "comments": 783601,
+        "earliest_post": "2016-03-24",
+        "earliest_comment": "2016-03-24"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=boutiquebluray"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "boxoffice",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place to talk about the box office and the movie business, both domestically and internationally.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1137907,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 220817,
+        "comments": 6937755,
+        "earliest_post": "2009-07-03",
+        "earliest_comment": "2012-05-26"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=boxoffice"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "BritishFilms",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1643,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1100,
+        "comments": 1067,
+        "earliest_post": "2011-10-12",
+        "earliest_comment": "2011-10-13"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=BritishFilms"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "CanadianFilm",
+      "classification": {
+        "category": "",
+        "primary_topic": "A forum featuring Canadian Film. \n\nNews, updates, reviews and links to Canadian Film and productions set in Canada.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 884,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1838,
+        "comments": 762,
+        "earliest_post": "2011-04-07",
+        "earliest_comment": "2011-07-19"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=CanadianFilm"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "ChineseCinema",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit for enthusiasts of Mainland Chinese, Hong Kong, and Taiwanese films.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 119,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 76,
+        "comments": 18,
+        "earliest_post": "2012-08-13",
+        "earliest_comment": "2020-09-20"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ChineseCinema"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "ChristopherNolan",
+      "classification": {
+        "category": "",
+        "primary_topic": "Subreddit dedicated to British-American filmmaker Sir Christopher Nolan, known for Oppenheimer, The Dark Knight Trilogy, Interstellar and Inception",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 42299,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 11722,
+        "comments": 307534,
+        "earliest_post": "2012-05-13",
+        "earliest_comment": "2012-06-02"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ChristopherNolan"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Cinema",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to r/Cinema. A place for discussion of the art of cinema and all things related!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 42787,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 40925,
+        "comments": 2331692,
+        "earliest_post": "2009-08-29",
+        "earliest_comment": "2009-10-29"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Cinema"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "cinematography",
+      "classification": {
+        "category": "",
+        "primary_topic": "/r/cinematography is a forum dedicated to becoming an active resource for cinematographers of all skill levels.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 354209,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 91572,
+        "comments": 885212,
+        "earliest_post": "2010-02-11",
+        "earliest_comment": "2010-05-02"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=cinematography"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "CineShots",
+      "classification": {
+        "category": "",
+        "primary_topic": "The art form of film and television simply would not exist without cinematography— and some stand above others when it comes to this inspiring art form. So please, join us in sharing your favorite moments of cinematic beauty!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 188267,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 58070,
+        "comments": 231720,
+        "earliest_post": "2012-12-28",
+        "earliest_comment": "2012-12-28"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=CineShots"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "classicfilms",
+      "classification": {
+        "category": "",
+        "primary_topic": "A community for classic cinema enthusiasts who engage in discussions, share insights, and celebrate films from the early 20th century to the mid-1960s. Members appreciate the rich history, themes, techniques, and cultural significance of classic movies.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 59498,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 31321,
+        "comments": 463173,
+        "earliest_post": "2010-02-26",
+        "earliest_comment": "2010-02-27"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=classicfilms"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "CoenBrothers",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 5205,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1465,
+        "comments": 15149,
+        "earliest_post": "2012-08-25",
+        "earliest_comment": "2013-10-07"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=CoenBrothers"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "colorists",
+      "classification": {
+        "category": "",
+        "primary_topic": "This sub is for anyone involved in the process of coloring video. You can post links to articles, you can ask questions and you can ask for critique. We do skew towards professionals - mark yourself as a Novice unless you do this for a living.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 44507,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 14663,
+        "comments": 125664,
+        "earliest_post": "2013-09-16",
+        "earliest_comment": "2013-09-16"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Colorists"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "comedy",
+      "classification": {
+        "category": "",
+        "primary_topic": "This subreddit is dedicated to the art of stand-up, sketch and improv comedy. Whether you are a performer, an enthusiast, or simply a fan of the craft, this is the space to share insights, performances, and thoughtful discussions.\n\nPlease respect the community guidelines and contribute to a supportive and engaging environment. Thank you for joining us! 🎙️",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 468644,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 133844,
+        "comments": 449958,
+        "earliest_post": "2008-10-14",
+        "earliest_comment": "2008-10-15"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=comedy"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "comedymovies",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=comedymovies"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "comicbookmovies",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 253476,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 51979,
+        "comments": 1101027,
+        "earliest_post": "2009-04-23",
+        "earliest_comment": "2012-08-15"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=comicbookmovies"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "creepy",
+      "classification": {
+        "category": "",
+        "primary_topic": "All things creepy!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 14853825,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 388997,
+        "comments": 3696653,
+        "earliest_post": "2010-01-19",
+        "earliest_comment": "2010-01-19"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=creepy"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "crimemovies",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 3,
+        "created_year": 2022,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 19,
+        "comments": 1,
+        "earliest_post": "2019-04-06",
+        "earliest_comment": "2023-11-02"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=crimemovies"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "criterion",
+      "classification": {
+        "category": "",
+        "primary_topic": "The Criterion Collection is a continuing series of important classic and contemporary films on home video.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 241087,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 136820,
+        "comments": 2248099,
+        "earliest_post": "2011-03-10",
+        "earliest_comment": "2011-03-14"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=criterion"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "CultCinema",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 23008,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 16495,
+        "comments": 24726,
+        "earliest_post": "2009-10-22",
+        "earliest_comment": "2009-10-22"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=cultcinema"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "DataHoarder",
+      "classification": {
+        "category": "",
+        "primary_topic": "This is a sub that aims at bringing data hoarders together to share their passion with like minded people.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 832786,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 170822,
+        "comments": 2402539,
+        "earliest_post": "2013-05-10",
+        "earliest_comment": "2013-05-10"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=DataHoarder"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "DavidFincher",
+      "classification": {
+        "category": "",
+        "primary_topic": "A sub for fans to discuss the films of David Fincher",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 140,
+        "created_year": 2021,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 67,
+        "comments": 46,
+        "earliest_post": "2021-08-31",
+        "earliest_comment": "2023-04-08"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=DavidFincher"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "davidlynch",
+      "classification": {
+        "category": "",
+        "primary_topic": "A forum in which to discuss the work of one of the great filmmakers, David Lynch",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 73049,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 18593,
+        "comments": 238250,
+        "earliest_post": "2011-06-05",
+        "earliest_comment": "2012-01-22"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=davidlynch"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "DenisVilleneuve",
+      "classification": {
+        "category": "",
+        "primary_topic": "Community for all things Denis Villeneuve; News, Updates, Trivia, Theories",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 2469,
+        "created_year": 2017,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 524,
+        "comments": 2208,
+        "earliest_post": "2017-02-01",
+        "earliest_comment": "2018-01-06"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=DenisVilleneuve"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Detective",
+      "classification": {
+        "category": "",
+        "primary_topic": "Detect or discover the existence of;",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 5638,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 3921,
+        "comments": 10125,
+        "earliest_post": "2011-07-30",
+        "earliest_comment": "2012-06-14"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=detective"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "directors",
+      "classification": {
+        "category": "",
+        "primary_topic": "A community for directors to come together and share resources, techniques, and support each other in crafting their creative vision!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 9778,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 3955,
+        "comments": 12547,
+        "earliest_post": "2008-09-05",
+        "earliest_comment": "2009-05-03"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Directors"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "disney",
+      "classification": {
+        "category": "",
+        "primary_topic": "This unofficial subreddit is dedicated to celebrating 100 years of the stories, worlds, and magic of all things Disney! From movies, theme parks, games, music, shopping, and more, find your MAGIC with r/Disney!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 2289968,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 195941,
+        "comments": 825232,
+        "earliest_post": "2008-01-26",
+        "earliest_comment": "2009-05-21"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Disney"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "DisneyPlus",
+      "classification": {
+        "category": "",
+        "primary_topic": "r/DisneyPlus is a subreddit for discussion of Disney's streaming service,",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 2129329,
+        "created_year": 2018,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 67812,
+        "comments": 499485,
+        "earliest_post": "2018-11-08",
+        "earliest_comment": "2018-11-10"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=DisneyPlus"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "docs",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 324,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 264,
+        "comments": 61,
+        "earliest_post": "2010-12-12",
+        "earliest_comment": "2012-01-15"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=docs"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Documentaries",
+      "classification": {
+        "category": "",
+        "primary_topic": "tl;dw /r/Documentaries is reddit's main subreddit for documentaries. Please read our community rules.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 20343280,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 328484,
+        "comments": 4305937,
+        "earliest_post": "2008-03-21",
+        "earliest_comment": "2008-05-29"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Documentaries"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "documentaryfilmmaking",
+      "classification": {
+        "category": "",
+        "primary_topic": "Community to talk about making documentaries, tips for filmmakers, topics, brainstorming etc...",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 8315,
+        "created_year": 2019,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 4266,
+        "comments": 15572,
+        "earliest_post": "2019-04-27",
+        "earliest_comment": "2019-04-28"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=DocumentaryFilmmaking"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "DreamWorks",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit for DreamWorks content. Come join our Discord at https://discord.gg/YeAVQ9fHPB.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 29297,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 23171,
+        "comments": 428934,
+        "earliest_post": "2011-09-24",
+        "earliest_comment": "2011-12-31"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=DreamWorks"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "dvdcollection",
+      "classification": {
+        "category": "",
+        "primary_topic": "Movies are our lives! Movie collectors share pictures of their latest buys and pickups, pictures of their entire collection shelves, and more!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 404399,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 185788,
+        "comments": 1517751,
+        "earliest_post": "2011-07-06",
+        "earliest_comment": "2011-07-06"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=dvdcollection"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "editing",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 38971,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 27088,
+        "comments": 53091,
+        "earliest_post": "2011-01-25",
+        "earliest_comment": "2011-02-23"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=editing"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "editors",
+      "classification": {
+        "category": "",
+        "primary_topic": "This subreddit is geared towards post-professionals. \n\nAre you trying to become a pro? Feel free to use our \"ASK a PRO\" thread. \n\nSide hustle? Use the \"Ask a Pro\" thread.\n\nHobby? For fun? Our sister sub r/videoediting is what you want!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 148138,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 80262,
+        "comments": 773706,
+        "earliest_post": "2009-02-05",
+        "earliest_comment": "2010-04-22"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=editors"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "entertainment",
+      "classification": {
+        "category": "",
+        "primary_topic": "For news and discussion of the entertainment industry.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 5776603,
+        "created_year": 2007,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 825045,
+        "comments": 10359641,
+        "earliest_post": "2007-09-17",
+        "earliest_comment": "2007-09-17"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=entertainment"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "ExperimentalFilm",
+      "classification": {
+        "category": "",
+        "primary_topic": "This community is for experimental and Avant-garde filmmakers and lovers. \n\nPost films or discuss experimental cinema related topic. The term \"experimental film\" has a broad definition, but if you are not familiar with this artistic practice or style, please refer to this Wikipedia article. http://en.wikipedia.org/wiki/Experimental_film",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 10028,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 8305,
+        "comments": 6557,
+        "earliest_post": "2011-11-26",
+        "earliest_comment": "2011-11-26"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ExperimentalFilm"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "exploitation",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 9449,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2258,
+        "comments": 3754,
+        "earliest_post": "2011-05-14",
+        "earliest_comment": "2011-05-30"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=exploitation"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Fantasy",
+      "classification": {
+        "category": "",
+        "primary_topic": "r/Fantasy is the internet's largest discussion forum for the greater Speculative Fiction genre. Fans of fantasy, science fiction, horror, alt history, and more can all find a home with us. We welcome respectful dialogue related to speculative fiction in literature, games, film, and the wider world. We ask all users help us create a welcoming environment by reporting posts/comments that do not follow the subreddit rules.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 3762888,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 272908,
+        "comments": 7441080,
+        "earliest_post": "2008-07-29",
+        "earliest_comment": "2008-11-18"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Fantasy"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "FIlm",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to r/film, the official film community of Reddit. Film lovers and movie fans - talk about your favorite movies, upcoming ones, and the lates releases!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 143580,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 85030,
+        "comments": 2439798,
+        "earliest_post": "2008-03-09",
+        "earliest_comment": "2008-03-09"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Film"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "film_preservation",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=film_preservation"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "FilmFestivals",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit for film festival news, questions, and information. Filmmakers and Film Festivals welcome!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 6804,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 6560,
+        "comments": 114348,
+        "earliest_post": "2010-09-25",
+        "earliest_comment": "2012-11-21"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=FilmFestivals"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "FilmHistory",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=FilmHistory"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "filmindustry",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 910,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 244,
+        "comments": 210,
+        "earliest_post": "2011-03-23",
+        "earliest_comment": "2011-03-25"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=filmindustry"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "FilmIndustryLA",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 67420,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 19613,
+        "comments": 227132,
+        "earliest_post": "2011-07-19",
+        "earliest_comment": "2011-07-19"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=FilmIndustryLA"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "filmmaker",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1298,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 856,
+        "comments": 380,
+        "earliest_post": "2010-01-28",
+        "earliest_comment": "2012-01-28"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Filmmaker"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Filmmakers",
+      "classification": {
+        "category": "",
+        "primary_topic": "Filmmakers, directors, cinematographers, editors, vfx gurus, composers, sound people, grips, electrics, and more meet to share their work, tips, tutorials, and experiences. A place where professionals and amateurs alike unite to discuss the field and help each other.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 2846181,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 386655,
+        "comments": 2193164,
+        "earliest_post": "2009-07-02",
+        "earliest_comment": "2009-10-01"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Filmmakers"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "filmmaking",
+      "classification": {
+        "category": "",
+        "primary_topic": "Filmmakers, indie or other, this is our official space to discuss whatever we want. Hang out, ask questions, talk about equipment, technique, etc. This is not a place to advertise your work, but more of a gathering space for us to talk shop or get help. Welcome!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 27943,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 9126,
+        "comments": 45146,
+        "earliest_post": "2009-05-02",
+        "earliest_comment": "2010-01-23"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=filmmaking"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "filmnoir",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit dedicated to film noir and neo noir films, and hard-boiled crime fiction. \n\nFilm Noir is itself, broadly, the cinematic genre of crime dramas and thrillers produced during the 1940s and 50s. It's revival of the 70s and 80s are neo-noirs and everything else beyond that until today uses the scaffolding built by the 'classic period' of the genre.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 36050,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 6969,
+        "comments": 58734,
+        "earliest_post": "2011-06-14",
+        "earliest_comment": "2011-06-14"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=filmnoir"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "films",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to r/Films, a special community for movie lovers who enjoy deeper discussions about cinema. Here, you can discover and explore films. Join us to celebrate and discuss the art of movies in a space dedicated to quality and thoughtful exchange. Whether you're a cinephile or just looking for your next movie night pick, this is the place for you!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1136,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 3759,
+        "comments": 55771,
+        "earliest_post": "2011-01-04",
+        "earliest_comment": "2009-05-02"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=films"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "filmtheory",
+      "classification": {
+        "category": "",
+        "primary_topic": "Film theory, or cinema studies, is an academic discipline that aims to explore the essence of the cinema and provides conceptual frameworks for understanding film's relationship to reality, the other arts, individual viewers, and society at large. Film theory is not to be confused with general film criticism, or film history, though there can be some crossover between the three disciplines.\n\nPlease read the sub rules below before posting.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 20040,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 3743,
+        "comments": 6504,
+        "earliest_post": "2012-06-08",
+        "earliest_comment": "2012-06-29"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=filmtheory"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "flicks",
+      "classification": {
+        "category": "",
+        "primary_topic": "API Changes, spez, etc. You know the drill. We'll be back when other people are coming back online. Go watch some movies in the meantime.\n\nFor more information see /r/ModCoord.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 190250,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 25714,
+        "comments": 1100578,
+        "earliest_post": "2012-07-14",
+        "earliest_comment": "2012-07-14"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=flicks"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "ForeignMovies",
+      "classification": {
+        "category": "",
+        "primary_topic": "/r/ForeignMovies is the place to recommend, review, or discuss international films that have not been shot in English. (Check our sidebar for other subreddits that are dedicated to specific countries or regions.)",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 19046,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 10716,
+        "comments": 16655,
+        "earliest_post": "2010-02-16",
+        "earliest_comment": "2010-02-17"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ForeignMovies"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "foundfootage",
+      "classification": {
+        "category": "",
+        "primary_topic": "A community for those who enjoy the found footage genre of filmmaking. We encourage discussion, reviews, recommendations and debates on this fantastic form of cinematography! \n\n‘Keep it reel!’",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 74293,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 18106,
+        "comments": 290026,
+        "earliest_post": "2011-12-27",
+        "earliest_comment": "2011-12-27"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=FoundFootage"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "FrenchCinema",
+      "classification": {
+        "category": "",
+        "primary_topic": "Talk about everything related to french movies",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 471,
+        "created_year": 2017,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 226,
+        "comments": 195,
+        "earliest_post": "2017-10-10",
+        "earliest_comment": "2017-10-10"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=FrenchCinema"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "funnymovies",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=funnymovies"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "GermanCinema",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=GermanCinema"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "GoldenGlobes",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=GoldenGlobes"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "grindhouse",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place to discuss all of our favorite trash cinema, new or old.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 658,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 156,
+        "comments": 71,
+        "earliest_post": "2011-11-20",
+        "earliest_comment": "2016-04-20"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Grindhouse"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "hbo",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit to discuss all things HBO. \nDiscover full episodes of original series, movies, schedule information, exclusive video content, episode guides and more.\nSee also: /r/hbomax",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 2198359,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 21042,
+        "comments": 426225,
+        "earliest_post": "2010-08-08",
+        "earliest_comment": "2010-08-08"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=HBO"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "HBOMAX",
+      "classification": {
+        "category": "",
+        "primary_topic": "Max is the new streaming service from Warner Bros. Discovery which combines all of HBO Max with Discovery+ favorites.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 106743,
+        "created_year": 2019,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 35706,
+        "comments": 297065,
+        "earliest_post": "2019-07-09",
+        "earliest_comment": "2020-04-07"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=HBOMAX"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "hometheater",
+      "classification": {
+        "category": "",
+        "primary_topic": "For audio visual enthusiasts who want to bring an immersive experience into their homes.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1054096,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 287930,
+        "comments": 3123229,
+        "earliest_post": "2010-05-12",
+        "earliest_comment": "2010-07-28"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=hometheater"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "HongKongCinema",
+      "classification": {
+        "category": "",
+        "primary_topic": "Dedicated to all things Hong Kong cinema related. \n\nTaiwanese, Chinese, Singaporean and all other Chinese language cinema discussions are welcome.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 175,
+        "created_year": 2023,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 85,
+        "comments": 67,
+        "earliest_post": "2023-10-07",
+        "earliest_comment": "2023-10-07"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=HongKongCinema"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "horror",
+      "classification": {
+        "category": "",
+        "primary_topic": "R/HORROR, known as Dreadit by our subscribers is the premier horror entertainment community on Reddit. For more than a decade /R/HORROR has been reddit.com's gateway to all things Horror: from movies & TV, to books & games.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 3079329,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 519966,
+        "comments": 11113076,
+        "earliest_post": "2008-02-28",
+        "earliest_comment": "2008-12-06"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=horror"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "HorrorMovies",
+      "classification": {
+        "category": "",
+        "primary_topic": "Discuss horror movies here with other horror buffs.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 89970,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 61665,
+        "comments": 625677,
+        "earliest_post": "2016-02-08",
+        "earliest_comment": "2016-02-23"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=HorrorMovies"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Hulu",
+      "classification": {
+        "category": "",
+        "primary_topic": "r/Hulu is the unofficial subreddit of Hulu. Hulu is only available in the U.S.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1549416,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 44635,
+        "comments": 243407,
+        "earliest_post": "2009-03-12",
+        "earliest_comment": "2009-03-12"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=hulu"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "ifyoulikeblank",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit to ask for our provide recommendations of any relevant media based on other media people like - whether it be music, television, video games, movies, or anything else. This is a RECOMMENDATION ONLY sub! Self-promotion is prohibited, OC may not be suggested as either an [IYL] post or as a comment suggestion to an [IIL] post and violations will result in a ban on first offense.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1503180,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 260186,
+        "comments": 1620344,
+        "earliest_post": "2011-03-31",
+        "earliest_comment": "2011-04-02"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ifyoulikeblank"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Ijustwatched",
+      "classification": {
+        "category": "",
+        "primary_topic": "A sub-reddit to discuss and/or review films you have recently seen.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 24330,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 18062,
+        "comments": 54873,
+        "earliest_post": "2009-10-21",
+        "earliest_comment": "2009-10-21"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ijustwatched"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "IndianCinema",
+      "classification": {
+        "category": "",
+        "primary_topic": "r/IndianCinema is place to discuss Indian movies and everything related to it",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 250731,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 21364,
+        "comments": 203342,
+        "earliest_post": "2011-11-03",
+        "earliest_comment": "2011-11-03"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=IndianCinema"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "indiefilm",
+      "classification": {
+        "category": "",
+        "primary_topic": "A community dedicated to the discussion and sharing of independent film.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 8485,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 12078,
+        "comments": 13794,
+        "earliest_post": "2010-12-12",
+        "earliest_comment": "2010-12-12"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=indiefilm"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "iraniancinema",
+      "classification": {
+        "category": "",
+        "primary_topic": "All things related to Iranian films",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 23,
+        "created_year": 2018,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 43,
+        "comments": 55,
+        "earliest_post": "2018-12-22",
+        "earliest_comment": "2018-12-22"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=IranianCinema"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "IrishFilm",
+      "classification": {
+        "category": "",
+        "primary_topic": "A forum dedicated to Irish Film and Irish Filmmakers.\n\nNews, updates, reviews and links to Irish Film.\n\nThis sub is supporting the reddit strike and will be dark until June 14th. [Click here to find out more](https://www.theverge.com/2023/6/5/23749188/reddit-subreddit-private-protest-api-changes-apollo-charges)",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 2437,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1833,
+        "comments": 1874,
+        "earliest_post": "2014-07-16",
+        "earliest_comment": "2014-07-16"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=IrishFilm"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "italiancinema",
+      "classification": {
+        "category": "",
+        "primary_topic": "A new community to discuss Italian cinema.  Share reviews, recommendations, hidden gems, and news about Italian films and filmmakers.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 2,
+        "created_year": 2025,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 8,
+        "comments": 3,
+        "earliest_post": "2025-07-02",
+        "earliest_comment": "2025-08-22"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ItalianCinema"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "JapaneseCinema",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1831,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1020,
+        "comments": 553,
+        "earliest_post": "2011-06-12",
+        "earliest_comment": "2011-07-29"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=JapaneseCinema"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "JapaneseMovies",
+      "classification": {
+        "category": "",
+        "primary_topic": "This sub reddit is devoted to Japanese movies and the Japanese film industry. Here you can post your favorite films, articles and news about upcoming movies. Feel free to discuss and recommend your favourite Japanese movies.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 13957,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 7111,
+        "comments": 25750,
+        "earliest_post": "2014-04-24",
+        "earliest_comment": "2014-04-25"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=JapaneseMovies"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "kollywood",
+      "classification": {
+        "category": "",
+        "primary_topic": "r/Kollywood is a community for fans of Tamil Cinema, web-series, music, and more. Share opinions, news, trailers, designs, songs, videos, reviews, memes, and original content.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 219093,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 117472,
+        "comments": 2460258,
+        "earliest_post": "2010-01-07",
+        "earliest_comment": "2011-09-11"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=kollywood"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Koreanfilm",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit for fans of Korean cinema.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 30970,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 7805,
+        "comments": 79998,
+        "earliest_post": "2011-06-22",
+        "earliest_comment": "2011-06-25"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Koreanfilm"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "koreanmovies",
+      "classification": {
+        "category": "",
+        "primary_topic": "Discover and explore the community for all your interest and needs in regards to Korean Movies. Share and connect among fellow fans of the various expansive genres within, and actors/actresses who made a lasting impact on the Korean movie culture. Please be sure to read the rules prior to submitting any/all content!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 471,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 6,
+        "comments": 3,
+        "earliest_post": "2008-06-07",
+        "earliest_comment": "2019-09-24"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=KoreanMovies"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "kubrick",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit for Stanley Kubrick fans",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 3225,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 905,
+        "comments": 2115,
+        "earliest_post": "2011-03-24",
+        "earliest_comment": "2011-08-27"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=kubrick"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "LatinAmericanCinema",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=LatinAmericanCinema"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Letterboxd",
+      "classification": {
+        "category": "",
+        "primary_topic": "A companion to letterboxd.com, for discussing all things in the world of film and Letterboxd, with fellow Letterboxd members! Managed by fans with the blessing of Letterboxd HQ.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 287115,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 154565,
+        "comments": 5626641,
+        "earliest_post": "2012-12-19",
+        "earliest_comment": "2013-01-03"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Letterboxd"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "LocationSound",
+      "classification": {
+        "category": "",
+        "primary_topic": "The subreddit for location sound / production sound. We are the sound department responsible for recording dialogue when shooting film / video.\n\nSound on set for:  \n\n* Film cinema  \n* TV television  \n* Games  \n* Corporate  \n* sound effects (Foley)  \n* ambience",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 34532,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 14985,
+        "comments": 154921,
+        "earliest_post": "2012-02-07",
+        "earliest_comment": "2012-04-06"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=LocationSound"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "MalayalamMovies",
+      "classification": {
+        "category": "",
+        "primary_topic": "RMM is everything about the Kerala entertainment industry. One of the most active Indian film clubs on Reddit.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 270785,
+        "created_year": 2017,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 60302,
+        "comments": 1049791,
+        "earliest_post": "2017-02-13",
+        "earliest_comment": "2017-10-04"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=MalayalamMovies"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "MartialArtsCinema",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=MartialArtsCinema"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "MartinScorsese",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit dedicated to the award winning director Martin Scorsese, director of films such as Goodfellas, The Irishman, Wolf of Wall Street, and more.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 15056,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2414,
+        "comments": 37469,
+        "earliest_post": "2015-08-30",
+        "earliest_comment": "2015-10-16"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=MartinScorsese"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "max",
+      "classification": {
+        "category": "",
+        "primary_topic": "We are going to the Max!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 2433,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 5389,
+        "comments": 7561,
+        "earliest_post": "2009-12-03",
+        "earliest_comment": "2012-01-17"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Max"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "memes",
+      "classification": {
+        "category": "",
+        "primary_topic": "Memes!\n\nA way of describing cultural information being shared.\nAn element of a culture or system of behavior that may be considered to be passed from one individual to another by nongenetic means, especially imitation.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 35344972,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 11837476,
+        "comments": 108066678,
+        "earliest_post": "2008-07-11",
+        "earliest_comment": "2009-07-09"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=memes"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Miyazaki",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place to discuss legendary director, animator, and screenwriter Hayao Miyazaki.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 27589,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 3832,
+        "comments": 12194,
+        "earliest_post": "2011-12-14",
+        "earliest_comment": "2012-01-07"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Miyazaki"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "moviecritic",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit for movie reviews and discussions",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 456386,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 156088,
+        "comments": 7623792,
+        "earliest_post": "2009-04-20",
+        "earliest_comment": "2009-04-20"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=MovieCritic"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "MovieDetails",
+      "classification": {
+        "category": "",
+        "primary_topic": "Details in Movies, Movie Details!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 4144894,
+        "created_year": 2017,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 124919,
+        "comments": 2642024,
+        "earliest_post": "2017-06-30",
+        "earliest_comment": "2017-06-30"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=MovieDetails"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "MovieMistakes",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit for interesting mistakes you find in movies or TV shows.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 213565,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 8150,
+        "comments": 83362,
+        "earliest_post": "2012-07-13",
+        "earliest_comment": "2012-07-13"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=MovieMistakes"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "MoviePosterPorn",
+      "classification": {
+        "category": "",
+        "primary_topic": "High quality images of movie posters (not pornographic films).",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 245475,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 59742,
+        "comments": 167380,
+        "earliest_post": "2011-07-02",
+        "earliest_comment": "2011-07-03"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=MoviePosterPorn"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "moviereviews",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place to post - Your reviews of all the movies/films you've watched.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 11812,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 30249,
+        "comments": 76409,
+        "earliest_post": "2012-02-13",
+        "earliest_comment": "2012-03-13"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=MovieReviews"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "movies",
+      "classification": {
+        "category": "",
+        "primary_topic": "The goal of /r/Movies is to provide an inclusive place for discussions and news about films with major releases. Submissions should be for the purpose of informing or initiating a discussion, not just to entertain readers. Read our extensive list of rules for more information on other types of posts like fan-art and self-promotion, or message the moderators if you have any questions.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 34356769,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2836867,
+        "comments": 67724730,
+        "earliest_post": "2008-01-25",
+        "earliest_comment": "2008-01-25"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=movies"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Moviesinthemaking",
+      "classification": {
+        "category": "",
+        "primary_topic": "A celebration of movie making, showcasing the best behind-the-scenes photos, videos and articles from movies, classic to modern, kitsch to cult, and everything in between.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1094535,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 36704,
+        "comments": 338203,
+        "earliest_post": "2012-07-14",
+        "earliest_comment": "2012-07-14"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=MoviesInTheMaking"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "MovieSuggestions",
+      "classification": {
+        "category": "",
+        "primary_topic": "In the mood for a particular movie? Saw something interesting and want more? Have a favourite movie you want to recommend? Make those Movie Suggestions.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1652739,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 280012,
+        "comments": 6649691,
+        "earliest_post": "2011-08-14",
+        "earliest_comment": "2011-08-14"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=MovieSuggestions"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "MovieTheaterEmployees",
+      "classification": {
+        "category": "",
+        "primary_topic": "r/MovieTheaterEmployees is THE place on Reddit to share your experiences as a current or former cinema employee.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 16753,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 9111,
+        "comments": 145519,
+        "earliest_post": "2012-08-03",
+        "earliest_comment": "2017-12-01"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=MovieTheaterEmployees"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "MusicalMovies",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=MusicalMovies"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "netflix",
+      "classification": {
+        "category": "",
+        "primary_topic": "Unofficial Netflix discussion, and all things Netflix related! (Mods are not Netflix employees, but employees occasionally post here).",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1741927,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 242240,
+        "comments": 2648242,
+        "earliest_post": "2008-11-21",
+        "earliest_comment": "2009-07-01"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Netflix"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "NetflixBestOf",
+      "classification": {
+        "category": "",
+        "primary_topic": "The primary purpose of /r/NetflixBestOf is to shitpost about Breaking Bad.  Reposts are not only allowed, but are encouraged to some extent. The front page of this subreddit is meant to be a living representation of quality content on Netflix and you might see the same submissions multiple times. The mods are leaving it up to the community to utilize downvotes if they feel that reposts are too excessive.\n\nWe do not link to other subreddits",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 11448180,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 112546,
+        "comments": 1722733,
+        "earliest_post": "2010-04-12",
+        "earliest_comment": "2010-04-12"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=NetflixBestOf"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "noir",
+      "classification": {
+        "category": "",
+        "primary_topic": "In this subreddit you can post anything remotely related to noir and neo-noir. May it be film, drawings, books, music, clothes, people, et cetera. All are welcomed.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 33534,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 9646,
+        "comments": 29661,
+        "earliest_post": "2012-02-01",
+        "earliest_comment": "2012-04-14"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=noir"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "NordicCinema",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=NordicCinema"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "ObscureMedia",
+      "classification": {
+        "category": "",
+        "primary_topic": "A relaxed place to share and discuss lesser known media: silent films, vintage exploitation flicks, finely aged TV, PSAs and other oddities.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 242159,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 91371,
+        "comments": 390605,
+        "earliest_post": "2010-01-22",
+        "earliest_comment": "2010-01-22"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ObscureMedia"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "oldmovies",
+      "classification": {
+        "category": "",
+        "primary_topic": "Watching old movies or home videos is always captivating. Whether it's the people seperated from us by time or watching the old surroundings that so interests us, many people are fascinated by old film. Here's the subreddit for it!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 11599,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 6005,
+        "comments": 20275,
+        "earliest_post": "2013-03-21",
+        "earliest_comment": "2014-07-07"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=oldmovies"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "OldSchoolCoolMovies",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=OldSchoolCoolMovies"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "OLED",
+      "classification": {
+        "category": "",
+        "primary_topic": "News and discussion of OLED displays primarily TV's & Computer Monitors",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 92301,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 56095,
+        "comments": 429841,
+        "earliest_post": "2013-07-31",
+        "earliest_comment": "2014-10-15"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=OLED"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "oscarrace",
+      "classification": {
+        "category": "",
+        "primary_topic": "A sub for redditors interested in following and predicting the Oscar race throughout the year.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 81963,
+        "created_year": 2016,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 62261,
+        "comments": 1696799,
+        "earliest_post": "2016-01-18",
+        "earliest_comment": "2016-01-18"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=OscarRace"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Oscars",
+      "classification": {
+        "category": "",
+        "primary_topic": "A community to discuss the Academy Awards",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 83509,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 54244,
+        "comments": 1226071,
+        "earliest_post": "2009-01-23",
+        "earliest_comment": "2010-02-03"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Oscars"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "paulthomasanderson",
+      "classification": {
+        "category": "",
+        "primary_topic": "A Place for Fans to Gather and Discuss All Things Paul Thomas Anderson.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 20801,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 12011,
+        "comments": 134940,
+        "earliest_post": "2012-07-10",
+        "earliest_comment": "2012-07-10"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=PaulThomasAnderson"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "PhysicalMedia",
+      "classification": {
+        "category": "",
+        "primary_topic": "For all your physical formats; from Vinyl to Cassettes to CDs, VHS to DVD to Bluray, and Comics to Novels.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 2519,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 286,
+        "comments": 512,
+        "earliest_post": "2017-02-08",
+        "earliest_comment": "2017-02-08"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=PhysicalMedia"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Pixar",
+      "classification": {
+        "category": "",
+        "primary_topic": "This subreddit is dedicated to chatting, discussing, and exploring the creativity of all things Pixar! From movies, games, music, merchandise and more, /r/Pixar is here for all of your Pixar-related discussion!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 83242,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 35178,
+        "comments": 343438,
+        "earliest_post": "2009-07-22",
+        "earliest_comment": "2009-07-22"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Pixar"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "PleX",
+      "classification": {
+        "category": "",
+        "primary_topic": "For questions and comments about the Plex Media Server. The Plex Media Server is smart software that makes playing Movies, TV Shows and other media on your computer simple.\n\nThis page is community-driven and not run by or affiliated with Plex, Inc.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 345743,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 221111,
+        "comments": 2693508,
+        "earliest_post": "2010-07-04",
+        "earliest_comment": "2012-07-17"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Plex"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "postproduction",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to the vibrant post production community!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 2296,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 709,
+        "comments": 1343,
+        "earliest_post": "2011-07-02",
+        "earliest_comment": "2011-07-13"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=postproduction"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "PrimeVideo",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place to discuss Amazon Prime Video and its selections.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 294,
+        "created_year": 2016,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1460,
+        "comments": 1336,
+        "earliest_post": "2023-11-02",
+        "earliest_comment": "2023-11-20"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=PrimeVideo"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "producers",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=producers"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "productiondesign",
+      "classification": {
+        "category": "",
+        "primary_topic": "Design, materials, and production design for film, theater and interior design.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 3312,
+        "created_year": 2016,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 310,
+        "comments": 504,
+        "earliest_post": "2016-01-19",
+        "earliest_comment": "2016-01-20"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=productiondesign"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "projectors",
+      "classification": {
+        "category": "",
+        "primary_topic": "The place to search for projectors, ask for Buying Help or Setup Help, News about upcoming releases, and technological advancements.\n\nRules: \n\n#1 No racism. CCC in this sub stands for Cheap but Can afford Crap, any illusion to saying CCC to disparage another community or race will result in a ban from here on out.\n\n#2 All projector talk is welcome here even the cheap stuff. But like don’t post or push spammy products. Will result in a ban from here on out.\n\n#3 Just be cool man.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 59402,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 63879,
+        "comments": 444452,
+        "earliest_post": "2012-03-11",
+        "earliest_comment": "2012-05-01"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=projectors"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "QuentinTarantino",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 10390,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1245,
+        "comments": 15795,
+        "earliest_post": "2011-08-12",
+        "earliest_comment": "2011-08-12"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=QuentinTarantino"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "RegalUnlimited",
+      "classification": {
+        "category": "",
+        "primary_topic": "r/RegalUnlimited is dedicated to the discussion of Regal Cinemas' Unlimited movie theater subscription service, as well as any and all things Regal beyond Unlimited. We're unofficial and unaffiliated with Regal -- run by fans and users who want to share our appreciation for the program!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 28501,
+        "created_year": 2019,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 23551,
+        "comments": 420409,
+        "earliest_post": "2019-04-17",
+        "earliest_comment": "2019-06-11"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=RegalUnlimited"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "romcom",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=romcom"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "sciencefiction",
+      "classification": {
+        "category": "",
+        "primary_topic": "This reddit is for fans and creators of Science Fiction and related media in any form. SF topics should involve plausible ideas reached through the rational application of science. General speculative fiction posts are fine as long as they primarily focus on Science Fiction.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 261114,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 68659,
+        "comments": 644567,
+        "earliest_post": "2010-09-18",
+        "earliest_comment": "2011-09-28"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=sciencefiction"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "scifi",
+      "classification": {
+        "category": "",
+        "primary_topic": "Science Fiction, or Speculative Fiction if you prefer. Fantasy too.  Asimov, Bradbury, Clarke, Dick, Heinlein and other SF books.  SF movies and TV shows.  Fantasy stuff like Tolkien and Game of Thrones.  Laser guns, space ships, and time travel.  etc.   Star Trek, Battlestar, Star Wars, etc.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 4356708,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 185212,
+        "comments": 3799390,
+        "earliest_post": "2008-01-27",
+        "earliest_comment": "2008-02-07"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=scifi"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Scorsese",
+      "classification": {
+        "category": "",
+        "primary_topic": "Anything about Martin Scorsese or his films.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 938,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 318,
+        "comments": 363,
+        "earliest_post": "2012-06-20",
+        "earliest_comment": "2017-07-27"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Scorsese"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Screambox",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place for horror fans to share and discuss movies and shows streaming on Screambox. Please note that this server is run by fans and is not officially affiliated with Screambox.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 234,
+        "created_year": 2022,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 122,
+        "comments": 193,
+        "earliest_post": "2022-08-22",
+        "earliest_comment": "2022-10-30"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=screambox"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Screenwriting",
+      "classification": {
+        "category": "",
+        "primary_topic": "Join our community of over 1,700,000 Screenwriters!  \n\nFrom emerging to professional writers, we come together to teach, learn, and share everything about screenwriting for film and television.  \n\nPlease view our rules and wikis before posting. Scroll down for resources, mod and verification applications, and more.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1707320,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 210822,
+        "comments": 2145994,
+        "earliest_post": "2009-03-11",
+        "earliest_comment": "2009-03-11"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Screenwriting"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "ShortFilm",
+      "classification": {
+        "category": "",
+        "primary_topic": "Hello filmmakers! Share your short films!\n\nFor discussion of movies in general, join r/film",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 25994,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 43380,
+        "comments": 18616,
+        "earliest_post": "2011-06-27",
+        "earliest_comment": "2011-06-27"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ShortFilm"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Shortfilms",
+      "classification": {
+        "category": "",
+        "primary_topic": "For links to *quality* short films that can be watched online. No Trailers or Teaser spams.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 50798,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 56913,
+        "comments": 33037,
+        "earliest_post": "2008-01-28",
+        "earliest_comment": "2008-02-10"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Shortfilms"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "silentcinema",
+      "classification": {
+        "category": "",
+        "primary_topic": "Silent Cinema: The Movies. The Filmmakers. The Stars. The Designers. The History. The Resurgence. The Best of Silent Films and Videos.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 4841,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 4338,
+        "comments": 3380,
+        "earliest_post": "2012-03-07",
+        "earliest_comment": "2012-03-08"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=SilentCinema"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "silentfilm",
+      "classification": {
+        "category": "",
+        "primary_topic": "A subreddit to memorialize the genre of silent film. \n\nThis area is for the discussion of silent film. Discussion about directors, actors, the business and history of silent film is welcome.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1713,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2507,
+        "comments": 8347,
+        "earliest_post": "2011-11-13",
+        "earliest_comment": "2012-01-01"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=SilentFilm"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Slasher",
+      "classification": {
+        "category": "",
+        "primary_topic": "Scary, creepy, freaky and straight out weird experiences. Fact or fiction, if you have a creepy story to tell other slashers it's time to spill everything.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 533,
+        "created_year": 2021,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 140,
+        "comments": 228,
+        "earliest_post": "2021-07-21",
+        "earliest_comment": "2022-07-04"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=slasher"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "spaghettiwestern",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 2,
+        "created_year": 2023,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 5,
+        "comments": 2,
+        "earliest_post": "2018-03-13",
+        "earliest_comment": "2024-01-24"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=SpaghettiWestern"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "SpanishCinema",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=SpanishCinema"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "StanleyKubrick",
+      "classification": {
+        "category": "",
+        "primary_topic": "A sub for fans to discuss the work of Stanley Kubrick",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 81689,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 20582,
+        "comments": 242296,
+        "earliest_post": "2011-07-05",
+        "earliest_comment": "2011-07-05"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StanleyKubrick"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Steelbooks",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to /r/SteelBooks! One of the largest communities for collectors to come talk about upcoming releases and share your collection!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 56724,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 90283,
+        "comments": 815889,
+        "earliest_post": "2013-12-10",
+        "earliest_comment": "2013-12-27"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Steelbooks"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "StudioGhibli",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StudioGhibli"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Sundance",
+      "classification": {
+        "category": "",
+        "primary_topic": "This is a place to discuss all things Sundance! Whether you're a filmmaker attending the festival for the first time or you're unable to attend but want to keep up with the latest developments, this is the place to discuss and share insights.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 4527,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 3887,
+        "comments": 42252,
+        "earliest_post": "2016-01-20",
+        "earliest_comment": "2016-01-20"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Sundance"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "tarantino",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=tarantino"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Televisions",
+      "classification": {
+        "category": "",
+        "primary_topic": "Discussion for televisions and news about technology involving them.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 7125,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 15473,
+        "comments": 44256,
+        "earliest_post": "2009-07-27",
+        "earliest_comment": "2009-09-24"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=televisions"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "thrillers",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place for thriller readers and writers to talk about the most exciting genre of all.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 529,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 560,
+        "comments": 203,
+        "earliest_post": "2014-04-07",
+        "earliest_comment": "2016-10-07"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=thrillers"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "tollywood",
+      "classification": {
+        "category": "",
+        "primary_topic": "Anything and everything about Telugu cinema!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 211068,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 130487,
+        "comments": 2522179,
+        "earliest_post": "2011-08-28",
+        "earliest_comment": "2013-02-08"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=tollywood"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "TrueFilm",
+      "classification": {
+        "category": "",
+        "primary_topic": "An in-depth discussion of film",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 501028,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 65204,
+        "comments": 1142466,
+        "earliest_post": "2011-10-16",
+        "earliest_comment": "2011-10-16"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=TrueFilm"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "truehorror",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": null,
+        "created_year": null,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": null,
+        "comments": null,
+        "earliest_post": "",
+        "earliest_comment": ""
+      },
+      "verification": {
+        "status": "missing",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=truehorror"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "vfx",
+      "classification": {
+        "category": "",
+        "primary_topic": "Community of VFX industry professionals, students, and hobbyists. Video clips, articles and news for people in the visual effects industry and fans.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 117522,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 59493,
+        "comments": 619489,
+        "earliest_post": "2008-03-13",
+        "earliest_comment": "2009-04-02"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=VFX"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "VHS",
+      "classification": {
+        "category": "",
+        "primary_topic": "Do you trip over a stack VHS tapes in the morning? Do you look through bins of old movies at the thrift store? Do you have a VCR connected to your CRT/HDTV? You're in the right place.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 79783,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 106524,
+        "comments": 814125,
+        "earliest_post": "2011-02-02",
+        "earliest_comment": "2011-04-29"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=VHS"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "videography",
+      "classification": {
+        "category": "",
+        "primary_topic": "/r/videography is a community for both amateurs and professionals working in video, cinema, and television production.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 300824,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 195538,
+        "comments": 1283812,
+        "earliest_post": "2009-04-30",
+        "earliest_comment": "2009-10-14"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=videography"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "WarMovies",
+      "classification": {
+        "category": "",
+        "primary_topic": "The place for films, tv series, and documentaries about war",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 5831,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 3012,
+        "comments": 35896,
+        "earliest_post": "2011-01-01",
+        "earliest_comment": "2011-01-01"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=WarMovies"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "WarnerBros",
+      "classification": {
+        "category": "",
+        "primary_topic": "Warner Bros.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 4145,
+        "created_year": 2014,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 4613,
+        "comments": 22041,
+        "earliest_post": "2015-04-14",
+        "earliest_comment": "2015-05-31"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=WarnerBros"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "wesanderson",
+      "classification": {
+        "category": "",
+        "primary_topic": "Welcome to r/WesAnderson, the place where fans from around the world can meet and discuss everything about director Wes Anderson and his projects.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 57863,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 11808,
+        "comments": 94181,
+        "earliest_post": "2010-06-29",
+        "earliest_comment": "2010-06-29"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=WesAnderson"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Westerns",
+      "classification": {
+        "category": "",
+        "primary_topic": "The ultimate destination for enthusiasts of all Western media. Saddle up and join our community to discuss, appreciate, and share the timeless tales of the Wild West. From iconic classics to hidden gems, let's explore the vast frontier of storytelling via books, movies, tv shows and art together. Giddy up, partner! 🤠",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 52774,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 19264,
+        "comments": 376391,
+        "earliest_post": "2011-02-25",
+        "earliest_comment": "2011-02-25"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-30",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=westerns"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    }
+  ]
+}

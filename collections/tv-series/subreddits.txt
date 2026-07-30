@@ -1,0 +1,4 @@
+# Candidate discovery frame — verify before selection.
+
+## Explicit show-level inclusion
+bigbangtheory

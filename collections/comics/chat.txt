@@ -1,0 +1,404 @@
+Below is a comprehensive taxonomy of Reddit communities relevant to the **entire comics ecosystem**—from creation and criticism to collecting, fandoms, publishing, and conventions. The largest general comics communities remain r/comicbooks and r/comics, while the ecosystem has diversified into specialized communities for creators, collectors, publishers, genres, and individual franchises. ([FreeSubStats][1])
+
+# 1. General Comics Communities
+
+These are the best starting points.
+
+| Subreddit              | Focus                                                                |
+| ---------------------- | -------------------------------------------------------------------- |
+| r/comicbooks           | Comic books, graphic novels, recommendations, reviews, industry news |
+| r/comics               | Comic strips, webcomics, creator posts, discussion                   |
+| r/graphicnovels        | Graphic novels, literary comics                                      |
+| r/ComicBookArt         | Interior art, covers, artists                                        |
+| r/comicreadingorders   | Reading order guidance                                               |
+| r/comicbookreadingclub | Community reading                                                    |
+| r/comicbookshelves     | Personal libraries                                                   |
+| r/noDCnoMarvel         | Independent comics only                                              |
+
+---
+
+# 2. Comics Production
+
+## Writing
+
+* r/makingcomics
+* r/ComicBookCollabs
+* r/writing
+* r/screenwriting (useful for story structure)
+
+## Drawing
+
+* r/ComicBookArt
+* r/cartoonists
+* r/drawing
+* r/learnart
+* r/Illustration
+* r/CharacterDesign
+
+## Critique
+
+* r/comic_crits
+* r/ArtCrit
+* r/learnart
+
+## Collaboration
+
+* r/ComicBookCollabs
+* r/INAT
+* r/gameDevClassifieds (occasionally comics)
+
+Communities like r/makingcomics focus on practical advice covering scripting, page layout, lettering, coloring, publishing, and production workflows. ([PainOnSocial][2])
+
+---
+
+# 3. Webcomics
+
+* r/webcomics
+* r/webtoon
+* r/tapas
+* r/ComicFury
+* r/nuzlocke (comic-heavy community)
+* r/webcomic
+
+---
+
+# 4. Manga Communities
+
+## General
+
+* r/manga
+* r/manhwa
+* r/manhua
+* r/OneShots
+
+## Collecting
+
+* r/MangaCollectors
+
+## Industry
+
+* r/MangaCollectors
+* r/MangaDeals
+
+---
+
+# 5. Independent Comics
+
+* r/indiecomics
+* r/altcomix
+* r/smallpresscomics
+* r/ImageComics
+* r/boomstudios
+* r/darkhorse
+* r/IDWComics
+
+Independent comics are discussed in the broader comics communities, but many readers also seek dedicated indie spaces. ([Reddit][3])
+
+---
+
+# 6. Publishers
+
+## Marvel
+
+* r/Marvel
+* r/MarvelComics
+* r/Spiderman
+* r/XMen
+* r/Avengers
+* r/Daredevil
+* r/FantasticFour
+* r/Deadpool
+* r/MoonKnight
+
+## DC
+
+* r/DCcomics
+* r/batman
+* r/Superman
+* r/GreenLantern
+* r/FlashTV (adaptations)
+* r/Nightwing
+* r/WonderWoman
+* r/Robin
+* r/TeenTitans
+
+## Image
+
+* r/ImageComics
+* r/Invincible
+
+## Dark Horse
+
+* r/Hellboy
+* r/BPRD
+
+## Others
+
+* r/Valiant
+* r/IDWComics
+* r/BoomStudios
+
+---
+
+# 7. Comic Genres
+
+## Superheroes
+
+* r/comicbooks
+* r/Marvel
+* r/DCcomics
+
+## Horror
+
+* r/horrorcomics
+
+## Fantasy
+
+* r/Fantasy
+* r/graphicnovels
+
+## Science Fiction
+
+* r/scificomics
+
+## Crime
+
+* r/noir
+
+## Romance
+
+* r/shoujo
+
+## Slice of Life
+
+* r/webcomics
+
+## Humor
+
+* r/comics
+
+## Underground
+
+* r/altcomix
+
+---
+
+# 8. Collecting
+
+* r/comicbookcollecting
+* r/CGCComics
+* r/comicswap
+* r/comicspeculation
+* r/OmnibusCollectors
+* r/comicbookgrading
+
+Topics include:
+
+* slabbed books
+* preservation
+* grading
+* investments
+* key issues
+* omnibus editions
+
+---
+
+# 9. Comic Evaluation & Criticism
+
+* r/comicbooks
+* r/graphicnovels
+* r/literature
+* r/comic_crits
+
+Discussion topics:
+
+* panel composition
+* pacing
+* visual storytelling
+* dialogue
+* lettering
+* color theory
+* historical influence
+
+---
+
+# 10. Comic History
+
+* r/GoldenAgeComics
+* r/SilverAgeComics
+* r/BronzeAgeComics
+
+---
+
+# 11. Industry & Publishing
+
+* r/comicbooks
+* r/makingcomics
+* r/publishing
+
+Topics:
+
+* Kickstarter
+* crowdfunding
+* Diamond distribution
+* Lunar
+* Image submissions
+* creator-owned publishing
+* printing
+* royalties
+
+---
+
+# 12. Comic Conventions
+
+* r/comiccon
+* r/SDCC
+* r/NYCC
+* r/cosplay
+* r/CosplayHelp
+
+Topics include:
+
+* convention news
+* artist alley
+* portfolios
+* signings
+* exclusives
+* cosplay
+
+---
+
+# 13. Adaptations
+
+* r/MarvelStudios
+* r/DC_Cinematic
+* r/television
+* r/movies
+
+These discuss comics alongside film and television adaptations.
+
+---
+
+# 14. Individual Saga Communities
+
+## Image
+
+* r/Invincible
+* r/TheWalkingDead
+* r/SagaComic
+* r/Spawn
+
+## Dark Horse
+
+* r/Hellboy
+* r/BPRD
+
+## Independent
+
+* r/Monstress
+* r/UsagiYojimbo
+
+## Manga
+
+* r/OnePiece
+* r/Naruto
+* r/Berserk
+* r/Vagabond
+* r/Kingdom
+* r/JujutsuKaisen
+* r/ChainsawMan
+* r/Bleach
+* r/HunterXHunter
+
+---
+
+# 15. Creator Communities
+
+Many major creators have dedicated communities, including:
+
+* r/AlanMoore
+* r/NeilGaiman
+* r/JunjiIto
+* r/FionaStaples
+* r/TomKing
+* r/GeoffJohns
+
+---
+
+# 16. Academic & Theory
+
+* r/ComicStudies
+* r/SequentialArt
+* r/Narratology
+* r/GraphicNovels
+
+Topics include:
+
+* semiotics
+* visual language
+* comics theory
+* Scott McCloud
+* Will Eisner
+* narrative design
+
+---
+
+# 17. Professional Resources
+
+* r/freelance
+* r/ArtistLounge
+* r/graphic_design
+* r/printdesign
+* r/selfpublish
+
+---
+
+# 18. Buying, Selling & Deals
+
+* r/comicswap
+* r/MangaSwap
+* r/comicbookcollecting
+* r/comicspeculation
+
+---
+
+# 19. Digital Comics
+
+* r/webtoon
+* r/webcomics
+* r/GlobalComix
+* r/tapas
+
+---
+
+# 20. Adjacent Communities
+
+Useful crossover communities include:
+
+* r/storyboarding
+* r/animation
+* r/conceptart
+* r/worldbuilding
+* r/fantasywriters
+* r/scifiwriting
+* r/boardgames (licensed comics)
+* r/rpg (comic-inspired games)
+
+## Suggested "Master Feed"
+
+If your goal is to comprehensively monitor the comics ecosystem, a high-value feed would include:
+
+* **General:** r/comicbooks, r/comics, r/graphicnovels
+* **Creation:** r/makingcomics, r/ComicBookCollabs, r/comic_crits, r/cartoonists
+* **Digital:** r/webcomics, r/webtoon
+* **Collecting:** r/comicbookcollecting, r/CGCComics, r/comicspeculation, r/comicswap
+* **Publishers:** r/Marvel, r/DCcomics, r/ImageComics, r/darkhorse, r/boomstudios
+* **Independent:** r/indiecomics, r/altcomix
+* **Conventions:** r/comiccon, r/SDCC, r/NYCC
+* **Major Sagas:** r/Invincible, r/SagaComic, r/TheWalkingDead, r/Hellboy, r/OnePiece, r/Berserk, r/ChainsawMan
+
+This collection covers nearly every stage of the comics lifecycle: **creation → publishing → distribution → consumption → criticism → collecting → fandom → conventions → creator ecosystems**.
+
+[1]: https://freesubstats.com/topic/comics?utm_source=chatgpt.com "Comics Subreddits: Reddit Analytics & Growth | FreeSubStats"
+[2]: https://painonsocial.com/subreddits/comic-book-artists?utm_source=chatgpt.com "15 Best Subreddits for Comic Book Artists (2026)"
+[3]: https://www.reddit.com/r/comicbooks/comments/15fj02c?utm_source=chatgpt.com "Why aren't indie comics discussed more here?"

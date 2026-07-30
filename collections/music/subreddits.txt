@@ -1,0 +1,49 @@
+# Candidate seeds only — collection is paused; do not treat as a resume queue.
+# Existing collection
+#
+# The active 130-subreddit music programme is tracked in progress.md. This
+# smaller manifest is the stable core for
+# collection tooling; promote entries from the progress file here as scope is
+# reviewed.
+
+# Industry, rights, distribution, and promotion
+musicindustry
+musicbusiness
+musicmarketing
+musicpublishing
+synclicensing
+recordlabels
+musiclaw
+MusicDistribution
+DistroKidHelpDesk
+UnitedMasters
+TouringMusicians
+SellingBeats
+MusicPromotion
+
+# Creation and production
+WeAreTheMusicMakers
+musicproduction
+audioengineering
+edmproduction
+Songwriting
+makinghiphop
+
+# Listening, discovery, and discussion
+Music
+listentothis
+musicsuggestions
+MusicRecommendations
+LetsTalkMusic
+indieheads
+popheads
+
+# Platforms, formats, and commerce
+spotify
+AppleMusic
+TIdaL
+YoutubeMusic
+BandCamp
+SoundCloudMusic
+vinyl
+Cd_collectors

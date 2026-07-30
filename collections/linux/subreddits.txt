@@ -1,0 +1,169 @@
+# Candidate discovery frame — verify before selection.
+# Sources: collections/linux/chat.txt, the original seed list, and
+# related-community links from r/linux, r/linuxquestions, r/linux_gaming, and
+# r/unixporn.
+
+## General discussion, news, support, and discovery
+linux
+linuxquestions
+linux4noobs
+linuxadmin
+linuxdev
+linuxkernel
+kernel
+linuxhardware
+linuxprojects
+linuxunplugged
+LinuxActionShow
+linuxmemes
+DistroHopping
+
+# Missing at 2026-07-30; retained from r/linux's historical sidebar.
+findmeadistro
+FindMeALinuxDistro
+
+## Kernel-adjacent, embedded, and low-level systems
+osdev
+embedded
+raspberry_pi
+BeagleBone
+systemd
+wayland
+
+# Missing at 2026-07-30; retained from the chat-derived discovery list.
+mesa3d
+pipewire
+linuxaudio
+zfs
+btrfs
+
+## Debian and Ubuntu families
+debian
+Ubuntu
+linuxmint
+pop_os
+elementaryos
+Kubuntu
+Lubuntu
+xubuntu
+
+## Fedora and Red Hat families
+Fedora
+FedoraWorkstation
+
+# Missing at 2026-07-30; retained from the chat-derived discovery list.
+FedoraServer
+FedoraSilverblue
+redhat
+RockyLinux
+AlmaLinux
+CentOS
+
+## Arch family
+archlinux
+EndeavourOS
+ManjaroLinux
+artixlinux
+cachyos
+GarudaLinux
+
+## Nix, openSUSE, source-based, and independent distributions
+NixOS
+Nix
+openSUSE
+Gentoo
+voidlinux
+AlpineLinux
+slackware
+linuxfromscratch
+bedrocklinux
+MXLinux
+SolusProject
+
+## Immutable and image-based Linux
+
+# Missing at 2026-07-30; retained from the chat-derived discovery list.
+bluBuild
+Universalblue
+
+## Security-focused distributions
+Qubes
+tails
+Kalilinux
+ParrotOS
+
+## Desktop environments
+gnome
+
+# Missing at 2026-07-30; retained from the chat-derived discovery list.
+gnome_shell
+kde
+
+# Missing at 2026-07-30; retained from the chat-derived discovery list.
+kdecommunity
+xfce
+CinnamonDE
+mate
+
+# Missing at 2026-07-30; retained from the original seed list.
+lxde
+LXQt
+budgie
+System76
+
+## Window managers, shells, and desktop customization
+i3wm
+swaywm
+hyprland
+bspwm
+awesomewm
+dwm
+qtile
+xmonad
+openbox
+unixporn
+terminal_porn
+commandline
+bash
+
+## Packaging and application distribution
+flatpak
+AppImage
+snapcraft
+
+## Containers, virtualization, administration, and self-hosting
+docker
+podman
+kubernetes
+LXC
+Proxmox
+selfhosted
+homelab
+sysadmin
+VFIO
+
+## Linux gaming
+linux_gaming
+wine_gaming
+protondb
+SteamPlay
+FreeGaming
+opensourcegames
+
+## Device, mobile, and specialist Linux systems
+chromeos
+SteamDeck
+steamdeckhq
+SteamOS
+openwrt
+
+# Missing at 2026-07-30; retained from the chat-derived discovery list.
+postmarketOS
+termux
+linux_devices
+
+## Open-source ecosystem
+opensource
+foss
+freesoftware
+gnu
