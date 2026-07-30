@@ -10,8 +10,12 @@ from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 
+from pymongo import MongoClient
+from pymongo.errors import PyMongoError
+
 ROOT = Path(__file__).resolve().parent.parent
 COLLECTIONS_DIR = ROOT / "collections"
+MUSIC_DIR = COLLECTIONS_DIR / "music"
 RAW_DIR = ROOT / "data" / "raw"
 DEFAULT_OUTPUT = ROOT / "COLLECTION_PROGRESS.md"
 
@@ -86,6 +90,9 @@ def read_progress(path: Path) -> dict[str, dict]:
             "category": cells[2],
             "status": status,
             "percent": percent,
+            "expected_posts": integer(cells[4]),
+            "expected_comments": integer(cells[5]),
+            "expected": expected,
         }
     return rows
 
@@ -103,6 +110,29 @@ def raw_files() -> tuple[dict[tuple[str, str], int], int]:
             files[(name.casefold(), kind)] = size
             total_bytes += size
     return files, total_bytes
+
+
+def completed_in_mongo(config: dict) -> set[str]:
+    """Return communities present in both Mongo collections when available."""
+    mongo_uri = config.get("mongo_uri")
+    database = config.get("mongo_database")
+    if not mongo_uri or not database:
+        return set()
+    try:
+        client = MongoClient(mongo_uri, serverSelectionTimeoutMS=1_500)
+        db = client[database]
+        submissions = {
+            str(name).casefold()
+            for name in db.submissions.distinct("subreddit", maxTimeMS=10_000)
+        }
+        comments = {
+            str(name).casefold()
+            for name in db.comments.distinct("subreddit", maxTimeMS=10_000)
+        }
+        client.close()
+        return submissions & comments
+    except PyMongoError:
+        return set()
 
 
 def human_bytes(value: int) -> str:
@@ -145,6 +175,7 @@ def collect_state() -> tuple[list[dict], int]:
         candidates, groups = read_names(directory / "subreddits.txt")
         catalog = read_catalog(directory / "catalog.json")
         progress = read_progress(directory / "progress.md")
+        mongo_complete = completed_in_mongo(config) if slug == "music" else set()
 
         order: list[str] = []
         names: dict[str, str] = {}
@@ -170,7 +201,16 @@ def collect_state() -> tuple[list[dict], int]:
             present = sum(bool(size) for size in captures.values())
             progress_row = progress.get(key)
             catalog_row = catalog.get(key, {})
-            if progress_row:
+            if key in mongo_complete:
+                status = "complete"
+                percent = 100
+                category = (
+                    (progress_row or {}).get("category")
+                    or catalog_row.get("classification", {}).get("category")
+                    or groups.get(key)
+                    or "Uncategorised"
+                )
+            elif progress_row:
                 status = progress_row["status"]
                 percent = progress_row["percent"]
                 category = progress_row["category"]
@@ -188,6 +228,15 @@ def collect_state() -> tuple[list[dict], int]:
                     "category": category,
                     "status": status,
                     "percent": percent,
+                    "order": (progress_row or {}).get("order"),
+                    "expected": (progress_row or {}).get(
+                        "expected",
+                        integer(str(catalog_row.get("archive", {}).get("posts") or 0))
+                        + integer(
+                            str(catalog_row.get("archive", {}).get("comments") or 0)
+                        ),
+                    ),
+                    "raw_files": present,
                     "raw_bytes": sum(captures.values()),
                 }
             )
@@ -215,8 +264,7 @@ def collect_state() -> tuple[list[dict], int]:
     return themes, total_raw_bytes
 
 
-def render() -> str:
-    themes, total_raw_bytes = collect_state()
+def render(themes: list[dict], total_raw_bytes: int) -> str:
     total = sum(len(theme["subreddits"]) for theme in themes)
     unique = len(
         {
@@ -308,16 +356,147 @@ def render() -> str:
     return "\n".join(lines)
 
 
+def render_music_dashboard(themes: list[dict]) -> str:
+    theme = next(item for item in themes if item["slug"] == "music")
+    subreddits = theme["subreddits"]
+    tracked = len(subreddits)
+    complete = sum(item["status"] == "complete" for item in subreddits)
+    remaining = tracked - complete
+    completion_percent = round(complete / tracked * 100) if tracked else 0
+    expected = sum(item["expected"] for item in subreddits)
+    raw_bytes = sum(item["raw_bytes"] for item in subreddits)
+    generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    queue = sorted(
+        (item for item in subreddits if item["status"] != "complete"),
+        key=lambda item: (
+            item["expected"] or 10**30,
+            item["order"] or 10**9,
+        ),
+    )
+
+    categories: dict[str, list[dict]] = {}
+    for item in subreddits:
+        categories.setdefault(item["category"], []).append(item)
+
+    lines = [
+        "# Music subreddit collection dashboard",
+        "",
+        f"_Refreshed {generated_at} from MongoDB, `progress.md`, and `data/raw/`._",
+        "",
+        "> Open with **Markdown: Open Preview** (`Ctrl+Shift+V` / `Cmd+Shift+V`). "
+        "The tmux job refreshes this file after every successful load.",
+        "",
+        "## Status",
+        "",
+        "| Programme | Complete | Remaining | Expected records | Raw data | Workflow |",
+        "| ---: | ---: | ---: | ---: | ---: | --- |",
+        f"| {tracked} | {complete} | {remaining} | {expected:,} | "
+        f"{human_bytes(raw_bytes)} | `{theme['state']}` |",
+        "",
+        f"**Subreddit completion:** {progress_bar(completion_percent, 24)}",
+        "",
+        "- tmux session: `reddit_music_resume`",
+        "- runtime log: `data/logs/music-resume.log`",
+        "- destination: MongoDB `localhost:27019`, database `reddit`",
+        "- queue policy: one worker, smallest expected capture first",
+        "",
+        "## Next in queue",
+        "",
+        "| # | Subreddit | Category | Expected records | Existing raw |",
+        "| ---: | --- | --- | ---: | ---: |",
+    ]
+    for position, item in enumerate(queue[:15], 1):
+        lines.append(
+            f"| {position} | `r/{markdown(item['name'])}` | "
+            f"{markdown(item['category'])} | {item['expected']:,} | "
+            f"{item['raw_files']}/2 files |"
+        )
+    if not queue:
+        lines.append("| — | Queue complete | — | — | — |")
+
+    lines.extend(
+        [
+            "",
+            "## Progress by category",
+            "",
+            "| Category | Complete | Tracked | Progress | Expected records | Raw data |",
+            "| --- | ---: | ---: | --- | ---: | ---: |",
+        ]
+    )
+    for category, items in sorted(categories.items(), key=lambda row: row[0].casefold()):
+        category_complete = sum(item["status"] == "complete" for item in items)
+        category_percent = round(category_complete / len(items) * 100)
+        lines.append(
+            f"| {markdown(category)} | {category_complete} | {len(items)} | "
+            f"{progress_bar(category_percent, 10)} | "
+            f"{sum(item['expected'] for item in items):,} | "
+            f"{human_bytes(sum(item['raw_bytes'] for item in items))} |"
+        )
+
+    lines.extend(
+        [
+            "",
+            "## All subreddits",
+            "",
+            "Expand a category below. Use VS Code search to jump directly to a subreddit.",
+            "",
+        ]
+    )
+    for category, items in sorted(categories.items(), key=lambda row: row[0].casefold()):
+        items.sort(key=lambda item: item["order"] or 10**9)
+        category_complete = sum(item["status"] == "complete" for item in items)
+        lines.extend(
+            [
+                "<details>",
+                f"<summary><strong>{markdown(category)}</strong> — "
+                f"{category_complete}/{len(items)} complete</summary>",
+                "",
+                "| Subreddit | Status | Expected records | Raw files | Raw size |",
+                "| --- | --- | ---: | ---: | ---: |",
+            ]
+        )
+        for item in items:
+            lines.append(
+                f"| `r/{markdown(item['name'])}` | {status_label(item['status'])} | "
+                f"{item['expected']:,} | {item['raw_files']}/2 | "
+                f"{human_bytes(item['raw_bytes']) if item['raw_bytes'] else '—'} |"
+            )
+        lines.extend(["", "</details>", ""])
+
+    lines.extend(
+        [
+            "---",
+            "",
+            "🟢 present in both MongoDB collections · 🟠 fetching/loading · "
+            "🟡 one raw file present · ⚪ pending",
+            "",
+        ]
+    )
+    return "\n".join(lines)
+
+
+def write_report(path: Path, content: str) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temporary = path.with_suffix(path.suffix + ".tmp")
+    temporary.write_text(content, encoding="utf-8")
+    temporary.replace(path)
+    print(f"Wrote {path}")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
+    parser.add_argument(
+        "--music-output",
+        type=Path,
+        default=MUSIC_DIR / "dashboard.md",
+    )
     args = parser.parse_args()
+    themes, total_raw_bytes = collect_state()
     output = args.output.resolve()
-    output.parent.mkdir(parents=True, exist_ok=True)
-    temporary = output.with_suffix(output.suffix + ".tmp")
-    temporary.write_text(render(), encoding="utf-8")
-    temporary.replace(output)
-    print(f"Wrote {output}")
+    music_output = args.music_output.resolve()
+    write_report(output, render(themes, total_raw_bytes))
+    write_report(music_output, render_music_dashboard(themes))
 
 
 if __name__ == "__main__":

@@ -1,9 +1,13 @@
 # Music-market subreddit collection — progress
 
-**Collection state: PAUSED.** Do not resume the queued phases until the
-catalogue, selection rationale, partial raw files, and MongoDB inventory have
-been reconciled under the workflow in
-[`WORKFLOW.md`](../WORKFLOW.md).
+**Collection state: ACTIVE.** The project owner resumed the existing
+130-subreddit programme on 2026-07-31. The remaining queue runs smallest-first
+in tmux session `reddit_music_resume`; output is written to
+`data/logs/music-resume.log`.
+
+The table below is the last hand-maintained deployment snapshot. For current
+Mongo-backed completion state, open [`dashboard.md`](dashboard.md) in VS Code
+Markdown Preview; the resume job refreshes it after every successful load.
 
 Last refreshed: 2026-07-30 15:43 UTC. Source: Arctic Shift API via `scripts/fetch_subreddit.py`;
 target: MongoDB `reddit` db at `mongodb://localhost:27019` (collections `submissions`, `comments`).

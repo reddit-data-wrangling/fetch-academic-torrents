@@ -1,5 +1,5 @@
 title = "Music"
-state = "paused"
+state = "active"
 mongo_uri = "mongodb://localhost:27019"
 mongo_database = "reddit"
-notes = "Acquisition paused by the project owner; preserve existing raw and Mongo holdings."
+notes = "Historical 130-subreddit programme resumed smallest-first in tmux; raw captures load into MongoDB on port 27019."

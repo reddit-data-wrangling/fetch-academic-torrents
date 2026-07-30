@@ -138,7 +138,7 @@ def _render_progress(count: int, cursor_ts: int, start_wall: float,
 
 
 def write_stream(items: Iterator[dict], out_path: Path, cursor_path: Path,
-                 after: int, before: int | None) -> int:
+                 after: int, before: int | None) -> tuple[int, int]:
     out_path.parent.mkdir(parents=True, exist_ok=True)
     cctx = zstandard.ZstdCompressor(level=10)
     count = 0
@@ -169,7 +169,11 @@ def write_stream(items: Iterator[dict], out_path: Path, cursor_path: Path,
     if is_tty and count:
         line = _render_progress(count, last_ts, start_wall, after, before)
         print(f"\r{line}", file=sys.stderr, flush=True)
-    return count
+    if count:
+        # Persist the final partial page too. Previously only multiples of 1,000
+        # advanced the cursor, causing small captures to restart from scratch.
+        cursor_path.write_text(str(last_ts))
+    return count, last_ts
 
 
 def fetch_kind(subreddit: str, kind: str, outdir: Path, after: int,
@@ -187,7 +191,7 @@ def fetch_kind(subreddit: str, kind: str, outdir: Path, after: int,
         f"fetching r/{subreddit} {kind} after={resume_from} before={before}",
         file=sys.stderr,
     )
-    n = write_stream(
+    n, _ = write_stream(
         paginate(kind, subreddit, resume_from, before),
         out_path,
         cursor_path,

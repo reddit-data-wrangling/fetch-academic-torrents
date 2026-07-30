@@ -1,6 +1,6 @@
 # Reddit collection monitor
 
-_Refreshed 2026-07-30 23:20 UTC from collection files and `data/raw/`._
+_Refreshed 2026-07-30 23:36 UTC from collection files and `data/raw/`._
 
 > Open this file with **Markdown: Open Preview** (`Ctrl+Shift+V` / `Cmd+Shift+V`).
 
@@ -8,9 +8,9 @@ _Refreshed 2026-07-30 23:20 UTC from collection files and `data/raw/`._
 
 | Themes | Theme/subreddit rows | Unique subreddits | Complete | Active | Partial | Pending | Raw data |
 | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| 9 | 1,011 | 982 | 37 | 2 | 0 | 972 | 4.2 GiB |
+| 9 | 1,011 | 982 | 46 | 0 | 0 | 965 | 4.3 GiB |
 
-**Overall coverage:** `█░░░░░░░░░░░░░░░░░░░` 4%
+**Overall coverage:** `█░░░░░░░░░░░░░░░░░░░` 5%
 
 ## Progress by theme
 
@@ -20,7 +20,7 @@ _Refreshed 2026-07-30 23:20 UTC from collection files and `data/raw/`._
 | Comics | `planning` | `░░░░░░░░░░░░` 0% | 0 | 0 | 0 | 107 |
 | Linux | `planning` | `░░░░░░░░░░░░` 0% | 0 | 0 | 0 | 119 |
 | Movies | `planning` | `░░░░░░░░░░░░` 1% | 1 | 0 | 0 | 168 |
-| Music | `paused` | `███░░░░░░░░░` 28% | 36 | 2 | 0 | 92 |
+| Music | `active` | `████░░░░░░░░` 35% | 45 | 0 | 0 | 85 |
 | Open-source software | `planning` | `░░░░░░░░░░░░` 0% | 0 | 0 | 0 | 130 |
 | Science fiction | `planning` | `░░░░░░░░░░░░` 0% | 0 | 0 | 0 | 164 |
 | Tabletop games | `planning` | `░░░░░░░░░░░░` 0% | 0 | 0 | 0 | 65 |
@@ -592,9 +592,9 @@ _Systematic discovery and catalogue design in progress._
 </details>
 
 <details>
-<summary><strong>Music</strong> — 36/130 complete · 28%</summary>
+<summary><strong>Music</strong> — 45/130 complete · 35%</summary>
 
-_Acquisition paused by the project owner; preserve existing raw and Mongo holdings._
+_Historical 130-subreddit programme resumed smallest-first in tmux; raw captures load into MongoDB on port 27019._
 
 | Subreddit | Category | Status | Progress | Raw size |
 | --- | --- | --- | ---: | ---: |
@@ -619,7 +619,7 @@ _Acquisition paused by the project owner; preserve existing raw and Mongo holdin
 | `r/makinghiphop` | hiphop | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/Music` | discovery | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/listentothis` | discovery | 🟢 Complete | `████████` 100% | 494 MiB |
-| `r/musicsuggestions` | discovery | 🟠 Loading | `███░░░░░` 40% | 569 MiB |
+| `r/musicsuggestions` | discovery | 🟢 Complete | `████████` 100% | 569 MiB |
 | `r/MusicRecommendations` | discovery | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/LetsTalkMusic` | discussion | 🟢 Complete | `████████` 100% | 207 MiB |
 | `r/indieheads` | discussion | 🟢 Complete | `████████` 100% | 544 MiB |
@@ -641,7 +641,7 @@ _Acquisition paused by the project owner; preserve existing raw and Mongo holdin
 | `r/electronicmusic` | electronic | 🟢 Complete | `████████` 100% | 220 MiB |
 | `r/ifyoulikeblank` | discovery | 🟢 Complete | `████████` 100% | 218 MiB |
 | `r/fantanoforever` | discussion | 🟢 Complete | `████████` 100% | 363 MiB |
-| `r/synthwave` | electronic | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/synthwave` | electronic | 🟢 Complete | `████████` 100% | 7 MiB |
 | `r/housemusic` | electronic | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/IDM` | electronic | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/realdubstep` | electronic | ⚪ Pending | `░░░░░░░░` 0% | — |
@@ -659,13 +659,13 @@ _Acquisition paused by the project owner; preserve existing raw and Mongo holdin
 | `r/latinmusic` | latin | 🟢 Complete | `████████` 100% | 829 KiB |
 | `r/Albumoftheday` | discovery | 🟢 Complete | `████████` 100% | 710 KiB |
 | `r/smoothjazz` | jazz | 🟢 Complete | `████████` 100% | 1 MiB |
-| `r/Americana` | country | 🟠 Fetching | `░░░░░░░░` 0% | 4 MiB |
-| `r/recordstore` | physical | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/jazztheory` | jazz | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/popmusic` | pop | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/JazzFusion` | jazz | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/qobuz` | streaming | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/ratemysong` | indie-artists | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/Americana` | country | 🟢 Complete | `████████` 100% | 4 MiB |
+| `r/recordstore` | physical | 🟢 Complete | `████████` 100% | 3 MiB |
+| `r/jazztheory` | jazz | 🟢 Complete | `████████` 100% | 5 MiB |
+| `r/popmusic` | pop | 🟢 Complete | `████████` 100% | 5 MiB |
+| `r/JazzFusion` | jazz | 🟢 Complete | `████████` 100% | 7 MiB |
+| `r/qobuz` | streaming | 🟢 Complete | `████████` 100% | 7 MiB |
+| `r/ratemysong` | indie-artists | 🟢 Complete | `████████` 100% | 11 MiB |
 | `r/JazzPiano` | jazz | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/plexamp` | streaming | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/Bachata` | latin | ⚪ Pending | `░░░░░░░░` 0% | — |

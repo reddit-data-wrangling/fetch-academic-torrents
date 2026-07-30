@@ -230,7 +230,7 @@ idempotent.
 | --- | --- | --- |
 | `collect.py list` | None | List collections, states, candidates, and targets |
 | `collect.py status` | Local filesystem only | Show raw coverage for targets |
-| `report_progress.py` | Local files only; writes Markdown | Refresh `COLLECTION_PROGRESS.md` |
+| `report_progress.py` | Local files and optional local Mongo read; writes Markdown | Refresh `COLLECTION_PROGRESS.md` |
 | `catalog_subreddits.py` | Arctic Shift, except `--prune-only` | Verify names and refresh metadata |
 | `report_catalog.py` | Local filesystem only | Render a Markdown catalogue |
 | `audit_collection.py` | Local filesystem only | Check selection gates and raw coverage |

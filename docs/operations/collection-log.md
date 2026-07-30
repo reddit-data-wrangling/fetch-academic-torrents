@@ -172,3 +172,19 @@ Full-history Arctic Shift refetch of the two remaining lost May-batch subs (raw 
 Growth over the May-2026 numbers (wikipedia +2,650 S / +35,911 C; linusrants +2 S / +42 C) is new activity plus Arctic Shift index catch-up — the fresh fetch also confirms the old edges were index lag, not truncation. Note the destination split: these two live on **:27017** (OSS instance) alongside linux/rust, while the same-day sampling/Samplehunters refetch went to **:27019** with the music panel.
 
 **Phase 5 (user-added, 2026-07-30 ~17:00 UTC).** Full music-market taxonomy expansion: 82 further subreddits across streaming platforms (spotify, AppleMusic, TIdaL, qobuz, plexamp, YoutubeMusic, lastfm), audiophile (audiophile, headphones, BudgetAudiophile, audio), physical media (vinyl, turntables, cassetteculture, Cd_collectors, recordstore), jazz (Jazz, jazzguitar, JazzPiano, jazztheory, JazzFusion, smoothjazz), hip-hop (hiphopheads, rap, makinghiphop, trap, hiphop101, WestSubEver, KendrickLamar, Jcole, Drizzy, Eminem), rock/indie (indie, rock, progrockmusic, postrock, punk, grunge, Emo, shoegaze, ClassicRock), electronic gaps (House, trance, synthesizers, modular), pop/kpop (popmusic, kpop, kpopthoughts, kpophelp), classical (classicalmusic, composer, piano, violinist, opera), country/folk (CountryMusic, Bluegrass, folk, Americana, altcountry), latin (Reggaeton, latinmusic, Salsa, Bachata), metal (Metal, Metalcore, Deathcore, BlackMetal, doommetal, progmetal), discovery (MusicRecommendations, Topster, newmusic, Albumoftheday, 1001AlbumsGenerator), producers (audioengineering, edmproduction, bandmembers), and independent artists (ThisIsOurMusic, shareyourmusic, ratemysong, PromoteYourMusic, BedroomBands). Duplicates against the existing 48-row panel were dropped (e.g. Music, listentothis, WeAreTheMusicMakers, edm, techno, ambientmusic, dnb, popheads, indieheads, Songwriting, BandCamp, vinyl-adjacent subs already queued); r/BlueNote was requested but is not in Arctic Shift's index and was skipped. All 82 verified via `subreddits/search` metadata; combined expected ≈ 12.34 M posts + 120.7 M comments (largest: hiphopheads 23.5 M items, kpop 7.2 M, vinyl 6.2 M, Eminem 5.3 M, headphones 4.9 M). Disk headroom at queue time: 554 GB local (raw), 470 GB on sata1 (:27019). Queued as a fifth sequential job (`deploy_music_p5.sh`, detached) chained behind the running resume queue, smallest-first with hiphopheads last. Expected grand total across all phases ≈ 23.1 M posts + 184.0 M comments (130 subreddits targeted). Per-sub expected counts are in rows 49–130 of the [music collection progress](../../collections/music/progress.md).
+
+## 2026-07-31 — music programme resumed
+
+Resumed by project-owner request in detached tmux session
+`reddit_music_resume`. MongoDB `:27019` contained 37 communities in both
+`submissions` and `comments`; the remaining 93 programme rows were consolidated
+into one smallest-first queue to avoid competing Arctic Shift workers. The
+launcher fetches/resumes one subreddit, validates both zstd captures, loads
+them idempotently, and refreshes `COLLECTION_PROGRESS.md` before advancing.
+
+Preflight checks passed: Arctic Shift returned HTTP 200, the raw-data volume
+had 548 GB free, the MongoDB volume had 469 GB free, and the previously
+interrupted `latinmusic` and `Americana` zstd files decoded successfully.
+`Americana` resumed from its two saved cursors, completed, validated, and
+loaded; `recordstore` then completed, confirming that the queue advanced
+cleanly. Runtime output is retained at `data/logs/music-resume.log`.
