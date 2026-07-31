@@ -13,6 +13,7 @@ activity.
   monetization
 - General listening, criticism, discovery, recommendation, and genre
   communities
+- Music awards, chart performance, rankings, and chart methodology
 - Streaming platforms, physical formats, collecting, and music retail
 - Substantial artist or scene communities when the research design calls for
   them

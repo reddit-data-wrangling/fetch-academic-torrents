@@ -1,0 +1,614 @@
+{
+  "schema_version": 1,
+  "collection": "wikipedia",
+  "communities": [
+    {
+      "subreddit": "CreepyWikipedia",
+      "classification": {
+        "category": "",
+        "primary_topic": "Any article that makes you shiver with fear or disgust.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 237498,
+        "created_year": 2012,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 9953,
+        "comments": 104776,
+        "earliest_post": "2012-07-28",
+        "earliest_comment": "2012-08-17"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-31",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=CreepyWikipedia"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "internetarchive",
+      "classification": {
+        "category": "",
+        "primary_topic": "Yesterdays Internet Today",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 11402,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 4565,
+        "comments": 26000,
+        "earliest_post": "2013-05-12",
+        "earliest_comment": "2015-01-23"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-31",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=internetarchive"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Kiwix",
+      "classification": {
+        "category": "",
+        "primary_topic": "For all things related to the offline reader. No internet, no problem!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 2113,
+        "created_year": 2019,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 999,
+        "comments": 4693,
+        "earliest_post": "2019-12-17",
+        "earliest_comment": "2020-01-21"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-31",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Kiwix"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "mediawiki",
+      "classification": {
+        "category": "",
+        "primary_topic": "An unofficial community for content related to MediaWiki (https://mediawiki.org)",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1649,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 1841,
+        "comments": 4567,
+        "earliest_post": "2011-05-28",
+        "earliest_comment": "2012-08-13"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-31",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=mediawiki"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "opendata",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 11726,
+        "created_year": 2010,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2362,
+        "comments": 2041,
+        "earliest_post": "2010-01-16",
+        "earliest_comment": "2010-01-17"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-31",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=opendata"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "WCommons",
+      "classification": {
+        "category": "",
+        "primary_topic": "Wikimedia Commons\n- - - - -\nWikimedia Commons is a free media repository making available freely licensed media content (images, sound and video clips) available to everyone. It is a collaborative Wikimedia project like Wikipedia – join the global open content community.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 16,
+        "created_year": 2025,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 15,
+        "comments": 8,
+        "earliest_post": "2025-03-02",
+        "earliest_comment": "2025-03-02"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-31",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=WCommons"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "WData",
+      "classification": {
+        "category": "",
+        "primary_topic": "wikidata - - - Wikidata is a free, collaborative knowledge base, collecting and linking open structured data.  - - - - See https://www.wikidata.org/wiki/Wikidata:Introduction This is the active open subreddit about anything relating to Wikidata",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 10,
+        "created_year": 2025,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 23,
+        "comments": 19,
+        "earliest_post": "2025-03-02",
+        "earliest_comment": "2025-03-07"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-31",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=WData"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Wikibooks",
+      "classification": {
+        "category": "",
+        "primary_topic": "This community is for discussion of the Wikimedia project Wikibooks, an online collection of open-content textbooks.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 3,
+        "created_year": 2023,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 13,
+        "comments": 1,
+        "earliest_post": "2010-09-05",
+        "earliest_comment": "2025-01-17"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-31",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Wikibooks"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "Wikidata",
+      "classification": {
+        "category": "",
+        "primary_topic": "http://www.wikidata.org/wiki/Wikidata:Main_Page",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 440,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 189,
+        "comments": 260,
+        "earliest_post": "2016-03-21",
+        "earliest_comment": "2016-07-20"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-31",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Wikidata"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "wikimedia",
+      "classification": {
+        "category": "",
+        "primary_topic": "reddit resource for wikimedians worldwide",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 155,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 103,
+        "comments": 70,
+        "earliest_post": "2010-10-09",
+        "earliest_comment": "2014-06-26"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-31",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=wikimedia"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "wikipedia",
+      "classification": {
+        "category": "",
+        "primary_topic": "A place to share interesting Wikipedia articles, and talk about Wikipedia and its sister projects",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 597435,
+        "created_year": 2008,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 118281,
+        "comments": 1097074,
+        "earliest_post": "2008-01-25",
+        "earliest_comment": "2008-01-27"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-31",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=wikipedia"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "wikipedia_answer_bot",
+      "classification": {
+        "category": "",
+        "primary_topic": "This is the community about u/wikipedia_answer_bot. The bot answers your questions IN COMMENTS ONLY. Here you can post any suggestions for improving it :)",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 424,
+        "created_year": 2021,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 232,
+        "comments": 3699,
+        "earliest_post": "2021-02-20",
+        "earliest_comment": "2021-02-20"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-31",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=wikipedia_answer_bot"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "wikipediamemes",
+      "classification": {
+        "category": "",
+        "primary_topic": "Imagine a world in which every single person on the planet is given free access to the sum of all cat facts.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1939,
+        "created_year": 2017,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 483,
+        "comments": 528,
+        "earliest_post": "2017-07-26",
+        "earliest_comment": "2017-07-26"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-31",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=wikipediamemes"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "wikipedians",
+      "classification": {
+        "category": "",
+        "primary_topic": "Wikipedians is a subreddit created for discussion amongst Wikipedia contributors",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 538,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 331,
+        "comments": 1111,
+        "earliest_post": "2011-05-25",
+        "earliest_comment": "2016-04-04"
+      },
+      "verification": {
+        "status": "restricted",
+        "verified_at": "2026-07-31",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=wikipedians"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "WikipediaRandomness",
+      "classification": {
+        "category": "",
+        "primary_topic": "The official subreddit dedicated to the 'random article' link on Wikipedia.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 7454,
+        "created_year": 2018,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2369,
+        "comments": 2148,
+        "earliest_post": "2018-05-08",
+        "earliest_comment": "2018-05-08"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-31",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=WikipediaRandomness"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "WikipediaVandalism",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 64306,
+        "created_year": 2011,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 7011,
+        "comments": 108129,
+        "earliest_post": "2011-01-06",
+        "earliest_comment": "2011-01-06"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-31",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=WikipediaVandalism"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "wikisource",
+      "classification": {
+        "category": "",
+        "primary_topic": "Discussion revolving around and related to Wikisource, the free library.",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 257,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 95,
+        "comments": 33,
+        "earliest_post": "2013-05-30",
+        "earliest_comment": "2013-06-03"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-31",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=wikisource"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "wikivoyage",
+      "classification": {
+        "category": "",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 20,
+        "created_year": 2013,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 10,
+        "comments": 6,
+        "earliest_post": "2013-01-17",
+        "earliest_comment": "2013-01-17"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-31",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=wikivoyage"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "wiktionary",
+      "classification": {
+        "category": "",
+        "primary_topic": "This is a subreddit for people who are having issues with figuring out how to utilize Wiktionary properly, as well as for those who are looking to contribute to it! Linguistic questions and discussions of nuances are also welcome!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 202,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 144,
+        "comments": 233,
+        "earliest_post": "2009-10-28",
+        "earliest_comment": "2009-11-03"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-31",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=wiktionary"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    }
+  ]
+}

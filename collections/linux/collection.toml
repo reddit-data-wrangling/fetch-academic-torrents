@@ -1,5 +1,5 @@
 title = "Linux"
-state = "planning"
+state = "active"
 mongo_uri = "mongodb://localhost:27017"
 mongo_database = "reddit"
-notes = "Several communities already exist in Mongo; reconcile inventory before resuming."
+notes = "Active N=99 Linux panel: six communities already held in MongoDB on port 27017 plus 93 acquisition targets."

@@ -1,6 +1,6 @@
 # Reddit collection monitor
 
-_Refreshed 2026-07-30 23:36 UTC from collection files and `data/raw/`._
+_Refreshed 2026-07-31 20:58 UTC from collection files and `data/raw/`._
 
 > Open this file with **Markdown: Open Preview** (`Ctrl+Shift+V` / `Cmd+Shift+V`).
 
@@ -8,9 +8,9 @@ _Refreshed 2026-07-30 23:36 UTC from collection files and `data/raw/`._
 
 | Themes | Theme/subreddit rows | Unique subreddits | Complete | Active | Partial | Pending | Raw data |
 | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| 9 | 1,011 | 982 | 46 | 0 | 0 | 965 | 4.3 GiB |
+| 10 | 1,033 | 1,004 | 174 | 0 | 0 | 859 | 13.3 GiB |
 
-**Overall coverage:** `█░░░░░░░░░░░░░░░░░░░` 5%
+**Overall coverage:** `███░░░░░░░░░░░░░░░░░` 17%
 
 ## Progress by theme
 
@@ -18,13 +18,14 @@ _Refreshed 2026-07-30 23:36 UTC from collection files and `data/raw/`._
 | --- | --- | --- | ---: | ---: | ---: | ---: |
 | Beer | `planning` | `░░░░░░░░░░░░` 0% | 0 | 0 | 0 | 126 |
 | Comics | `planning` | `░░░░░░░░░░░░` 0% | 0 | 0 | 0 | 107 |
-| Linux | `planning` | `░░░░░░░░░░░░` 0% | 0 | 0 | 0 | 119 |
+| Linux | `active` | `█████░░░░░░░` 41% | 49 | 0 | 0 | 71 |
 | Movies | `planning` | `░░░░░░░░░░░░` 1% | 1 | 0 | 0 | 168 |
-| Music | `active` | `████░░░░░░░░` 35% | 45 | 0 | 0 | 85 |
-| Open-source software | `planning` | `░░░░░░░░░░░░` 0% | 0 | 0 | 0 | 130 |
+| Music | `active` | `███████████░` 88% | 116 | 0 | 0 | 16 |
+| Open-source software | `planning` | `█░░░░░░░░░░░` 5% | 7 | 0 | 0 | 123 |
 | Science fiction | `planning` | `░░░░░░░░░░░░` 0% | 0 | 0 | 0 | 164 |
 | Tabletop games | `planning` | `░░░░░░░░░░░░` 0% | 0 | 0 | 0 | 65 |
 | TV series | `planning` | `░░░░░░░░░░░░` 0% | 0 | 0 | 0 | 1 |
+| Wikipedia | `planning` | `█░░░░░░░░░░░` 5% | 1 | 0 | 0 | 18 |
 
 ## Progress by subreddit
 
@@ -284,73 +285,74 @@ _Catalogue and selection are not complete._
 </details>
 
 <details>
-<summary><strong>Linux</strong> — 0/119 complete · 0%</summary>
+<summary><strong>Linux</strong> — 49/120 complete · 41%</summary>
 
-_Several communities already exist in Mongo; reconcile inventory before resuming._
+_Active N=99 Linux panel: six communities already held in MongoDB on port 27017 plus 93 acquisition targets._
 
 | Subreddit | Category | Status | Progress | Raw size |
 | --- | --- | --- | ---: | ---: |
-| `r/linux` | General discussion, news, support, and discovery | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/linuxquestions` | General discussion, news, support, and discovery | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/linux4noobs` | General discussion, news, support, and discovery | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/linux` | General discussion, news, support, and discovery | 🟢 Complete | `████████` 100% | — |
+| `r/linusrants` | General discussion, news, support, and discovery | 🟢 Complete | `████████` 100% | 260 KiB |
+| `r/linuxquestions` | General discussion, news, support, and discovery | 🟢 Complete | `████████` 100% | — |
+| `r/linux4noobs` | General discussion, news, support, and discovery | 🟢 Complete | `████████` 100% | — |
 | `r/linuxadmin` | General discussion, news, support, and discovery | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/linuxdev` | General discussion, news, support, and discovery | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/linuxkernel` | General discussion, news, support, and discovery | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/kernel` | General discussion, news, support, and discovery | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/kernel` | General discussion, news, support, and discovery | 🟢 Complete | `████████` 100% | — |
 | `r/linuxhardware` | General discussion, news, support, and discovery | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/linuxprojects` | General discussion, news, support, and discovery | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/linuxunplugged` | General discussion, news, support, and discovery | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/linuxprojects` | General discussion, news, support, and discovery | 🟢 Complete | `████████` 100% | 216 KiB |
+| `r/linuxunplugged` | General discussion, news, support, and discovery | 🟢 Complete | `████████` 100% | 991 KiB |
 | `r/LinuxActionShow` | General discussion, news, support, and discovery | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/linuxmemes` | General discussion, news, support, and discovery | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/DistroHopping` | General discussion, news, support, and discovery | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/findmeadistro` | General discussion, news, support, and discovery | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/FindMeALinuxDistro` | General discussion, news, support, and discovery | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/osdev` | Kernel-adjacent, embedded, and low-level systems | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/FindMeALinuxDistro` | General discussion, news, support, and discovery | 🟢 Complete | `████████` 100% | 4 MiB |
+| `r/osdev` | Kernel-adjacent, embedded, and low-level systems | 🟢 Complete | `████████` 100% | — |
 | `r/embedded` | Kernel-adjacent, embedded, and low-level systems | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/raspberry_pi` | Kernel-adjacent, embedded, and low-level systems | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/BeagleBone` | Kernel-adjacent, embedded, and low-level systems | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/systemd` | Kernel-adjacent, embedded, and low-level systems | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/wayland` | Kernel-adjacent, embedded, and low-level systems | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/systemd` | Kernel-adjacent, embedded, and low-level systems | 🟢 Complete | `████████` 100% | 1 MiB |
+| `r/wayland` | Kernel-adjacent, embedded, and low-level systems | 🟢 Complete | `████████` 100% | 2 MiB |
 | `r/mesa3d` | Kernel-adjacent, embedded, and low-level systems | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/pipewire` | Kernel-adjacent, embedded, and low-level systems | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/pipewire` | Kernel-adjacent, embedded, and low-level systems | 🟢 Complete | `████████` 100% | 643 KiB |
 | `r/linuxaudio` | Kernel-adjacent, embedded, and low-level systems | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/zfs` | Kernel-adjacent, embedded, and low-level systems | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/btrfs` | Kernel-adjacent, embedded, and low-level systems | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/btrfs` | Kernel-adjacent, embedded, and low-level systems | 🟢 Complete | `████████` 100% | 9 MiB |
 | `r/debian` | Debian and Ubuntu families | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/Ubuntu` | Debian and Ubuntu families | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/linuxmint` | Debian and Ubuntu families | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/pop_os` | Debian and Ubuntu families | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/elementaryos` | Debian and Ubuntu families | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Kubuntu` | Debian and Ubuntu families | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Lubuntu` | Debian and Ubuntu families | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/xubuntu` | Debian and Ubuntu families | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/Kubuntu` | Debian and Ubuntu families | 🟢 Complete | `████████` 100% | 9 MiB |
+| `r/Lubuntu` | Debian and Ubuntu families | 🟢 Complete | `████████` 100% | 3 MiB |
+| `r/xubuntu` | Debian and Ubuntu families | 🟢 Complete | `████████` 100% | 2 MiB |
 | `r/Fedora` | Fedora and Red Hat families | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/FedoraWorkstation` | Fedora and Red Hat families | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/FedoraWorkstation` | Fedora and Red Hat families | 🟢 Complete | `████████` 100% | 6 KiB |
 | `r/FedoraServer` | Fedora and Red Hat families | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/FedoraSilverblue` | Fedora and Red Hat families | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/FedoraSilverblue` | Fedora and Red Hat families | 🟢 Complete | `████████` 100% | 145 KiB |
 | `r/redhat` | Fedora and Red Hat families | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/RockyLinux` | Fedora and Red Hat families | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/AlmaLinux` | Fedora and Red Hat families | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/CentOS` | Fedora and Red Hat families | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/RockyLinux` | Fedora and Red Hat families | 🟢 Complete | `████████` 100% | 2 MiB |
+| `r/AlmaLinux` | Fedora and Red Hat families | 🟢 Complete | `████████` 100% | 2 MiB |
+| `r/CentOS` | Fedora and Red Hat families | 🟢 Complete | `████████` 100% | 6 MiB |
 | `r/archlinux` | Arch family | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/EndeavourOS` | Arch family | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/ManjaroLinux` | Arch family | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/artixlinux` | Arch family | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/artixlinux` | Arch family | 🟢 Complete | `████████` 100% | 3 MiB |
 | `r/cachyos` | Arch family | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/GarudaLinux` | Arch family | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/GarudaLinux` | Arch family | 🟢 Complete | `████████` 100% | 2 MiB |
 | `r/NixOS` | Nix, openSUSE, source-based, and independent distributions | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Nix` | Nix, openSUSE, source-based, and independent distributions | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/Nix` | Nix, openSUSE, source-based, and independent distributions | 🟢 Complete | `████████` 100% | 1 MiB |
 | `r/openSUSE` | Nix, openSUSE, source-based, and independent distributions | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/Gentoo` | Nix, openSUSE, source-based, and independent distributions | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/voidlinux` | Nix, openSUSE, source-based, and independent distributions | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/AlpineLinux` | Nix, openSUSE, source-based, and independent distributions | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/slackware` | Nix, openSUSE, source-based, and independent distributions | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/linuxfromscratch` | Nix, openSUSE, source-based, and independent distributions | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/bedrocklinux` | Nix, openSUSE, source-based, and independent distributions | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/MXLinux` | Nix, openSUSE, source-based, and independent distributions | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/AlpineLinux` | Nix, openSUSE, source-based, and independent distributions | 🟢 Complete | `████████` 100% | 2 MiB |
+| `r/slackware` | Nix, openSUSE, source-based, and independent distributions | 🟢 Complete | `████████` 100% | 3 MiB |
+| `r/linuxfromscratch` | Nix, openSUSE, source-based, and independent distributions | 🟢 Complete | `████████` 100% | 1 MiB |
+| `r/bedrocklinux` | Nix, openSUSE, source-based, and independent distributions | 🟢 Complete | `████████` 100% | 1 MiB |
+| `r/MXLinux` | Nix, openSUSE, source-based, and independent distributions | 🟢 Complete | `████████` 100% | 4 MiB |
 | `r/SolusProject` | Nix, openSUSE, source-based, and independent distributions | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/bluBuild` | Immutable and image-based Linux | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Universalblue` | Immutable and image-based Linux | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/Universalblue` | Immutable and image-based Linux | 🟢 Complete | `████████` 100% | 93 KiB |
 | `r/Qubes` | Security-focused distributions | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/tails` | Security-focused distributions | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/Kalilinux` | Security-focused distributions | ⚪ Pending | `░░░░░░░░` 0% | — |
@@ -363,29 +365,29 @@ _Several communities already exist in Mongo; reconcile inventory before resuming
 | `r/CinnamonDE` | Desktop environments | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/mate` | Desktop environments | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/lxde` | Desktop environments | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/LXQt` | Desktop environments | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/LXQt` | Desktop environments | 🟢 Complete | `████████` 100% | 420 KiB |
 | `r/budgie` | Desktop environments | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/System76` | Desktop environments | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/System76` | Desktop environments | 🟢 Complete | `████████` 100% | 8 MiB |
 | `r/i3wm` | Window managers, shells, and desktop customization | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/swaywm` | Window managers, shells, and desktop customization | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/hyprland` | Window managers, shells, and desktop customization | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/bspwm` | Window managers, shells, and desktop customization | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/awesomewm` | Window managers, shells, and desktop customization | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/dwm` | Window managers, shells, and desktop customization | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/qtile` | Window managers, shells, and desktop customization | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/xmonad` | Window managers, shells, and desktop customization | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/openbox` | Window managers, shells, and desktop customization | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/bspwm` | Window managers, shells, and desktop customization | 🟢 Complete | `████████` 100% | 3 MiB |
+| `r/awesomewm` | Window managers, shells, and desktop customization | 🟢 Complete | `████████` 100% | 5 MiB |
+| `r/dwm` | Window managers, shells, and desktop customization | 🟢 Complete | `████████` 100% | 967 KiB |
+| `r/qtile` | Window managers, shells, and desktop customization | 🟢 Complete | `████████` 100% | 2 MiB |
+| `r/xmonad` | Window managers, shells, and desktop customization | 🟢 Complete | `████████` 100% | 2 MiB |
+| `r/openbox` | Window managers, shells, and desktop customization | 🟢 Complete | `████████` 100% | 642 KiB |
 | `r/unixporn` | Window managers, shells, and desktop customization | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/terminal_porn` | Window managers, shells, and desktop customization | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/commandline` | Window managers, shells, and desktop customization | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/bash` | Window managers, shells, and desktop customization | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/flatpak` | Packaging and application distribution | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/AppImage` | Packaging and application distribution | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/snapcraft` | Packaging and application distribution | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/flatpak` | Packaging and application distribution | 🟢 Complete | `████████` 100% | 3 MiB |
+| `r/AppImage` | Packaging and application distribution | 🟢 Complete | `████████` 100% | 371 KiB |
+| `r/snapcraft` | Packaging and application distribution | 🟢 Complete | `████████` 100% | 6 KiB |
 | `r/docker` | Containers, virtualization, administration, and self-hosting | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/podman` | Containers, virtualization, administration, and self-hosting | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/podman` | Containers, virtualization, administration, and self-hosting | 🟢 Complete | `████████` 100% | 3 MiB |
 | `r/kubernetes` | Containers, virtualization, administration, and self-hosting | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/LXC` | Containers, virtualization, administration, and self-hosting | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/LXC` | Containers, virtualization, administration, and self-hosting | 🟢 Complete | `████████` 100% | 514 KiB |
 | `r/Proxmox` | Containers, virtualization, administration, and self-hosting | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/selfhosted` | Containers, virtualization, administration, and self-hosting | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/homelab` | Containers, virtualization, administration, and self-hosting | ⚪ Pending | `░░░░░░░░` 0% | — |
@@ -394,21 +396,21 @@ _Several communities already exist in Mongo; reconcile inventory before resuming
 | `r/linux_gaming` | Linux gaming | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/wine_gaming` | Linux gaming | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/protondb` | Linux gaming | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/SteamPlay` | Linux gaming | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/SteamPlay` | Linux gaming | 🟢 Complete | `████████` 100% | 5 MiB |
 | `r/FreeGaming` | Linux gaming | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/opensourcegames` | Linux gaming | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/opensourcegames` | Linux gaming | 🟢 Complete | `████████` 100% | 3 MiB |
 | `r/chromeos` | Device, mobile, and specialist Linux systems | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/SteamDeck` | Device, mobile, and specialist Linux systems | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/steamdeckhq` | Device, mobile, and specialist Linux systems | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/steamdeckhq` | Device, mobile, and specialist Linux systems | 🟢 Complete | `████████` 100% | 4 MiB |
 | `r/SteamOS` | Device, mobile, and specialist Linux systems | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/openwrt` | Device, mobile, and specialist Linux systems | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/postmarketOS` | Device, mobile, and specialist Linux systems | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/termux` | Device, mobile, and specialist Linux systems | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/linux_devices` | Device, mobile, and specialist Linux systems | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/opensource` | Open-source ecosystem | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/foss` | Open-source ecosystem | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/freesoftware` | Open-source ecosystem | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/gnu` | Open-source ecosystem | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/foss` | Open-source ecosystem | 🟢 Complete | `████████` 100% | 6 MiB |
+| `r/freesoftware` | Open-source ecosystem | 🟢 Complete | `████████` 100% | 9 MiB |
+| `r/gnu` | Open-source ecosystem | 🟢 Complete | `████████` 100% | 2 MiB |
 
 </details>
 
@@ -592,7 +594,7 @@ _Systematic discovery and catalogue design in progress._
 </details>
 
 <details>
-<summary><strong>Music</strong> — 45/130 complete · 35%</summary>
+<summary><strong>Music</strong> — 116/132 complete · 88%</summary>
 
 _Historical 130-subreddit programme resumed smallest-first in tmux; raw captures load into MongoDB on port 27019._
 
@@ -613,25 +615,27 @@ _Historical 130-subreddit programme resumed smallest-first in tmux; raw captures
 | `r/MusicPromotion` | core | 🟢 Complete | `████████` 100% | 108 MiB |
 | `r/WeAreTheMusicMakers` | adjacent | 🟢 Complete | `████████` 100% | 519 MiB |
 | `r/musicproduction` | producers | 🟢 Complete | `████████` 100% | 203 MiB |
-| `r/audioengineering` | producers | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/edmproduction` | producers | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/audioengineering` | producers | 🟢 Complete | `████████` 100% | 378 MiB |
+| `r/edmproduction` | producers | 🟢 Complete | `████████` 100% | 316 MiB |
 | `r/Songwriting` | producers | 🟢 Complete | `████████` 100% | 161 MiB |
-| `r/makinghiphop` | hiphop | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/makinghiphop` | hiphop | 🟢 Complete | `████████` 100% | 316 MiB |
 | `r/Music` | discovery | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/listentothis` | discovery | 🟢 Complete | `████████` 100% | 494 MiB |
 | `r/musicsuggestions` | discovery | 🟢 Complete | `████████` 100% | 569 MiB |
-| `r/MusicRecommendations` | discovery | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/MusicRecommendations` | discovery | 🟢 Complete | `████████` 100% | 278 MiB |
 | `r/LetsTalkMusic` | discussion | 🟢 Complete | `████████` 100% | 207 MiB |
 | `r/indieheads` | discussion | 🟢 Complete | `████████` 100% | 544 MiB |
 | `r/popheads` | discussion | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/spotify` | streaming | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/AppleMusic` | streaming | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/TIdaL` | streaming | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/YoutubeMusic` | streaming | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/grammys` | awards-and-charts | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/billboard` | awards-and-charts | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/spotify` | streaming | 🟢 Complete | `████████` 100% | 284 MiB |
+| `r/AppleMusic` | streaming | 🟢 Complete | `████████` 100% | 138 MiB |
+| `r/TIdaL` | streaming | 🟢 Complete | `████████` 100% | 37 MiB |
+| `r/YoutubeMusic` | streaming | 🟢 Complete | `████████` 100% | 57 MiB |
 | `r/BandCamp` | adjacent | 🟢 Complete | `████████` 100% | 34 MiB |
 | `r/SoundCloudMusic` | platform | 🟢 Complete | `████████` 100% | 7 MiB |
 | `r/vinyl` | physical | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Cd_collectors` | physical | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/Cd_collectors` | physical | 🟢 Complete | `████████` 100% | 184 MiB |
 | `r/Ticketmaster` | adjacent | 🟢 Complete | `████████` 100% | 7 MiB |
 | `r/truespotify` | adjacent | 🟢 Complete | `████████` 100% | 67 MiB |
 | `r/SpotifyPlaylists` | adjacent | 🟢 Complete | `████████` 100% | 178 MiB |
@@ -642,19 +646,19 @@ _Historical 130-subreddit programme resumed smallest-first in tmux; raw captures
 | `r/ifyoulikeblank` | discovery | 🟢 Complete | `████████` 100% | 218 MiB |
 | `r/fantanoforever` | discussion | 🟢 Complete | `████████` 100% | 363 MiB |
 | `r/synthwave` | electronic | 🟢 Complete | `████████` 100% | 7 MiB |
-| `r/housemusic` | electronic | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/IDM` | electronic | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/realdubstep` | electronic | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/psytrance` | electronic | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/ambientmusic` | electronic | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/futurebeats` | electronic | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/outrun` | electronic | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/techno` | electronic | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/dnb` | electronic | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/edm` | electronic | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/housemusic` | electronic | 🟢 Complete | `████████` 100% | 13 MiB |
+| `r/IDM` | electronic | 🟢 Complete | `████████` 100% | 22 MiB |
+| `r/realdubstep` | electronic | 🟢 Complete | `████████` 100% | 41 MiB |
+| `r/psytrance` | electronic | 🟢 Complete | `████████` 100% | 46 MiB |
+| `r/ambientmusic` | electronic | 🟢 Complete | `████████` 100% | 54 MiB |
+| `r/futurebeats` | electronic | 🟢 Complete | `████████` 100% | 58 MiB |
+| `r/outrun` | electronic | 🟢 Complete | `████████` 100% | 65 MiB |
+| `r/techno` | electronic | 🟢 Complete | `████████` 100% | 122 MiB |
+| `r/dnb` | electronic | 🟢 Complete | `████████` 100% | 151 MiB |
+| `r/edm` | electronic | 🟢 Complete | `████████` 100% | 290 MiB |
 | `r/sampling` | sampling | 🟢 Complete | `████████` 100% | 1 MiB |
 | `r/Samplehunters` | sampling | 🟢 Complete | `████████` 100% | 6 MiB |
-| `r/soundcloud` | platform | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/soundcloud` | platform | 🟢 Complete | `████████` 100% | 80 MiB |
 | `r/SoundCloudHipHop` | platform | 🟢 Complete | `████████` 100% | 20 MiB |
 | `r/latinmusic` | latin | 🟢 Complete | `████████` 100% | 829 KiB |
 | `r/Albumoftheday` | discovery | 🟢 Complete | `████████` 100% | 710 KiB |
@@ -666,58 +670,58 @@ _Historical 130-subreddit programme resumed smallest-first in tmux; raw captures
 | `r/JazzFusion` | jazz | 🟢 Complete | `████████` 100% | 7 MiB |
 | `r/qobuz` | streaming | 🟢 Complete | `████████` 100% | 7 MiB |
 | `r/ratemysong` | indie-artists | 🟢 Complete | `████████` 100% | 11 MiB |
-| `r/JazzPiano` | jazz | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/plexamp` | streaming | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Bachata` | latin | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/folk` | country | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/BedroomBands` | indie-artists | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/CountryMusic` | country | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/bandmembers` | producers | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/1001AlbumsGenerator` | discovery | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/altcountry` | country | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Salsa` | latin | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Reggaeton` | latin | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/newmusic` | discovery | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Bluegrass` | country | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/jazzguitar` | jazz | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/postrock` | rock | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/opera` | classical | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/House` | electronic | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/indie` | rock | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/composer` | classical | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/rock` | rock | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/ThisIsOurMusic` | indie-artists | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/PromoteYourMusic` | indie-artists | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/audio` | audiophile | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/shoegaze` | rock | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/BlackMetal` | metal | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/trance` | electronic | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/shareyourmusic` | indie-artists | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/violinist` | classical | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/progrockmusic` | rock | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/doommetal` | metal | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Jcole` | hiphop | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/cassetteculture` | physical | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/modular` | electronic | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/lastfm` | streaming | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/grunge` | rock | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/trap` | hiphop | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/turntables` | physical | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/progmetal` | metal | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Emo` | rock | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Deathcore` | metal | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/ClassicRock` | rock | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Jazz` | jazz | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Topster` | discussion | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/BudgetAudiophile` | audiophile | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/classicalmusic` | classical | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/kpophelp` | pop | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/hiphop101` | hiphop | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/piano` | classical | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/WestSubEver` | hiphop | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Metal` | metal | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/punk` | rock | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/rap` | hiphop | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/JazzPiano` | jazz | 🟢 Complete | `████████` 100% | 11 MiB |
+| `r/plexamp` | streaming | 🟢 Complete | `████████` 100% | 10 MiB |
+| `r/Bachata` | latin | 🟢 Complete | `████████` 100% | 17 MiB |
+| `r/folk` | country | 🟢 Complete | `████████` 100% | 22 MiB |
+| `r/BedroomBands` | indie-artists | 🟢 Complete | `████████` 100% | 15 MiB |
+| `r/CountryMusic` | country | 🟢 Complete | `████████` 100% | 19 MiB |
+| `r/bandmembers` | producers | 🟢 Complete | `████████` 100% | 19 MiB |
+| `r/1001AlbumsGenerator` | discovery | 🟢 Complete | `████████` 100% | 18 MiB |
+| `r/altcountry` | country | 🟢 Complete | `████████` 100% | 20 MiB |
+| `r/Salsa` | latin | 🟢 Complete | `████████` 100% | 26 MiB |
+| `r/Reggaeton` | latin | 🟢 Complete | `████████` 100% | 23 MiB |
+| `r/newmusic` | discovery | 🟢 Complete | `████████` 100% | 35 MiB |
+| `r/Bluegrass` | country | 🟢 Complete | `████████` 100% | 31 MiB |
+| `r/jazzguitar` | jazz | 🟢 Complete | `████████` 100% | 41 MiB |
+| `r/postrock` | rock | 🟢 Complete | `████████` 100% | 43 MiB |
+| `r/opera` | classical | 🟢 Complete | `████████` 100% | 54 MiB |
+| `r/House` | electronic | 🟢 Complete | `████████` 100% | 63 MiB |
+| `r/indie` | rock | 🟢 Complete | `████████` 100% | 75 MiB |
+| `r/composer` | classical | 🟢 Complete | `████████` 100% | 74 MiB |
+| `r/rock` | rock | 🟢 Complete | `████████` 100% | 63 MiB |
+| `r/ThisIsOurMusic` | indie-artists | 🟢 Complete | `████████` 100% | 86 MiB |
+| `r/PromoteYourMusic` | indie-artists | 🟢 Complete | `████████` 100% | 131 MiB |
+| `r/audio` | audiophile | 🟢 Complete | `████████` 100% | 81 MiB |
+| `r/shoegaze` | rock | 🟢 Complete | `████████` 100% | 72 MiB |
+| `r/BlackMetal` | metal | 🟢 Complete | `████████` 100% | 75 MiB |
+| `r/trance` | electronic | 🟢 Complete | `████████` 100% | 95 MiB |
+| `r/shareyourmusic` | indie-artists | 🟢 Complete | `████████` 100% | 139 MiB |
+| `r/violinist` | classical | 🟢 Complete | `████████` 100% | 119 MiB |
+| `r/progrockmusic` | rock | 🟢 Complete | `████████` 100% | 97 MiB |
+| `r/doommetal` | metal | 🟢 Complete | `████████` 100% | 95 MiB |
+| `r/Jcole` | hiphop | 🟢 Complete | `████████` 100% | 90 MiB |
+| `r/cassetteculture` | physical | 🟢 Complete | `████████` 100% | 132 MiB |
+| `r/modular` | electronic | 🟢 Complete | `████████` 100% | 127 MiB |
+| `r/lastfm` | streaming | 🟢 Complete | `████████` 100% | 127 MiB |
+| `r/grunge` | rock | 🟢 Complete | `████████` 100% | 121 MiB |
+| `r/trap` | hiphop | 🟢 Complete | `████████` 100% | 133 MiB |
+| `r/turntables` | physical | 🟢 Complete | `████████` 100% | 183 MiB |
+| `r/progmetal` | metal | 🟢 Complete | `████████` 100% | 149 MiB |
+| `r/Emo` | rock | 🟢 Complete | `████████` 100% | 160 MiB |
+| `r/Deathcore` | metal | 🟢 Complete | `████████` 100% | 147 MiB |
+| `r/ClassicRock` | rock | 🟢 Complete | `████████` 100% | 149 MiB |
+| `r/Jazz` | jazz | 🟢 Complete | `████████` 100% | 194 MiB |
+| `r/Topster` | discussion | 🟢 Complete | `████████` 100% | 153 MiB |
+| `r/BudgetAudiophile` | audiophile | 🟢 Complete | `████████` 100% | 283 MiB |
+| `r/classicalmusic` | classical | 🟢 Complete | `████████` 100% | 284 MiB |
+| `r/kpophelp` | pop | 🟢 Complete | `████████` 100% | 280 MiB |
+| `r/hiphop101` | hiphop | 🟢 Complete | `████████` 100% | 203 MiB |
+| `r/piano` | classical | 🟢 Complete | `████████` 100% | 373 MiB |
+| `r/WestSubEver` | hiphop | 🟢 Complete | `████████` 100% | 198 MiB |
+| `r/Metal` | metal | 🟢 Complete | `████████` 100% | 345 MiB |
+| `r/punk` | rock | 🟢 Complete | `████████` 100% | 367 MiB |
+| `r/rap` | hiphop | ⚪ Pending | `░░░░░░░░` 0% | 292 MiB |
 | `r/Drizzy` | hiphop | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/audiophile` | audiophile | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/Metalcore` | metal | ⚪ Pending | `░░░░░░░░` 0% | — |
@@ -732,7 +736,7 @@ _Historical 130-subreddit programme resumed smallest-first in tmux; raw captures
 </details>
 
 <details>
-<summary><strong>Open-source software</strong> — 0/130 complete · 0%</summary>
+<summary><strong>Open-source software</strong> — 7/130 complete · 5%</summary>
 
 _Catalogue and selection are not complete._
 
@@ -741,9 +745,9 @@ _Catalogue and selection are not complete._
 | `r/opensource` | Open-source and free-software movements | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/OpenSourceSoftware` | Open-source and free-software movements | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/open_source` | Open-source and free-software movements | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/foss` | Open-source and free-software movements | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/freesoftware` | Open-source and free-software movements | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/gnu` | Open-source and free-software movements | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/foss` | Open-source and free-software movements | 🟢 Complete | `████████` 100% | 6 MiB |
+| `r/freesoftware` | Open-source and free-software movements | 🟢 Complete | `████████` 100% | 9 MiB |
+| `r/gnu` | Open-source and free-software movements | 🟢 Complete | `████████` 100% | 2 MiB |
 | `r/StallmanWasRight` | Open-source and free-software movements | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/linux` | Open-source and free-software movements | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/git` | Contribution, collaboration, governance, and documentation | ⚪ Pending | `░░░░░░░░` 0% | — |
@@ -801,7 +805,7 @@ _Catalogue and selection are not complete._
 | `r/mongodb` | Databases and data systems | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/Clickhouse` | Databases and data systems | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/docker` | Infrastructure, automation, and observability | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/podman` | Infrastructure, automation, and observability | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/podman` | Infrastructure, automation, and observability | 🟢 Complete | `████████` 100% | 3 MiB |
 | `r/kubernetes` | Infrastructure, automation, and observability | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/Terraform` | Infrastructure, automation, and observability | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/opentofu` | Infrastructure, automation, and observability | ⚪ Pending | `░░░░░░░░` 0% | — |
@@ -829,7 +833,7 @@ _Catalogue and selection are not complete._
 | `r/ffmpeg` | Graphics, video, and audio | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/audacity` | Graphics, video, and audio | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/Ardour` | Graphics, video, and audio | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/pipewire` | Graphics, video, and audio | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/pipewire` | Graphics, video, and audio | 🟢 Complete | `████████` 100% | 643 KiB |
 | `r/linuxaudio` | Graphics, video, and audio | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/brave_browser` | Browsers and privacy tools | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/LibreWolf` | Browsers and privacy tools | ⚪ Pending | `░░░░░░░░` 0% | — |
@@ -851,7 +855,7 @@ _Catalogue and selection are not complete._
 | `r/Proxmox` | Virtualization, containers, and networking projects | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/qemu_kvm` | Virtualization, containers, and networking projects | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/libvirt` | Virtualization, containers, and networking projects | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/LXC` | Virtualization, containers, and networking projects | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/LXC` | Virtualization, containers, and networking projects | 🟢 Complete | `████████` 100% | 514 KiB |
 | `r/opnsense` | Virtualization, containers, and networking projects | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/PFSENSE` | Virtualization, containers, and networking projects | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/pytorch` | Open machine learning and scientific computing | ⚪ Pending | `░░░░░░░░` 0% | — |
@@ -865,7 +869,7 @@ _Catalogue and selection are not complete._
 | `r/scipy` | Open machine learning and scientific computing | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/NixOS` | Package managers and reproducible systems | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/chocolatey` | Package managers and reproducible systems | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/opensourcegames` | Open-source gaming | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/opensourcegames` | Open-source gaming | 🟢 Complete | `████████` 100% | 3 MiB |
 | `r/linux_gaming` | Open-source gaming | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/homebrew` | Open-source gaming | ⚪ Pending | `░░░░░░░░` 0% | — |
 
@@ -1128,6 +1132,35 @@ _Catalogue and selection are not complete._
 | Subreddit | Category | Status | Progress | Raw size |
 | --- | --- | --- | ---: | ---: |
 | `r/bigbangtheory` | Explicit show-level inclusion | ⚪ Pending | `░░░░░░░░` 0% | — |
+
+</details>
+
+<details>
+<summary><strong>Wikipedia</strong> — 1/19 complete · 5%</summary>
+
+_Wikipedia and Wikimedia catalogue; discovery and panel selection are not complete._
+
+| Subreddit | Category | Status | Progress | Raw size |
+| --- | --- | --- | ---: | ---: |
+| `r/wikipedia` | General Wikipedia and Wikimedia discussion | 🟢 Complete | `████████` 100% | 157 MiB |
+| `r/wikimedia` | General Wikipedia and Wikimedia discussion | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/wikipedians` | Contributors, editing, and governance | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/CreepyWikipedia` | Article discovery and themed excerpts | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/WikipediaRandomness` | Article discovery and themed excerpts | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/WCommons` | Wikimedia Commons and structured data | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/WData` | Wikimedia Commons and structured data | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/Wikidata` | Wikimedia Commons and structured data | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/wiktionary` | Wikimedia sister projects | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/wikisource` | Wikimedia sister projects | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/wikivoyage` | Wikimedia sister projects | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/Wikibooks` | Wikimedia sister projects | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/mediawiki` | Software, offline access, and preservation | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/Kiwix` | Software, offline access, and preservation | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/internetarchive` | Software, offline access, and preservation | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/wikipedia_answer_bot` | Wikipedia bots and tools | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/opendata` | Adjacent open knowledge and data | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/WikipediaVandalism` | Vandalism, humour, and cultural response | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/wikipediamemes` | Vandalism, humour, and cultural response | ⚪ Pending | `░░░░░░░░` 0% | — |
 
 </details>
 

@@ -1,6 +1,6 @@
 # Music subreddit collection dashboard
 
-_Refreshed 2026-07-30 23:36 UTC from MongoDB, `progress.md`, and `data/raw/`._
+_Refreshed 2026-07-31 20:58 UTC from MongoDB, `progress.md`, and `data/raw/`._
 
 > Open with **Markdown: Open Preview** (`Ctrl+Shift+V` / `Cmd+Shift+V`). The tmux job refreshes this file after every successful load.
 
@@ -8,9 +8,9 @@ _Refreshed 2026-07-30 23:36 UTC from MongoDB, `progress.md`, and `data/raw/`._
 
 | Programme | Complete | Remaining | Expected records | Raw data | Workflow |
 | ---: | ---: | ---: | ---: | ---: | --- |
-| 130 | 45 | 85 | 207,057,531 | 4.1 GiB | `active` |
+| 130 | 116 | 14 | 207,057,531 | 13.0 GiB | `active` |
 
-**Subreddit completion:** `████████░░░░░░░░░░░░░░░░` 35%
+**Subreddit completion:** `█████████████████████░░░` 89%
 
 - tmux session: `reddit_music_resume`
 - runtime log: `data/logs/music-resume.log`
@@ -21,46 +21,55 @@ _Refreshed 2026-07-30 23:36 UTC from MongoDB, `progress.md`, and `data/raw/`._
 
 | # | Subreddit | Category | Expected records | Existing raw |
 | ---: | --- | --- | ---: | ---: |
-| 1 | `r/JazzPiano` | jazz | 58,497 | 0/2 files |
-| 2 | `r/housemusic` | electronic | 70,102 | 0/2 files |
-| 3 | `r/plexamp` | streaming | 73,025 | 0/2 files |
-| 4 | `r/Bachata` | latin | 87,195 | 0/2 files |
-| 5 | `r/folk` | country | 97,346 | 0/2 files |
-| 6 | `r/BedroomBands` | indie-artists | 105,406 | 0/2 files |
-| 7 | `r/CountryMusic` | country | 106,174 | 0/2 files |
-| 8 | `r/bandmembers` | producers | 111,624 | 0/2 files |
-| 9 | `r/IDM` | electronic | 125,870 | 0/2 files |
-| 10 | `r/1001AlbumsGenerator` | discovery | 129,266 | 0/2 files |
-| 11 | `r/altcountry` | country | 130,094 | 0/2 files |
-| 12 | `r/Salsa` | latin | 144,499 | 0/2 files |
-| 13 | `r/Reggaeton` | latin | 152,925 | 0/2 files |
-| 14 | `r/newmusic` | discovery | 193,998 | 0/2 files |
-| 15 | `r/Bluegrass` | country | 227,112 | 0/2 files |
+| 1 | `r/rap` | hiphop | 3,180,780 | 2/2 files |
+| 2 | `r/Drizzy` | hiphop | 3,341,307 | 0/2 files |
+| 3 | `r/audiophile` | audiophile | 3,569,576 | 0/2 files |
+| 4 | `r/Metalcore` | metal | 3,749,400 | 0/2 files |
+| 5 | `r/kpopthoughts` | pop | 3,891,535 | 0/2 files |
+| 6 | `r/synthesizers` | electronic | 3,992,157 | 0/2 files |
+| 7 | `r/KendrickLamar` | hiphop | 4,179,841 | 0/2 files |
+| 8 | `r/headphones` | audiophile | 4,925,237 | 0/2 files |
+| 9 | `r/Eminem` | hiphop | 5,327,799 | 0/2 files |
+| 10 | `r/vinyl` | physical | 6,175,348 | 0/2 files |
+| 11 | `r/kpop` | pop | 7,154,508 | 0/2 files |
+| 12 | `r/popheads` | discussion | 7,569,395 | 0/2 files |
+| 13 | `r/hiphopheads` | hiphop | 23,529,878 | 0/2 files |
+| 14 | `r/Music` | discovery | 28,144,040 | 0/2 files |
+
+## Pending candidates
+
+These catalogue entries are outside the authorised 130-subreddit programme and are not in its acquisition queue.
+
+| Subreddit | Category | Verification | Expected archive records | Selection |
+| --- | --- | --- | ---: | --- |
+| `r/billboard` | awards-and-charts | verified | 2,532 | Pending review |
+| `r/grammys` | awards-and-charts | verified | 51,816 | Pending review |
 
 ## Progress by category
 
-| Category | Complete | Tracked | Progress | Expected records | Raw data |
-| --- | ---: | ---: | --- | ---: | ---: |
-| adjacent | 5 | 5 | `██████████` 100% | 5,290,131 | 805 MiB |
-| audiophile | 0 | 4 | `░░░░░░░░░░` 0% | 10,853,554 | 0 B |
-| classical | 0 | 5 | `░░░░░░░░░░` 0% | 5,700,478 | 0 B |
-| core | 13 | 13 | `██████████` 100% | 1,352,605 | 205 MiB |
-| country | 1 | 5 | `██░░░░░░░░` 20% | 575,118 | 4 MiB |
-| discovery | 5 | 9 | `██████░░░░` 56% | 42,452,568 | 1.3 GiB |
-| discussion | 3 | 5 | `██████░░░░` 60% | 17,869,063 | 1.1 GiB |
-| electronic | 4 | 18 | `██░░░░░░░░` 22% | 14,412,154 | 345 MiB |
-| hiphop | 0 | 10 | `░░░░░░░░░░` 0% | 48,989,048 | 0 B |
-| indie-artists | 1 | 5 | `██░░░░░░░░` 20% | 1,753,125 | 11 MiB |
-| jazz | 3 | 6 | `█████░░░░░` 50% | 1,806,484 | 13 MiB |
-| latin | 1 | 4 | `██░░░░░░░░` 25% | 386,573 | 829 KiB |
-| metal | 0 | 6 | `░░░░░░░░░░` 0% | 10,550,699 | 0 B |
-| physical | 1 | 5 | `██░░░░░░░░` 20% | 9,477,654 | 3 MiB |
-| platform | 2 | 3 | `███████░░░` 67% | 712,241 | 27 MiB |
-| pop | 1 | 4 | `██░░░░░░░░` 25% | 13,111,162 | 5 MiB |
-| producers | 2 | 5 | `████░░░░░░` 40% | 7,562,588 | 363 MiB |
-| rock | 0 | 9 | `░░░░░░░░░░` 0% | 9,151,968 | 0 B |
-| sampling | 2 | 2 | `██████████` 100% | 31,270 | 7 MiB |
-| streaming | 1 | 7 | `█░░░░░░░░░` 14% | 5,019,048 | 7 MiB |
+| Category | Scope | Complete | Tracked | Progress | Expected records | Raw data |
+| --- | --- | ---: | ---: | --- | ---: | ---: |
+| adjacent | Programme | 5 | 5 | `██████████` 100% | 5,290,131 | 805 MiB |
+| audiophile | Programme | 2 | 4 | `█████░░░░░` 50% | 10,853,554 | 363 MiB |
+| awards-and-charts | Candidate | 0 | 2 | `░░░░░░░░░░` 0% | 54,348 | 0 B |
+| classical | Programme | 5 | 5 | `██████████` 100% | 5,700,478 | 904 MiB |
+| core | Programme | 13 | 13 | `██████████` 100% | 1,352,605 | 205 MiB |
+| country | Programme | 5 | 5 | `██████████` 100% | 575,118 | 96 MiB |
+| discovery | Programme | 8 | 9 | `█████████░` 89% | 42,452,568 | 1.6 GiB |
+| discussion | Programme | 4 | 5 | `████████░░` 80% | 17,869,063 | 1.2 GiB |
+| electronic | Programme | 17 | 18 | `█████████░` 94% | 14,412,154 | 1.5 GiB |
+| hiphop | Programme | 5 | 10 | `█████░░░░░` 50% | 48,989,048 | 1.2 GiB |
+| indie-artists | Programme | 5 | 5 | `██████████` 100% | 1,753,125 | 381 MiB |
+| jazz | Programme | 6 | 6 | `██████████` 100% | 1,806,484 | 259 MiB |
+| latin | Programme | 4 | 4 | `██████████` 100% | 386,573 | 66 MiB |
+| metal | Programme | 5 | 6 | `████████░░` 83% | 10,550,699 | 811 MiB |
+| physical | Programme | 4 | 5 | `████████░░` 80% | 9,477,654 | 502 MiB |
+| platform | Programme | 3 | 3 | `██████████` 100% | 712,241 | 106 MiB |
+| pop | Programme | 2 | 4 | `█████░░░░░` 50% | 13,111,162 | 284 MiB |
+| producers | Programme | 5 | 5 | `██████████` 100% | 7,562,588 | 1.1 GiB |
+| rock | Programme | 9 | 9 | `██████████` 100% | 9,151,968 | 1.1 GiB |
+| sampling | Programme | 2 | 2 | `██████████` 100% | 31,270 | 7 MiB |
+| streaming | Programme | 7 | 7 | `██████████` 100% | 5,019,048 | 659 MiB |
 
 ## All subreddits
 
@@ -80,27 +89,37 @@ Expand a category below. Use VS Code search to jump directly to a subreddit.
 </details>
 
 <details>
-<summary><strong>audiophile</strong> — 0/4 complete</summary>
+<summary><strong>audiophile</strong> — 2/4 complete</summary>
 
 | Subreddit | Status | Expected records | Raw files | Raw size |
 | --- | --- | ---: | ---: | ---: |
-| `r/audio` | ⚪ Pending | 474,399 | 0/2 | — |
-| `r/BudgetAudiophile` | ⚪ Pending | 1,884,342 | 0/2 | — |
+| `r/audio` | 🟢 Complete | 474,399 | 2/2 | 81 MiB |
+| `r/BudgetAudiophile` | 🟢 Complete | 1,884,342 | 2/2 | 283 MiB |
 | `r/audiophile` | ⚪ Pending | 3,569,576 | 0/2 | — |
 | `r/headphones` | ⚪ Pending | 4,925,237 | 0/2 | — |
 
 </details>
 
 <details>
-<summary><strong>classical</strong> — 0/5 complete</summary>
+<summary><strong>awards-and-charts</strong> — 0/2 complete · candidate</summary>
 
 | Subreddit | Status | Expected records | Raw files | Raw size |
 | --- | --- | ---: | ---: | ---: |
-| `r/opera` | ⚪ Pending | 341,749 | 0/2 | — |
-| `r/composer` | ⚪ Pending | 393,049 | 0/2 | — |
-| `r/violinist` | ⚪ Pending | 725,771 | 0/2 | — |
-| `r/classicalmusic` | ⚪ Pending | 1,954,698 | 0/2 | — |
-| `r/piano` | ⚪ Pending | 2,285,211 | 0/2 | — |
+| `r/grammys` | ⚪ Pending review | 51,816 | 0/2 | — |
+| `r/billboard` | ⚪ Pending review | 2,532 | 0/2 | — |
+
+</details>
+
+<details>
+<summary><strong>classical</strong> — 5/5 complete</summary>
+
+| Subreddit | Status | Expected records | Raw files | Raw size |
+| --- | --- | ---: | ---: | ---: |
+| `r/opera` | 🟢 Complete | 341,749 | 2/2 | 54 MiB |
+| `r/composer` | 🟢 Complete | 393,049 | 2/2 | 74 MiB |
+| `r/violinist` | 🟢 Complete | 725,771 | 2/2 | 119 MiB |
+| `r/classicalmusic` | 🟢 Complete | 1,954,698 | 2/2 | 284 MiB |
+| `r/piano` | 🟢 Complete | 2,285,211 | 2/2 | 373 MiB |
 
 </details>
 
@@ -126,20 +145,20 @@ Expand a category below. Use VS Code search to jump directly to a subreddit.
 </details>
 
 <details>
-<summary><strong>country</strong> — 1/5 complete</summary>
+<summary><strong>country</strong> — 5/5 complete</summary>
 
 | Subreddit | Status | Expected records | Raw files | Raw size |
 | --- | --- | ---: | ---: | ---: |
 | `r/Americana` | 🟢 Complete | 14,392 | 2/2 | 4 MiB |
-| `r/folk` | ⚪ Pending | 97,346 | 0/2 | — |
-| `r/CountryMusic` | ⚪ Pending | 106,174 | 0/2 | — |
-| `r/altcountry` | ⚪ Pending | 130,094 | 0/2 | — |
-| `r/Bluegrass` | ⚪ Pending | 227,112 | 0/2 | — |
+| `r/folk` | 🟢 Complete | 97,346 | 2/2 | 22 MiB |
+| `r/CountryMusic` | 🟢 Complete | 106,174 | 2/2 | 19 MiB |
+| `r/altcountry` | 🟢 Complete | 130,094 | 2/2 | 20 MiB |
+| `r/Bluegrass` | 🟢 Complete | 227,112 | 2/2 | 31 MiB |
 
 </details>
 
 <details>
-<summary><strong>discovery</strong> — 5/9 complete</summary>
+<summary><strong>discovery</strong> — 8/9 complete</summary>
 
 | Subreddit | Status | Expected records | Raw files | Raw size |
 | --- | --- | ---: | ---: | ---: |
@@ -149,14 +168,14 @@ Expand a category below. Use VS Code search to jump directly to a subreddit.
 | `r/musicsuggestions` | 🟢 Complete | 5,816,228 | 2/2 | 569 MiB |
 | `r/Music` | ⚪ Pending | 28,144,040 | 0/2 | — |
 | `r/Albumoftheday` | 🟢 Complete | 2,390 | 2/2 | 710 KiB |
-| `r/1001AlbumsGenerator` | ⚪ Pending | 129,266 | 0/2 | — |
-| `r/newmusic` | ⚪ Pending | 193,998 | 0/2 | — |
-| `r/MusicRecommendations` | ⚪ Pending | 2,866,375 | 0/2 | — |
+| `r/1001AlbumsGenerator` | 🟢 Complete | 129,266 | 2/2 | 18 MiB |
+| `r/newmusic` | 🟢 Complete | 193,998 | 2/2 | 35 MiB |
+| `r/MusicRecommendations` | 🟢 Complete | 2,866,375 | 2/2 | 278 MiB |
 
 </details>
 
 <details>
-<summary><strong>discussion</strong> — 3/5 complete</summary>
+<summary><strong>discussion</strong> — 4/5 complete</summary>
 
 | Subreddit | Status | Expected records | Raw files | Raw size |
 | --- | --- | ---: | ---: | ---: |
@@ -164,12 +183,12 @@ Expand a category below. Use VS Code search to jump directly to a subreddit.
 | `r/fantanoforever` | 🟢 Complete | 3,185,542 | 2/2 | 363 MiB |
 | `r/indieheads` | 🟢 Complete | 4,466,705 | 2/2 | 544 MiB |
 | `r/popheads` | ⚪ Pending | 7,569,395 | 0/2 | — |
-| `r/Topster` | ⚪ Pending | 1,466,422 | 0/2 | — |
+| `r/Topster` | 🟢 Complete | 1,466,422 | 2/2 | 153 MiB |
 
 </details>
 
 <details>
-<summary><strong>electronic</strong> — 4/18 complete</summary>
+<summary><strong>electronic</strong> — 17/18 complete</summary>
 
 | Subreddit | Status | Expected records | Raw files | Raw size |
 | --- | --- | ---: | ---: | ---: |
@@ -177,34 +196,34 @@ Expand a category below. Use VS Code search to jump directly to a subreddit.
 | `r/vaporwave` | 🟢 Complete | 553,397 | 2/2 | 81 MiB |
 | `r/electronicmusic` | 🟢 Complete | 1,682,465 | 2/2 | 220 MiB |
 | `r/synthwave` | 🟢 Complete | 31,880 | 2/2 | 7 MiB |
-| `r/housemusic` | ⚪ Pending | 70,102 | 0/2 | — |
-| `r/IDM` | ⚪ Pending | 125,870 | 0/2 | — |
-| `r/realdubstep` | ⚪ Pending | 289,732 | 0/2 | — |
-| `r/psytrance` | ⚪ Pending | 301,434 | 0/2 | — |
-| `r/ambientmusic` | ⚪ Pending | 331,158 | 0/2 | — |
-| `r/futurebeats` | ⚪ Pending | 351,807 | 0/2 | — |
-| `r/outrun` | ⚪ Pending | 485,435 | 0/2 | — |
-| `r/techno` | ⚪ Pending | 839,519 | 0/2 | — |
-| `r/dnb` | ⚪ Pending | 1,008,284 | 0/2 | — |
-| `r/edm` | ⚪ Pending | 2,240,987 | 0/2 | — |
-| `r/House` | ⚪ Pending | 368,008 | 0/2 | — |
-| `r/trance` | ⚪ Pending | 691,677 | 0/2 | — |
-| `r/modular` | ⚪ Pending | 845,133 | 0/2 | — |
+| `r/housemusic` | 🟢 Complete | 70,102 | 2/2 | 13 MiB |
+| `r/IDM` | 🟢 Complete | 125,870 | 2/2 | 22 MiB |
+| `r/realdubstep` | 🟢 Complete | 289,732 | 2/2 | 41 MiB |
+| `r/psytrance` | 🟢 Complete | 301,434 | 2/2 | 46 MiB |
+| `r/ambientmusic` | 🟢 Complete | 331,158 | 2/2 | 54 MiB |
+| `r/futurebeats` | 🟢 Complete | 351,807 | 2/2 | 58 MiB |
+| `r/outrun` | 🟢 Complete | 485,435 | 2/2 | 65 MiB |
+| `r/techno` | 🟢 Complete | 839,519 | 2/2 | 122 MiB |
+| `r/dnb` | 🟢 Complete | 1,008,284 | 2/2 | 151 MiB |
+| `r/edm` | 🟢 Complete | 2,240,987 | 2/2 | 290 MiB |
+| `r/House` | 🟢 Complete | 368,008 | 2/2 | 63 MiB |
+| `r/trance` | 🟢 Complete | 691,677 | 2/2 | 95 MiB |
+| `r/modular` | 🟢 Complete | 845,133 | 2/2 | 127 MiB |
 | `r/synthesizers` | ⚪ Pending | 3,992,157 | 0/2 | — |
 
 </details>
 
 <details>
-<summary><strong>hiphop</strong> — 0/10 complete</summary>
+<summary><strong>hiphop</strong> — 5/10 complete</summary>
 
 | Subreddit | Status | Expected records | Raw files | Raw size |
 | --- | --- | ---: | ---: | ---: |
-| `r/Jcole` | ⚪ Pending | 800,328 | 0/2 | — |
-| `r/trap` | ⚪ Pending | 1,111,508 | 0/2 | — |
-| `r/hiphop101` | ⚪ Pending | 2,075,706 | 0/2 | — |
-| `r/WestSubEver` | ⚪ Pending | 2,495,359 | 0/2 | — |
-| `r/makinghiphop` | ⚪ Pending | 2,946,542 | 0/2 | — |
-| `r/rap` | ⚪ Pending | 3,180,780 | 0/2 | — |
+| `r/Jcole` | 🟢 Complete | 800,328 | 2/2 | 90 MiB |
+| `r/trap` | 🟢 Complete | 1,111,508 | 2/2 | 133 MiB |
+| `r/hiphop101` | 🟢 Complete | 2,075,706 | 2/2 | 203 MiB |
+| `r/WestSubEver` | 🟢 Complete | 2,495,359 | 2/2 | 198 MiB |
+| `r/makinghiphop` | 🟢 Complete | 2,946,542 | 2/2 | 316 MiB |
+| `r/rap` | ⚪ Pending | 3,180,780 | 2/2 | 292 MiB |
 | `r/Drizzy` | ⚪ Pending | 3,341,307 | 0/2 | — |
 | `r/KendrickLamar` | ⚪ Pending | 4,179,841 | 0/2 | — |
 | `r/Eminem` | ⚪ Pending | 5,327,799 | 0/2 | — |
@@ -213,121 +232,121 @@ Expand a category below. Use VS Code search to jump directly to a subreddit.
 </details>
 
 <details>
-<summary><strong>indie-artists</strong> — 1/5 complete</summary>
+<summary><strong>indie-artists</strong> — 5/5 complete</summary>
 
 | Subreddit | Status | Expected records | Raw files | Raw size |
 | --- | --- | ---: | ---: | ---: |
 | `r/ratemysong` | 🟢 Complete | 44,617 | 2/2 | 11 MiB |
-| `r/BedroomBands` | ⚪ Pending | 105,406 | 0/2 | — |
-| `r/ThisIsOurMusic` | ⚪ Pending | 426,816 | 0/2 | — |
-| `r/PromoteYourMusic` | ⚪ Pending | 472,968 | 0/2 | — |
-| `r/shareyourmusic` | ⚪ Pending | 703,318 | 0/2 | — |
+| `r/BedroomBands` | 🟢 Complete | 105,406 | 2/2 | 15 MiB |
+| `r/ThisIsOurMusic` | 🟢 Complete | 426,816 | 2/2 | 86 MiB |
+| `r/PromoteYourMusic` | 🟢 Complete | 472,968 | 2/2 | 131 MiB |
+| `r/shareyourmusic` | 🟢 Complete | 703,318 | 2/2 | 139 MiB |
 
 </details>
 
 <details>
-<summary><strong>jazz</strong> — 3/6 complete</summary>
+<summary><strong>jazz</strong> — 6/6 complete</summary>
 
 | Subreddit | Status | Expected records | Raw files | Raw size |
 | --- | --- | ---: | ---: | ---: |
 | `r/smoothjazz` | 🟢 Complete | 4,436 | 2/2 | 1 MiB |
 | `r/jazztheory` | 🟢 Complete | 28,381 | 2/2 | 5 MiB |
 | `r/JazzFusion` | 🟢 Complete | 35,417 | 2/2 | 7 MiB |
-| `r/JazzPiano` | ⚪ Pending | 58,497 | 0/2 | — |
-| `r/jazzguitar` | ⚪ Pending | 259,948 | 0/2 | — |
-| `r/Jazz` | ⚪ Pending | 1,419,805 | 0/2 | — |
+| `r/JazzPiano` | 🟢 Complete | 58,497 | 2/2 | 11 MiB |
+| `r/jazzguitar` | 🟢 Complete | 259,948 | 2/2 | 41 MiB |
+| `r/Jazz` | 🟢 Complete | 1,419,805 | 2/2 | 194 MiB |
 
 </details>
 
 <details>
-<summary><strong>latin</strong> — 1/4 complete</summary>
+<summary><strong>latin</strong> — 4/4 complete</summary>
 
 | Subreddit | Status | Expected records | Raw files | Raw size |
 | --- | --- | ---: | ---: | ---: |
 | `r/latinmusic` | 🟢 Complete | 1,954 | 2/2 | 829 KiB |
-| `r/Bachata` | ⚪ Pending | 87,195 | 0/2 | — |
-| `r/Salsa` | ⚪ Pending | 144,499 | 0/2 | — |
-| `r/Reggaeton` | ⚪ Pending | 152,925 | 0/2 | — |
+| `r/Bachata` | 🟢 Complete | 87,195 | 2/2 | 17 MiB |
+| `r/Salsa` | 🟢 Complete | 144,499 | 2/2 | 26 MiB |
+| `r/Reggaeton` | 🟢 Complete | 152,925 | 2/2 | 23 MiB |
 
 </details>
 
 <details>
-<summary><strong>metal</strong> — 0/6 complete</summary>
+<summary><strong>metal</strong> — 5/6 complete</summary>
 
 | Subreddit | Status | Expected records | Raw files | Raw size |
 | --- | --- | ---: | ---: | ---: |
-| `r/BlackMetal` | ⚪ Pending | 549,730 | 0/2 | — |
-| `r/doommetal` | ⚪ Pending | 766,553 | 0/2 | — |
-| `r/progmetal` | ⚪ Pending | 1,244,067 | 0/2 | — |
-| `r/Deathcore` | ⚪ Pending | 1,327,134 | 0/2 | — |
-| `r/Metal` | ⚪ Pending | 2,913,815 | 0/2 | — |
+| `r/BlackMetal` | 🟢 Complete | 549,730 | 2/2 | 75 MiB |
+| `r/doommetal` | 🟢 Complete | 766,553 | 2/2 | 95 MiB |
+| `r/progmetal` | 🟢 Complete | 1,244,067 | 2/2 | 149 MiB |
+| `r/Deathcore` | 🟢 Complete | 1,327,134 | 2/2 | 147 MiB |
+| `r/Metal` | 🟢 Complete | 2,913,815 | 2/2 | 345 MiB |
 | `r/Metalcore` | ⚪ Pending | 3,749,400 | 0/2 | — |
 
 </details>
 
 <details>
-<summary><strong>physical</strong> — 1/5 complete</summary>
+<summary><strong>physical</strong> — 4/5 complete</summary>
 
 | Subreddit | Status | Expected records | Raw files | Raw size |
 | --- | --- | ---: | ---: | ---: |
 | `r/recordstore` | 🟢 Complete | 18,003 | 2/2 | 3 MiB |
-| `r/cassetteculture` | ⚪ Pending | 841,844 | 0/2 | — |
-| `r/turntables` | ⚪ Pending | 1,167,233 | 0/2 | — |
-| `r/Cd_collectors` | ⚪ Pending | 1,275,226 | 0/2 | — |
+| `r/cassetteculture` | 🟢 Complete | 841,844 | 2/2 | 132 MiB |
+| `r/turntables` | 🟢 Complete | 1,167,233 | 2/2 | 183 MiB |
+| `r/Cd_collectors` | 🟢 Complete | 1,275,226 | 2/2 | 184 MiB |
 | `r/vinyl` | ⚪ Pending | 6,175,348 | 0/2 | — |
 
 </details>
 
 <details>
-<summary><strong>platform</strong> — 2/3 complete</summary>
+<summary><strong>platform</strong> — 3/3 complete</summary>
 
 | Subreddit | Status | Expected records | Raw files | Raw size |
 | --- | --- | ---: | ---: | ---: |
-| `r/soundcloud` | ⚪ Pending | 597,578 | 0/2 | — |
+| `r/soundcloud` | 🟢 Complete | 597,578 | 2/2 | 80 MiB |
 | `r/SoundCloudMusic` | 🟢 Complete | 25,524 | 2/2 | 7 MiB |
 | `r/SoundCloudHipHop` | 🟢 Complete | 89,139 | 2/2 | 20 MiB |
 
 </details>
 
 <details>
-<summary><strong>pop</strong> — 1/4 complete</summary>
+<summary><strong>pop</strong> — 2/4 complete</summary>
 
 | Subreddit | Status | Expected records | Raw files | Raw size |
 | --- | --- | ---: | ---: | ---: |
 | `r/popmusic` | 🟢 Complete | 31,208 | 2/2 | 5 MiB |
-| `r/kpophelp` | ⚪ Pending | 2,033,911 | 0/2 | — |
+| `r/kpophelp` | 🟢 Complete | 2,033,911 | 2/2 | 280 MiB |
 | `r/kpopthoughts` | ⚪ Pending | 3,891,535 | 0/2 | — |
 | `r/kpop` | ⚪ Pending | 7,154,508 | 0/2 | — |
 
 </details>
 
 <details>
-<summary><strong>producers</strong> — 2/5 complete</summary>
+<summary><strong>producers</strong> — 5/5 complete</summary>
 
 | Subreddit | Status | Expected records | Raw files | Raw size |
 | --- | --- | ---: | ---: | ---: |
 | `r/Songwriting` | 🟢 Complete | 997,098 | 2/2 | 161 MiB |
 | `r/musicproduction` | 🟢 Complete | 1,453,070 | 2/2 | 203 MiB |
-| `r/bandmembers` | ⚪ Pending | 111,624 | 0/2 | — |
-| `r/edmproduction` | ⚪ Pending | 2,461,291 | 0/2 | — |
-| `r/audioengineering` | ⚪ Pending | 2,539,505 | 0/2 | — |
+| `r/bandmembers` | 🟢 Complete | 111,624 | 2/2 | 19 MiB |
+| `r/edmproduction` | 🟢 Complete | 2,461,291 | 2/2 | 316 MiB |
+| `r/audioengineering` | 🟢 Complete | 2,539,505 | 2/2 | 378 MiB |
 
 </details>
 
 <details>
-<summary><strong>rock</strong> — 0/9 complete</summary>
+<summary><strong>rock</strong> — 9/9 complete</summary>
 
 | Subreddit | Status | Expected records | Raw files | Raw size |
 | --- | --- | ---: | ---: | ---: |
-| `r/postrock` | ⚪ Pending | 312,483 | 0/2 | — |
-| `r/indie` | ⚪ Pending | 392,338 | 0/2 | — |
-| `r/rock` | ⚪ Pending | 418,951 | 0/2 | — |
-| `r/shoegaze` | ⚪ Pending | 530,013 | 0/2 | — |
-| `r/progrockmusic` | ⚪ Pending | 740,638 | 0/2 | — |
-| `r/grunge` | ⚪ Pending | 1,076,885 | 0/2 | — |
-| `r/Emo` | ⚪ Pending | 1,289,740 | 0/2 | — |
-| `r/ClassicRock` | ⚪ Pending | 1,364,503 | 0/2 | — |
-| `r/punk` | ⚪ Pending | 3,026,417 | 0/2 | — |
+| `r/postrock` | 🟢 Complete | 312,483 | 2/2 | 43 MiB |
+| `r/indie` | 🟢 Complete | 392,338 | 2/2 | 75 MiB |
+| `r/rock` | 🟢 Complete | 418,951 | 2/2 | 63 MiB |
+| `r/shoegaze` | 🟢 Complete | 530,013 | 2/2 | 72 MiB |
+| `r/progrockmusic` | 🟢 Complete | 740,638 | 2/2 | 97 MiB |
+| `r/grunge` | 🟢 Complete | 1,076,885 | 2/2 | 121 MiB |
+| `r/Emo` | 🟢 Complete | 1,289,740 | 2/2 | 160 MiB |
+| `r/ClassicRock` | 🟢 Complete | 1,364,503 | 2/2 | 149 MiB |
+| `r/punk` | 🟢 Complete | 3,026,417 | 2/2 | 367 MiB |
 
 </details>
 
@@ -342,17 +361,17 @@ Expand a category below. Use VS Code search to jump directly to a subreddit.
 </details>
 
 <details>
-<summary><strong>streaming</strong> — 1/7 complete</summary>
+<summary><strong>streaming</strong> — 7/7 complete</summary>
 
 | Subreddit | Status | Expected records | Raw files | Raw size |
 | --- | --- | ---: | ---: | ---: |
 | `r/qobuz` | 🟢 Complete | 44,098 | 2/2 | 7 MiB |
-| `r/plexamp` | ⚪ Pending | 73,025 | 0/2 | — |
-| `r/TIdaL` | ⚪ Pending | 263,672 | 0/2 | — |
-| `r/YoutubeMusic` | ⚪ Pending | 415,026 | 0/2 | — |
-| `r/lastfm` | ⚪ Pending | 976,292 | 0/2 | — |
-| `r/AppleMusic` | ⚪ Pending | 1,051,589 | 0/2 | — |
-| `r/spotify` | ⚪ Pending | 2,195,346 | 0/2 | — |
+| `r/plexamp` | 🟢 Complete | 73,025 | 2/2 | 10 MiB |
+| `r/TIdaL` | 🟢 Complete | 263,672 | 2/2 | 37 MiB |
+| `r/YoutubeMusic` | 🟢 Complete | 415,026 | 2/2 | 57 MiB |
+| `r/lastfm` | 🟢 Complete | 976,292 | 2/2 | 127 MiB |
+| `r/AppleMusic` | 🟢 Complete | 1,051,589 | 2/2 | 138 MiB |
+| `r/spotify` | 🟢 Complete | 2,195,346 | 2/2 | 284 MiB |
 
 </details>
 

@@ -30,9 +30,59 @@ import zstandard
 API_BASE = "https://arctic-shift.photon-reddit.com/api"
 USER_AGENT = "data-gathering/0.1 (+https://github.com/reddit-data-wrangling/data-gathering)"
 KIND_PATHS = {"submissions": "/posts/search", "comments": "/comments/search"}
+YIELD_TO_PARENT_COMMAND: str | None = None
+
+
+def process_table() -> list[tuple[int, int, str]]:
+    """Read PID, parent PID, and command line from procfs."""
+    processes: list[tuple[int, int, str]] = []
+    for directory in Path("/proc").iterdir():
+        if not directory.name.isdigit():
+            continue
+        try:
+            stat = (directory / "stat").read_text(encoding="utf-8")
+            closing = stat.rfind(")")
+            fields = stat[closing + 2 :].split()
+            parent = int(fields[1])
+            command = (directory / "cmdline").read_bytes().replace(b"\0", b" ")
+            processes.append(
+                (int(directory.name), parent, command.decode(errors="replace"))
+            )
+        except (FileNotFoundError, PermissionError, ProcessLookupError, ValueError):
+            continue
+    return processes
+
+
+def priority_fetch_active(parent_command: str) -> bool:
+    """Return true when a matching supervisor has an active fetch child."""
+    processes = process_table()
+    supervisors = {
+        pid for pid, _, command in processes if parent_command in command
+    }
+    return any(
+        parent in supervisors and "fetch_subreddit.py" in command
+        for _, parent, command in processes
+    )
+
+
+def yield_to_priority_fetch(parent_command: str) -> None:
+    announced = False
+    while priority_fetch_active(parent_command):
+        if not announced:
+            print(
+                f"priority fetch active under {parent_command!r}; waiting",
+                file=sys.stderr,
+                flush=True,
+            )
+            announced = True
+        time.sleep(2)
+    if announced:
+        print("priority fetch idle; resuming", file=sys.stderr, flush=True)
 
 
 def request(path: str, params: dict) -> tuple[dict, dict]:
+    if YIELD_TO_PARENT_COMMAND:
+        yield_to_priority_fetch(YIELD_TO_PARENT_COMMAND)
     qs = urllib.parse.urlencode({k: v for k, v in params.items() if v is not None})
     url = f"{API_BASE}{path}?{qs}"
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
@@ -212,7 +262,18 @@ def main() -> None:
     )
     p.add_argument("--after", type=int, default=0, help="epoch seconds; 0 = start of Reddit")
     p.add_argument("--before", type=int, default=None, help="epoch seconds; default = now")
+    p.add_argument(
+        "--yield-to-parent-command",
+        default=None,
+        help=(
+            "pause between API requests while a matching supervisor has an "
+            "active fetch_subreddit.py child"
+        ),
+    )
     args = p.parse_args()
+
+    global YIELD_TO_PARENT_COMMAND
+    YIELD_TO_PARENT_COMMAND = args.yield_to_parent_command
 
     kinds = ["submissions", "comments"] if args.kind == "both" else [args.kind]
     for kind in kinds:

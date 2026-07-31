@@ -8,3 +8,10 @@ and the cross-collection
 authorised resuming the existing 130-subreddit programme. The resume job reads
 that table, skips communities already held in both MongoDB collections, and
 processes the remainder smallest-first.
+
+## Pending candidates
+
+`r/grammys` and `r/billboard` were verified and added to the candidate
+catalogue on 2026-07-31 to cover music awards and chart discourse. They are
+not part of the authorised 130-subreddit acquisition programme and require a
+separate selection decision before collection.

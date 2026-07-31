@@ -1,12 +1,16 @@
 # Linux panel selection
 
-Status: inventory reconciliation required.
+Status: N=99 panel authorised on 2026-07-31; 93 require acquisition.
 
 Known existing MongoDB holdings include `linux`, `rust`, `linuxquestions`,
 `linux4noobs`, `osdev`, and `kernel` according to the
 [operations log](../../docs/operations/collection-log.md).
-Confirm exact counts, time edges, raw-file availability, and whether `rust`
-belongs to OSS rather than Linux before selecting further targets.
+MongoDB `reddit` on port 27017 was audited before selection. `linux`,
+`linuxquestions`, `linux4noobs`, `osdev`, and `kernel` are already present in
+both MongoDB collections, so they are retained as known holdings but excluded
+from this acquisition queue. `linusrants` is also retained as a collected Linux
+panel member. `rust` remains outside the Linux panel and belongs with OSS;
+`wikipedia` is an existing, non-candidate holding.
 
 The next selection should be stratified across:
 
@@ -17,3 +21,11 @@ The next selection should be stratified across:
 - administration, containers, virtualization, and self-hosting;
 - embedded, mobile, gaming, and specialist Linux systems;
 - platform stacks such as packaging, filesystems, graphics, and audio.
+
+The authorised Linux panel is a broad census of all 99 candidates verified by
+Arctic Shift. `linusrants` is classified as a Linux member and was already
+available alongside five other panel communities in both MongoDB collections
+at selection time, leaving 93 acquisition targets. `rust` and `wikipedia`
+remain existing holdings outside this panel. Missing and restricted
+candidates are excluded. Acquisition targets run smallest-first; each capture
+is validated and loaded into MongoDB before the next target.

@@ -1,5 +1,70 @@
 {
   "schema_version": 1,
   "collection": "music",
-  "communities": []
+  "communities": [
+    {
+      "subreddit": "billboard",
+      "classification": {
+        "category": "awards-and-charts",
+        "primary_topic": "The place on Reddit to discover, predict, and discuss Billboard charts!",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 1012,
+        "created_year": 2009,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 771,
+        "comments": 1761,
+        "earliest_post": "2009-07-31",
+        "earliest_comment": "2009-10-16"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-31",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=billboard"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    },
+    {
+      "subreddit": "grammys",
+      "classification": {
+        "category": "awards-and-charts",
+        "primary_topic": "",
+        "related_communities": [],
+        "research_domains": []
+      },
+      "current_snapshot": {
+        "subscribers": 2247,
+        "created_year": 2015,
+        "activity": {
+          "posts_per_week": null,
+          "band": ""
+        }
+      },
+      "archive": {
+        "posts": 2498,
+        "comments": 49318,
+        "earliest_post": "2015-02-09",
+        "earliest_comment": "2016-02-15"
+      },
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-07-31",
+        "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=grammys"
+      },
+      "selection": {
+        "selected": null
+      },
+      "notes": ""
+    }
+  ]
 }

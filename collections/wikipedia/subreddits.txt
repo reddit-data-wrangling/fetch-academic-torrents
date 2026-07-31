@@ -1,0 +1,43 @@
+# Candidate discovery frame — verify before selection.
+# The current seed combines r/wikipedia's related-community links with
+# Wikimedia project, software, offline-access, and cultural-response strata.
+
+## General Wikipedia and Wikimedia discussion
+wikipedia
+wikimedia
+
+## Contributors, editing, and governance
+wikipedians
+
+## Article discovery and themed excerpts
+CreepyWikipedia
+WikipediaRandomness
+
+## Wikimedia Commons and structured data
+WCommons
+WData
+Wikidata
+
+## Wikimedia sister projects
+wiktionary
+wikisource
+wikivoyage
+Wikibooks
+
+## Software, offline access, and preservation
+mediawiki
+Kiwix
+internetarchive
+
+## Wikipedia bots and tools
+wikipedia_answer_bot
+
+## Adjacent open knowledge and data
+opendata
+
+## Vandalism, humour, and cultural response
+WikipediaVandalism
+wikipediamemes
+
+# Multilingual and regional Wikimedia communities require systematic discovery
+# before selection; do not infer language coverage from the current seed.

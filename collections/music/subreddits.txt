@@ -1,4 +1,4 @@
-# Candidate seeds only — collection is paused; do not treat as a resume queue.
+# Candidate seeds only — do not treat as the active programme's resume queue.
 # Existing collection
 #
 # The active 130-subreddit music programme is tracked in progress.md. This
@@ -37,6 +37,10 @@ MusicRecommendations
 LetsTalkMusic
 indieheads
 popheads
+
+# Awards and charts
+grammys
+billboard
 
 # Platforms, formats, and commerce
 spotify

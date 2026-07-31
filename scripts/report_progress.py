@@ -16,6 +16,7 @@ from pymongo.errors import PyMongoError
 ROOT = Path(__file__).resolve().parent.parent
 COLLECTIONS_DIR = ROOT / "collections"
 MUSIC_DIR = COLLECTIONS_DIR / "music"
+LINUX_DIR = COLLECTIONS_DIR / "linux"
 RAW_DIR = ROOT / "data" / "raw"
 DEFAULT_OUTPUT = ROOT / "COLLECTION_PROGRESS.md"
 
@@ -173,9 +174,15 @@ def collect_state() -> tuple[list[dict], int]:
         with config_path.open("rb") as stream:
             config = tomllib.load(stream)
         candidates, groups = read_names(directory / "subreddits.txt")
+        targets, _ = read_names(directory / "targets.txt")
+        target_order = {
+            name.casefold(): position for position, name in enumerate(targets, start=1)
+        }
         catalog = read_catalog(directory / "catalog.json")
         progress = read_progress(directory / "progress.md")
-        mongo_complete = completed_in_mongo(config) if slug == "music" else set()
+        mongo_complete = (
+            completed_in_mongo(config) if slug in {"linux", "music"} else set()
+        )
 
         order: list[str] = []
         names: dict[str, str] = {}
@@ -238,6 +245,12 @@ def collect_state() -> tuple[list[dict], int]:
                     ),
                     "raw_files": present,
                     "raw_bytes": sum(captures.values()),
+                    "verification": catalog_row.get("verification", {}).get(
+                        "status", ""
+                    ),
+                    "selected": catalog_row.get("selection", {}).get("selected")
+                    is True,
+                    "target_order": target_order.get(key),
                 }
             )
 
@@ -254,6 +267,7 @@ def collect_state() -> tuple[list[dict], int]:
                 "state": config.get("state", "unspecified"),
                 "notes": config.get("notes", ""),
                 "subreddits": subreddits,
+                "mongo_complete": sorted(mongo_complete),
                 "percent": theme_percent,
                 "complete": counts["complete"],
                 "active": counts["loading"] + counts["fetching"],
@@ -358,7 +372,12 @@ def render(themes: list[dict], total_raw_bytes: int) -> str:
 
 def render_music_dashboard(themes: list[dict]) -> str:
     theme = next(item for item in themes if item["slug"] == "music")
-    subreddits = theme["subreddits"]
+    subreddits = [
+        item for item in theme["subreddits"] if item["order"] is not None
+    ]
+    pending_candidates = [
+        item for item in theme["subreddits"] if item["order"] is None
+    ]
     tracked = len(subreddits)
     complete = sum(item["status"] == "complete" for item in subreddits)
     remaining = tracked - complete
@@ -377,6 +396,20 @@ def render_music_dashboard(themes: list[dict]) -> str:
     categories: dict[str, list[dict]] = {}
     for item in subreddits:
         categories.setdefault(item["category"], []).append(item)
+    candidate_categories: dict[str, list[dict]] = {}
+    for item in pending_candidates:
+        candidate_categories.setdefault(item["category"], []).append(item)
+    category_rows = sorted(
+        [
+            ("Programme", category, items)
+            for category, items in categories.items()
+        ]
+        + [
+            ("Candidate", category, items)
+            for category, items in candidate_categories.items()
+        ],
+        key=lambda row: (row[1].casefold(), row[0]),
+    )
 
     lines = [
         "# Music subreddit collection dashboard",
@@ -417,6 +450,178 @@ def render_music_dashboard(themes: list[dict]) -> str:
     lines.extend(
         [
             "",
+            "## Pending candidates",
+            "",
+            "These catalogue entries are outside the authorised 130-subreddit "
+            "programme and are not in its acquisition queue.",
+            "",
+            "| Subreddit | Category | Verification | Expected archive records | Selection |",
+            "| --- | --- | --- | ---: | --- |",
+        ]
+    )
+    for item in sorted(pending_candidates, key=lambda row: row["name"].casefold()):
+        selection = "Selected" if item["selected"] else "Pending review"
+        lines.append(
+            f"| `r/{markdown(item['name'])}` | {markdown(item['category'])} | "
+            f"{markdown(item['verification'] or 'uncatalogued')} | "
+            f"{item['expected']:,} | {selection} |"
+        )
+    if not pending_candidates:
+        lines.append("| — | — | — | — | No additional candidates |")
+
+    lines.extend(
+        [
+            "",
+            "## Progress by category",
+            "",
+            "| Category | Scope | Complete | Tracked | Progress | Expected records | Raw data |",
+            "| --- | --- | ---: | ---: | --- | ---: | ---: |",
+        ]
+    )
+    for scope, category, items in category_rows:
+        category_complete = sum(item["status"] == "complete" for item in items)
+        category_percent = round(category_complete / len(items) * 100)
+        lines.append(
+            f"| {markdown(category)} | {scope} | {category_complete} | "
+            f"{len(items)} | "
+            f"{progress_bar(category_percent, 10)} | "
+            f"{sum(item['expected'] for item in items):,} | "
+            f"{human_bytes(sum(item['raw_bytes'] for item in items))} |"
+        )
+
+    lines.extend(
+        [
+            "",
+            "## All subreddits",
+            "",
+            "Expand a category below. Use VS Code search to jump directly to a subreddit.",
+            "",
+        ]
+    )
+    for scope, category, items in category_rows:
+        items.sort(key=lambda item: item["order"] or 10**9)
+        category_complete = sum(item["status"] == "complete" for item in items)
+        scope_suffix = "" if scope == "Programme" else " · candidate"
+        lines.extend(
+            [
+                "<details>",
+                f"<summary><strong>{markdown(category)}</strong> — "
+                f"{category_complete}/{len(items)} complete{scope_suffix}</summary>",
+                "",
+                "| Subreddit | Status | Expected records | Raw files | Raw size |",
+                "| --- | --- | ---: | ---: | ---: |",
+            ]
+        )
+        for item in items:
+            status = (
+                status_label(item["status"])
+                if scope == "Programme"
+                else "🟠 Selected"
+                if item["selected"]
+                else "⚪ Pending review"
+            )
+            lines.append(
+                f"| `r/{markdown(item['name'])}` | {status} | "
+                f"{item['expected']:,} | {item['raw_files']}/2 | "
+                f"{human_bytes(item['raw_bytes']) if item['raw_bytes'] else '—'} |"
+            )
+        lines.extend(["", "</details>", ""])
+
+    lines.extend(
+        [
+            "---",
+            "",
+            "🟢 present in both MongoDB collections · 🟠 fetching/loading · "
+            "🟡 one raw file present · ⚪ pending",
+            "",
+        ]
+    )
+    return "\n".join(lines)
+
+
+def render_linux_dashboard(themes: list[dict]) -> str:
+    theme = next(item for item in themes if item["slug"] == "linux")
+    panel = [item for item in theme["subreddits"] if item["selected"]]
+    acquisition_targets = [item for item in panel if item["target_order"] is not None]
+    target_keys = {item["name"].casefold() for item in acquisition_targets}
+    complete = sum(item["status"] == "complete" for item in panel)
+    partial = sum(item["status"] == "partial" for item in acquisition_targets)
+    remaining = len(panel) - complete
+    completion_percent = round(complete / len(panel) * 100) if panel else 0
+    expected = sum(item["expected"] for item in panel)
+    raw_bytes = sum(item["raw_bytes"] for item in acquisition_targets)
+    generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    queue = sorted(
+        (
+            item
+            for item in acquisition_targets
+            if item["status"] != "complete"
+        ),
+        key=lambda item: (
+            item["expected"] or 10**30,
+            item["target_order"] or 10**9,
+        ),
+    )
+    categories: dict[str, list[dict]] = {}
+    for item in panel:
+        categories.setdefault(item["category"], []).append(item)
+    panel_existing = [
+        item
+        for item in panel
+        if item["name"].casefold() in theme["mongo_complete"]
+        and item["name"].casefold() not in target_keys
+    ]
+    panel_keys = {item["name"].casefold() for item in panel}
+    additional_existing = [
+        name for name in theme["mongo_complete"] if name not in panel_keys
+    ]
+    excluded = [
+        item
+        for item in theme["subreddits"]
+        if not item["selected"]
+    ]
+
+    lines = [
+        "# Linux subreddit collection dashboard",
+        "",
+        f"_Refreshed {generated_at} from MongoDB, the Linux catalogue, "
+        "`targets.txt`, and `data/raw/`._",
+        "",
+        "> Open with **Markdown: Open Preview** (`Ctrl+Shift+V` / `Cmd+Shift+V`). "
+        "The tmux worker refreshes this file after every successful load.",
+        "",
+        "## Status",
+        "",
+        "| Panel N | Available | Partial acquisition | Remaining | Expected records | New raw data | Workflow |",
+        "| ---: | ---: | ---: | ---: | ---: | ---: | --- |",
+        f"| {len(panel)} | {complete} | {partial} | {remaining} | "
+        f"{expected:,} | {human_bytes(raw_bytes)} | `{theme['state']}` |",
+        "",
+        f"**Panel availability:** {progress_bar(completion_percent, 24)}",
+        "",
+        "- tmux session: `reddit_linux_collection`",
+        "- runtime log: `data/logs/linux-collection.log`",
+        "- destination: MongoDB `localhost:27017`, database `reddit`",
+        "- queue policy: one low-priority worker, smallest expected capture first",
+        "- music protection: Linux API requests pause while the music worker fetches",
+        "",
+        "## Next in queue",
+        "",
+        "| # | Subreddit | Category | Expected records | Existing raw |",
+        "| ---: | --- | --- | ---: | ---: |",
+    ]
+    for position, item in enumerate(queue[:15], start=1):
+        lines.append(
+            f"| {position} | `r/{markdown(item['name'])}` | "
+            f"{markdown(item['category'])} | {item['expected']:,} | "
+            f"{item['raw_files']}/2 files |"
+        )
+    if not queue:
+        lines.append("| — | Queue complete | — | — | — |")
+
+    lines.extend(
+        [
+            "",
             "## Progress by category",
             "",
             "| Category | Complete | Tracked | Progress | Expected records | Raw data |",
@@ -436,14 +641,41 @@ def render_music_dashboard(themes: list[dict]) -> str:
     lines.extend(
         [
             "",
-            "## All subreddits",
+            "## Existing MongoDB holdings",
+            "",
+            f"{len(panel_existing)} Linux panel members were present in both "
+            "MongoDB collections before the 93-target acquisition queue "
+            f"started. {len(additional_existing)} additional communities are "
+            f"held outside the N={len(panel)} panel.",
+            "",
+            "| Subreddit | Panel status | MongoDB status | Acquisition action |",
+            "| --- | --- | --- | --- |",
+        ]
+    )
+    for item in sorted(panel_existing, key=lambda row: row["name"].casefold()):
+        lines.append(
+            f"| `r/{markdown(item['name'])}` | Included in N={len(panel)} | "
+            "Present in both collections | Skip |"
+        )
+    for name in additional_existing:
+        lines.append(
+            f"| `r/{markdown(name)}` | Outside panel | "
+            "Present in both collections | Skip |"
+        )
+    lines.extend(
+        [
+            "",
+            f"_Excluded unresolved candidates: {len(excluded)} "
+            "(missing or restricted at catalogue verification)._",
+            "",
+            "## All panel communities",
             "",
             "Expand a category below. Use VS Code search to jump directly to a subreddit.",
             "",
         ]
     )
     for category, items in sorted(categories.items(), key=lambda row: row[0].casefold()):
-        items.sort(key=lambda item: item["order"] or 10**9)
+        items.sort(key=lambda item: item["target_order"] or 10**9)
         category_complete = sum(item["status"] == "complete" for item in items)
         lines.extend(
             [
@@ -467,8 +699,8 @@ def render_music_dashboard(themes: list[dict]) -> str:
         [
             "---",
             "",
-            "🟢 present in both MongoDB collections · 🟠 fetching/loading · "
-            "🟡 one raw file present · ⚪ pending",
+            "🟢 present in both MongoDB collections · 🟡 one raw file present · "
+            "⚪ pending acquisition",
             "",
         ]
     )
@@ -491,12 +723,19 @@ def main() -> None:
         type=Path,
         default=MUSIC_DIR / "dashboard.md",
     )
+    parser.add_argument(
+        "--linux-output",
+        type=Path,
+        default=LINUX_DIR / "dashboard.md",
+    )
     args = parser.parse_args()
     themes, total_raw_bytes = collect_state()
     output = args.output.resolve()
     music_output = args.music_output.resolve()
+    linux_output = args.linux_output.resolve()
     write_report(output, render(themes, total_raw_bytes))
     write_report(music_output, render_music_dashboard(themes))
+    write_report(linux_output, render_linux_dashboard(themes))
 
 
 if __name__ == "__main__":

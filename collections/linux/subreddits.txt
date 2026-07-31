@@ -5,6 +5,7 @@
 
 ## General discussion, news, support, and discovery
 linux
+linusrants
 linuxquestions
 linux4noobs
 linuxadmin

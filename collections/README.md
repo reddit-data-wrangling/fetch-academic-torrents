@@ -16,6 +16,7 @@ Shared metadata contracts live in [`schemas/`](schemas/).
 | [`tv-series`](tv-series/subreddits.txt) | Television discussion, production, and genres |
 | [`beer`](beer/subreddits.txt) | Beer, brewing, styles, and the trade |
 | [`tabletop-games`](tabletop-games/subreddits.txt) | Board games, TTRPGs, miniatures, card games, design, and publishing |
+| [`wikipedia`](wikipedia/subreddits.txt) | Wikipedia, Wikimedia projects, editing, infrastructure, and reuse |
 
 These are collection boundaries, not analytic labels. A subreddit may appear
 in more than one collection when its content genuinely crosses domains.

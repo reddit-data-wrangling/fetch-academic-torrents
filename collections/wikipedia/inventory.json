@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "collection": "wikipedia",
+  "holdings": [
+    {
+      "subreddit": "wikipedia",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": 1201473526,
+        "last_created_utc": 1785369668
+      },
+      "records": 1097766,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/wikipedia_comments.zst",
+        "bytes": 134572859
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27017",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "passed"
+      },
+      "acquired_at": "2026-07-30",
+      "notes": "Full zstd stream scan passed on 2026-07-31; MongoDB count was verified after acquisition in docs/operations/collection-log.md."
+    },
+    {
+      "subreddit": "wikipedia",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": 1201249263,
+        "last_created_utc": 1785366791
+      },
+      "records": 119278,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/wikipedia_submissions.zst",
+        "bytes": 30098028
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27017",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "passed"
+      },
+      "acquired_at": "2026-07-30",
+      "notes": "Full zstd stream scan passed on 2026-07-31; MongoDB count was verified after acquisition in docs/operations/collection-log.md."
+    }
+  ]
+}
