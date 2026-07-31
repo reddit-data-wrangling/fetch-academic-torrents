@@ -1,5 +1,54 @@
 {
   "schema_version": 1,
   "collection": "oss",
-  "holdings": []
+  "holdings": [
+    {
+      "subreddit": "rust",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": 1593774,
+      "raw": {
+        "path": "",
+        "bytes": null
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27017",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "unknown"
+      },
+      "acquired_at": "",
+      "notes": "Categorised under OSS; raw file absent."
+    },
+    {
+      "subreddit": "rust",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": 139590,
+      "raw": {
+        "path": "",
+        "bytes": null
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27017",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "unknown"
+      },
+      "acquired_at": "",
+      "notes": "Categorised under OSS; raw file absent."
+    }
+  ]
 }

@@ -571,10 +571,6 @@ def render_linux_dashboard(themes: list[dict]) -> str:
         if item["name"].casefold() in theme["mongo_complete"]
         and item["name"].casefold() not in target_keys
     ]
-    panel_keys = {item["name"].casefold() for item in panel}
-    additional_existing = [
-        name for name in theme["mongo_complete"] if name not in panel_keys
-    ]
     excluded = [
         item
         for item in theme["subreddits"]
@@ -645,8 +641,7 @@ def render_linux_dashboard(themes: list[dict]) -> str:
             "",
             f"{len(panel_existing)} Linux panel members were present in both "
             "MongoDB collections before the 93-target acquisition queue "
-            f"started. {len(additional_existing)} additional communities are "
-            f"held outside the N={len(panel)} panel.",
+            "started.",
             "",
             "| Subreddit | Panel status | MongoDB status | Acquisition action |",
             "| --- | --- | --- | --- |",
@@ -655,11 +650,6 @@ def render_linux_dashboard(themes: list[dict]) -> str:
     for item in sorted(panel_existing, key=lambda row: row["name"].casefold()):
         lines.append(
             f"| `r/{markdown(item['name'])}` | Included in N={len(panel)} | "
-            "Present in both collections | Skip |"
-        )
-    for name in additional_existing:
-        lines.append(
-            f"| `r/{markdown(name)}` | Outside panel | "
             "Present in both collections | Skip |"
         )
     lines.extend(

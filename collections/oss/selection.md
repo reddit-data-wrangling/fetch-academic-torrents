@@ -2,6 +2,9 @@
 
 Status: not selected.
 
+The existing `r/rust` MongoDB holding is assigned to this collection. It is
+inventory evidence and does not by itself constitute a panel-selection decision.
+
 Before populating `targets.txt`, review `catalog.json` and decide:
 
 - the balance between movement-level discourse and project-specific support;

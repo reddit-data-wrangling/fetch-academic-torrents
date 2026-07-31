@@ -483,6 +483,54 @@
       "notes": ""
     },
     {
+      "subreddit": "EndeavourOS",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/EndeavourOS_comments.zst",
+        "bytes": 8383900
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27017",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "EndeavourOS",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/EndeavourOS_submissions.zst",
+        "bytes": 3545793
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27017",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
       "subreddit": "FedoraSilverblue",
       "kind": "comments",
       "source": "Arctic Shift",
@@ -1731,6 +1779,54 @@
       "notes": ""
     },
     {
+      "subreddit": "Qubes",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/Qubes_comments.zst",
+        "bytes": 6036462
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27017",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "Qubes",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/Qubes_submissions.zst",
+        "bytes": 2842656
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27017",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
       "subreddit": "RockyLinux",
       "kind": "comments",
       "source": "Arctic Shift",
@@ -1777,54 +1873,6 @@
       },
       "acquired_at": "",
       "notes": ""
-    },
-    {
-      "subreddit": "rust",
-      "kind": "comments",
-      "source": "Arctic Shift",
-      "time_range": {
-        "first_created_utc": null,
-        "last_created_utc": null
-      },
-      "records": 1593774,
-      "raw": {
-        "path": "",
-        "bytes": null
-      },
-      "mongo": {
-        "uri": "mongodb://localhost:27017",
-        "database": "reddit",
-        "collection": "comments"
-      },
-      "qa": {
-        "status": "unknown"
-      },
-      "acquired_at": "",
-      "notes": "May belong in OSS; raw file absent"
-    },
-    {
-      "subreddit": "rust",
-      "kind": "submissions",
-      "source": "Arctic Shift",
-      "time_range": {
-        "first_created_utc": null,
-        "last_created_utc": null
-      },
-      "records": 139590,
-      "raw": {
-        "path": "",
-        "bytes": null
-      },
-      "mongo": {
-        "uri": "mongodb://localhost:27017",
-        "database": "reddit",
-        "collection": "submissions"
-      },
-      "qa": {
-        "status": "unknown"
-      },
-      "acquired_at": "",
-      "notes": "May belong in OSS; raw file absent"
     },
     {
       "subreddit": "slackware",
@@ -1923,6 +1971,54 @@
       "notes": ""
     },
     {
+      "subreddit": "SolusProject",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/SolusProject_comments.zst",
+        "bytes": 7597509
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27017",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "SolusProject",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/SolusProject_submissions.zst",
+        "bytes": 3291307
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27017",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
       "subreddit": "steamdeckhq",
       "kind": "comments",
       "source": "Arctic Shift",
@@ -2006,6 +2102,102 @@
       "raw": {
         "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/SteamPlay_submissions.zst",
         "bytes": 2101882
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27017",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "swaywm",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/swaywm_comments.zst",
+        "bytes": 6639734
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27017",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "swaywm",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/swaywm_submissions.zst",
+        "bytes": 3001281
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27017",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "System76",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/System76_comments.zst",
+        "bytes": 6330365
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27017",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "System76",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/System76_submissions.zst",
+        "bytes": 2428202
       },
       "mongo": {
         "uri": "mongodb://localhost:27017",
@@ -2150,6 +2342,54 @@
       "raw": {
         "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/wayland_submissions.zst",
         "bytes": 876993
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27017",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "xfce",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/xfce_comments.zst",
+        "bytes": 5566432
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27017",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "xfce",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/xfce_submissions.zst",
+        "bytes": 2674597
       },
       "mongo": {
         "uri": "mongodb://localhost:27017",

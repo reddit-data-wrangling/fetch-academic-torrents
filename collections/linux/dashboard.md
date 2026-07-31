@@ -1,6 +1,6 @@
 # Linux subreddit collection dashboard
 
-_Refreshed 2026-07-31 20:58 UTC from MongoDB, the Linux catalogue, `targets.txt`, and `data/raw/`._
+_Refreshed 2026-07-31 21:13 UTC from MongoDB, the Linux catalogue, `targets.txt`, and `data/raw/`._
 
 > Open with **Markdown: Open Preview** (`Ctrl+Shift+V` / `Cmd+Shift+V`). The tmux worker refreshes this file after every successful load.
 
@@ -8,9 +8,9 @@ _Refreshed 2026-07-31 20:58 UTC from MongoDB, the Linux catalogue, `targets.txt`
 
 | Panel N | Available | Partial acquisition | Remaining | Expected records | New raw data | Workflow |
 | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| 99 | 49 | 0 | 50 | 58,235,417 | 119 MiB | `active` |
+| 99 | 54 | 0 | 45 | 58,235,417 | 167 MiB | `active` |
 
-**Panel availability:** `████████████░░░░░░░░░░░░` 49%
+**Panel availability:** `█████████████░░░░░░░░░░░` 55%
 
 - tmux session: `reddit_linux_collection`
 - runtime log: `data/logs/linux-collection.log`
@@ -22,45 +22,45 @@ _Refreshed 2026-07-31 20:58 UTC from MongoDB, the Linux catalogue, `targets.txt`
 
 | # | Subreddit | Category | Expected records | Existing raw |
 | ---: | --- | --- | ---: | ---: |
-| 1 | `r/Qubes` | Security-focused distributions | 53,633 | 0/2 files |
-| 2 | `r/xfce` | Desktop environments | 53,864 | 0/2 files |
-| 3 | `r/swaywm` | Window managers, shells, and desktop customization | 59,635 | 0/2 files |
-| 4 | `r/EndeavourOS` | Arch family | 74,430 | 0/2 files |
-| 5 | `r/SolusProject` | Nix, openSUSE, source-based, and independent distributions | 76,074 | 0/2 files |
-| 6 | `r/linuxaudio` | Kernel-adjacent, embedded, and low-level systems | 79,397 | 0/2 files |
-| 7 | `r/wine_gaming` | Linux gaming | 84,215 | 0/2 files |
-| 8 | `r/SteamOS` | Device, mobile, and specialist Linux systems | 94,211 | 0/2 files |
-| 9 | `r/redhat` | Fedora and Red Hat families | 119,840 | 0/2 files |
-| 10 | `r/DistroHopping` | General discussion, news, support, and discovery | 120,252 | 0/2 files |
-| 11 | `r/elementaryos` | Debian and Ubuntu families | 130,248 | 0/2 files |
-| 12 | `r/voidlinux` | Nix, openSUSE, source-based, and independent distributions | 130,441 | 0/2 files |
-| 13 | `r/tails` | Security-focused distributions | 136,056 | 0/2 files |
-| 14 | `r/termux` | Device, mobile, and specialist Linux systems | 143,352 | 0/2 files |
-| 15 | `r/zfs` | Kernel-adjacent, embedded, and low-level systems | 143,809 | 0/2 files |
+| 1 | `r/linuxaudio` | Kernel-adjacent, embedded, and low-level systems | 79,397 | 0/2 files |
+| 2 | `r/wine_gaming` | Linux gaming | 84,215 | 0/2 files |
+| 3 | `r/SteamOS` | Device, mobile, and specialist Linux systems | 94,211 | 0/2 files |
+| 4 | `r/redhat` | Fedora and Red Hat families | 119,840 | 0/2 files |
+| 5 | `r/DistroHopping` | General discussion, news, support, and discovery | 120,252 | 0/2 files |
+| 6 | `r/elementaryos` | Debian and Ubuntu families | 130,248 | 0/2 files |
+| 7 | `r/voidlinux` | Nix, openSUSE, source-based, and independent distributions | 130,441 | 0/2 files |
+| 8 | `r/tails` | Security-focused distributions | 136,056 | 0/2 files |
+| 9 | `r/termux` | Device, mobile, and specialist Linux systems | 143,352 | 0/2 files |
+| 10 | `r/zfs` | Kernel-adjacent, embedded, and low-level systems | 143,809 | 0/2 files |
+| 11 | `r/Kalilinux` | Security-focused distributions | 146,928 | 0/2 files |
+| 12 | `r/VFIO` | Containers, virtualization, administration, and self-hosting | 154,734 | 0/2 files |
+| 13 | `r/openwrt` | Device, mobile, and specialist Linux systems | 155,799 | 0/2 files |
+| 14 | `r/bash` | Window managers, shells, and desktop customization | 164,025 | 0/2 files |
+| 15 | `r/linuxhardware` | General discussion, news, support, and discovery | 180,943 | 0/2 files |
 
 ## Progress by category
 
 | Category | Complete | Tracked | Progress | Expected records | Raw data |
 | --- | ---: | ---: | --- | ---: | ---: |
-| Arch family | 2 | 6 | `███░░░░░░░` 33% | 1,977,991 | 5 MiB |
+| Arch family | 3 | 6 | `█████░░░░░` 50% | 1,977,991 | 16 MiB |
 | Containers, virtualization, administration, and self-hosting | 2 | 9 | `██░░░░░░░░` 22% | 19,201,103 | 3 MiB |
 | Debian and Ubuntu families | 3 | 8 | `████░░░░░░` 38% | 3,521,506 | 14 MiB |
-| Desktop environments | 2 | 5 | `████░░░░░░` 40% | 1,217,500 | 8 MiB |
+| Desktop environments | 3 | 5 | `██████░░░░` 60% | 1,217,500 | 17 MiB |
 | Device, mobile, and specialist Linux systems | 1 | 6 | `██░░░░░░░░` 17% | 9,864,477 | 4 MiB |
 | Fedora and Red Hat families | 5 | 7 | `███████░░░` 71% | 985,473 | 10 MiB |
 | General discussion, news, support, and discovery | 8 | 12 | `███████░░░` 67% | 12,013,292 | 6 MiB |
 | Immutable and image-based Linux | 1 | 1 | `██████████` 100% | 305 | 93 KiB |
 | Kernel-adjacent, embedded, and low-level systems | 5 | 9 | `██████░░░░` 56% | 2,384,575 | 13 MiB |
 | Linux gaming | 2 | 4 | `█████░░░░░` 50% | 2,961,472 | 8 MiB |
-| Nix, openSUSE, source-based, and independent distributions | 6 | 11 | `██████░░░░` 55% | 977,341 | 13 MiB |
+| Nix, openSUSE, source-based, and independent distributions | 7 | 11 | `██████░░░░` 64% | 977,341 | 23 MiB |
 | Open-source ecosystem | 3 | 4 | `████████░░` 75% | 532,684 | 17 MiB |
 | Packaging and application distribution | 3 | 3 | `██████████` 100% | 15,551 | 3 MiB |
-| Security-focused distributions | 0 | 3 | `░░░░░░░░░░` 0% | 336,617 | 0 B |
-| Window managers, shells, and desktop customization | 6 | 11 | `██████░░░░` 55% | 2,245,530 | 14 MiB |
+| Security-focused distributions | 1 | 3 | `███░░░░░░░` 33% | 336,617 | 8 MiB |
+| Window managers, shells, and desktop customization | 7 | 11 | `██████░░░░` 64% | 2,245,530 | 23 MiB |
 
 ## Existing MongoDB holdings
 
-6 Linux panel members were present in both MongoDB collections before the 93-target acquisition queue started. 2 additional communities are held outside the N=99 panel.
+6 Linux panel members were present in both MongoDB collections before the 93-target acquisition queue started.
 
 | Subreddit | Panel status | MongoDB status | Acquisition action |
 | --- | --- | --- | --- |
@@ -70,8 +70,6 @@ _Refreshed 2026-07-31 20:58 UTC from MongoDB, the Linux catalogue, `targets.txt`
 | `r/linux4noobs` | Included in N=99 | Present in both collections | Skip |
 | `r/linuxquestions` | Included in N=99 | Present in both collections | Skip |
 | `r/osdev` | Included in N=99 | Present in both collections | Skip |
-| `r/rust` | Outside panel | Present in both collections | Skip |
-| `r/wikipedia` | Outside panel | Present in both collections | Skip |
 
 _Excluded unresolved candidates: 21 (missing or restricted at catalogue verification)._
 
@@ -80,12 +78,12 @@ _Excluded unresolved candidates: 21 (missing or restricted at catalogue verifica
 Expand a category below. Use VS Code search to jump directly to a subreddit.
 
 <details>
-<summary><strong>Arch family</strong> — 2/6 complete</summary>
+<summary><strong>Arch family</strong> — 3/6 complete</summary>
 
 | Subreddit | Status | Expected records | Raw files | Raw size |
 | --- | --- | ---: | ---: | ---: |
 | `r/archlinux` | ⚪ Pending | 1,395,549 | 0/2 | — |
-| `r/EndeavourOS` | ⚪ Pending | 74,430 | 0/2 | — |
+| `r/EndeavourOS` | 🟢 Complete | 74,430 | 2/2 | 11 MiB |
 | `r/ManjaroLinux` | ⚪ Pending | 245,005 | 0/2 | — |
 | `r/artixlinux` | 🟢 Complete | 18,489 | 2/2 | 3 MiB |
 | `r/cachyos` | ⚪ Pending | 231,572 | 0/2 | — |
@@ -127,13 +125,13 @@ Expand a category below. Use VS Code search to jump directly to a subreddit.
 </details>
 
 <details>
-<summary><strong>Desktop environments</strong> — 2/5 complete</summary>
+<summary><strong>Desktop environments</strong> — 3/5 complete</summary>
 
 | Subreddit | Status | Expected records | Raw files | Raw size |
 | --- | --- | ---: | ---: | ---: |
 | `r/gnome` | ⚪ Pending | 361,169 | 0/2 | — |
 | `r/kde` | ⚪ Pending | 748,192 | 0/2 | — |
-| `r/xfce` | ⚪ Pending | 53,864 | 0/2 | — |
+| `r/xfce` | 🟢 Complete | 53,864 | 2/2 | 8 MiB |
 | `r/LXQt` | 🟢 Complete | 2,600 | 2/2 | 420 KiB |
 | `r/System76` | 🟢 Complete | 51,675 | 2/2 | 8 MiB |
 
@@ -227,7 +225,7 @@ Expand a category below. Use VS Code search to jump directly to a subreddit.
 </details>
 
 <details>
-<summary><strong>Nix, openSUSE, source-based, and independent distributions</strong> — 6/11 complete</summary>
+<summary><strong>Nix, openSUSE, source-based, and independent distributions</strong> — 7/11 complete</summary>
 
 | Subreddit | Status | Expected records | Raw files | Raw size |
 | --- | --- | ---: | ---: | ---: |
@@ -241,7 +239,7 @@ Expand a category below. Use VS Code search to jump directly to a subreddit.
 | `r/linuxfromscratch` | 🟢 Complete | 7,032 | 2/2 | 1 MiB |
 | `r/bedrocklinux` | 🟢 Complete | 6,085 | 2/2 | 1 MiB |
 | `r/MXLinux` | 🟢 Complete | 23,002 | 2/2 | 4 MiB |
-| `r/SolusProject` | ⚪ Pending | 76,074 | 0/2 | — |
+| `r/SolusProject` | 🟢 Complete | 76,074 | 2/2 | 10 MiB |
 
 </details>
 
@@ -269,22 +267,22 @@ Expand a category below. Use VS Code search to jump directly to a subreddit.
 </details>
 
 <details>
-<summary><strong>Security-focused distributions</strong> — 0/3 complete</summary>
+<summary><strong>Security-focused distributions</strong> — 1/3 complete</summary>
 
 | Subreddit | Status | Expected records | Raw files | Raw size |
 | --- | --- | ---: | ---: | ---: |
-| `r/Qubes` | ⚪ Pending | 53,633 | 0/2 | — |
+| `r/Qubes` | 🟢 Complete | 53,633 | 2/2 | 8 MiB |
 | `r/tails` | ⚪ Pending | 136,056 | 0/2 | — |
 | `r/Kalilinux` | ⚪ Pending | 146,928 | 0/2 | — |
 
 </details>
 
 <details>
-<summary><strong>Window managers, shells, and desktop customization</strong> — 6/11 complete</summary>
+<summary><strong>Window managers, shells, and desktop customization</strong> — 7/11 complete</summary>
 
 | Subreddit | Status | Expected records | Raw files | Raw size |
 | --- | --- | ---: | ---: | ---: |
-| `r/swaywm` | ⚪ Pending | 59,635 | 0/2 | — |
+| `r/swaywm` | 🟢 Complete | 59,635 | 2/2 | 9 MiB |
 | `r/hyprland` | ⚪ Pending | 191,362 | 0/2 | — |
 | `r/bspwm` | 🟢 Complete | 21,216 | 2/2 | 3 MiB |
 | `r/awesomewm` | 🟢 Complete | 30,377 | 2/2 | 5 MiB |

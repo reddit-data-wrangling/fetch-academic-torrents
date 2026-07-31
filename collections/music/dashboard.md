@@ -1,6 +1,6 @@
 # Music subreddit collection dashboard
 
-_Refreshed 2026-07-31 20:58 UTC from MongoDB, `progress.md`, and `data/raw/`._
+_Refreshed 2026-07-31 21:13 UTC from MongoDB, `progress.md`, and `data/raw/`._
 
 > Open with **Markdown: Open Preview** (`Ctrl+Shift+V` / `Cmd+Shift+V`). The tmux job refreshes this file after every successful load.
 
@@ -8,9 +8,9 @@ _Refreshed 2026-07-31 20:58 UTC from MongoDB, `progress.md`, and `data/raw/`._
 
 | Programme | Complete | Remaining | Expected records | Raw data | Workflow |
 | ---: | ---: | ---: | ---: | ---: | --- |
-| 130 | 116 | 14 | 207,057,531 | 13.0 GiB | `active` |
+| 130 | 117 | 13 | 207,057,531 | 13.0 GiB | `active` |
 
-**Subreddit completion:** `█████████████████████░░░` 89%
+**Subreddit completion:** `██████████████████████░░` 90%
 
 - tmux session: `reddit_music_resume`
 - runtime log: `data/logs/music-resume.log`
@@ -21,20 +21,19 @@ _Refreshed 2026-07-31 20:58 UTC from MongoDB, `progress.md`, and `data/raw/`._
 
 | # | Subreddit | Category | Expected records | Existing raw |
 | ---: | --- | --- | ---: | ---: |
-| 1 | `r/rap` | hiphop | 3,180,780 | 2/2 files |
-| 2 | `r/Drizzy` | hiphop | 3,341,307 | 0/2 files |
-| 3 | `r/audiophile` | audiophile | 3,569,576 | 0/2 files |
-| 4 | `r/Metalcore` | metal | 3,749,400 | 0/2 files |
-| 5 | `r/kpopthoughts` | pop | 3,891,535 | 0/2 files |
-| 6 | `r/synthesizers` | electronic | 3,992,157 | 0/2 files |
-| 7 | `r/KendrickLamar` | hiphop | 4,179,841 | 0/2 files |
-| 8 | `r/headphones` | audiophile | 4,925,237 | 0/2 files |
-| 9 | `r/Eminem` | hiphop | 5,327,799 | 0/2 files |
-| 10 | `r/vinyl` | physical | 6,175,348 | 0/2 files |
-| 11 | `r/kpop` | pop | 7,154,508 | 0/2 files |
-| 12 | `r/popheads` | discussion | 7,569,395 | 0/2 files |
-| 13 | `r/hiphopheads` | hiphop | 23,529,878 | 0/2 files |
-| 14 | `r/Music` | discovery | 28,144,040 | 0/2 files |
+| 1 | `r/Drizzy` | hiphop | 3,341,307 | 1/2 files |
+| 2 | `r/audiophile` | audiophile | 3,569,576 | 0/2 files |
+| 3 | `r/Metalcore` | metal | 3,749,400 | 0/2 files |
+| 4 | `r/kpopthoughts` | pop | 3,891,535 | 0/2 files |
+| 5 | `r/synthesizers` | electronic | 3,992,157 | 0/2 files |
+| 6 | `r/KendrickLamar` | hiphop | 4,179,841 | 0/2 files |
+| 7 | `r/headphones` | audiophile | 4,925,237 | 0/2 files |
+| 8 | `r/Eminem` | hiphop | 5,327,799 | 0/2 files |
+| 9 | `r/vinyl` | physical | 6,175,348 | 0/2 files |
+| 10 | `r/kpop` | pop | 7,154,508 | 0/2 files |
+| 11 | `r/popheads` | discussion | 7,569,395 | 0/2 files |
+| 12 | `r/hiphopheads` | hiphop | 23,529,878 | 0/2 files |
+| 13 | `r/Music` | discovery | 28,144,040 | 0/2 files |
 
 ## Pending candidates
 
@@ -58,7 +57,7 @@ These catalogue entries are outside the authorised 130-subreddit programme and a
 | discovery | Programme | 8 | 9 | `█████████░` 89% | 42,452,568 | 1.6 GiB |
 | discussion | Programme | 4 | 5 | `████████░░` 80% | 17,869,063 | 1.2 GiB |
 | electronic | Programme | 17 | 18 | `█████████░` 94% | 14,412,154 | 1.5 GiB |
-| hiphop | Programme | 5 | 10 | `█████░░░░░` 50% | 48,989,048 | 1.2 GiB |
+| hiphop | Programme | 6 | 10 | `██████░░░░` 60% | 48,989,048 | 1.2 GiB |
 | indie-artists | Programme | 5 | 5 | `██████████` 100% | 1,753,125 | 381 MiB |
 | jazz | Programme | 6 | 6 | `██████████` 100% | 1,806,484 | 259 MiB |
 | latin | Programme | 4 | 4 | `██████████` 100% | 386,573 | 66 MiB |
@@ -214,7 +213,7 @@ Expand a category below. Use VS Code search to jump directly to a subreddit.
 </details>
 
 <details>
-<summary><strong>hiphop</strong> — 5/10 complete</summary>
+<summary><strong>hiphop</strong> — 6/10 complete</summary>
 
 | Subreddit | Status | Expected records | Raw files | Raw size |
 | --- | --- | ---: | ---: | ---: |
@@ -223,8 +222,8 @@ Expand a category below. Use VS Code search to jump directly to a subreddit.
 | `r/hiphop101` | 🟢 Complete | 2,075,706 | 2/2 | 203 MiB |
 | `r/WestSubEver` | 🟢 Complete | 2,495,359 | 2/2 | 198 MiB |
 | `r/makinghiphop` | 🟢 Complete | 2,946,542 | 2/2 | 316 MiB |
-| `r/rap` | ⚪ Pending | 3,180,780 | 2/2 | 292 MiB |
-| `r/Drizzy` | ⚪ Pending | 3,341,307 | 0/2 | — |
+| `r/rap` | 🟢 Complete | 3,180,780 | 2/2 | 331 MiB |
+| `r/Drizzy` | ⚪ Pending | 3,341,307 | 1/2 | 604 KiB |
 | `r/KendrickLamar` | ⚪ Pending | 4,179,841 | 0/2 | — |
 | `r/Eminem` | ⚪ Pending | 5,327,799 | 0/2 | — |
 | `r/hiphopheads` | ⚪ Pending | 23,529,878 | 0/2 | — |

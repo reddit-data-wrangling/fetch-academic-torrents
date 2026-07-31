@@ -1,6 +1,6 @@
 # Reddit collection monitor
 
-_Refreshed 2026-07-31 20:58 UTC from collection files and `data/raw/`._
+_Refreshed 2026-07-31 21:13 UTC from collection files and `data/raw/`._
 
 > Open this file with **Markdown: Open Preview** (`Ctrl+Shift+V` / `Cmd+Shift+V`).
 
@@ -8,7 +8,7 @@ _Refreshed 2026-07-31 20:58 UTC from collection files and `data/raw/`._
 
 | Themes | Theme/subreddit rows | Unique subreddits | Complete | Active | Partial | Pending | Raw data |
 | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| 10 | 1,033 | 1,004 | 174 | 0 | 0 | 859 | 13.3 GiB |
+| 10 | 1,033 | 1,004 | 180 | 0 | 0 | 853 | 13.3 GiB |
 
 **Overall coverage:** `███░░░░░░░░░░░░░░░░░` 17%
 
@@ -18,9 +18,9 @@ _Refreshed 2026-07-31 20:58 UTC from collection files and `data/raw/`._
 | --- | --- | --- | ---: | ---: | ---: | ---: |
 | Beer | `planning` | `░░░░░░░░░░░░` 0% | 0 | 0 | 0 | 126 |
 | Comics | `planning` | `░░░░░░░░░░░░` 0% | 0 | 0 | 0 | 107 |
-| Linux | `active` | `█████░░░░░░░` 41% | 49 | 0 | 0 | 71 |
+| Linux | `active` | `█████░░░░░░░` 45% | 54 | 0 | 0 | 66 |
 | Movies | `planning` | `░░░░░░░░░░░░` 1% | 1 | 0 | 0 | 168 |
-| Music | `active` | `███████████░` 88% | 116 | 0 | 0 | 16 |
+| Music | `active` | `███████████░` 89% | 117 | 0 | 0 | 15 |
 | Open-source software | `planning` | `█░░░░░░░░░░░` 5% | 7 | 0 | 0 | 123 |
 | Science fiction | `planning` | `░░░░░░░░░░░░` 0% | 0 | 0 | 0 | 164 |
 | Tabletop games | `planning` | `░░░░░░░░░░░░` 0% | 0 | 0 | 0 | 65 |
@@ -285,7 +285,7 @@ _Catalogue and selection are not complete._
 </details>
 
 <details>
-<summary><strong>Linux</strong> — 49/120 complete · 41%</summary>
+<summary><strong>Linux</strong> — 54/120 complete · 45%</summary>
 
 _Active N=99 Linux panel: six communities already held in MongoDB on port 27017 plus 93 acquisition targets._
 
@@ -335,7 +335,7 @@ _Active N=99 Linux panel: six communities already held in MongoDB on port 27017 
 | `r/AlmaLinux` | Fedora and Red Hat families | 🟢 Complete | `████████` 100% | 2 MiB |
 | `r/CentOS` | Fedora and Red Hat families | 🟢 Complete | `████████` 100% | 6 MiB |
 | `r/archlinux` | Arch family | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/EndeavourOS` | Arch family | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/EndeavourOS` | Arch family | 🟢 Complete | `████████` 100% | 11 MiB |
 | `r/ManjaroLinux` | Arch family | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/artixlinux` | Arch family | 🟢 Complete | `████████` 100% | 3 MiB |
 | `r/cachyos` | Arch family | ⚪ Pending | `░░░░░░░░` 0% | — |
@@ -350,10 +350,10 @@ _Active N=99 Linux panel: six communities already held in MongoDB on port 27017 
 | `r/linuxfromscratch` | Nix, openSUSE, source-based, and independent distributions | 🟢 Complete | `████████` 100% | 1 MiB |
 | `r/bedrocklinux` | Nix, openSUSE, source-based, and independent distributions | 🟢 Complete | `████████` 100% | 1 MiB |
 | `r/MXLinux` | Nix, openSUSE, source-based, and independent distributions | 🟢 Complete | `████████` 100% | 4 MiB |
-| `r/SolusProject` | Nix, openSUSE, source-based, and independent distributions | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/SolusProject` | Nix, openSUSE, source-based, and independent distributions | 🟢 Complete | `████████` 100% | 10 MiB |
 | `r/bluBuild` | Immutable and image-based Linux | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/Universalblue` | Immutable and image-based Linux | 🟢 Complete | `████████` 100% | 93 KiB |
-| `r/Qubes` | Security-focused distributions | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/Qubes` | Security-focused distributions | 🟢 Complete | `████████` 100% | 8 MiB |
 | `r/tails` | Security-focused distributions | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/Kalilinux` | Security-focused distributions | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/ParrotOS` | Security-focused distributions | ⚪ Pending | `░░░░░░░░` 0% | — |
@@ -361,7 +361,7 @@ _Active N=99 Linux panel: six communities already held in MongoDB on port 27017 
 | `r/gnome_shell` | Desktop environments | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/kde` | Desktop environments | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/kdecommunity` | Desktop environments | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/xfce` | Desktop environments | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/xfce` | Desktop environments | 🟢 Complete | `████████` 100% | 8 MiB |
 | `r/CinnamonDE` | Desktop environments | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/mate` | Desktop environments | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/lxde` | Desktop environments | ⚪ Pending | `░░░░░░░░` 0% | — |
@@ -369,7 +369,7 @@ _Active N=99 Linux panel: six communities already held in MongoDB on port 27017 
 | `r/budgie` | Desktop environments | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/System76` | Desktop environments | 🟢 Complete | `████████` 100% | 8 MiB |
 | `r/i3wm` | Window managers, shells, and desktop customization | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/swaywm` | Window managers, shells, and desktop customization | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/swaywm` | Window managers, shells, and desktop customization | 🟢 Complete | `████████` 100% | 9 MiB |
 | `r/hyprland` | Window managers, shells, and desktop customization | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/bspwm` | Window managers, shells, and desktop customization | 🟢 Complete | `████████` 100% | 3 MiB |
 | `r/awesomewm` | Window managers, shells, and desktop customization | 🟢 Complete | `████████` 100% | 5 MiB |
@@ -594,7 +594,7 @@ _Systematic discovery and catalogue design in progress._
 </details>
 
 <details>
-<summary><strong>Music</strong> — 116/132 complete · 88%</summary>
+<summary><strong>Music</strong> — 117/132 complete · 89%</summary>
 
 _Historical 130-subreddit programme resumed smallest-first in tmux; raw captures load into MongoDB on port 27019._
 
@@ -721,8 +721,8 @@ _Historical 130-subreddit programme resumed smallest-first in tmux; raw captures
 | `r/WestSubEver` | hiphop | 🟢 Complete | `████████` 100% | 198 MiB |
 | `r/Metal` | metal | 🟢 Complete | `████████` 100% | 345 MiB |
 | `r/punk` | rock | 🟢 Complete | `████████` 100% | 367 MiB |
-| `r/rap` | hiphop | ⚪ Pending | `░░░░░░░░` 0% | 292 MiB |
-| `r/Drizzy` | hiphop | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/rap` | hiphop | 🟢 Complete | `████████` 100% | 331 MiB |
+| `r/Drizzy` | hiphop | ⚪ Pending | `░░░░░░░░` 0% | 604 KiB |
 | `r/audiophile` | audiophile | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/Metalcore` | metal | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/kpopthoughts` | pop | ⚪ Pending | `░░░░░░░░` 0% | — |
