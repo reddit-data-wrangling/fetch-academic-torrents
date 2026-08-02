@@ -102,8 +102,14 @@ warning. Verify the intended inputs and destination before loading.
   verified load state.
 - `load_to_mongo.py` bulk-upserts by Reddit `id` into `submissions` and
   `comments` collections and creates the required indexes.
-- `torrent_fetch.py` is archival code for a withdrawn, per-subreddit torrent.
-  It does not support the surviving month-partitioned full-corpus layout.
+- `academic_torrents_archive.py` resolves fixed Wayback captures, falls back to
+  the Wayback availability API, and validates torrent info hashes.
+- `fetch_archived_torrents.py` retrieves the two withdrawn torrent descriptors
+  and optionally their archived HTML detail pages. It never starts a payload
+  download.
+- `torrent_fetch.py` uses the archived descriptor for selective access to the
+  withdrawn per-subreddit torrent. It does not support the full-history
+  torrent's month-partitioned layout.
 
 The scripts use sibling imports and are intended to run as
 `python scripts/<name>.py` from the repository root.
@@ -149,9 +155,10 @@ NDJSON parsing stay consistent.
 
 Source status is volatile. The 2026-07-26 snapshot in the README records that
 the full-history, subreddit-partitioned torrent used by `torrent_fetch.py` was
-withdrawn and had no peers. A successful torrent metadata download or
-`--dry-run` does not prove data availability. Revalidate external sources
-before documenting or starting a large acquisition.
+withdrawn and had no peers. Its metadata is now retrieved from a verified
+Wayback capture, but a successful metadata download or `--dry-run` does not
+prove data availability. Revalidate external sources before documenting or
+starting a large acquisition.
 
 ## Documentation maintenance
 

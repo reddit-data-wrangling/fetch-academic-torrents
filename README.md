@@ -43,7 +43,8 @@ raw files.
 - Python 3.11 or newer (`tomllib` is used by the collection tooling)
 - `pip`
 - MongoDB only when using the loader
-- `aria2c` only for the legacy torrent script
+- `aria2c` only when starting a payload download with the selective torrent
+  script; archived metadata retrieval uses the Python standard library
 
 From the repository root:
 
@@ -239,9 +240,10 @@ idempotent.
 | `assess_subreddit.py` | Arctic Shift unless `--skip-fetch` | Fetch and/or print a quality report |
 | `smoke_load_to_mongo.py` | Local filesystem only | Preview records or observed schema |
 | `inventory_raw.py` | Local filesystem; writes inventory | Record local raw holdings |
+| `fetch_archived_torrents.py` | Wayback Machine; writes metadata | Retrieve and verify both withdrawn torrent descriptors |
 | `collect.py load` | MongoDB | Load all reviewed targets |
 | `load_to_mongo.py` | MongoDB | Load one or more named subreddits |
-| `torrent_fetch.py` | Academic Torrents and BitTorrent | Legacy selective torrent client |
+| `torrent_fetch.py` | Wayback metadata and BitTorrent | Select files from the withdrawn subreddit-organised torrent |
 
 Every command supports `--help`.
 
@@ -268,12 +270,49 @@ Treat those as dated observations, not current guarantees. A successful
 `torrent_fetch.py --dry-run` verifies metadata and file selection only; it does
 not prove that peers can serve the data.
 
+### Archived torrent metadata
+
+The Wayback Machine retained the detail pages and valid `.torrent` descriptors
+for both withdrawn 2005-06 to 2025-12 datasets. Retrieve the descriptors without
+starting a payload transfer:
+
+```bash
+# Fetch and info-hash-verify both .torrent descriptors.
+python scripts/fetch_archived_torrents.py
+
+# Also retain the exact archived HTML detail pages as provenance records.
+python scripts/fetch_archived_torrents.py --include-details
+
+# Fetch only one descriptor, replacing an existing verified cache.
+python scripts/fetch_archived_torrents.py subreddits --refresh
+```
+
+Artifacts are written to `data/torrent/` by default. The command first uses
+fixed, known-good captures, asks the Wayback availability API for a nearby
+capture if necessary, and rejects a descriptor unless its reconstructed info
+hash matches the expected Academic Torrents identifier. It downloads indexes
+only, not dataset payloads.
+
+`torrent_fetch.py` now uses the archived, verified descriptor automatically:
+
+```bash
+# Resolve file indices without starting aria2c.
+python scripts/torrent_fetch.py --dry-run wikipedia
+
+# Selectively download, if peers are available.
+python scripts/torrent_fetch.py --kind both --outdir data/raw wikipedia
+```
+
+Archive access recovers torrent metadata, not swarm availability. If the
+trackers and DHT report no peers, neither command can recover the underlying
+multi-terabyte payload from the HTML or `.torrent` file alone.
+
 The repository currently implements per-subreddit acquisition through the
 Arctic Shift API. Recent monthly torrents contain whole-month `RC_YYYY-MM.zst`
 and `RS_YYYY-MM.zst` files for all subreddits. This repository does not yet
-implement downloading or filtering those monthly files. The legacy
+implement downloading or filtering those monthly files. The selective
 `torrent_fetch.py` only understands the withdrawn, subreddit-partitioned
-torrent and should be considered archival code.
+torrent; it does not filter the full-history torrent's monthly files.
 
 ## Data format and storage
 
@@ -353,6 +392,8 @@ material. Before collecting, analysing, or redistributing it:
 ## References
 
 - [Academic Torrents legacy subreddit dump](https://academictorrents.com/details/3e3f64dee22dc304cdd2546254ca1f8e8ae542b4)
+- [Wayback full-history dump](https://web.archive.org/web/20260218065408/https://academictorrents.com/details/3d426c47c767d40f82c7ef0f47c3acacedd2bf44)
+- [Wayback subreddit-organised dump](https://web.archive.org/web/20260301075857/https://academictorrents.com/details/3e3f64dee22dc304cdd2546254ca1f8e8ae542b4)
 - [Withdrawal announcement](https://www.reddit.com/r/pushshift/comments/1v50ved/upon_reddits_request_i_am_taking_down_my_academic/)
 - [Watchful1/PushshiftDumps](https://github.com/Watchful1/PushshiftDumps)
 - [ArthurHeitmann/arctic_shift](https://github.com/ArthurHeitmann/arctic_shift)

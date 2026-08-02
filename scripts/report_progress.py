@@ -254,19 +254,33 @@ def collect_state() -> tuple[list[dict], int]:
                 }
             )
 
-        counts = Counter(item["status"] for item in subreddits)
+        state = config.get("state", "unspecified")
+        if state == "active" and progress:
+            tracked_subreddits = [
+                item for item in subreddits if item["order"] is not None
+            ]
+        elif state == "active" and any(item["selected"] for item in subreddits):
+            tracked_subreddits = [item for item in subreddits if item["selected"]]
+        else:
+            tracked_subreddits = subreddits
+
+        counts = Counter(item["status"] for item in tracked_subreddits)
         theme_percent = (
-            round(sum(item["percent"] for item in subreddits) / len(subreddits))
-            if subreddits
+            round(
+                sum(item["percent"] for item in tracked_subreddits)
+                / len(tracked_subreddits)
+            )
+            if tracked_subreddits
             else 0
         )
         themes.append(
             {
                 "slug": slug,
                 "title": config.get("title", slug.replace("-", " ").title()),
-                "state": config.get("state", "unspecified"),
+                "state": state,
                 "notes": config.get("notes", ""),
                 "subreddits": subreddits,
+                "tracked_subreddits": tracked_subreddits,
                 "mongo_complete": sorted(mongo_complete),
                 "percent": theme_percent,
                 "complete": counts["complete"],
@@ -279,12 +293,12 @@ def collect_state() -> tuple[list[dict], int]:
 
 
 def render(themes: list[dict], total_raw_bytes: int) -> str:
-    total = sum(len(theme["subreddits"]) for theme in themes)
+    total = sum(len(theme["tracked_subreddits"]) for theme in themes)
     unique = len(
         {
             item["name"].casefold()
             for theme in themes
-            for item in theme["subreddits"]
+            for item in theme["tracked_subreddits"]
         }
     )
     complete = sum(theme["complete"] for theme in themes)
@@ -293,7 +307,11 @@ def render(themes: list[dict], total_raw_bytes: int) -> str:
     pending = sum(theme["pending"] for theme in themes)
     overall = (
         round(
-            sum(item["percent"] for theme in themes for item in theme["subreddits"])
+            sum(
+                item["percent"]
+                for theme in themes
+                for item in theme["tracked_subreddits"]
+            )
             / total
         )
         if total
@@ -338,7 +356,9 @@ def render(themes: list[dict], total_raw_bytes: int) -> str:
         ]
     )
     for theme in themes:
-        tracked = len(theme["subreddits"])
+        tracked_subreddits = theme["tracked_subreddits"]
+        tracked = len(tracked_subreddits)
+        excluded = len(theme["subreddits"]) - tracked
         lines.extend(
             [
                 "<details>",
@@ -347,11 +367,20 @@ def render(themes: list[dict], total_raw_bytes: int) -> str:
                 "",
                 f"_{markdown(theme['notes'])}_",
                 "",
+                *(
+                    [
+                        f"_{excluded} discovery candidates are outside the active "
+                        "reviewed scope and are not counted as pending._",
+                        "",
+                    ]
+                    if excluded and theme["state"] == "active"
+                    else []
+                ),
                 "| Subreddit | Category | Status | Progress | Raw size |",
                 "| --- | --- | --- | ---: | ---: |",
             ]
         )
-        for item in theme["subreddits"]:
+        for item in tracked_subreddits:
             lines.append(
                 f"| `r/{markdown(item['name'])}` | {markdown(item['category'])} | "
                 f"{status_label(item['status'])} | {progress_bar(item['percent'], 8)} | "

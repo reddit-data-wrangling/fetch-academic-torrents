@@ -1,6 +1,6 @@
 # Music subreddit collection dashboard
 
-_Refreshed 2026-07-31 21:13 UTC from MongoDB, `progress.md`, and `data/raw/`._
+_Refreshed 2026-08-02 16:21 UTC from MongoDB, `progress.md`, and `data/raw/`._
 
 > Open with **Markdown: Open Preview** (`Ctrl+Shift+V` / `Cmd+Shift+V`). The tmux job refreshes this file after every successful load.
 
@@ -8,9 +8,9 @@ _Refreshed 2026-07-31 21:13 UTC from MongoDB, `progress.md`, and `data/raw/`._
 
 | Programme | Complete | Remaining | Expected records | Raw data | Workflow |
 | ---: | ---: | ---: | ---: | ---: | --- |
-| 130 | 117 | 13 | 207,057,531 | 13.0 GiB | `active` |
+| 130 | 121 | 9 | 207,057,531 | 14.8 GiB | `active` |
 
-**Subreddit completion:** `██████████████████████░░` 90%
+**Subreddit completion:** `██████████████████████░░` 93%
 
 - tmux session: `reddit_music_resume`
 - runtime log: `data/logs/music-resume.log`
@@ -21,19 +21,15 @@ _Refreshed 2026-07-31 21:13 UTC from MongoDB, `progress.md`, and `data/raw/`._
 
 | # | Subreddit | Category | Expected records | Existing raw |
 | ---: | --- | --- | ---: | ---: |
-| 1 | `r/Drizzy` | hiphop | 3,341,307 | 1/2 files |
-| 2 | `r/audiophile` | audiophile | 3,569,576 | 0/2 files |
-| 3 | `r/Metalcore` | metal | 3,749,400 | 0/2 files |
-| 4 | `r/kpopthoughts` | pop | 3,891,535 | 0/2 files |
-| 5 | `r/synthesizers` | electronic | 3,992,157 | 0/2 files |
-| 6 | `r/KendrickLamar` | hiphop | 4,179,841 | 0/2 files |
-| 7 | `r/headphones` | audiophile | 4,925,237 | 0/2 files |
-| 8 | `r/Eminem` | hiphop | 5,327,799 | 0/2 files |
-| 9 | `r/vinyl` | physical | 6,175,348 | 0/2 files |
-| 10 | `r/kpop` | pop | 7,154,508 | 0/2 files |
-| 11 | `r/popheads` | discussion | 7,569,395 | 0/2 files |
-| 12 | `r/hiphopheads` | hiphop | 23,529,878 | 0/2 files |
-| 13 | `r/Music` | discovery | 28,144,040 | 0/2 files |
+| 1 | `r/synthesizers` | electronic | 3,992,157 | 1/2 files |
+| 2 | `r/KendrickLamar` | hiphop | 4,179,841 | 0/2 files |
+| 3 | `r/headphones` | audiophile | 4,925,237 | 0/2 files |
+| 4 | `r/Eminem` | hiphop | 5,327,799 | 0/2 files |
+| 5 | `r/vinyl` | physical | 6,175,348 | 0/2 files |
+| 6 | `r/kpop` | pop | 7,154,508 | 0/2 files |
+| 7 | `r/popheads` | discussion | 7,569,395 | 0/2 files |
+| 8 | `r/hiphopheads` | hiphop | 23,529,878 | 0/2 files |
+| 9 | `r/Music` | discovery | 28,144,040 | 0/2 files |
 
 ## Pending candidates
 
@@ -49,7 +45,7 @@ These catalogue entries are outside the authorised 130-subreddit programme and a
 | Category | Scope | Complete | Tracked | Progress | Expected records | Raw data |
 | --- | --- | ---: | ---: | --- | ---: | ---: |
 | adjacent | Programme | 5 | 5 | `██████████` 100% | 5,290,131 | 805 MiB |
-| audiophile | Programme | 2 | 4 | `█████░░░░░` 50% | 10,853,554 | 363 MiB |
+| audiophile | Programme | 3 | 4 | `████████░░` 75% | 10,853,554 | 846 MiB |
 | awards-and-charts | Candidate | 0 | 2 | `░░░░░░░░░░` 0% | 54,348 | 0 B |
 | classical | Programme | 5 | 5 | `██████████` 100% | 5,700,478 | 904 MiB |
 | core | Programme | 13 | 13 | `██████████` 100% | 1,352,605 | 205 MiB |
@@ -57,14 +53,14 @@ These catalogue entries are outside the authorised 130-subreddit programme and a
 | discovery | Programme | 8 | 9 | `█████████░` 89% | 42,452,568 | 1.6 GiB |
 | discussion | Programme | 4 | 5 | `████████░░` 80% | 17,869,063 | 1.2 GiB |
 | electronic | Programme | 17 | 18 | `█████████░` 94% | 14,412,154 | 1.5 GiB |
-| hiphop | Programme | 6 | 10 | `██████░░░░` 60% | 48,989,048 | 1.2 GiB |
+| hiphop | Programme | 7 | 10 | `███████░░░` 70% | 48,989,048 | 1.6 GiB |
 | indie-artists | Programme | 5 | 5 | `██████████` 100% | 1,753,125 | 381 MiB |
 | jazz | Programme | 6 | 6 | `██████████` 100% | 1,806,484 | 259 MiB |
 | latin | Programme | 4 | 4 | `██████████` 100% | 386,573 | 66 MiB |
-| metal | Programme | 5 | 6 | `████████░░` 83% | 10,550,699 | 811 MiB |
+| metal | Programme | 6 | 6 | `██████████` 100% | 10,550,699 | 1.2 GiB |
 | physical | Programme | 4 | 5 | `████████░░` 80% | 9,477,654 | 502 MiB |
 | platform | Programme | 3 | 3 | `██████████` 100% | 712,241 | 106 MiB |
-| pop | Programme | 2 | 4 | `█████░░░░░` 50% | 13,111,162 | 284 MiB |
+| pop | Programme | 3 | 4 | `████████░░` 75% | 13,111,162 | 838 MiB |
 | producers | Programme | 5 | 5 | `██████████` 100% | 7,562,588 | 1.1 GiB |
 | rock | Programme | 9 | 9 | `██████████` 100% | 9,151,968 | 1.1 GiB |
 | sampling | Programme | 2 | 2 | `██████████` 100% | 31,270 | 7 MiB |
@@ -88,13 +84,13 @@ Expand a category below. Use VS Code search to jump directly to a subreddit.
 </details>
 
 <details>
-<summary><strong>audiophile</strong> — 2/4 complete</summary>
+<summary><strong>audiophile</strong> — 3/4 complete</summary>
 
 | Subreddit | Status | Expected records | Raw files | Raw size |
 | --- | --- | ---: | ---: | ---: |
 | `r/audio` | 🟢 Complete | 474,399 | 2/2 | 81 MiB |
 | `r/BudgetAudiophile` | 🟢 Complete | 1,884,342 | 2/2 | 283 MiB |
-| `r/audiophile` | ⚪ Pending | 3,569,576 | 0/2 | — |
+| `r/audiophile` | 🟢 Complete | 3,569,576 | 2/2 | 483 MiB |
 | `r/headphones` | ⚪ Pending | 4,925,237 | 0/2 | — |
 
 </details>
@@ -208,12 +204,12 @@ Expand a category below. Use VS Code search to jump directly to a subreddit.
 | `r/House` | 🟢 Complete | 368,008 | 2/2 | 63 MiB |
 | `r/trance` | 🟢 Complete | 691,677 | 2/2 | 95 MiB |
 | `r/modular` | 🟢 Complete | 845,133 | 2/2 | 127 MiB |
-| `r/synthesizers` | ⚪ Pending | 3,992,157 | 0/2 | — |
+| `r/synthesizers` | ⚪ Pending | 3,992,157 | 1/2 | 48 MiB |
 
 </details>
 
 <details>
-<summary><strong>hiphop</strong> — 6/10 complete</summary>
+<summary><strong>hiphop</strong> — 7/10 complete</summary>
 
 | Subreddit | Status | Expected records | Raw files | Raw size |
 | --- | --- | ---: | ---: | ---: |
@@ -223,7 +219,7 @@ Expand a category below. Use VS Code search to jump directly to a subreddit.
 | `r/WestSubEver` | 🟢 Complete | 2,495,359 | 2/2 | 198 MiB |
 | `r/makinghiphop` | 🟢 Complete | 2,946,542 | 2/2 | 316 MiB |
 | `r/rap` | 🟢 Complete | 3,180,780 | 2/2 | 331 MiB |
-| `r/Drizzy` | ⚪ Pending | 3,341,307 | 1/2 | 604 KiB |
+| `r/Drizzy` | 🟢 Complete | 3,341,307 | 2/2 | 329 MiB |
 | `r/KendrickLamar` | ⚪ Pending | 4,179,841 | 0/2 | — |
 | `r/Eminem` | ⚪ Pending | 5,327,799 | 0/2 | — |
 | `r/hiphopheads` | ⚪ Pending | 23,529,878 | 0/2 | — |
@@ -270,7 +266,7 @@ Expand a category below. Use VS Code search to jump directly to a subreddit.
 </details>
 
 <details>
-<summary><strong>metal</strong> — 5/6 complete</summary>
+<summary><strong>metal</strong> — 6/6 complete</summary>
 
 | Subreddit | Status | Expected records | Raw files | Raw size |
 | --- | --- | ---: | ---: | ---: |
@@ -279,7 +275,7 @@ Expand a category below. Use VS Code search to jump directly to a subreddit.
 | `r/progmetal` | 🟢 Complete | 1,244,067 | 2/2 | 149 MiB |
 | `r/Deathcore` | 🟢 Complete | 1,327,134 | 2/2 | 147 MiB |
 | `r/Metal` | 🟢 Complete | 2,913,815 | 2/2 | 345 MiB |
-| `r/Metalcore` | ⚪ Pending | 3,749,400 | 0/2 | — |
+| `r/Metalcore` | 🟢 Complete | 3,749,400 | 2/2 | 414 MiB |
 
 </details>
 
@@ -308,13 +304,13 @@ Expand a category below. Use VS Code search to jump directly to a subreddit.
 </details>
 
 <details>
-<summary><strong>pop</strong> — 2/4 complete</summary>
+<summary><strong>pop</strong> — 3/4 complete</summary>
 
 | Subreddit | Status | Expected records | Raw files | Raw size |
 | --- | --- | ---: | ---: | ---: |
 | `r/popmusic` | 🟢 Complete | 31,208 | 2/2 | 5 MiB |
 | `r/kpophelp` | 🟢 Complete | 2,033,911 | 2/2 | 280 MiB |
-| `r/kpopthoughts` | ⚪ Pending | 3,891,535 | 0/2 | — |
+| `r/kpopthoughts` | 🟢 Complete | 3,891,535 | 2/2 | 553 MiB |
 | `r/kpop` | ⚪ Pending | 7,154,508 | 0/2 | — |
 
 </details>
