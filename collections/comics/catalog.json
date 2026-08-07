@@ -30,7 +30,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=AlanMoore"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -62,7 +62,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=altcomix"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -94,7 +94,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Avengers"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -126,7 +126,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=batman"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -158,7 +158,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=bdfrancophonie"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -190,7 +190,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Berserk"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -222,7 +222,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Bleach"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -254,7 +254,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=boomstudios"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -286,7 +286,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=BPRD"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -318,7 +318,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=BronzeAgeComics"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -350,7 +350,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=cartoonists"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -382,7 +382,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=CGCComics"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -414,7 +414,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ChainsawMan"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -446,7 +446,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=CharacterDesign"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -478,7 +478,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=comic_crits"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -510,7 +510,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=comicbook"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -542,7 +542,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ComicBookArt"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -574,7 +574,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ComicBookCollabs"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -606,7 +606,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ComicBookCollecting"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -638,7 +638,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=comicbookgrading"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -670,7 +670,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=comicbookporn"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -702,7 +702,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=comicbookreadingclub"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -734,7 +734,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=comicbooks"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -766,7 +766,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=comicbookshelves"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -798,7 +798,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=comiccon"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -830,7 +830,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ComicFury"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -862,7 +862,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=comicreadingorders"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -894,7 +894,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=comics"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -926,7 +926,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=comicspeculation"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -958,7 +958,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ComicStudies"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -990,7 +990,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=comicswap"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1022,7 +1022,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=cosplay"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1054,7 +1054,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=CosplayHelp"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1086,7 +1086,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Daredevil"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1118,7 +1118,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=darkhorse"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1150,7 +1150,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=DarkHorseComics"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1182,7 +1182,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=DCcomics"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1214,7 +1214,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Deadpool"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1246,7 +1246,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=FantasticFour"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1278,7 +1278,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=FionaStaples"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1310,7 +1310,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=GeoffJohns"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1342,7 +1342,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=GlobalComix"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1374,7 +1374,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=GoldenAgeComics"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1406,7 +1406,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=graphicnovels"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1438,7 +1438,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=GreenLantern"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1470,7 +1470,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Hellboy"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1502,7 +1502,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=HomeSpun"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1534,7 +1534,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=horrorcomics"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1566,7 +1566,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=HunterXHunter"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1598,7 +1598,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=IDWComics"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1630,7 +1630,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Illustration"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1662,7 +1662,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ImageComics"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1694,7 +1694,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=indiecomics"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1726,7 +1726,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Invincible"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1758,7 +1758,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=JujutsuKaisen"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1790,7 +1790,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=JunjiIto"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1822,7 +1822,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Kingdom"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1854,7 +1854,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=makecomics"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1886,7 +1886,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=MakingComics"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1918,7 +1918,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=manga"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1950,7 +1950,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=MangaCollectors"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1982,7 +1982,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=MangaDeals"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2014,7 +2014,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=MangaSwap"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2046,7 +2046,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=manhua"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2078,7 +2078,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=manhwa"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2110,7 +2110,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Marvel"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2142,7 +2142,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=MarvelComics"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2174,7 +2174,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Monstress"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2206,7 +2206,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=MoonKnight"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2238,7 +2238,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Naruto"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2270,7 +2270,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=NeilGaiman"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2302,7 +2302,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Nightwing"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2334,7 +2334,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=noDCnoMarvel"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2366,7 +2366,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=noir"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2398,7 +2398,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=nuzlocke"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2430,7 +2430,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=NYCC"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2462,7 +2462,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=OmnibusCollectors"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2494,7 +2494,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=OnePiece"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2526,7 +2526,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=OneShots"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2558,7 +2558,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=publishing"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2590,7 +2590,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Robin"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2622,7 +2622,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=SagaComic"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2654,7 +2654,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=scificomics"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2686,7 +2686,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=SDCC"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2718,7 +2718,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=selfpublish"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2750,7 +2750,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=SequentialArt"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2782,7 +2782,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=shoujo"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2814,7 +2814,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=SilverAgeComics"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2846,7 +2846,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=smallpresscomics"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2878,7 +2878,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Spawn"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2910,7 +2910,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Spiderman"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2942,7 +2942,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=storyboarding"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2974,7 +2974,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Superman"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -3006,7 +3006,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=tapas"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -3038,7 +3038,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=TeenTitans"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -3070,7 +3070,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=TheWalkingDead"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -3102,7 +3102,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=TomKing"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -3134,7 +3134,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=UsagiYojimbo"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -3166,7 +3166,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Vagabond"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -3198,7 +3198,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Valiant"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -3230,7 +3230,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=webcomic"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -3262,7 +3262,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=webcomics"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -3294,7 +3294,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=webtoon"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -3326,7 +3326,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=webtoons"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -3358,7 +3358,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=wholesomecomics"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -3390,7 +3390,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=WonderWoman"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -3422,7 +3422,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=XMen"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     }

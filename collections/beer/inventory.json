@@ -1,5 +1,1542 @@
 {
   "schema_version": 1,
   "collection": "beer",
-  "holdings": []
+  "holdings": [
+    {
+      "subreddit": "atlbeer",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/atlbeer_comments.zst",
+        "bytes": 26503353
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "atlbeer",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/atlbeer_submissions.zst",
+        "bytes": 3800999
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "AusBeer",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/AusBeer_comments.zst",
+        "bytes": 2857112
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "AusBeer",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/AusBeer_submissions.zst",
+        "bytes": 893100
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "AustinBeer",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/AustinBeer_comments.zst",
+        "bytes": 4981544
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "AustinBeer",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/AustinBeer_submissions.zst",
+        "bytes": 1808595
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "beer",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/beer_comments.zst",
+        "bytes": 242339782
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "beer",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/beer_submissions.zst",
+        "bytes": 32420422
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "beercanada",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/beercanada_comments.zst",
+        "bytes": 1757230
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "beercanada",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/beercanada_submissions.zst",
+        "bytes": 811912
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "beerporn",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/beerporn_comments.zst",
+        "bytes": 60876220
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "beerporn",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/beerporn_submissions.zst",
+        "bytes": 57672674
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "beerreviews",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/beerreviews_comments.zst",
+        "bytes": 361045
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "beerreviews",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/beerreviews_submissions.zst",
+        "bytes": 4430180
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "beerwithaview",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/beerwithaview_comments.zst",
+        "bytes": 3258111
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "beerwithaview",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/beerwithaview_submissions.zst",
+        "bytes": 5477136
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "BelgianBeer",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/BelgianBeer_comments.zst",
+        "bytes": 283503
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "BelgianBeer",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/BelgianBeer_submissions.zst",
+        "bytes": 275319
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "Bier",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/Bier_comments.zst",
+        "bytes": 1392947
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "Bier",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/Bier_submissions.zst",
+        "bytes": 1318457
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "breweriana",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/breweriana_comments.zst",
+        "bytes": 462823
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "breweriana",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/breweriana_submissions.zst",
+        "bytes": 975155
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "brewing",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/brewing_comments.zst",
+        "bytes": 5273084
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "brewing",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/brewing_submissions.zst",
+        "bytes": 2742641
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "chicagobeer",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/chicagobeer_comments.zst",
+        "bytes": 7071724
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "chicagobeer",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/chicagobeer_submissions.zst",
+        "bytes": 2406251
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "cider",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/cider_comments.zst",
+        "bytes": 19265844
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "cider",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/cider_submissions.zst",
+        "bytes": 7304251
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "CraftBeer",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/CraftBeer_comments.zst",
+        "bytes": 60998634
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "CraftBeer",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/CraftBeer_submissions.zst",
+        "bytes": 38425912
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "GlutenFreeBeer",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/GlutenFreeBeer_comments.zst",
+        "bytes": 48316
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "GlutenFreeBeer",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/GlutenFreeBeer_submissions.zst",
+        "bytes": 36931
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "grainfather",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/grainfather_comments.zst",
+        "bytes": 1147130
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "grainfather",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/grainfather_submissions.zst",
+        "bytes": 441620
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "Homebrewing",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/Homebrewing_comments.zst",
+        "bytes": 447369344
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "Homebrewing",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/Homebrewing_submissions.zst",
+        "bytes": 73455132
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "homebrewingUK",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/homebrewingUK_comments.zst",
+        "bytes": 659865
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "homebrewingUK",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/homebrewingUK_submissions.zst",
+        "bytes": 284488
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "IPA",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/IPA_comments.zst",
+        "bytes": 298017
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "IPA",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/IPA_submissions.zst",
+        "bytes": 424748
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "kegerators",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/kegerators_comments.zst",
+        "bytes": 2572547
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "kegerators",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/kegerators_submissions.zst",
+        "bytes": 1464652
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "mead",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/mead_comments.zst",
+        "bytes": 105783343
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "mead",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/mead_submissions.zst",
+        "bytes": 40216416
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "NABEER",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/NABEER_comments.zst",
+        "bytes": 6503949
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "NABEER",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/NABEER_submissions.zst",
+        "bytes": 2443499
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "NewBeerFriday",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/NewBeerFriday_comments.zst",
+        "bytes": 25978
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "NewBeerFriday",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/NewBeerFriday_submissions.zst",
+        "bytes": 32678
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "nycbeer",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/nycbeer_comments.zst",
+        "bytes": 1292446
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "nycbeer",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/nycbeer_submissions.zst",
+        "bytes": 516772
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "portlandbeer",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/portlandbeer_comments.zst",
+        "bytes": 2485920
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "portlandbeer",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/portlandbeer_submissions.zst",
+        "bytes": 944902
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "sourbeer",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/sourbeer_comments.zst",
+        "bytes": 594464
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "sourbeer",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/sourbeer_submissions.zst",
+        "bytes": 611556
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "TheBrewery",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/TheBrewery_comments.zst",
+        "bytes": 66251594
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "TheBrewery",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/TheBrewery_submissions.zst",
+        "bytes": 12078554
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "torontocraftbeer",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/torontocraftbeer_comments.zst",
+        "bytes": 6356068
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "torontocraftbeer",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/torontocraftbeer_submissions.zst",
+        "bytes": 2066466
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "UK_beer",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/UK_beer_comments.zst",
+        "bytes": 5020402
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "UK_beer",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/UK_beer_submissions.zst",
+        "bytes": 2778040
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "Untappd",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/Untappd_comments.zst",
+        "bytes": 7812489
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "Untappd",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/Untappd_submissions.zst",
+        "bytes": 2968911
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "VancouverCraftBeer",
+      "kind": "comments",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/VancouverCraftBeer_comments.zst",
+        "bytes": 2406960
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "comments"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    },
+    {
+      "subreddit": "VancouverCraftBeer",
+      "kind": "submissions",
+      "source": "Arctic Shift",
+      "time_range": {
+        "first_created_utc": null,
+        "last_created_utc": null
+      },
+      "records": null,
+      "raw": {
+        "path": "/home/simone/githubRepos/fetch-academic-torrents/data/raw/VancouverCraftBeer_submissions.zst",
+        "bytes": 580524
+      },
+      "mongo": {
+        "uri": "mongodb://localhost:27019",
+        "database": "reddit",
+        "collection": "submissions"
+      },
+      "qa": {
+        "status": "not_run"
+      },
+      "acquired_at": "",
+      "notes": ""
+    }
+  ]
 }

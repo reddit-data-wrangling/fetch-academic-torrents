@@ -1,6 +1,6 @@
 # Reddit collection monitor
 
-_Refreshed 2026-08-02 16:21 UTC from collection files and `data/raw/`._
+_Refreshed 2026-08-07 13:45 UTC from collection files and `data/raw/`._
 
 > Open this file with **Markdown: Open Preview** (`Ctrl+Shift+V` / `Cmd+Shift+V`).
 
@@ -8,21 +8,21 @@ _Refreshed 2026-08-02 16:21 UTC from collection files and `data/raw/`._
 
 | Themes | Theme/subreddit rows | Unique subreddits | Complete | Active | Partial | Pending | Raw data |
 | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| 10 | 1,010 | 981 | 240 | 0 | 0 | 770 | 21.6 GiB |
+| 10 | 708 | 687 | 361 | 2 | 0 | 345 | 56.3 GiB |
 
-**Overall coverage:** `█████░░░░░░░░░░░░░░░` 24%
+**Overall coverage:** `██████████░░░░░░░░░░` 51%
 
 ## Progress by theme
 
 | Theme | Workflow | Progress | Complete | Active | Partial | Pending |
 | --- | --- | --- | ---: | ---: | ---: | ---: |
-| Beer | `planning` | `░░░░░░░░░░░░` 0% | 0 | 0 | 0 | 126 |
-| Comics | `planning` | `░░░░░░░░░░░░` 0% | 0 | 0 | 0 | 107 |
+| Beer | `active` | `████████████` 100% | 32 | 0 | 0 | 0 |
+| Comics | `active` | `████████████` 100% | 36 | 0 | 0 | 0 |
 | Linux | `active` | `████████████` 100% | 99 | 0 | 0 | 0 |
-| Movies | `planning` | `░░░░░░░░░░░░` 1% | 1 | 0 | 0 | 168 |
-| Music | `active` | `███████████░` 93% | 121 | 0 | 0 | 9 |
-| Open-source software | `planning` | `██░░░░░░░░░░` 14% | 18 | 0 | 0 | 112 |
-| Science fiction | `planning` | `░░░░░░░░░░░░` 0% | 0 | 0 | 0 | 164 |
+| Movies | `active` | `████████████` 98% | 41 | 1 | 0 | 0 |
+| Music | `active` | `████████████` 100% | 130 | 0 | 0 | 0 |
+| Open-source software | `active` | `██░░░░░░░░░░` 17% | 20 | 1 | 0 | 99 |
+| Science fiction | `planning` | `░░░░░░░░░░░░` 1% | 2 | 0 | 0 | 162 |
 | Tabletop games | `planning` | `░░░░░░░░░░░░` 0% | 0 | 0 | 0 | 65 |
 | TV series | `planning` | `░░░░░░░░░░░░` 0% | 0 | 0 | 0 | 1 |
 | Wikipedia | `planning` | `█░░░░░░░░░░░` 5% | 1 | 0 | 0 | 18 |
@@ -32,255 +32,94 @@ _Refreshed 2026-08-02 16:21 UTC from collection files and `data/raw/`._
 Expand a theme below. Use VS Code search to jump to a subreddit.
 
 <details>
-<summary><strong>Beer</strong> — 0/126 complete · 0%</summary>
+<summary><strong>Beer</strong> — 32/32 complete · 100%</summary>
 
-_Catalogue and selection are not complete._
+_Reviewed 32-subreddit stratified panel; low-priority acquisition yields to the active music fetcher._
+
+_94 discovery candidates are outside the active reviewed scope and are not counted as pending._
 
 | Subreddit | Category | Status | Progress | Raw size |
 | --- | --- | --- | ---: | ---: |
-| `r/beer` | General discussion, tasting, reviews, releases, and visual culture | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/CraftBeer` | General discussion, tasting, reviews, releases, and visual culture | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/beerporn` | General discussion, tasting, reviews, releases, and visual culture | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/beerreviews` | General discussion, tasting, reviews, releases, and visual culture | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Tastingcraftbeer` | General discussion, tasting, reviews, releases, and visual culture | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/NewBeerFriday` | General discussion, tasting, reviews, releases, and visual culture | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/beerreleases` | General discussion, tasting, reviews, releases, and visual culture | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/beerblogs` | General discussion, tasting, reviews, releases, and visual culture | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/beervideos` | General discussion, tasting, reviews, releases, and visual culture | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/beerwithaview` | General discussion, tasting, reviews, releases, and visual culture | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/showerbeer` | General discussion, tasting, reviews, releases, and visual culture | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/beercirclejerk` | General discussion, tasting, reviews, releases, and visual culture | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/BelgianBeer` | Styles, traditions, and dietary or alcohol alternatives | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Lager` | Styles, traditions, and dietary or alcohol alternatives | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/sourbeer` | Styles, traditions, and dietary or alcohol alternatives | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/IPA` | Styles, traditions, and dietary or alcohol alternatives | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/lambic` | Styles, traditions, and dietary or alcohol alternatives | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/barleywine` | Styles, traditions, and dietary or alcohol alternatives | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/realale` | Styles, traditions, and dietary or alcohol alternatives | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/NABEER` | Styles, traditions, and dietary or alcohol alternatives | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/GlutenFreeBeer` | Styles, traditions, and dietary or alcohol alternatives | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Homebrewing` | Homebrewing, professional brewing, ingredients, and equipment | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/homebrewingUK` | Homebrewing, professional brewing, ingredients, and equipment | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/brewing` | Homebrewing, professional brewing, ingredients, and equipment | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/TheBrewery` | Homebrewing, professional brewing, ingredients, and equipment | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/PublicHouse` | Homebrewing, professional brewing, ingredients, and equipment | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/beerindustry` | Homebrewing, professional brewing, ingredients, and equipment | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/beerrecipes` | Homebrewing, professional brewing, ingredients, and equipment | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/homebrewrecipes` | Homebrewing, professional brewing, ingredients, and equipment | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/TheHopyard` | Homebrewing, professional brewing, ingredients, and equipment | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/grainfather` | Homebrewing, professional brewing, ingredients, and equipment | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/brewgearfs` | Homebrewing, professional brewing, ingredients, and equipment | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Cerveceros` | Homebrewing, professional brewing, ingredients, and equipment | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/kegerators` | Homebrewing, professional brewing, ingredients, and equipment | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Autobrew` | Homebrewing, professional brewing, ingredients, and equipment | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/breweriana` | Collecting, apps, food, and material culture | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/BeerCans` | Collecting, apps, food, and material culture | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/BeerGlass` | Collecting, apps, food, and material culture | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/beerlabels` | Collecting, apps, food, and material culture | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Untappd` | Collecting, apps, food, and material culture | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/cookwithbeer` | Collecting, apps, food, and material culture | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/beerandpizza` | Collecting, apps, food, and material culture | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/bamabeer` | United States — state communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/ArizonaBeer` | United States — state communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/ArkansasBeer` | United States — state communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/COBeer` | United States — state communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/ctbeer` | United States — state communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/FloridaBrew` | United States — state communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/iowabeer` | United States — state communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/mainebeer` | United States — state communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/MDbeer` | United States — state communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/michiganbeer` | United States — state communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/minnesotabeer` | United States — state communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/msbeer` | United States — state communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/nebraskabeer` | United States — state communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/nhbeer` | United States — state communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/njbeer` | United States — state communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/NYbeer` | United States — state communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/OH_Beer` | United States — state communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/OklahomaBeer` | United States — state communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/PaCraftBeer` | United States — state communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/RIBreweries` | United States — state communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/sdbeer` | United States — state communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/texasbeer` | United States — state communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/VermontBeer` | United States — state communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/VABEER` | United States — state communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/WAbeer` | United States — state communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/WestVirginiaBeer` | United States — state communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/wisconsinbeer` | United States — state communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/ashevillebeer` | United States — metro and regional communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/atlbeer` | United States — metro and regional communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/AustinBeer` | United States — metro and regional communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/charlestonbeer` | United States — metro and regional communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/CharlotteBeer` | United States — metro and regional communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/chicagobeer` | United States — metro and regional communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/cincinnatibeer` | United States — metro and regional communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/collegestationbeer` | United States — metro and regional communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/ColumbusBeer` | United States — metro and regional communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/DFWBeer` | United States — metro and regional communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/denverbeer` | United States — metro and regional communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/HoustonBeer` | United States — metro and regional communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/indybeer` | United States — metro and regional communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/JaxBrew` | United States — metro and regional communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/KansasCityBeer` | United States — metro and regional communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/knoxvillebeer` | United States — metro and regional communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/LasVegasBeer` | United States — metro and regional communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/lehighvalleycraftbeer` | United States — metro and regional communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/LABeer` | United States — metro and regional communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/MemphisBeer` | United States — metro and regional communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/NashvilleBeer` | United States — metro and regional communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/newenglandbeer` | United States — metro and regional communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/NewOrleansBeer` | United States — metro and regional communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/nycbeer` | United States — metro and regional communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/NEOHBeer` | United States — metro and regional communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/ocbeer` | United States — metro and regional communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/orlandobeer` | United States — metro and regional communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/phillycraftbeer` | United States — metro and regional communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/PittsburghBeers` | United States — metro and regional communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/portlandbeer` | United States — metro and regional communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/trianglencbeer` | United States — metro and regional communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/SFBeer` | United States — metro and regional communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/seattlebeer` | United States — metro and regional communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/SoFlaBeer` | United States — metro and regional communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/StLouisBeer` | United States — metro and regional communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/dcbeer` | United States — metro and regional communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/WCNYBeer` | United States — metro and regional communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/beercanada` | Canada | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/AlbertaBeer` | Canada | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/maritimecraftbeer` | Canada | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/hamiltoncraftbeer` | Canada | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/NiagaraBeer` | Canada | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/ontariocraftbeer` | Canada | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/BeerInOttawa` | Canada | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/BiereQc` | Canada | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/torontocraftbeer` | Canada | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/VancouverCraftBeer` | Canada | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/VancouverIslandBeer` | Canada | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/KWBrews` | Canada | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/AusBeer` | Other national and language communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Bier` | Other national and language communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/bieresdefrance` | Other national and language communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/NZBeer` | Other national and language communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/UK_beer` | Other national and language communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/cider` | Adjacent fermentation | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Ciderporn` | Adjacent fermentation | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/mead` | Adjacent fermentation | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/beer` | General discussion and culture | 🟢 Complete | `████████` 100% | 262 MiB |
+| `r/CraftBeer` | General discussion and culture | 🟢 Complete | `████████` 100% | 95 MiB |
+| `r/beerporn` | General discussion and culture | 🟢 Complete | `████████` 100% | 113 MiB |
+| `r/beerreviews` | General discussion and culture | 🟢 Complete | `████████` 100% | 5 MiB |
+| `r/NewBeerFriday` | General discussion and culture | 🟢 Complete | `████████` 100% | 57 KiB |
+| `r/beerwithaview` | General discussion and culture | 🟢 Complete | `████████` 100% | 8 MiB |
+| `r/BelgianBeer` | Styles and alternatives | 🟢 Complete | `████████` 100% | 546 KiB |
+| `r/sourbeer` | Styles and alternatives | 🟢 Complete | `████████` 100% | 1 MiB |
+| `r/IPA` | Styles and alternatives | 🟢 Complete | `████████` 100% | 706 KiB |
+| `r/NABEER` | Styles and alternatives | 🟢 Complete | `████████` 100% | 9 MiB |
+| `r/GlutenFreeBeer` | Styles and alternatives | 🟢 Complete | `████████` 100% | 83 KiB |
+| `r/Homebrewing` | Brewing and production | 🟢 Complete | `████████` 100% | 497 MiB |
+| `r/homebrewingUK` | Brewing and production | 🟢 Complete | `████████` 100% | 922 KiB |
+| `r/brewing` | Brewing and production | 🟢 Complete | `████████` 100% | 8 MiB |
+| `r/TheBrewery` | Brewing and production | 🟢 Complete | `████████` 100% | 75 MiB |
+| `r/grainfather` | Brewing and production | 🟢 Complete | `████████` 100% | 2 MiB |
+| `r/kegerators` | Brewing and production | 🟢 Complete | `████████` 100% | 4 MiB |
+| `r/breweriana` | Platforms and material culture | 🟢 Complete | `████████` 100% | 1 MiB |
+| `r/Untappd` | Platforms and material culture | 🟢 Complete | `████████` 100% | 10 MiB |
+| `r/atlbeer` | Regional markets — United States | 🟢 Complete | `████████` 100% | 29 MiB |
+| `r/AustinBeer` | Regional markets — United States | 🟢 Complete | `████████` 100% | 6 MiB |
+| `r/chicagobeer` | Regional markets — United States | 🟢 Complete | `████████` 100% | 9 MiB |
+| `r/nycbeer` | Regional markets — United States | 🟢 Complete | `████████` 100% | 2 MiB |
+| `r/portlandbeer` | Regional markets — United States | 🟢 Complete | `████████` 100% | 3 MiB |
+| `r/beercanada` | Regional markets — Canada | 🟢 Complete | `████████` 100% | 2 MiB |
+| `r/torontocraftbeer` | Regional markets — Canada | 🟢 Complete | `████████` 100% | 8 MiB |
+| `r/VancouverCraftBeer` | Regional markets — Canada | 🟢 Complete | `████████` 100% | 3 MiB |
+| `r/AusBeer` | Regional markets — other countries and languages | 🟢 Complete | `████████` 100% | 4 MiB |
+| `r/Bier` | Regional markets — other countries and languages | 🟢 Complete | `████████` 100% | 3 MiB |
+| `r/UK_beer` | Regional markets — other countries and languages | 🟢 Complete | `████████` 100% | 7 MiB |
+| `r/cider` | Adjacent fermentation comparators | 🟢 Complete | `████████` 100% | 25 MiB |
+| `r/mead` | Adjacent fermentation comparators | 🟢 Complete | `████████` 100% | 139 MiB |
 
 </details>
 
 <details>
-<summary><strong>Comics</strong> — 0/107 complete · 0%</summary>
+<summary><strong>Comics</strong> — 36/36 complete · 100%</summary>
 
-_Catalogue and selection are not complete._
+_Reviewed 36-subreddit stratified pilot; shared low-priority comics/movies worker loads both record kinds into MongoDB on port 27019._
+
+_71 discovery candidates are outside the active reviewed scope and are not counted as pending._
 
 | Subreddit | Category | Status | Progress | Raw size |
 | --- | --- | --- | ---: | ---: |
-| `r/comicbooks` | General discussion, criticism, reading, and recommendations | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/comics` | General discussion, criticism, reading, and recommendations | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/graphicnovels` | General discussion, criticism, reading, and recommendations | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/comicbook` | General discussion, criticism, reading, and recommendations | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/comicbookart` | General discussion, criticism, reading, and recommendations | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/ComicBookPorn` | General discussion, criticism, reading, and recommendations | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/comicreadingorders` | General discussion, criticism, reading, and recommendations | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/comicbookreadingclub` | General discussion, criticism, reading, and recommendations | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/comicbookshelves` | General discussion, criticism, reading, and recommendations | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/noDCnoMarvel` | General discussion, criticism, reading, and recommendations | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/WholesomeComics` | General discussion, criticism, reading, and recommendations | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/ComicStudies` | General discussion, criticism, reading, and recommendations | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/SequentialArt` | General discussion, criticism, reading, and recommendations | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/makingcomics` | Creation, critique, collaboration, and publishing | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/makecomics` | Creation, critique, collaboration, and publishing | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/ComicBookCollabs` | Creation, critique, collaboration, and publishing | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/comic_crits` | Creation, critique, collaboration, and publishing | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/cartoonists` | Creation, critique, collaboration, and publishing | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Storyboarding` | Creation, critique, collaboration, and publishing | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/characterdesign` | Creation, critique, collaboration, and publishing | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Illustration` | Creation, critique, collaboration, and publishing | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/selfpublish` | Creation, critique, collaboration, and publishing | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/publishing` | Creation, critique, collaboration, and publishing | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/homespun` | Creation, critique, collaboration, and publishing | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/webcomics` | Webcomics and digital platforms | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/WebComic` | Webcomics and digital platforms | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/webtoon` | Webcomics and digital platforms | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/webtoons` | Webcomics and digital platforms | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/tapas` | Webcomics and digital platforms | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/ComicFury` | Webcomics and digital platforms | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/GlobalComix` | Webcomics and digital platforms | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/nuzlocke` | Webcomics and digital platforms | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/manga` | Manga, manhwa, manhua, and collecting | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/manhwa` | Manga, manhwa, manhua, and collecting | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Manhua` | Manga, manhwa, manhua, and collecting | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/oneshots` | Manga, manhwa, manhua, and collecting | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/shoujo` | Manga, manhwa, manhua, and collecting | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/MangaCollectors` | Manga, manhwa, manhua, and collecting | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/mangadeals` | Manga, manhwa, manhua, and collecting | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/mangaswap` | Manga, manhwa, manhua, and collecting | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/OnePiece` | Major manga series and creators | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Naruto` | Major manga series and creators | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Berserk` | Major manga series and creators | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/vagabond` | Major manga series and creators | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Kingdom` | Major manga series and creators | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/JuJutsuKaisen` | Major manga series and creators | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/ChainsawMan` | Major manga series and creators | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/bleach` | Major manga series and creators | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/HunterXHunter` | Major manga series and creators | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/junjiito` | Major manga series and creators | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/indiecomics` | Independent, alternative, and small-press comics | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/altcomix` | Independent, alternative, and small-press comics | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/smallpresscomics` | Independent, alternative, and small-press comics | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/ImageComics` | Independent, alternative, and small-press comics | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/darkhorse` | Independent, alternative, and small-press comics | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/darkhorsecomics` | Independent, alternative, and small-press comics | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/IDWComics` | Independent, alternative, and small-press comics | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/boomstudios` | Independent, alternative, and small-press comics | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/valiant` | Independent, alternative, and small-press comics | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Marvel` | Marvel publishing and comics universes | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/marvelcomics` | Marvel publishing and comics universes | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Spiderman` | Marvel publishing and comics universes | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/xmen` | Marvel publishing and comics universes | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Avengers` | Marvel publishing and comics universes | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Daredevil` | Marvel publishing and comics universes | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/FantasticFour` | Marvel publishing and comics universes | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/deadpool` | Marvel publishing and comics universes | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/MoonKnight` | Marvel publishing and comics universes | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/DCcomics` | DC publishing and comics universes | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/batman` | DC publishing and comics universes | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/superman` | DC publishing and comics universes | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Greenlantern` | DC publishing and comics universes | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Nightwing` | DC publishing and comics universes | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/WonderWoman` | DC publishing and comics universes | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Robin` | DC publishing and comics universes | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/teentitans` | DC publishing and comics universes | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Invincible` | Major non-Marvel/DC series and universes | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/thewalkingdead` | Major non-Marvel/DC series and universes | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/SAGAcomic` | Major non-Marvel/DC series and universes | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Spawn` | Major non-Marvel/DC series and universes | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/HellBoy` | Major non-Marvel/DC series and universes | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/BPRD` | Major non-Marvel/DC series and universes | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/monstress` | Major non-Marvel/DC series and universes | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/UsagiYojimbo` | Major non-Marvel/DC series and universes | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/HorrorComics` | Genre, tradition, and historical periods | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/scificomics` | Genre, tradition, and historical periods | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/noir` | Genre, tradition, and historical periods | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/GoldenAgeComics` | Genre, tradition, and historical periods | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Silveragecomics` | Genre, tradition, and historical periods | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/BronzeAgeComics` | Genre, tradition, and historical periods | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/bdfrancophonie` | Genre, tradition, and historical periods | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/comicbookcollecting` | Collecting, grading, speculation, and exchange | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/CGCComics` | Collecting, grading, speculation, and exchange | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/comicswap` | Collecting, grading, speculation, and exchange | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/comicspeculation` | Collecting, grading, speculation, and exchange | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/OmnibusCollectors` | Collecting, grading, speculation, and exchange | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/comicbookgrading` | Collecting, grading, speculation, and exchange | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/comiccon` | Conventions and cosplay | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/SDCC` | Conventions and cosplay | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/NYCC` | Conventions and cosplay | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/cosplay` | Conventions and cosplay | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/CosplayHelp` | Conventions and cosplay | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/AlanMoore` | Comics creators | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/neilgaiman` | Comics creators | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/FionaStaples` | Comics creators | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/tomking` | Comics creators | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/GeoffJohns` | Comics creators | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/comicbooks` | General discussion, criticism, reading, and recommendations | 🟢 Complete | `████████` 100% | 981 MiB |
+| `r/comics` | General discussion, criticism, reading, and recommendations | 🟢 Complete | `████████` 100% | 1.0 GiB |
+| `r/graphicnovels` | General discussion, criticism, reading, and recommendations | 🟢 Complete | `████████` 100% | 89 MiB |
+| `r/comicbookart` | General discussion, criticism, reading, and recommendations | 🟢 Complete | `████████` 100% | 37 MiB |
+| `r/noDCnoMarvel` | General discussion, criticism, reading, and recommendations | 🟢 Complete | `████████` 100% | 4 MiB |
+| `r/ComicBookCollabs` | Creation, critique, collaboration, and publishing | 🟢 Complete | `████████` 100% | 90 MiB |
+| `r/comic_crits` | Creation, critique, collaboration, and publishing | 🟢 Complete | `████████` 100% | 16 MiB |
+| `r/Storyboarding` | Creation, critique, collaboration, and publishing | 🟢 Complete | `████████` 100% | 3 MiB |
+| `r/webcomics` | Webcomics and digital platforms | 🟢 Complete | `████████` 100% | 170 MiB |
+| `r/WebComic` | Webcomics and digital platforms | 🟢 Complete | `████████` 100% | 6 MiB |
+| `r/GlobalComix` | Webcomics and digital platforms | 🟢 Complete | `████████` 100% | 3 MiB |
+| `r/manga` | Manga, manhwa, manhua, and collecting | 🟢 Complete | `████████` 100% | 1.3 GiB |
+| `r/manhwa` | Manga, manhwa, manhua, and collecting | 🟢 Complete | `████████` 100% | 358 MiB |
+| `r/Manhua` | Manga, manhwa, manhua, and collecting | 🟢 Complete | `████████` 100% | 75 MiB |
+| `r/shoujo` | Manga, manhwa, manhua, and collecting | 🟢 Complete | `████████` 100% | 62 MiB |
+| `r/OnePiece` | Major manga series and creators | 🟢 Complete | `████████` 100% | 2.4 GiB |
+| `r/Berserk` | Major manga series and creators | 🟢 Complete | `████████` 100% | 364 MiB |
+| `r/junjiito` | Major manga series and creators | 🟢 Complete | `████████` 100% | 28 MiB |
+| `r/indiecomics` | Independent, alternative, and small-press comics | 🟢 Complete | `████████` 100% | 7 MiB |
+| `r/altcomix` | Independent, alternative, and small-press comics | 🟢 Complete | `████████` 100% | 13 MiB |
+| `r/ImageComics` | Independent, alternative, and small-press comics | 🟢 Complete | `████████` 100% | 32 MiB |
+| `r/darkhorsecomics` | Independent, alternative, and small-press comics | 🟢 Complete | `████████` 100% | 2 MiB |
+| `r/Marvel` | Marvel and DC publishing universes | 🟢 Complete | `████████` 100% | 824 MiB |
+| `r/DCcomics` | Marvel and DC publishing universes | 🟢 Complete | `████████` 100% | 728 MiB |
+| `r/SAGAcomic` | Major non-Marvel/DC series and universes | 🟢 Complete | `████████` 100% | 5 MiB |
+| `r/Spawn` | Major non-Marvel/DC series and universes | 🟢 Complete | `████████` 100% | 22 MiB |
+| `r/HellBoy` | Major non-Marvel/DC series and universes | 🟢 Complete | `████████` 100% | 14 MiB |
+| `r/HorrorComics` | Genre, tradition, and historical periods | 🟢 Complete | `████████` 100% | 8 MiB |
+| `r/scificomics` | Genre, tradition, and historical periods | 🟢 Complete | `████████` 100% | 733 KiB |
+| `r/BronzeAgeComics` | Genre, tradition, and historical periods | 🟢 Complete | `████████` 100% | 191 KiB |
+| `r/comicbookcollecting` | Collecting, grading, speculation, and exchange | 🟢 Complete | `████████` 100% | 221 MiB |
+| `r/CGCComics` | Collecting, grading, speculation, and exchange | 🟢 Complete | `████████` 100% | 16 MiB |
+| `r/OmnibusCollectors` | Collecting, grading, speculation, and exchange | 🟢 Complete | `████████` 100% | 134 MiB |
+| `r/comiccon` | Conventions | 🟢 Complete | `████████` 100% | 42 MiB |
+| `r/SDCC` | Conventions | 🟢 Complete | `████████` 100% | 14 MiB |
+| `r/AlanMoore` | Comics creators | 🟢 Complete | `████████` 100% | 9 MiB |
 
 </details>
 
@@ -297,285 +136,160 @@ _21 discovery candidates are outside the active reviewed scope and are not count
 | `r/linusrants` | General discussion, news, support, and discovery | 🟢 Complete | `████████` 100% | 260 KiB |
 | `r/linuxquestions` | General discussion, news, support, and discovery | 🟢 Complete | `████████` 100% | — |
 | `r/linux4noobs` | General discussion, news, support, and discovery | 🟢 Complete | `████████` 100% | — |
-| `r/linuxadmin` | General discussion, news, support, and discovery | 🟢 Complete | `████████` 100% | 52 MiB |
+| `r/linuxadmin` | Uncategorised | 🟢 Complete | `████████` 100% | 52 MiB |
 | `r/kernel` | General discussion, news, support, and discovery | 🟢 Complete | `████████` 100% | — |
-| `r/linuxhardware` | General discussion, news, support, and discovery | 🟢 Complete | `████████` 100% | 30 MiB |
-| `r/linuxprojects` | General discussion, news, support, and discovery | 🟢 Complete | `████████` 100% | 216 KiB |
-| `r/linuxunplugged` | General discussion, news, support, and discovery | 🟢 Complete | `████████` 100% | 991 KiB |
-| `r/linuxmemes` | General discussion, news, support, and discovery | 🟢 Complete | `████████` 100% | 128 MiB |
-| `r/DistroHopping` | General discussion, news, support, and discovery | 🟢 Complete | `████████` 100% | 17 MiB |
-| `r/FindMeALinuxDistro` | General discussion, news, support, and discovery | 🟢 Complete | `████████` 100% | 4 MiB |
+| `r/linuxhardware` | Uncategorised | 🟢 Complete | `████████` 100% | 30 MiB |
+| `r/linuxprojects` | Uncategorised | 🟢 Complete | `████████` 100% | 216 KiB |
+| `r/linuxunplugged` | Uncategorised | 🟢 Complete | `████████` 100% | 991 KiB |
+| `r/linuxmemes` | Uncategorised | 🟢 Complete | `████████` 100% | 128 MiB |
+| `r/DistroHopping` | Uncategorised | 🟢 Complete | `████████` 100% | 17 MiB |
+| `r/FindMeALinuxDistro` | Uncategorised | 🟢 Complete | `████████` 100% | 4 MiB |
 | `r/osdev` | Kernel-adjacent, embedded, and low-level systems | 🟢 Complete | `████████` 100% | — |
-| `r/embedded` | Kernel-adjacent, embedded, and low-level systems | 🟢 Complete | `████████` 100% | 103 MiB |
-| `r/raspberry_pi` | Kernel-adjacent, embedded, and low-level systems | 🟢 Complete | `████████` 100% | 185 MiB |
-| `r/systemd` | Kernel-adjacent, embedded, and low-level systems | 🟢 Complete | `████████` 100% | 1 MiB |
-| `r/wayland` | Kernel-adjacent, embedded, and low-level systems | 🟢 Complete | `████████` 100% | 2 MiB |
-| `r/pipewire` | Kernel-adjacent, embedded, and low-level systems | 🟢 Complete | `████████` 100% | 643 KiB |
-| `r/linuxaudio` | Kernel-adjacent, embedded, and low-level systems | 🟢 Complete | `████████` 100% | 15 MiB |
-| `r/zfs` | Kernel-adjacent, embedded, and low-level systems | 🟢 Complete | `████████` 100% | 28 MiB |
-| `r/btrfs` | Kernel-adjacent, embedded, and low-level systems | 🟢 Complete | `████████` 100% | 9 MiB |
-| `r/debian` | Debian and Ubuntu families | 🟢 Complete | `████████` 100% | 84 MiB |
-| `r/Ubuntu` | Debian and Ubuntu families | 🟢 Complete | `████████` 100% | 170 MiB |
-| `r/linuxmint` | Debian and Ubuntu families | 🟢 Complete | `████████` 100% | 141 MiB |
-| `r/pop_os` | Debian and Ubuntu families | 🟢 Complete | `████████` 100% | 77 MiB |
-| `r/elementaryos` | Debian and Ubuntu families | 🟢 Complete | `████████` 100% | 17 MiB |
-| `r/Kubuntu` | Debian and Ubuntu families | 🟢 Complete | `████████` 100% | 9 MiB |
-| `r/Lubuntu` | Debian and Ubuntu families | 🟢 Complete | `████████` 100% | 3 MiB |
-| `r/xubuntu` | Debian and Ubuntu families | 🟢 Complete | `████████` 100% | 2 MiB |
-| `r/Fedora` | Fedora and Red Hat families | 🟢 Complete | `████████` 100% | 120 MiB |
-| `r/FedoraWorkstation` | Fedora and Red Hat families | 🟢 Complete | `████████` 100% | 6 KiB |
-| `r/FedoraSilverblue` | Fedora and Red Hat families | 🟢 Complete | `████████` 100% | 145 KiB |
-| `r/redhat` | Fedora and Red Hat families | 🟢 Complete | `████████` 100% | 18 MiB |
-| `r/RockyLinux` | Fedora and Red Hat families | 🟢 Complete | `████████` 100% | 2 MiB |
-| `r/AlmaLinux` | Fedora and Red Hat families | 🟢 Complete | `████████` 100% | 2 MiB |
-| `r/CentOS` | Fedora and Red Hat families | 🟢 Complete | `████████` 100% | 6 MiB |
-| `r/archlinux` | Arch family | 🟢 Complete | `████████` 100% | 194 MiB |
-| `r/EndeavourOS` | Arch family | 🟢 Complete | `████████` 100% | 11 MiB |
-| `r/ManjaroLinux` | Arch family | 🟢 Complete | `████████` 100% | 35 MiB |
-| `r/artixlinux` | Arch family | 🟢 Complete | `████████` 100% | 3 MiB |
-| `r/cachyos` | Arch family | 🟢 Complete | `████████` 100% | 39 MiB |
-| `r/GarudaLinux` | Arch family | 🟢 Complete | `████████` 100% | 2 MiB |
-| `r/NixOS` | Nix, openSUSE, source-based, and independent distributions | 🟢 Complete | `████████` 100% | 36 MiB |
-| `r/Nix` | Nix, openSUSE, source-based, and independent distributions | 🟢 Complete | `████████` 100% | 1 MiB |
-| `r/openSUSE` | Nix, openSUSE, source-based, and independent distributions | 🟢 Complete | `████████` 100% | 41 MiB |
-| `r/Gentoo` | Nix, openSUSE, source-based, and independent distributions | 🟢 Complete | `████████` 100% | 34 MiB |
-| `r/voidlinux` | Nix, openSUSE, source-based, and independent distributions | 🟢 Complete | `████████` 100% | 19 MiB |
-| `r/AlpineLinux` | Nix, openSUSE, source-based, and independent distributions | 🟢 Complete | `████████` 100% | 2 MiB |
-| `r/slackware` | Nix, openSUSE, source-based, and independent distributions | 🟢 Complete | `████████` 100% | 3 MiB |
-| `r/linuxfromscratch` | Nix, openSUSE, source-based, and independent distributions | 🟢 Complete | `████████` 100% | 1 MiB |
-| `r/bedrocklinux` | Nix, openSUSE, source-based, and independent distributions | 🟢 Complete | `████████` 100% | 1 MiB |
-| `r/MXLinux` | Nix, openSUSE, source-based, and independent distributions | 🟢 Complete | `████████` 100% | 4 MiB |
-| `r/SolusProject` | Nix, openSUSE, source-based, and independent distributions | 🟢 Complete | `████████` 100% | 10 MiB |
-| `r/Universalblue` | Immutable and image-based Linux | 🟢 Complete | `████████` 100% | 93 KiB |
-| `r/Qubes` | Security-focused distributions | 🟢 Complete | `████████` 100% | 8 MiB |
-| `r/tails` | Security-focused distributions | 🟢 Complete | `████████` 100% | 17 MiB |
-| `r/Kalilinux` | Security-focused distributions | 🟢 Complete | `████████` 100% | 19 MiB |
-| `r/gnome` | Desktop environments | 🟢 Complete | `████████` 100% | 51 MiB |
-| `r/kde` | Desktop environments | 🟢 Complete | `████████` 100% | 106 MiB |
-| `r/xfce` | Desktop environments | 🟢 Complete | `████████` 100% | 8 MiB |
-| `r/LXQt` | Desktop environments | 🟢 Complete | `████████` 100% | 420 KiB |
-| `r/System76` | Desktop environments | 🟢 Complete | `████████` 100% | 8 MiB |
-| `r/swaywm` | Window managers, shells, and desktop customization | 🟢 Complete | `████████` 100% | 9 MiB |
-| `r/hyprland` | Window managers, shells, and desktop customization | 🟢 Complete | `████████` 100% | 29 MiB |
-| `r/bspwm` | Window managers, shells, and desktop customization | 🟢 Complete | `████████` 100% | 3 MiB |
-| `r/awesomewm` | Window managers, shells, and desktop customization | 🟢 Complete | `████████` 100% | 5 MiB |
-| `r/dwm` | Window managers, shells, and desktop customization | 🟢 Complete | `████████` 100% | 967 KiB |
-| `r/qtile` | Window managers, shells, and desktop customization | 🟢 Complete | `████████` 100% | 2 MiB |
-| `r/xmonad` | Window managers, shells, and desktop customization | 🟢 Complete | `████████` 100% | 2 MiB |
-| `r/openbox` | Window managers, shells, and desktop customization | 🟢 Complete | `████████` 100% | 642 KiB |
-| `r/unixporn` | Window managers, shells, and desktop customization | 🟢 Complete | `████████` 100% | 168 MiB |
-| `r/commandline` | Window managers, shells, and desktop customization | 🟢 Complete | `████████` 100% | 38 MiB |
-| `r/bash` | Window managers, shells, and desktop customization | 🟢 Complete | `████████` 100% | 28 MiB |
-| `r/flatpak` | Packaging and application distribution | 🟢 Complete | `████████` 100% | 3 MiB |
-| `r/AppImage` | Packaging and application distribution | 🟢 Complete | `████████` 100% | 371 KiB |
-| `r/snapcraft` | Packaging and application distribution | 🟢 Complete | `████████` 100% | 6 KiB |
-| `r/docker` | Containers, virtualization, administration, and self-hosting | 🟢 Complete | `████████` 100% | 58 MiB |
-| `r/podman` | Containers, virtualization, administration, and self-hosting | 🟢 Complete | `████████` 100% | 3 MiB |
-| `r/kubernetes` | Containers, virtualization, administration, and self-hosting | 🟢 Complete | `████████` 100% | 69 MiB |
-| `r/LXC` | Containers, virtualization, administration, and self-hosting | 🟢 Complete | `████████` 100% | 514 KiB |
-| `r/Proxmox` | Containers, virtualization, administration, and self-hosting | 🟢 Complete | `████████` 100% | 81 MiB |
-| `r/selfhosted` | Containers, virtualization, administration, and self-hosting | 🟢 Complete | `████████` 100% | 332 MiB |
-| `r/homelab` | Containers, virtualization, administration, and self-hosting | 🟢 Complete | `████████` 100% | 635 MiB |
-| `r/sysadmin` | Containers, virtualization, administration, and self-hosting | 🟢 Complete | `████████` 100% | 1.6 GiB |
-| `r/VFIO` | Containers, virtualization, administration, and self-hosting | 🟢 Complete | `████████` 100% | 28 MiB |
-| `r/linux_gaming` | Linux gaming | 🟢 Complete | `████████` 100% | 401 MiB |
-| `r/wine_gaming` | Linux gaming | 🟢 Complete | `████████` 100% | 13 MiB |
-| `r/SteamPlay` | Linux gaming | 🟢 Complete | `████████` 100% | 5 MiB |
-| `r/opensourcegames` | Linux gaming | 🟢 Complete | `████████` 100% | 3 MiB |
-| `r/chromeos` | Device, mobile, and specialist Linux systems | 🟢 Complete | `████████` 100% | 139 MiB |
-| `r/SteamDeck` | Device, mobile, and specialist Linux systems | 🟢 Complete | `████████` 100% | 1.0 GiB |
-| `r/steamdeckhq` | Device, mobile, and specialist Linux systems | 🟢 Complete | `████████` 100% | 4 MiB |
-| `r/SteamOS` | Device, mobile, and specialist Linux systems | 🟢 Complete | `████████` 100% | 15 MiB |
-| `r/openwrt` | Device, mobile, and specialist Linux systems | 🟢 Complete | `████████` 100% | 26 MiB |
-| `r/termux` | Device, mobile, and specialist Linux systems | 🟢 Complete | `████████` 100% | 21 MiB |
-| `r/opensource` | Open-source ecosystem | 🟢 Complete | `████████` 100% | 76 MiB |
-| `r/foss` | Open-source ecosystem | 🟢 Complete | `████████` 100% | 6 MiB |
-| `r/freesoftware` | Open-source ecosystem | 🟢 Complete | `████████` 100% | 9 MiB |
-| `r/gnu` | Open-source ecosystem | 🟢 Complete | `████████` 100% | 2 MiB |
+| `r/embedded` | Uncategorised | 🟢 Complete | `████████` 100% | 103 MiB |
+| `r/raspberry_pi` | Uncategorised | 🟢 Complete | `████████` 100% | 185 MiB |
+| `r/systemd` | Uncategorised | 🟢 Complete | `████████` 100% | 1 MiB |
+| `r/wayland` | Uncategorised | 🟢 Complete | `████████` 100% | 2 MiB |
+| `r/pipewire` | Uncategorised | 🟢 Complete | `████████` 100% | 643 KiB |
+| `r/linuxaudio` | Uncategorised | 🟢 Complete | `████████` 100% | 15 MiB |
+| `r/zfs` | Uncategorised | 🟢 Complete | `████████` 100% | 28 MiB |
+| `r/btrfs` | Uncategorised | 🟢 Complete | `████████` 100% | 9 MiB |
+| `r/debian` | Uncategorised | 🟢 Complete | `████████` 100% | 84 MiB |
+| `r/Ubuntu` | Uncategorised | 🟢 Complete | `████████` 100% | 170 MiB |
+| `r/linuxmint` | Uncategorised | 🟢 Complete | `████████` 100% | 141 MiB |
+| `r/pop_os` | Uncategorised | 🟢 Complete | `████████` 100% | 77 MiB |
+| `r/elementaryos` | Uncategorised | 🟢 Complete | `████████` 100% | 17 MiB |
+| `r/Kubuntu` | Uncategorised | 🟢 Complete | `████████` 100% | 9 MiB |
+| `r/Lubuntu` | Uncategorised | 🟢 Complete | `████████` 100% | 3 MiB |
+| `r/xubuntu` | Uncategorised | 🟢 Complete | `████████` 100% | 2 MiB |
+| `r/Fedora` | Uncategorised | 🟢 Complete | `████████` 100% | 120 MiB |
+| `r/FedoraWorkstation` | Uncategorised | 🟢 Complete | `████████` 100% | 6 KiB |
+| `r/FedoraSilverblue` | Uncategorised | 🟢 Complete | `████████` 100% | 145 KiB |
+| `r/redhat` | Uncategorised | 🟢 Complete | `████████` 100% | 18 MiB |
+| `r/RockyLinux` | Uncategorised | 🟢 Complete | `████████` 100% | 2 MiB |
+| `r/AlmaLinux` | Uncategorised | 🟢 Complete | `████████` 100% | 2 MiB |
+| `r/CentOS` | Uncategorised | 🟢 Complete | `████████` 100% | 6 MiB |
+| `r/archlinux` | Uncategorised | 🟢 Complete | `████████` 100% | 194 MiB |
+| `r/EndeavourOS` | Uncategorised | 🟢 Complete | `████████` 100% | 11 MiB |
+| `r/ManjaroLinux` | Uncategorised | 🟢 Complete | `████████` 100% | 35 MiB |
+| `r/artixlinux` | Uncategorised | 🟢 Complete | `████████` 100% | 3 MiB |
+| `r/cachyos` | Uncategorised | 🟢 Complete | `████████` 100% | 39 MiB |
+| `r/GarudaLinux` | Uncategorised | 🟢 Complete | `████████` 100% | 2 MiB |
+| `r/NixOS` | Uncategorised | 🟢 Complete | `████████` 100% | 36 MiB |
+| `r/Nix` | Uncategorised | 🟢 Complete | `████████` 100% | 1 MiB |
+| `r/openSUSE` | Uncategorised | 🟢 Complete | `████████` 100% | 41 MiB |
+| `r/Gentoo` | Uncategorised | 🟢 Complete | `████████` 100% | 34 MiB |
+| `r/voidlinux` | Uncategorised | 🟢 Complete | `████████` 100% | 19 MiB |
+| `r/AlpineLinux` | Uncategorised | 🟢 Complete | `████████` 100% | 2 MiB |
+| `r/slackware` | Uncategorised | 🟢 Complete | `████████` 100% | 3 MiB |
+| `r/linuxfromscratch` | Uncategorised | 🟢 Complete | `████████` 100% | 1 MiB |
+| `r/bedrocklinux` | Uncategorised | 🟢 Complete | `████████` 100% | 1 MiB |
+| `r/MXLinux` | Uncategorised | 🟢 Complete | `████████` 100% | 4 MiB |
+| `r/SolusProject` | Uncategorised | 🟢 Complete | `████████` 100% | 10 MiB |
+| `r/Universalblue` | Uncategorised | 🟢 Complete | `████████` 100% | 93 KiB |
+| `r/Qubes` | Uncategorised | 🟢 Complete | `████████` 100% | 8 MiB |
+| `r/tails` | Uncategorised | 🟢 Complete | `████████` 100% | 17 MiB |
+| `r/Kalilinux` | Uncategorised | 🟢 Complete | `████████` 100% | 19 MiB |
+| `r/gnome` | Uncategorised | 🟢 Complete | `████████` 100% | 51 MiB |
+| `r/kde` | Uncategorised | 🟢 Complete | `████████` 100% | 106 MiB |
+| `r/xfce` | Uncategorised | 🟢 Complete | `████████` 100% | 8 MiB |
+| `r/LXQt` | Uncategorised | 🟢 Complete | `████████` 100% | 420 KiB |
+| `r/System76` | Uncategorised | 🟢 Complete | `████████` 100% | 8 MiB |
+| `r/swaywm` | Uncategorised | 🟢 Complete | `████████` 100% | 9 MiB |
+| `r/hyprland` | Uncategorised | 🟢 Complete | `████████` 100% | 29 MiB |
+| `r/bspwm` | Uncategorised | 🟢 Complete | `████████` 100% | 3 MiB |
+| `r/awesomewm` | Uncategorised | 🟢 Complete | `████████` 100% | 5 MiB |
+| `r/dwm` | Uncategorised | 🟢 Complete | `████████` 100% | 967 KiB |
+| `r/qtile` | Uncategorised | 🟢 Complete | `████████` 100% | 2 MiB |
+| `r/xmonad` | Uncategorised | 🟢 Complete | `████████` 100% | 2 MiB |
+| `r/openbox` | Uncategorised | 🟢 Complete | `████████` 100% | 642 KiB |
+| `r/unixporn` | Uncategorised | 🟢 Complete | `████████` 100% | 168 MiB |
+| `r/commandline` | Uncategorised | 🟢 Complete | `████████` 100% | 38 MiB |
+| `r/bash` | Uncategorised | 🟢 Complete | `████████` 100% | 28 MiB |
+| `r/flatpak` | Uncategorised | 🟢 Complete | `████████` 100% | 3 MiB |
+| `r/AppImage` | Uncategorised | 🟢 Complete | `████████` 100% | 371 KiB |
+| `r/snapcraft` | Uncategorised | 🟢 Complete | `████████` 100% | 6 KiB |
+| `r/docker` | Uncategorised | 🟢 Complete | `████████` 100% | 58 MiB |
+| `r/podman` | Uncategorised | 🟢 Complete | `████████` 100% | 3 MiB |
+| `r/kubernetes` | Uncategorised | 🟢 Complete | `████████` 100% | 69 MiB |
+| `r/LXC` | Uncategorised | 🟢 Complete | `████████` 100% | 514 KiB |
+| `r/Proxmox` | Uncategorised | 🟢 Complete | `████████` 100% | 81 MiB |
+| `r/selfhosted` | Uncategorised | 🟢 Complete | `████████` 100% | 332 MiB |
+| `r/homelab` | Uncategorised | 🟢 Complete | `████████` 100% | 635 MiB |
+| `r/sysadmin` | Uncategorised | 🟢 Complete | `████████` 100% | 1.6 GiB |
+| `r/VFIO` | Uncategorised | 🟢 Complete | `████████` 100% | 28 MiB |
+| `r/linux_gaming` | Uncategorised | 🟢 Complete | `████████` 100% | 401 MiB |
+| `r/wine_gaming` | Uncategorised | 🟢 Complete | `████████` 100% | 13 MiB |
+| `r/SteamPlay` | Uncategorised | 🟢 Complete | `████████` 100% | 5 MiB |
+| `r/opensourcegames` | Uncategorised | 🟢 Complete | `████████` 100% | 3 MiB |
+| `r/chromeos` | Uncategorised | 🟢 Complete | `████████` 100% | 139 MiB |
+| `r/SteamDeck` | Uncategorised | 🟢 Complete | `████████` 100% | 1.0 GiB |
+| `r/steamdeckhq` | Uncategorised | 🟢 Complete | `████████` 100% | 4 MiB |
+| `r/SteamOS` | Uncategorised | 🟢 Complete | `████████` 100% | 15 MiB |
+| `r/openwrt` | Uncategorised | 🟢 Complete | `████████` 100% | 26 MiB |
+| `r/termux` | Uncategorised | 🟢 Complete | `████████` 100% | 21 MiB |
+| `r/opensource` | Uncategorised | 🟢 Complete | `████████` 100% | 76 MiB |
+| `r/foss` | Uncategorised | 🟢 Complete | `████████` 100% | 6 MiB |
+| `r/freesoftware` | Uncategorised | 🟢 Complete | `████████` 100% | 9 MiB |
+| `r/gnu` | Uncategorised | 🟢 Complete | `████████` 100% | 2 MiB |
 
 </details>
 
 <details>
-<summary><strong>Movies</strong> — 1/169 complete · 1%</summary>
+<summary><strong>Movies</strong> — 41/42 complete · 98%</summary>
 
-_Systematic discovery and catalogue design in progress._
+_Reviewed 42-subreddit stratified pilot; shared low-priority comics/movies worker loads both record kinds into MongoDB on port 27019._
+
+_127 discovery candidates are outside the active reviewed scope and are not counted as pending._
 
 | Subreddit | Category | Status | Progress | Raw size |
 | --- | --- | --- | ---: | ---: |
-| `r/movies` | General discussion, criticism, and recommendations | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Film` | General discussion, criticism, and recommendations | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/films` | General discussion, criticism, and recommendations | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Cinema` | General discussion, criticism, and recommendations | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/TrueFilm` | General discussion, criticism, and recommendations | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/flicks` | General discussion, criticism, and recommendations | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/MovieCritic` | General discussion, criticism, and recommendations | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/MovieSuggestions` | General discussion, criticism, and recommendations | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/ifyoulikeblank` | General discussion, criticism, and recommendations | 🟢 Complete | `████████` 100% | 218 MiB |
-| `r/MovieDetails` | General discussion, criticism, and recommendations | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/ijustwatched` | General discussion, criticism, and recommendations | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/MovieReviews` | General discussion, criticism, and recommendations | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/filmtheory` | General discussion, criticism, and recommendations | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/FilmHistory` | General discussion, criticism, and recommendations | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/classicfilms` | General discussion, criticism, and recommendations | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/oldmovies` | General discussion, criticism, and recommendations | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/badMovies` | General discussion, criticism, and recommendations | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/ObscureMedia` | General discussion, criticism, and recommendations | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/CineShots` | General discussion, criticism, and recommendations | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/MoviePosterPorn` | General discussion, criticism, and recommendations | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/MoviesInTheMaking` | General discussion, criticism, and recommendations | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/MovieMistakes` | General discussion, criticism, and recommendations | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/blankies` | General discussion, criticism, and recommendations | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Letterboxd` | General discussion, criticism, and recommendations | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/boxoffice` | Industry, exhibition, awards, and festivals | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/OscarRace` | Industry, exhibition, awards, and festivals | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Oscars` | Industry, exhibition, awards, and festivals | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/FilmIndustryLA` | Industry, exhibition, awards, and festivals | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/filmindustry` | Industry, exhibition, awards, and festivals | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/FilmFestivals` | Industry, exhibition, awards, and festivals | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/entertainment` | Industry, exhibition, awards, and festivals | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/MovieTheaterEmployees` | Industry, exhibition, awards, and festivals | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/AMCsAList` | Industry, exhibition, awards, and festivals | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/RegalUnlimited` | Industry, exhibition, awards, and festivals | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Filmmakers` | Production and filmmaking crafts | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/filmmaking` | Production and filmmaking crafts | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Filmmaker` | Production and filmmaking crafts | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Screenwriting` | Production and filmmaking crafts | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/cinematography` | Production and filmmaking crafts | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/editing` | Production and filmmaking crafts | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/editors` | Production and filmmaking crafts | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/LocationSound` | Production and filmmaking crafts | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/videography` | Production and filmmaking crafts | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Acting` | Production and filmmaking crafts | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/VFX` | Production and filmmaking crafts | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Colorists` | Production and filmmaking crafts | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/AfterEffects` | Production and filmmaking crafts | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/productiondesign` | Production and filmmaking crafts | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/producers` | Production and filmmaking crafts | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/postproduction` | Production and filmmaking crafts | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Directors` | Production and filmmaking crafts | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/indiefilm` | Production and filmmaking crafts | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Shortfilms` | Production and filmmaking crafts | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/DocumentaryFilmmaking` | Production and filmmaking crafts | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/horror` | Genre and form | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/slasher` | Genre and form | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/creepy` | Genre and form | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/truehorror` | Genre and form | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/screambox` | Genre and form | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/scifi` | Genre and form | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/sciencefiction` | Genre and form | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Fantasy` | Genre and form | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/ActionMovies` | Genre and form | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/westerns` | Genre and form | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/SpaghettiWestern` | Genre and form | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/filmnoir` | Genre and form | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/noir` | Genre and form | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/romcom` | Genre and form | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/comedy` | Genre and form | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/comedymovies` | Genre and form | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/funnymovies` | Genre and form | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/memes` | Genre and form | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/thrillers` | Genre and form | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/crimemovies` | Genre and form | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/detective` | Genre and form | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Documentaries` | Genre and form | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/docs` | Genre and form | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/animation` | Genre and form | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/anime` | Genre and form | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/AnimeMovies` | Genre and form | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/MartialArtsCinema` | Genre and form | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/cultcinema` | Genre and form | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Grindhouse` | Genre and form | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/exploitation` | Genre and form | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/BMovies` | Genre and form | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/FoundFootage` | Genre and form | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/HorrorMovies` | Genre and form | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/ShortFilm` | Genre and form | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/SilentCinema` | Genre and form | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/ExperimentalFilm` | Genre and form | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/MusicalMovies` | Genre and form | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/WarMovies` | Genre and form | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/ForeignMovies` | International and national cinemas | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/AsianCinema` | International and national cinemas | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/JapaneseCinema` | International and national cinemas | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/JapaneseMovies` | International and national cinemas | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Koreanfilm` | International and national cinemas | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/KoreanMovies` | International and national cinemas | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/bollywood` | International and national cinemas | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/IndianCinema` | International and national cinemas | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/tollywood` | International and national cinemas | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/kollywood` | International and national cinemas | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/MalayalamMovies` | International and national cinemas | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/FrenchCinema` | International and national cinemas | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/ItalianCinema` | International and national cinemas | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/GermanCinema` | International and national cinemas | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/SpanishCinema` | International and national cinemas | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/NordicCinema` | International and national cinemas | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/HongKongCinema` | International and national cinemas | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/ChineseCinema` | International and national cinemas | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/IranianCinema` | International and national cinemas | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/AfricanCinema` | International and national cinemas | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/LatinAmericanCinema` | International and national cinemas | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/AustralianFilm` | International and national cinemas | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/BritishFilms` | International and national cinemas | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/IrishFilm` | International and national cinemas | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/CanadianFilm` | International and national cinemas | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/criterion` | Home viewing, physical media, and preservation | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/dvdcollection` | Home viewing, physical media, and preservation | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Bluray` | Home viewing, physical media, and preservation | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/4kbluray` | Home viewing, physical media, and preservation | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/VHS` | Home viewing, physical media, and preservation | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Steelbooks` | Home viewing, physical media, and preservation | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/boutiquebluray` | Home viewing, physical media, and preservation | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/NetflixBestOf` | Home viewing, physical media, and preservation | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Netflix` | Home viewing, physical media, and preservation | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/bestofamazonprime` | Home viewing, physical media, and preservation | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/PrimeVideo` | Home viewing, physical media, and preservation | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/hulu` | Home viewing, physical media, and preservation | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/HBO` | Home viewing, physical media, and preservation | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/HBOMAX` | Home viewing, physical media, and preservation | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Max` | Home viewing, physical media, and preservation | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/DisneyPlus` | Home viewing, physical media, and preservation | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/AppleTVPlus` | Home viewing, physical media, and preservation | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Plex` | Home viewing, physical media, and preservation | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/DataHoarder` | Home viewing, physical media, and preservation | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/film_preservation` | Home viewing, physical media, and preservation | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/PhysicalMedia` | Home viewing, physical media, and preservation | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/hometheater` | Home viewing, physical media, and preservation | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/projectors` | Home viewing, physical media, and preservation | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/OLED` | Home viewing, physical media, and preservation | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/televisions` | Home viewing, physical media, and preservation | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/kubrick` | Directors and creator-centred communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/davidlynch` | Directors and creator-centred communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/tarantino` | Directors and creator-centred communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/QuentinTarantino` | Directors and creator-centred communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/ChristopherNolan` | Directors and creator-centred communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Scorsese` | Directors and creator-centred communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/MartinScorsese` | Directors and creator-centred communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/DavidFincher` | Directors and creator-centred communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/WesAnderson` | Directors and creator-centred communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/DenisVilleneuve` | Directors and creator-centred communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/PaulThomasAnderson` | Directors and creator-centred communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/AriAster` | Directors and creator-centred communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/CoenBrothers` | Directors and creator-centred communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/StanleyKubrick` | Directors and creator-centred communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Miyazaki` | Directors and creator-centred communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/AkiraKurosawa` | Directors and creator-centred communities | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/A24` | Studios and film labels | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/StudioGhibli` | Studios and film labels | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/DreamWorks` | Studios and film labels | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Pixar` | Studios and film labels | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Disney` | Studios and film labels | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/comicbookmovies` | Studios and film labels | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/WarnerBros` | Studios and film labels | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/GoldenGlobes` | Awards, festivals, classics, and preservation additions | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/SilentFilm` | Awards, festivals, classics, and preservation additions | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/OldSchoolCoolMovies` | Awards, festivals, classics, and preservation additions | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Sundance` | Awards, festivals, classics, and preservation additions | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/movies` | General discussion, criticism, and recommendations | 🟠 Fetching | `██░░░░░░` 25% | 6.5 GiB |
+| `r/Cinema` | General discussion, criticism, and recommendations | 🟢 Complete | `████████` 100% | 261 MiB |
+| `r/TrueFilm` | General discussion, criticism, and recommendations | 🟢 Complete | `████████` 100% | 251 MiB |
+| `r/flicks` | General discussion, criticism, and recommendations | 🟢 Complete | `████████` 100% | 145 MiB |
+| `r/MovieSuggestions` | General discussion, criticism, and recommendations | 🟢 Complete | `████████` 100% | 614 MiB |
+| `r/MovieReviews` | General discussion, criticism, and recommendations | 🟢 Complete | `████████` 100% | 22 MiB |
+| `r/Letterboxd` | General discussion, criticism, and recommendations | 🟢 Complete | `████████` 100% | 723 MiB |
+| `r/boxoffice` | Industry, exhibition, awards, and festivals | 🟢 Complete | `████████` 100% | 842 MiB |
+| `r/OscarRace` | Industry, exhibition, awards, and festivals | 🟢 Complete | `████████` 100% | 218 MiB |
+| `r/Oscars` | Industry, exhibition, awards, and festivals | 🟢 Complete | `████████` 100% | 152 MiB |
+| `r/FilmIndustryLA` | Industry, exhibition, awards, and festivals | 🟢 Complete | `████████` 100% | 37 MiB |
+| `r/FilmFestivals` | Industry, exhibition, awards, and festivals | 🟢 Complete | `████████` 100% | 15 MiB |
+| `r/Filmmakers` | Production and filmmaking crafts | 🟢 Complete | `████████` 100% | 413 MiB |
+| `r/Screenwriting` | Production and filmmaking crafts | 🟢 Complete | `████████` 100% | 368 MiB |
+| `r/cinematography` | Production and filmmaking crafts | 🟢 Complete | `████████` 100% | 158 MiB |
+| `r/editors` | Production and filmmaking crafts | 🟢 Complete | `████████` 100% | 130 MiB |
+| `r/LocationSound` | Production and filmmaking crafts | 🟢 Complete | `████████` 100% | 27 MiB |
+| `r/VFX` | Production and filmmaking crafts | 🟢 Complete | `████████` 100% | 107 MiB |
+| `r/indiefilm` | Production and filmmaking crafts | 🟢 Complete | `████████` 100% | 8 MiB |
+| `r/horror` | Genre and form | 🟢 Complete | `████████` 100% | 1.3 GiB |
+| `r/ActionMovies` | Genre and form | 🟢 Complete | `████████` 100% | 14 MiB |
+| `r/westerns` | Genre and form | 🟢 Complete | `████████` 100% | 46 MiB |
+| `r/filmnoir` | Genre and form | 🟢 Complete | `████████` 100% | 9 MiB |
+| `r/Documentaries` | Genre and form | 🟢 Complete | `████████` 100% | 547 MiB |
+| `r/cultcinema` | Genre and form | 🟢 Complete | `████████` 100% | 9 MiB |
+| `r/FoundFootage` | Genre and form | 🟢 Complete | `████████` 100% | 38 MiB |
+| `r/ExperimentalFilm` | Genre and form | 🟢 Complete | `████████` 100% | 4 MiB |
+| `r/ForeignMovies` | International and national cinemas | 🟢 Complete | `████████` 100% | 6 MiB |
+| `r/JapaneseMovies` | International and national cinemas | 🟢 Complete | `████████` 100% | 6 MiB |
+| `r/Koreanfilm` | International and national cinemas | 🟢 Complete | `████████` 100% | 12 MiB |
+| `r/bollywood` | International and national cinemas | 🟢 Complete | `████████` 100% | 250 MiB |
+| `r/MalayalamMovies` | International and national cinemas | 🟢 Complete | `████████` 100% | 133 MiB |
+| `r/AfricanCinema` | International and national cinemas | 🟢 Complete | `████████` 100% | 551 KiB |
+| `r/IrishFilm` | International and national cinemas | 🟢 Complete | `████████` 100% | 888 KiB |
+| `r/criterion` | Home viewing, physical media, and preservation | 🟢 Complete | `████████` 100% | 282 MiB |
+| `r/dvdcollection` | Home viewing, physical media, and preservation | 🟢 Complete | `████████` 100% | 217 MiB |
+| `r/Bluray` | Home viewing, physical media, and preservation | 🟢 Complete | `████████` 100% | 74 MiB |
+| `r/4kbluray` | Home viewing, physical media, and preservation | 🟢 Complete | `████████` 100% | 222 MiB |
+| `r/VHS` | Home viewing, physical media, and preservation | 🟢 Complete | `████████` 100% | 138 MiB |
+| `r/boutiquebluray` | Home viewing, physical media, and preservation | 🟢 Complete | `████████` 100% | 114 MiB |
+| `r/A24` | Studios and film labels | 🟢 Complete | `████████` 100% | 79 MiB |
+| `r/Pixar` | Studios and film labels | 🟢 Complete | `████████` 100% | 47 MiB |
 
 </details>
 
 <details>
-<summary><strong>Music</strong> — 121/130 complete · 93%</summary>
+<summary><strong>Music</strong> — 130/130 complete · 100%</summary>
 
 _Historical 130-subreddit programme resumed smallest-first in tmux; raw captures load into MongoDB on port 27019._
 
@@ -602,20 +316,20 @@ _2 discovery candidates are outside the active reviewed scope and are not counte
 | `r/edmproduction` | producers | 🟢 Complete | `████████` 100% | 316 MiB |
 | `r/Songwriting` | producers | 🟢 Complete | `████████` 100% | 161 MiB |
 | `r/makinghiphop` | hiphop | 🟢 Complete | `████████` 100% | 316 MiB |
-| `r/Music` | discovery | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/Music` | discovery | 🟢 Complete | `████████` 100% | 3.2 GiB |
 | `r/listentothis` | discovery | 🟢 Complete | `████████` 100% | 494 MiB |
 | `r/musicsuggestions` | discovery | 🟢 Complete | `████████` 100% | 569 MiB |
 | `r/MusicRecommendations` | discovery | 🟢 Complete | `████████` 100% | 278 MiB |
 | `r/LetsTalkMusic` | discussion | 🟢 Complete | `████████` 100% | 207 MiB |
 | `r/indieheads` | discussion | 🟢 Complete | `████████` 100% | 544 MiB |
-| `r/popheads` | discussion | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/popheads` | discussion | 🟢 Complete | `████████` 100% | 914 MiB |
 | `r/spotify` | streaming | 🟢 Complete | `████████` 100% | 284 MiB |
 | `r/AppleMusic` | streaming | 🟢 Complete | `████████` 100% | 138 MiB |
 | `r/TIdaL` | streaming | 🟢 Complete | `████████` 100% | 37 MiB |
 | `r/YoutubeMusic` | streaming | 🟢 Complete | `████████` 100% | 57 MiB |
 | `r/BandCamp` | adjacent | 🟢 Complete | `████████` 100% | 34 MiB |
 | `r/SoundCloudMusic` | platform | 🟢 Complete | `████████` 100% | 7 MiB |
-| `r/vinyl` | physical | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/vinyl` | physical | 🟢 Complete | `████████` 100% | 779 MiB |
 | `r/Cd_collectors` | physical | 🟢 Complete | `████████` 100% | 184 MiB |
 | `r/Ticketmaster` | adjacent | 🟢 Complete | `████████` 100% | 7 MiB |
 | `r/truespotify` | adjacent | 🟢 Complete | `████████` 100% | 67 MiB |
@@ -707,36 +421,35 @@ _2 discovery candidates are outside the active reviewed scope and are not counte
 | `r/audiophile` | audiophile | 🟢 Complete | `████████` 100% | 483 MiB |
 | `r/Metalcore` | metal | 🟢 Complete | `████████` 100% | 414 MiB |
 | `r/kpopthoughts` | pop | 🟢 Complete | `████████` 100% | 553 MiB |
-| `r/synthesizers` | electronic | ⚪ Pending | `░░░░░░░░` 0% | 48 MiB |
-| `r/KendrickLamar` | hiphop | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/headphones` | audiophile | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Eminem` | hiphop | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/kpop` | pop | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/hiphopheads` | hiphop | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/synthesizers` | electronic | 🟢 Complete | `████████` 100% | 563 MiB |
+| `r/KendrickLamar` | hiphop | 🟢 Complete | `████████` 100% | 454 MiB |
+| `r/headphones` | audiophile | 🟢 Complete | `████████` 100% | 656 MiB |
+| `r/Eminem` | hiphop | 🟢 Complete | `████████` 100% | 496 MiB |
+| `r/kpop` | pop | 🟢 Complete | `████████` 100% | 975 MiB |
+| `r/hiphopheads` | hiphop | 🟢 Complete | `████████` 100% | 2.2 GiB |
 
 </details>
 
 <details>
-<summary><strong>Open-source software</strong> — 18/130 complete · 14%</summary>
+<summary><strong>Open-source software</strong> — 20/120 complete · 17%</summary>
 
-_Catalogue and selection are not complete._
+_Verified-community census of 120 subreddits; low-priority acquisition loads into MongoDB on port 27017 and yields to the comics/movies fetcher._
+
+_10 discovery candidates are outside the active reviewed scope and are not counted as pending._
 
 | Subreddit | Category | Status | Progress | Raw size |
 | --- | --- | --- | ---: | ---: |
 | `r/opensource` | Open-source and free-software movements | 🟢 Complete | `████████` 100% | 76 MiB |
-| `r/OpenSourceSoftware` | Open-source and free-software movements | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/open_source` | Open-source and free-software movements | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/foss` | Open-source and free-software movements | 🟢 Complete | `████████` 100% | 6 MiB |
 | `r/freesoftware` | Open-source and free-software movements | 🟢 Complete | `████████` 100% | 9 MiB |
 | `r/gnu` | Open-source and free-software movements | 🟢 Complete | `████████` 100% | 2 MiB |
 | `r/StallmanWasRight` | Open-source and free-software movements | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/linux` | Open-source and free-software movements | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/linux` | Open-source and free-software movements | 🟢 Complete | `████████` 100% | — |
 | `r/git` | Contribution, collaboration, governance, and documentation | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/github` | Contribution, collaboration, governance, and documentation | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/gitlab` | Contribution, collaboration, governance, and documentation | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/coolgithubprojects` | Contribution, collaboration, governance, and documentation | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/tinycode` | Contribution, collaboration, governance, and documentation | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/WriteTheDocs` | Contribution, collaboration, governance, and documentation | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/programming` | Contribution, collaboration, governance, and documentation | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/learnprogramming` | Contribution, collaboration, governance, and documentation | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/devops` | Contribution, collaboration, governance, and documentation | ⚪ Pending | `░░░░░░░░` 0% | — |
@@ -744,14 +457,13 @@ _Catalogue and selection are not complete._
 | `r/homelab` | Contribution, collaboration, governance, and documentation | 🟢 Complete | `████████` 100% | 635 MiB |
 | `r/apache` | Foundations and flagship projects | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/eclipse` | Foundations and flagship projects | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/mozilla` | Foundations and flagship projects | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/firefox` | Foundations and flagship projects | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/kde` | Foundations and flagship projects | 🟢 Complete | `████████` 100% | 106 MiB |
 | `r/gnome` | Foundations and flagship projects | 🟢 Complete | `████████` 100% | 51 MiB |
 | `r/blender` | Foundations and flagship projects | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/libreoffice` | Foundations and flagship projects | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/godot` | Foundations and flagship projects | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/rust` | Programming languages and runtimes | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/rust` | Programming languages and runtimes | 🟢 Complete | `████████` 100% | — |
 | `r/golang` | Programming languages and runtimes | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/Python` | Programming languages and runtimes | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/javascript` | Programming languages and runtimes | ⚪ Pending | `░░░░░░░░` 0% | — |
@@ -789,10 +501,9 @@ _Catalogue and selection are not complete._
 | `r/podman` | Infrastructure, automation, and observability | 🟢 Complete | `████████` 100% | 3 MiB |
 | `r/kubernetes` | Infrastructure, automation, and observability | 🟢 Complete | `████████` 100% | 69 MiB |
 | `r/Terraform` | Infrastructure, automation, and observability | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/opentofu` | Infrastructure, automation, and observability | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/opentofu` | Infrastructure, automation, and observability | 🟠 Fetching | `██░░░░░░` 25% | — |
 | `r/ansible` | Infrastructure, automation, and observability | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/Puppet` | Infrastructure, automation, and observability | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/chef` | Infrastructure, automation, and observability | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/PrometheusMonitoring` | Infrastructure, automation, and observability | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/grafana` | Infrastructure, automation, and observability | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/OpenTelemetry` | Infrastructure, automation, and observability | ⚪ Pending | `░░░░░░░░` 0% | — |
@@ -821,12 +532,10 @@ _Catalogue and selection are not complete._
 | `r/Floorp` | Browsers and privacy tools | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/Bitwarden` | Browsers and privacy tools | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/KeePass` | Browsers and privacy tools | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/KeePassXC` | Browsers and privacy tools | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/signal` | Browsers and privacy tools | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/TOR` | Browsers and privacy tools | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/NextCloud` | Self-hosted applications and services | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/immich` | Self-hosted applications and services | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/jellyfin` | Self-hosted applications and services | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/Paperlessngx` | Self-hosted applications and services | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/Gitea` | Self-hosted applications and services | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/forgejo` | Self-hosted applications and services | ⚪ Pending | `░░░░░░░░` 0% | — |
@@ -835,7 +544,6 @@ _Catalogue and selection are not complete._
 | `r/Syncthing` | Self-hosted applications and services | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/Proxmox` | Virtualization, containers, and networking projects | 🟢 Complete | `████████` 100% | 81 MiB |
 | `r/qemu_kvm` | Virtualization, containers, and networking projects | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/libvirt` | Virtualization, containers, and networking projects | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/LXC` | Virtualization, containers, and networking projects | 🟢 Complete | `████████` 100% | 514 KiB |
 | `r/opnsense` | Virtualization, containers, and networking projects | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/PFSENSE` | Virtualization, containers, and networking projects | ⚪ Pending | `░░░░░░░░` 0% | — |
@@ -843,21 +551,19 @@ _Catalogue and selection are not complete._
 | `r/tensorflow` | Open machine learning and scientific computing | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/JAX` | Open machine learning and scientific computing | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/LocalLLaMA` | Open machine learning and scientific computing | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/Llama_cpp` | Open machine learning and scientific computing | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/ollama` | Open machine learning and scientific computing | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/huggingface` | Open machine learning and scientific computing | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/Vllm` | Open machine learning and scientific computing | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/scipy` | Open machine learning and scientific computing | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/NixOS` | Package managers and reproducible systems | 🟢 Complete | `████████` 100% | 36 MiB |
 | `r/chocolatey` | Package managers and reproducible systems | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/opensourcegames` | Open-source gaming | 🟢 Complete | `████████` 100% | 3 MiB |
 | `r/linux_gaming` | Open-source gaming | 🟢 Complete | `████████` 100% | 401 MiB |
-| `r/homebrew` | Open-source gaming | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/homebrew` | Adjacent package-manager comparator | ⚪ Pending | `░░░░░░░░` 0% | — |
 
 </details>
 
 <details>
-<summary><strong>Science fiction</strong> — 0/164 complete · 0%</summary>
+<summary><strong>Science fiction</strong> — 2/164 complete · 1%</summary>
 
 _Cross-media science-fiction catalogue; discovery and selection are not complete._
 
@@ -903,8 +609,8 @@ _Cross-media science-fiction catalogue; discovery and selection are not complete
 | `r/ImaginaryStarscapes` | Visual media, comics, games, and audio | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/ImaginaryLeviathans` | Visual media, comics, games, and audio | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/ImaginaryNetwork` | Visual media, comics, games, and audio | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/comicbooks` | Visual media, comics, games, and audio | ⚪ Pending | `░░░░░░░░` 0% | — |
-| `r/graphicnovels` | Visual media, comics, games, and audio | ⚪ Pending | `░░░░░░░░` 0% | — |
+| `r/comicbooks` | Visual media, comics, games, and audio | 🟢 Complete | `████████` 100% | 981 MiB |
+| `r/graphicnovels` | Visual media, comics, games, and audio | 🟢 Complete | `████████` 100% | 89 MiB |
 | `r/SciFi_Games` | Visual media, comics, games, and audio | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/audiodrama` | Visual media, comics, games, and audio | ⚪ Pending | `░░░░░░░░` 0% | — |
 | `r/audible` | Visual media, comics, games, and audio | ⚪ Pending | `░░░░░░░░` 0% | — |

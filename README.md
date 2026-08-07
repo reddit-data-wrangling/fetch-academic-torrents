@@ -91,7 +91,9 @@ Open `COLLECTION_PROGRESS.md` in VS Code and run **Markdown: Open Preview**
 (`Ctrl+Shift+V` on Windows/Linux or `Cmd+Shift+V` on macOS). No server, open
 port, or browser process is required. The report groups progress by collection
 theme and subreddit using the collection manifests, catalogues, optional
-`progress.md` logs, and local raw files.
+`progress.md` logs, and local raw files. Collection-specific dashboards are
+written to `collections/<collection>/dashboard.md` for active acquisition
+programmes, including the separate comics and movies tracks.
 
 ## Collection workflow
 

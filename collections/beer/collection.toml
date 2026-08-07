@@ -1,4 +1,5 @@
 title = "Beer"
-state = "planning"
+state = "active"
+mongo_uri = "mongodb://localhost:27019"
 mongo_database = "reddit"
-notes = "Catalogue and selection are not complete."
+notes = "Reviewed 32-subreddit stratified panel; low-priority acquisition yields to the active music fetcher."

@@ -1,1 +1,156 @@
-# No reviewed acquisition targets yet.
+# Acquisition census approved 2026-08-07. Only catalogue-verified communities
+# are eligible; missing and restricted candidates remain in subreddits.txt.
+
+## Open-source and free-software movements
+opensource
+foss
+freesoftware
+gnu
+StallmanWasRight
+linux
+
+## Contribution, collaboration, governance, and documentation
+git
+github
+gitlab
+coolgithubprojects
+tinycode
+programming
+learnprogramming
+devops
+selfhosted
+homelab
+
+## Foundations and flagship projects
+apache
+eclipse
+firefox
+kde
+gnome
+blender
+libreoffice
+godot
+
+## Programming languages and runtimes
+rust
+golang
+Python
+javascript
+node
+cpp
+C_Programming
+java
+swift
+Zig
+haskell
+ocaml
+elixir
+erlang
+lua
+ruby
+PHP
+Julia
+Rlanguage
+
+## Web frameworks and application platforms
+reactjs
+vuejs
+angular
+sveltejs
+nextjs
+laravel
+django
+flask
+FastAPI
+
+## Databases and data systems
+PostgreSQL
+mysql
+sqlite
+redis
+mongodb
+Clickhouse
+
+## Infrastructure, automation, and observability
+docker
+podman
+kubernetes
+Terraform
+opentofu
+ansible
+Puppet
+PrometheusMonitoring
+grafana
+OpenTelemetry
+Traefik
+
+## Editors and developer environments
+vim
+neovim
+emacs
+vscode
+HelixEditor
+ZedEditor
+
+## Office, notes, and productivity
+OnlyOffice
+joplinapp
+logseq
+
+## Graphics, video, and audio
+krita
+GIMP
+Inkscape
+kdenlive
+obs
+ffmpeg
+audacity
+Ardour
+pipewire
+linuxaudio
+
+## Browsers and privacy tools
+brave_browser
+LibreWolf
+Floorp
+Bitwarden
+KeePass
+signal
+TOR
+
+## Self-hosted applications and services
+NextCloud
+immich
+Paperlessngx
+Gitea
+forgejo
+vaultwarden
+homeassistant
+Syncthing
+
+## Virtualization, containers, and networking projects
+Proxmox
+qemu_kvm
+LXC
+opnsense
+PFSENSE
+
+## Open machine learning and scientific computing
+pytorch
+tensorflow
+JAX
+LocalLLaMA
+ollama
+huggingface
+Vllm
+
+## Package managers and reproducible systems
+NixOS
+chocolatey
+
+## Open-source gaming
+opensourcegames
+linux_gaming
+
+## Adjacent package-manager comparator
+homebrew

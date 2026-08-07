@@ -30,7 +30,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=AlbertaBeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -62,7 +62,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ArizonaBeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -94,7 +94,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ArkansasBeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -126,7 +126,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ashevillebeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -158,7 +158,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=atlbeer"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -190,7 +190,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=AusBeer"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -222,7 +222,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=AustinBeer"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -254,7 +254,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Autobrew"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -286,7 +286,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=bamabeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -318,7 +318,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=barleywine"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -350,7 +350,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=beer"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -382,7 +382,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=beerandpizza"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -414,7 +414,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=beerblogs"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -446,7 +446,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=beercanada"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -478,7 +478,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=BeerCans"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -510,7 +510,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=beercirclejerk"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -542,7 +542,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=BeerGlass"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -574,7 +574,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=beerindustry"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -606,7 +606,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=BeerInOttawa"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -638,7 +638,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=beerlabels"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -670,7 +670,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=beerporn"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -702,7 +702,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=beerrecipes"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -734,7 +734,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=beerreleases"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -766,7 +766,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=beerreviews"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -798,7 +798,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=beervideos"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -830,7 +830,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=beerwithaview"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -862,7 +862,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=BelgianBeer"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -894,7 +894,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Bier"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -926,7 +926,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=BiereQc"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -958,7 +958,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=bieresdefrance"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -990,7 +990,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=breweriana"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1022,7 +1022,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=brewgearfs"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1054,7 +1054,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=brewing"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1086,7 +1086,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Cerveceros"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1118,7 +1118,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=charlestonbeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1150,7 +1150,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=CharlotteBeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1182,7 +1182,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=chicagobeer"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1214,7 +1214,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=cider"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1246,7 +1246,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ciderporn"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1278,7 +1278,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=cincinnatibeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1310,7 +1310,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=COBeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1342,7 +1342,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=collegestationbeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1374,7 +1374,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ColumbusBeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1406,7 +1406,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=cookwithbeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1438,7 +1438,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=CraftBeer"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1470,7 +1470,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ctbeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1502,7 +1502,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=dcbeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1534,7 +1534,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=denverbeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1566,7 +1566,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=DFWBeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1598,7 +1598,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=FloridaBrew"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1630,7 +1630,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=GlutenFreeBeer"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1662,7 +1662,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=grainfather"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1694,7 +1694,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=hamiltoncraftbeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1726,7 +1726,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Homebrewing"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1758,7 +1758,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=homebrewingUK"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1790,7 +1790,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=homebrewrecipes"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1822,7 +1822,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=HoustonBeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1854,7 +1854,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=indybeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1886,7 +1886,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=iowabeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1918,7 +1918,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=IPA"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1950,7 +1950,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=JaxBrew"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1982,7 +1982,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=KansasCityBeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2014,7 +2014,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=kegerators"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2046,7 +2046,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=knoxvillebeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2078,7 +2078,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=KWBrews"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2110,7 +2110,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=LABeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2142,7 +2142,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Lager"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2174,7 +2174,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=lambic"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2206,7 +2206,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=LasVegasBeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2238,7 +2238,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=lehighvalleycraftbeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2270,7 +2270,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=mainebeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2302,7 +2302,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=maritimecraftbeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2334,7 +2334,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=MDbeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2366,7 +2366,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=mead"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2398,7 +2398,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=MemphisBeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2430,7 +2430,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=michiganbeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2462,7 +2462,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=minnesotabeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2494,7 +2494,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=msbeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2526,7 +2526,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=NABEER"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2558,7 +2558,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=NashvilleBeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2590,7 +2590,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=nebraskabeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2622,7 +2622,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=NEOHBeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2654,7 +2654,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=newbeerfriday"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2686,7 +2686,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=newenglandbeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2718,7 +2718,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=NewOrleansBeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2750,7 +2750,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=nhbeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2782,7 +2782,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=NiagaraBeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2814,7 +2814,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=njbeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2846,7 +2846,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=NYBeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2878,7 +2878,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=nycbeer"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2910,7 +2910,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=NZBeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2942,7 +2942,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ocbeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2974,7 +2974,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=OH_Beer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -3006,7 +3006,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=OklahomaBeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -3038,7 +3038,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ontariocraftbeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -3070,7 +3070,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=orlandobeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -3102,7 +3102,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=PaCraftBeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -3134,7 +3134,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=phillycraftbeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -3166,7 +3166,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=PittsburghBeers"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -3198,7 +3198,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=portlandbeer"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -3230,7 +3230,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=PublicHouse"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -3262,7 +3262,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=realale"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -3294,7 +3294,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=RIBreweries"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -3326,7 +3326,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=sdbeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -3358,7 +3358,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=seattlebeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -3390,7 +3390,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=SFBeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -3422,7 +3422,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=showerbeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -3454,7 +3454,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=SoFlaBeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -3486,7 +3486,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=SourBeer"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -3518,7 +3518,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=StLouisBeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -3550,7 +3550,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Tastingcraftbeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -3582,7 +3582,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=texasbeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -3614,7 +3614,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=TheBrewery"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -3646,7 +3646,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=TheHopyard"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -3678,7 +3678,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=torontocraftbeer"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -3710,7 +3710,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=trianglencbeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -3742,7 +3742,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=UK_Beer"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -3774,7 +3774,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Untappd"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -3806,7 +3806,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=VABEER"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -3838,7 +3838,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=VancouverCraftBeer"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -3870,7 +3870,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=VancouverIslandBeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -3902,7 +3902,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=VermontBeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -3934,7 +3934,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=WAbeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -3966,7 +3966,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=WCNYBeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -3998,7 +3998,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=WestVirginiaBeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -4030,7 +4030,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=wisconsinbeer"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     }

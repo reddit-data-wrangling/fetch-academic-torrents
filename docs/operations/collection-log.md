@@ -188,3 +188,22 @@ interrupted `latinmusic` and `Americana` zstd files decoded successfully.
 `Americana` resumed from its two saved cursors, completed, validated, and
 loaded; `recordstore` then completed, confirming that the queue advanced
 cleanly. Runtime output is retained at `data/logs/music-resume.log`.
+
+## 2026-08-03 — beer panel launched at lower priority than music
+
+The project owner approved launching beer while the music programme finishes.
+The 126-row beer catalogue was reviewed into a 32-community stratified panel:
+general discussion and culture, styles and alternatives, brewing and
+production, platforms/material culture, regional markets, and separately
+labelled cider/mead comparators. All 32 targets are verified; expected volume
+is 941,265 submissions plus 9,636,176 comments (10,577,441 records). Missing
+and restricted candidates remain excluded, as does `r/beercirclejerk`, whose
+current catalogue description indicates a non-beer identity.
+
+Acquisition runs smallest-first in tmux session `reddit_beer_collection`,
+retains raw captures in `data/raw/`, and loads into MongoDB `:27019`, database
+`reddit`. Each capture is decoded before loading, inventory and dashboards are
+refreshed after each community, and all 64 panel files are validated again at
+the end. Beer API requests use `--yield-to-parent-command
+resume_music_collection.py`, so the active music fetcher always has priority.
+Runtime output is retained at `data/logs/beer-collection.log`.

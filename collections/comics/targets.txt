@@ -1,1 +1,61 @@
-# No reviewed acquisition targets yet.
+# Reviewed stratified pilot approved 2026-08-04.
+
+## General discussion, criticism, reading, and recommendations
+comicbooks
+comics
+graphicnovels
+comicbookart
+noDCnoMarvel
+
+## Creation, critique, collaboration, and publishing
+ComicBookCollabs
+comic_crits
+Storyboarding
+
+## Webcomics and digital platforms
+webcomics
+WebComic
+GlobalComix
+
+## Manga, manhwa, manhua, and collecting
+manga
+manhwa
+Manhua
+shoujo
+
+## Major manga series and creators
+OnePiece
+Berserk
+junjiito
+
+## Independent, alternative, and small-press comics
+indiecomics
+altcomix
+ImageComics
+darkhorsecomics
+
+## Marvel and DC publishing universes
+Marvel
+DCcomics
+
+## Major non-Marvel/DC series and universes
+SAGAcomic
+Spawn
+HellBoy
+
+## Genre, tradition, and historical periods
+HorrorComics
+scificomics
+BronzeAgeComics
+
+## Collecting, grading, speculation, and exchange
+comicbookcollecting
+CGCComics
+OmnibusCollectors
+
+## Conventions
+comiccon
+SDCC
+
+## Comics creators
+AlanMoore

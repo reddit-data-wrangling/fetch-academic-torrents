@@ -1,1 +1,57 @@
-# Populate only after catalogue verification and panel selection.
+# Reviewed stratified pilot approved 2026-08-04.
+
+## General discussion, criticism, and recommendations
+movies
+TrueFilm
+flicks
+Cinema
+MovieSuggestions
+moviereviews
+Letterboxd
+
+## Industry, exhibition, awards, and festivals
+boxoffice
+oscarrace
+Oscars
+FilmFestivals
+FilmIndustryLA
+
+## Production and filmmaking crafts
+Filmmakers
+Screenwriting
+cinematography
+editors
+LocationSound
+vfx
+indiefilm
+
+## Genre and form
+horror
+ActionMovies
+Westerns
+filmnoir
+Documentaries
+CultCinema
+FoundFootage
+ExperimentalFilm
+
+## International and national cinemas
+ForeignMovies
+JapaneseMovies
+Koreanfilm
+bollywood
+MalayalamMovies
+africancinema
+IrishFilm
+
+## Home viewing, physical media, and preservation
+criterion
+dvdcollection
+Bluray
+4kbluray
+VHS
+boutiquebluray
+
+## Studios and film labels
+A24
+Pixar

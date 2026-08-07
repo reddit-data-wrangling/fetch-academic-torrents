@@ -1,56 +1,34 @@
-"""Resume the historical 130-subreddit music programme safely.
-
-The queue comes from collections/music/progress.md. Communities already found
-in both MongoDB collections are skipped. Remaining communities run
-smallest-first, one at a time: fetch, validate both zstd captures, then load.
-"""
+"""Acquire and load the reviewed beer panel with music taking API priority."""
 
 from __future__ import annotations
 
 import argparse
-import re
 import subprocess
 import sys
 import time
-import tomllib
 from datetime import datetime, timezone
 from pathlib import Path
 
 import zstandard
 from pymongo import MongoClient
 
-ROOT = Path(__file__).resolve().parent.parent
-MUSIC_DIR = ROOT / "collections" / "music"
-PROGRESS_PATH = MUSIC_DIR / "progress.md"
+from collection_common import (
+    ROOT,
+    collection_config,
+    collection_dir,
+    read_catalog,
+    read_names,
+)
+
+BEER_DIR = collection_dir("beer")
 RAW_DIR = ROOT / "data" / "raw"
 FETCH_SCRIPT = ROOT / "scripts" / "fetch_subreddit.py"
 LOAD_SCRIPT = ROOT / "scripts" / "load_to_mongo.py"
-REPORT_SCRIPT = ROOT / "scripts" / "report_progress.py"
+AUDIT_SCRIPT = ROOT / "scripts" / "audit_collection.py"
 INVENTORY_SCRIPT = ROOT / "scripts" / "inventory_raw.py"
+REPORT_SCRIPT = ROOT / "scripts" / "report_progress.py"
 WINDOW_SIZE = 2**31
-
-
-def parse_program() -> list[dict]:
-    rows = []
-    for line in PROGRESS_PATH.read_text(encoding="utf-8").splitlines():
-        if not re.match(r"^\|\s*\d+\s*\|", line):
-            continue
-        cells = [cell.strip() for cell in line.strip().strip("|").split("|")]
-        if len(cells) < 8:
-            continue
-        rows.append(
-            {
-                "order": int(cells[0]),
-                "name": cells[1].removeprefix("r/"),
-                "expected": int(cells[4].replace(",", ""))
-                + int(cells[5].replace(",", "")),
-            }
-        )
-    if len(rows) != 130:
-        raise RuntimeError(
-            f"expected 130 programme rows in {PROGRESS_PATH}, found {len(rows)}"
-        )
-    return rows
+MUSIC_PARENT_COMMAND = "resume_music_collection.py"
 
 
 def validate_capture(path: Path) -> None:
@@ -81,14 +59,6 @@ def run(command: list[str]) -> None:
 
 
 def run_resumable_fetch(command: list[str], attempts: int = 8) -> None:
-    """Retry a failed fetch without abandoning the remaining programme.
-
-    fetch_subreddit.py closes each zstd frame before propagating an API error
-    and advances a sidecar cursor every 1,000 records, so rerunning the same
-    command safely resumes the capture.  The API has occasionally returned a
-    short burst of HTTP 422 responses after hours of otherwise healthy work;
-    those transient failures should not tear down the detached supervisor.
-    """
     for attempt in range(1, attempts + 1):
         try:
             run(command)
@@ -105,41 +75,50 @@ def run_resumable_fetch(command: list[str], attempts: int = 8) -> None:
             time.sleep(delay)
 
 
+def programme() -> list[dict]:
+    catalog = read_catalog(BEER_DIR / "catalog.json")
+    rows = []
+    for order, name in enumerate(read_names("beer", "targets.txt"), start=1):
+        row = catalog.get(name.casefold())
+        if row is None:
+            raise RuntimeError(f"r/{name} is absent from the beer catalogue")
+        expected = int(row["archive_posts"] or 0) + int(
+            row["archive_comments"] or 0
+        )
+        rows.append({"name": name, "order": order, "expected": expected})
+    return rows
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--limit", type=int, default=None)
-    parser.add_argument(
-        "--finalize",
-        action="store_true",
-        help="verify the completed programme and refresh its inventory/dashboard",
-    )
     args = parser.parse_args()
 
-    with (MUSIC_DIR / "collection.toml").open("rb") as stream:
-        config = tomllib.load(stream)
-    mongo_uri = config.get("mongo_uri")
-    database = config.get("mongo_database", "reddit")
+    config = collection_config("beer")
+    mongo_uri = str(config.get("mongo_uri", ""))
+    database = str(config.get("mongo_database", "reddit"))
+    if config.get("state") != "active":
+        raise RuntimeError("beer collection is not active")
     if not mongo_uri:
-        raise RuntimeError("music collection has no mongo_uri")
+        raise RuntimeError("beer collection has no mongo_uri")
+
+    run([sys.executable, str(AUDIT_SCRIPT), "beer", "--raw-dir", str(RAW_DIR)])
 
     client = MongoClient(mongo_uri, serverSelectionTimeoutMS=5_000)
     client.admin.command("ping")
     loaded = mongo_subreddits(client, database)
-    queue = [
-        row for row in parse_program() if row["name"].casefold() not in loaded
-    ]
+    queue = [row for row in programme() if row["name"].casefold() not in loaded]
     queue.sort(key=lambda row: (row["expected"], row["order"]))
     if args.limit is not None:
         queue = queue[: args.limit]
 
     print(
         f"{datetime.now(timezone.utc).isoformat()} — "
-        f"{len(loaded)} communities complete in Mongo; "
-        f"{len(queue)} queued smallest-first",
+        f"{len(queue)} beer targets queued smallest-first",
         flush=True,
     )
-    for position, row in enumerate(queue, 1):
+    for position, row in enumerate(queue, start=1):
         print(
             f"\n[{position}/{len(queue)}] r/{row['name']} "
             f"(expected {row['expected']:,} records)",
@@ -157,6 +136,8 @@ def main() -> None:
                 "both",
                 "--outdir",
                 str(RAW_DIR),
+                "--yield-to-parent-command",
+                MUSIC_PARENT_COMMAND,
             ]
         )
         for kind in ("submissions", "comments"):
@@ -178,43 +159,31 @@ def main() -> None:
                 database,
             ]
         )
+        run([sys.executable, str(INVENTORY_SCRIPT), "beer", "--scope", "targets"])
         run([sys.executable, str(REPORT_SCRIPT)])
         print(f"completed r/{row['name']}", flush=True)
 
+    if args.dry_run:
+        return
+
+    expected = {row["name"].casefold() for row in programme()}
+    missing = sorted(expected - mongo_subreddits(client, database))
+    if missing:
+        raise RuntimeError(
+            "beer queue exited without both Mongo collections for: "
+            + ", ".join(missing)
+        )
+    print("validating all 64 beer panel captures", flush=True)
+    for row in programme():
+        for kind in ("submissions", "comments"):
+            validate_capture(RAW_DIR / f"{row['name']}_{kind}.zst")
+    run([sys.executable, str(INVENTORY_SCRIPT), "beer", "--scope", "targets"])
+    run([sys.executable, str(REPORT_SCRIPT)])
     print(
-        f"{datetime.now(timezone.utc).isoformat()} — music resume queue complete",
+        f"{datetime.now(timezone.utc).isoformat()} — "
+        "beer programme verified complete",
         flush=True,
     )
-
-    if args.finalize and not args.dry_run:
-        expected = {row["name"].casefold() for row in parse_program()}
-        completed = mongo_subreddits(client, database)
-        missing = sorted(expected - completed)
-        if missing:
-            raise RuntimeError(
-                "music queue exited without both Mongo collections for: "
-                + ", ".join(missing)
-            )
-
-        print("validating all 260 programme captures", flush=True)
-        for row in parse_program():
-            for kind in ("submissions", "comments"):
-                validate_capture(RAW_DIR / f"{row['name']}_{kind}.zst")
-        run(
-            [
-                sys.executable,
-                str(INVENTORY_SCRIPT),
-                "music",
-                "--scope",
-                "candidates",
-            ]
-        )
-        run([sys.executable, str(REPORT_SCRIPT)])
-        print(
-            f"{datetime.now(timezone.utc).isoformat()} — "
-            "music programme verified complete (130/130)",
-            flush=True,
-        )
 
 
 if __name__ == "__main__":

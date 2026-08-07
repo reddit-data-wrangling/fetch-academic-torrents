@@ -1,4 +1,5 @@
 title = "Comics"
-state = "planning"
+state = "active"
+mongo_uri = "mongodb://localhost:27019"
 mongo_database = "reddit"
-notes = "Catalogue and selection are not complete."
+notes = "Reviewed 36-subreddit stratified pilot; shared low-priority comics/movies worker loads both record kinds into MongoDB on port 27019."

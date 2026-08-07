@@ -1,1 +1,49 @@
-# No reviewed acquisition targets yet.
+# Reviewed broad-ecosystem panel approved 2026-08-03.
+
+## General discussion and culture
+beer
+CraftBeer
+beerporn
+beerreviews
+beerwithaview
+NewBeerFriday
+
+## Styles and alternatives
+BelgianBeer
+sourbeer
+IPA
+NABEER
+GlutenFreeBeer
+
+## Brewing and production
+Homebrewing
+homebrewingUK
+brewing
+TheBrewery
+kegerators
+grainfather
+
+## Platforms and material culture
+Untappd
+breweriana
+
+## Regional markets — United States
+atlbeer
+chicagobeer
+portlandbeer
+AustinBeer
+nycbeer
+
+## Regional markets — Canada
+beercanada
+torontocraftbeer
+VancouverCraftBeer
+
+## Regional markets — other countries and languages
+AusBeer
+UK_beer
+Bier
+
+## Adjacent fermentation comparators
+cider
+mead

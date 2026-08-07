@@ -1,20 +1,33 @@
 # Open-source software panel selection
 
-Status: not selected.
+Status: verified-community census approved for acquisition on 2026-08-07.
 
-The existing `r/rust` MongoDB holding is assigned to this collection. It is
-inventory evidence and does not by itself constitute a panel-selection decision.
+The acquisition panel contains all 120 communities marked `verified` in the
+2026-07-30 Arctic Shift catalogue snapshot. The expected archive volume is
+approximately 66.4 million submissions and comments. This is a census of the
+verified candidate frame, not a size-ranked sample, so small contributor and
+project communities remain represented alongside large general communities.
 
-Before populating `targets.txt`, review `catalog.json` and decide:
+## Design
 
-- the balance between movement-level discourse and project-specific support;
-- whether contributor experience, governance, sustainability, and licensing
-  require dedicated strata;
-- how languages, infrastructure, end-user applications, and scientific tools
-  will be sampled;
-- minimum activity and archive-volume thresholds; and
-- how overlap with the Linux collection will be represented.
+- Movement-level discussion, contribution and collaboration, foundations,
+  languages, frameworks, data systems, infrastructure, developer tools,
+  end-user applications, self-hosting, scientific computing, and gaming are
+  retained as separate descriptive strata.
+- Project-specific support communities are included because project use,
+  maintenance, governance, and contributor experience are all within scope.
+- Intentional overlap with Linux and other collections is retained. Shared raw
+  captures are reused and MongoDB ID upserts provide record-level deduplication.
+- `r/homebrew` is retained as an explicitly labelled adjacent comparator because
+  the discovered community concerns console homebrew rather than the macOS/Linux
+  package manager.
 
-Large project communities should not dominate by default. Record why each
-project is analytically distinct and whether the unit of analysis is users,
-contributors, maintainers, or the broader ecosystem.
+## Exclusions
+
+The three missing and seven restricted candidates are ineligible for this
+acquisition. They remain in `subreddits.txt` and `catalog.json` as discovery and
+verification evidence but are not present in `targets.txt`.
+
+Acquisition runs smallest-first and loads submissions and comments into MongoDB
+`reddit` at `mongodb://localhost:27017`. The low-priority OSS API worker yields
+while the comics/movies worker has an active fetch child.

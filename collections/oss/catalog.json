@@ -30,7 +30,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=angular"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -62,7 +62,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ansible"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -94,7 +94,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=apache"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -126,7 +126,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Ardour"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -158,7 +158,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=audacity"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -190,7 +190,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Bitwarden"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -222,7 +222,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=blender"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -254,7 +254,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=brave_browser"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -286,7 +286,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=C_Programming"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -318,7 +318,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=chef"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -350,7 +350,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=chocolatey"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -382,7 +382,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ClickHouse"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -414,7 +414,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=coolgithubprojects"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -446,7 +446,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=cpp"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -478,7 +478,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=devops"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -510,7 +510,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=django"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -542,7 +542,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=docker"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -574,7 +574,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=eclipse"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -606,7 +606,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=elixir"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -638,7 +638,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=emacs"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -670,7 +670,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=erlang"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -702,7 +702,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=FastAPI"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -734,7 +734,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ffmpeg"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -766,7 +766,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=firefox"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -798,7 +798,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=flask"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -830,7 +830,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=floorp"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -862,7 +862,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Forgejo"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -894,7 +894,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=foss"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -926,7 +926,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=freeSoftware"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -958,7 +958,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=GIMP"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -990,7 +990,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=git"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1022,7 +1022,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=gitea"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1054,7 +1054,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=github"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1086,7 +1086,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=gitlab"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1118,7 +1118,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=gnome"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1150,7 +1150,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=gnu"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1182,7 +1182,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Godot"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1214,7 +1214,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=golang"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1246,7 +1246,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=grafana"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1278,7 +1278,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=haskell"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1310,7 +1310,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=HelixEditor"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1342,7 +1342,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=homeassistant"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1374,7 +1374,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=homebrew"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1406,7 +1406,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=homelab"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1438,7 +1438,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=huggingface"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1470,7 +1470,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=immich"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1502,7 +1502,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Inkscape"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1534,7 +1534,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=java"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1566,7 +1566,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=javascript"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1598,7 +1598,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=JAX"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1630,7 +1630,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=jellyfin"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1662,7 +1662,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=joplinapp"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1694,7 +1694,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Julia"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1726,7 +1726,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=kde"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1758,7 +1758,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=kdenlive"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1790,7 +1790,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=KeePass"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1822,7 +1822,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=KeePassXC"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -1854,7 +1854,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=krita"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1886,7 +1886,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=kubernetes"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1918,7 +1918,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=laravel"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1950,7 +1950,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=learnprogramming"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -1982,7 +1982,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=LibreOffice"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2014,7 +2014,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=librewolf"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2046,7 +2046,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=libvirt"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2078,7 +2078,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=linux"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2110,7 +2110,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=linux_gaming"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2142,7 +2142,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=linuxaudio"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2174,7 +2174,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=llama_cpp"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2206,7 +2206,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=LocalLLaMA"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2238,7 +2238,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=logseq"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2270,7 +2270,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=lua"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2302,7 +2302,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=lxc"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2334,7 +2334,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=mongodb"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2366,7 +2366,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=mozilla"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2398,7 +2398,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=mysql"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2430,7 +2430,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=neovim"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2462,7 +2462,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=NextCloud"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2494,7 +2494,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=nextjs"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2526,7 +2526,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=NixOS"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2558,7 +2558,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=node"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2590,7 +2590,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=obs"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2622,7 +2622,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ocaml"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2654,7 +2654,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ollama"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2686,7 +2686,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=OnlyOffice"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2718,7 +2718,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=open_source"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2750,7 +2750,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=opensource"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2782,7 +2782,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=opensourcegames"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2814,7 +2814,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=OpenSourceSoftware"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -2846,7 +2846,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=opentelemetry"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2878,7 +2878,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=opentofu"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2910,7 +2910,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=opnsense"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2942,7 +2942,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Paperlessngx"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -2974,7 +2974,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=PFSENSE"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -3006,7 +3006,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=PHP"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -3038,7 +3038,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=pipewire"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -3070,7 +3070,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=podman"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -3102,7 +3102,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=PostgreSQL"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -3134,7 +3134,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=programming"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -3166,7 +3166,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=prometheusmonitoring"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -3198,7 +3198,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=proxmox"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -3230,7 +3230,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Puppet"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -3262,7 +3262,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Python"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -3294,7 +3294,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=PyTorch"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -3326,7 +3326,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=qemu_kvm"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -3358,7 +3358,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=reactjs"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -3390,7 +3390,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=redis"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -3422,7 +3422,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Rlanguage"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -3454,7 +3454,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ruby"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -3486,7 +3486,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=rust"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -3518,7 +3518,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=scipy"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -3550,7 +3550,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=selfhosted"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -3582,7 +3582,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Signal"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -3614,7 +3614,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=sqlite"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -3646,7 +3646,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=stallmanwasright"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -3678,7 +3678,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=sveltejs"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -3710,7 +3710,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=swift"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -3742,7 +3742,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Syncthing"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -3774,7 +3774,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=tensorflow"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -3806,7 +3806,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Terraform"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -3838,7 +3838,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=tinycode"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -3870,7 +3870,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=TOR"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -3902,7 +3902,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Traefik"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -3934,7 +3934,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Vaultwarden"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -3966,7 +3966,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=vim"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -3998,7 +3998,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=vllm"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -4030,7 +4030,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=vscode"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -4062,7 +4062,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=vuejs"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -4094,7 +4094,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=WriteTheDocs"
       },
       "selection": {
-        "selected": null
+        "selected": false
       },
       "notes": ""
     },
@@ -4126,7 +4126,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=ZedEditor"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     },
@@ -4158,7 +4158,7 @@
         "source": "https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=Zig"
       },
       "selection": {
-        "selected": null
+        "selected": true
       },
       "notes": ""
     }

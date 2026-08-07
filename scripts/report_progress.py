@@ -17,8 +17,16 @@ ROOT = Path(__file__).resolve().parent.parent
 COLLECTIONS_DIR = ROOT / "collections"
 MUSIC_DIR = COLLECTIONS_DIR / "music"
 LINUX_DIR = COLLECTIONS_DIR / "linux"
+BEER_DIR = COLLECTIONS_DIR / "beer"
+COMICS_DIR = COLLECTIONS_DIR / "comics"
+MOVIES_DIR = COLLECTIONS_DIR / "movies"
+OSS_DIR = COLLECTIONS_DIR / "oss"
 RAW_DIR = ROOT / "data" / "raw"
+COMICS_MOVIES_STATE = ROOT / "data" / "logs" / "comics-movies-state.json"
+OSS_STATE = ROOT / "data" / "logs" / "oss-state.json"
 DEFAULT_OUTPUT = ROOT / "COLLECTION_PROGRESS.md"
+DEFAULT_COMICS_MOVIES_OUTPUT = ROOT / "COMICS_MOVIES_PROGRESS.md"
+MONGO_COMPLETE_CACHE: dict[tuple[str, str], set[str]] = {}
 
 
 def read_names(path: Path) -> tuple[list[str], dict[str, str]]:
@@ -98,6 +106,26 @@ def read_progress(path: Path) -> dict[str, dict]:
     return rows
 
 
+def read_comics_movies_state() -> dict:
+    if not COMICS_MOVIES_STATE.is_file():
+        return {}
+    try:
+        payload = json.loads(COMICS_MOVIES_STATE.read_text(encoding="utf-8"))
+        return payload if isinstance(payload, dict) else {}
+    except (json.JSONDecodeError, OSError):
+        return {}
+
+
+def read_oss_state() -> dict:
+    if not OSS_STATE.is_file():
+        return {}
+    try:
+        payload = json.loads(OSS_STATE.read_text(encoding="utf-8"))
+        return payload if isinstance(payload, dict) else {}
+    except (json.JSONDecodeError, OSError):
+        return {}
+
+
 def raw_files() -> tuple[dict[tuple[str, str], int], int]:
     files: dict[tuple[str, str], int] = {}
     total_bytes = 0
@@ -119,6 +147,9 @@ def completed_in_mongo(config: dict) -> set[str]:
     database = config.get("mongo_database")
     if not mongo_uri or not database:
         return set()
+    cache_key = (str(mongo_uri), str(database))
+    if cache_key in MONGO_COMPLETE_CACHE:
+        return MONGO_COMPLETE_CACHE[cache_key]
     try:
         client = MongoClient(mongo_uri, serverSelectionTimeoutMS=1_500)
         db = client[database]
@@ -131,9 +162,12 @@ def completed_in_mongo(config: dict) -> set[str]:
             for name in db.comments.distinct("subreddit", maxTimeMS=10_000)
         }
         client.close()
-        return submissions & comments
+        complete = submissions & comments
+        MONGO_COMPLETE_CACHE[cache_key] = complete
+        return complete
     except PyMongoError:
-        return set()
+        MONGO_COMPLETE_CACHE[cache_key] = set()
+        return MONGO_COMPLETE_CACHE[cache_key]
 
 
 def human_bytes(value: int) -> str:
@@ -164,25 +198,40 @@ def status_label(status: str) -> str:
     }[status]
 
 
-def collect_state() -> tuple[list[dict], int]:
+def collect_state(only_slug: str | None = None) -> tuple[list[dict], int]:
     raw, total_raw_bytes = raw_files()
+    comics_movies_worker_state = read_comics_movies_state()
+    oss_worker_state = read_oss_state()
     themes: list[dict] = []
 
     for config_path in sorted(COLLECTIONS_DIR.glob("*/collection.toml")):
         directory = config_path.parent
         slug = directory.name
+        if only_slug is not None and slug != only_slug:
+            continue
         with config_path.open("rb") as stream:
             config = tomllib.load(stream)
         candidates, groups = read_names(directory / "subreddits.txt")
-        targets, _ = read_names(directory / "targets.txt")
+        targets, target_groups = read_names(directory / "targets.txt")
         target_order = {
             name.casefold(): position for position, name in enumerate(targets, start=1)
         }
         catalog = read_catalog(directory / "catalog.json")
         progress = read_progress(directory / "progress.md")
-        mongo_complete = (
-            completed_in_mongo(config) if slug in {"linux", "music"} else set()
+        worker_state = (
+            oss_worker_state if slug == "oss" else comics_movies_worker_state
         )
+        if slug == "oss" and isinstance(
+            oss_worker_state.get("complete_names"), list
+        ):
+            mongo_complete = {
+                str(name).casefold()
+                for name in oss_worker_state["complete_names"]
+            }
+        elif slug in {"beer", "comics", "linux", "movies", "music", "oss"}:
+            mongo_complete = completed_in_mongo(config)
+        else:
+            mongo_complete = set()
 
         order: list[str] = []
         names: dict[str, str] = {}
@@ -208,12 +257,31 @@ def collect_state() -> tuple[list[dict], int]:
             present = sum(bool(size) for size in captures.values())
             progress_row = progress.get(key)
             catalog_row = catalog.get(key, {})
-            if key in mongo_complete:
+            if (
+                slug == worker_state.get("collection")
+                and key == str(worker_state.get("subreddit", "")).casefold()
+                and worker_state.get("status")
+                in {"fetching", "validating", "loading"}
+            ):
+                status = (
+                    "fetching"
+                    if worker_state.get("status") == "fetching"
+                    else "loading"
+                )
+                percent = 25 if status == "fetching" else 75
+                category = (
+                    target_groups.get(key)
+                    or catalog_row.get("classification", {}).get("category")
+                    or groups.get(key)
+                    or "Uncategorised"
+                )
+            elif key in mongo_complete:
                 status = "complete"
                 percent = 100
                 category = (
                     (progress_row or {}).get("category")
                     or catalog_row.get("classification", {}).get("category")
+                    or target_groups.get(key)
                     or groups.get(key)
                     or "Uncategorised"
                 )
@@ -221,11 +289,21 @@ def collect_state() -> tuple[list[dict], int]:
                 status = progress_row["status"]
                 percent = progress_row["percent"]
                 category = progress_row["category"]
+            elif slug in {"beer", "comics", "movies", "oss"}:
+                status = "loading" if present == 2 else "partial" if present else "pending"
+                percent = 75 if present == 2 else 50 if present else 0
+                category = (
+                    target_groups.get(key)
+                    or catalog_row.get("classification", {}).get("category")
+                    or groups.get(key)
+                    or "Uncategorised"
+                )
             else:
                 status = "complete" if present == 2 else "partial" if present else "pending"
                 percent = 100 if present == 2 else 50 if present else 0
                 category = (
-                    catalog_row.get("classification", {}).get("category")
+                    target_groups.get(key)
+                    or catalog_row.get("classification", {}).get("category")
                     or groups.get(key)
                     or "Uncategorised"
                 )
@@ -726,6 +804,655 @@ def render_linux_dashboard(themes: list[dict]) -> str:
     return "\n".join(lines)
 
 
+def render_beer_dashboard(themes: list[dict]) -> str:
+    theme = next(item for item in themes if item["slug"] == "beer")
+    panel = [
+        item for item in theme["subreddits"] if item["target_order"] is not None
+    ]
+    excluded = [item for item in theme["subreddits"] if not item["selected"]]
+    complete = sum(item["status"] == "complete" for item in panel)
+    active = sum(item["status"] in {"fetching", "loading"} for item in panel)
+    partial = sum(item["status"] == "partial" for item in panel)
+    remaining = len(panel) - complete
+    completion_percent = round(complete / len(panel) * 100) if panel else 0
+    expected = sum(item["expected"] for item in panel)
+    raw_bytes = sum(item["raw_bytes"] for item in panel)
+    generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    queue = sorted(
+        (item for item in panel if item["status"] != "complete"),
+        key=lambda item: (
+            item["expected"] or 10**30,
+            item["target_order"] or 10**9,
+        ),
+    )
+    categories: dict[str, list[dict]] = {}
+    for item in panel:
+        categories.setdefault(item["category"], []).append(item)
+    excluded_by_verification = Counter(
+        item["verification"] or "uncatalogued" for item in excluded
+    )
+
+    lines = [
+        "# Beer subreddit collection dashboard",
+        "",
+        f"_Refreshed {generated_at} from MongoDB, the beer catalogue, "
+        "`targets.txt`, and `data/raw/`._",
+        "",
+        "> Open with **Markdown: Open Preview** (`Ctrl+Shift+V` / `Cmd+Shift+V`). "
+        "The tmux worker refreshes this file after every successful load.",
+        "",
+        "## Status",
+        "",
+        "| Panel | Complete | Active capture/load | Partial raw | Remaining | Expected records | Raw data | Workflow |",
+        "| ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |",
+        f"| {len(panel)} | {complete} | {active} | {partial} | {remaining} | "
+        f"{expected:,} | {human_bytes(raw_bytes)} | `{theme['state']}` |",
+        "",
+        f"**MongoDB completion:** {progress_bar(completion_percent, 24)}",
+        "",
+        "- tmux session: `reddit_beer_collection`",
+        "- runtime log: `data/logs/beer-collection.log`",
+        "- destination: MongoDB `localhost:27019`, database `reddit`",
+        "- queue policy: one low-priority worker, smallest expected capture first",
+        "- music protection: beer API requests pause while the music worker fetches",
+        "- completion gate: both MongoDB collections plus 64 decodable raw files",
+        "",
+        "## Next in queue",
+        "",
+        "| # | Subreddit | Stratum | Status | Expected records | Existing raw |",
+        "| ---: | --- | --- | --- | ---: | ---: |",
+    ]
+    for position, item in enumerate(queue[:15], start=1):
+        lines.append(
+            f"| {position} | `r/{markdown(item['name'])}` | "
+            f"{markdown(item['category'])} | {status_label(item['status'])} | "
+            f"{item['expected']:,} | {item['raw_files']}/2 files |"
+        )
+    if not queue:
+        lines.append("| — | Queue complete | — | — | — | — |")
+
+    lines.extend(
+        [
+            "",
+            "## Progress by stratum",
+            "",
+            "| Stratum | Complete | Tracked | Progress | Expected records | Raw data |",
+            "| --- | ---: | ---: | --- | ---: | ---: |",
+        ]
+    )
+    for category, items in sorted(categories.items(), key=lambda row: row[0].casefold()):
+        category_complete = sum(item["status"] == "complete" for item in items)
+        category_percent = round(category_complete / len(items) * 100)
+        lines.append(
+            f"| {markdown(category)} | {category_complete} | {len(items)} | "
+            f"{progress_bar(category_percent, 10)} | "
+            f"{sum(item['expected'] for item in items):,} | "
+            f"{human_bytes(sum(item['raw_bytes'] for item in items))} |"
+        )
+
+    lines.extend(
+        [
+            "",
+            "## Selection boundary",
+            "",
+            f"The acquisition panel contains {len(panel)} reviewed communities; "
+            f"{len(excluded)} catalogue candidates are outside it.",
+            "",
+            "| Excluded catalogue status | Communities |",
+            "| --- | ---: |",
+        ]
+    )
+    for verification, count in sorted(excluded_by_verification.items()):
+        lines.append(f"| {markdown(verification)} | {count} |")
+
+    lines.extend(
+        [
+            "",
+            "Cider and mead are included as an adjacent-fermentation comparator "
+            "stratum and should remain separate in downstream analysis.",
+            "",
+            "## All panel communities",
+            "",
+            "Expand a stratum below. Use VS Code search to jump directly to a subreddit.",
+            "",
+        ]
+    )
+    for category, items in sorted(categories.items(), key=lambda row: row[0].casefold()):
+        items.sort(key=lambda item: item["target_order"] or 10**9)
+        category_complete = sum(item["status"] == "complete" for item in items)
+        lines.extend(
+            [
+                "<details>",
+                f"<summary><strong>{markdown(category)}</strong> — "
+                f"{category_complete}/{len(items)} complete</summary>",
+                "",
+                "| Subreddit | Status | Expected records | Raw files | Raw size |",
+                "| --- | --- | ---: | ---: | ---: |",
+            ]
+        )
+        for item in items:
+            lines.append(
+                f"| `r/{markdown(item['name'])}` | {status_label(item['status'])} | "
+                f"{item['expected']:,} | {item['raw_files']}/2 | "
+                f"{human_bytes(item['raw_bytes']) if item['raw_bytes'] else '—'} |"
+            )
+        lines.extend(["", "</details>", ""])
+
+    lines.extend(
+        [
+            "---",
+            "",
+            "🟢 present in both MongoDB collections · 🟠 two raw captures awaiting/under load · "
+            "🟡 one raw file present · ⚪ pending",
+            "",
+        ]
+    )
+    return "\n".join(lines)
+
+
+def render_comics_movies_dashboard(themes: list[dict]) -> str:
+    programme = [
+        next(item for item in themes if item["slug"] == slug)
+        for slug in ("comics", "movies")
+    ]
+    panels = {
+        theme["slug"]: [
+            item
+            for item in theme["subreddits"]
+            if item["target_order"] is not None
+        ]
+        for theme in programme
+    }
+    all_targets = [
+        {**item, "collection": theme["slug"], "theme_title": theme["title"]}
+        for theme in programme
+        for item in panels[theme["slug"]]
+    ]
+    queue = sorted(
+        (item for item in all_targets if item["status"] != "complete"),
+        key=lambda item: (
+            item["expected"],
+            0 if item["collection"] == "comics" else 1,
+            item["target_order"] or 10**9,
+        ),
+    )
+    worker_state = read_comics_movies_state()
+    complete = sum(item["status"] == "complete" for item in all_targets)
+    active = sum(
+        item["status"] in {"fetching", "loading"} for item in all_targets
+    )
+    partial = sum(item["status"] == "partial" for item in all_targets)
+    remaining = len(all_targets) - complete
+    completion_percent = (
+        round(complete / len(all_targets) * 100) if all_targets else 0
+    )
+    expected = sum(item["expected"] for item in all_targets)
+    raw_bytes = sum(item["raw_bytes"] for item in all_targets)
+    generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+
+    current_status = str(worker_state.get("status", "not started"))
+    current_subreddit = worker_state.get("subreddit")
+    current_collection = worker_state.get("collection")
+    if current_subreddit and current_collection:
+        current = (
+            f"`{markdown(current_status)}` — {markdown(current_collection)} "
+            f"`r/{markdown(current_subreddit)}` "
+            f"({worker_state.get('position', '?')}/{worker_state.get('queued', '?')})"
+        )
+    else:
+        current = f"`{markdown(current_status)}`"
+
+    lines = [
+        "# Comics and movies collection dashboard",
+        "",
+        f"_Refreshed {generated_at} from MongoDB, the two reviewed catalogues, "
+        "`targets.txt`, worker state, and `data/raw/`._",
+        "",
+        "> Open with **Markdown: Open Preview** (`Ctrl+Shift+V` / `Cmd+Shift+V`). "
+        "The shared tmux worker refreshes this file at every fetch, validation, "
+        "and load transition.",
+        "",
+        "## Shared programme",
+        "",
+        "| Targets | Complete | Active | Partial raw | Remaining | Expected records | Raw data |",
+        "| ---: | ---: | ---: | ---: | ---: | ---: | ---: |",
+        f"| {len(all_targets)} | {complete} | {active} | {partial} | "
+        f"{remaining} | {expected:,} | {human_bytes(raw_bytes)} |",
+        "",
+        f"**MongoDB completion:** {progress_bar(completion_percent, 24)}",
+        "",
+        f"- worker: {current}",
+        "- tmux session: `reddit_comics_movies`",
+        "- runtime log: `data/logs/comics-movies-collection.log`",
+        "- destination: MongoDB `localhost:27019`, database `reddit`",
+        "- payload: submissions and comments",
+        "- queue policy: one low-priority worker, globally smallest expected capture first",
+        "- completion gate: both MongoDB collections and two decodable raw files per target",
+        "",
+        "## Track status",
+        "",
+        "| Track | Panel | Complete | Active | Partial | Remaining | Expected records | Raw data | Workflow |",
+        "| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |",
+    ]
+    for theme in programme:
+        panel = panels[theme["slug"]]
+        track_complete = sum(item["status"] == "complete" for item in panel)
+        track_active = sum(
+            item["status"] in {"fetching", "loading"} for item in panel
+        )
+        track_partial = sum(item["status"] == "partial" for item in panel)
+        lines.append(
+            f"| {markdown(theme['title'])} | {len(panel)} | {track_complete} | "
+            f"{track_active} | {track_partial} | {len(panel) - track_complete} | "
+            f"{sum(item['expected'] for item in panel):,} | "
+            f"{human_bytes(sum(item['raw_bytes'] for item in panel))} | "
+            f"`{theme['state']}` |"
+        )
+
+    lines.extend(
+        [
+            "",
+            "## Next in shared queue",
+            "",
+            "| # | Track | Subreddit | Stratum | Status | Expected records | Existing raw |",
+            "| ---: | --- | --- | --- | --- | ---: | ---: |",
+        ]
+    )
+    for position, item in enumerate(queue[:20], start=1):
+        lines.append(
+            f"| {position} | {markdown(item['theme_title'])} | "
+            f"`r/{markdown(item['name'])}` | {markdown(item['category'])} | "
+            f"{status_label(item['status'])} | {item['expected']:,} | "
+            f"{item['raw_files']}/2 files |"
+        )
+    if not queue:
+        lines.append("| — | — | Queue complete | — | — | — | — |")
+
+    for theme in programme:
+        panel = panels[theme["slug"]]
+        categories: dict[str, list[dict]] = {}
+        for item in panel:
+            categories.setdefault(item["category"], []).append(item)
+        lines.extend(
+            [
+                "",
+                f"## {markdown(theme['title'])} by stratum",
+                "",
+                "| Stratum | Complete | Tracked | Progress | Expected records | Raw data |",
+                "| --- | ---: | ---: | --- | ---: | ---: |",
+            ]
+        )
+        for category, items in sorted(
+            categories.items(), key=lambda row: row[0].casefold()
+        ):
+            category_complete = sum(
+                item["status"] == "complete" for item in items
+            )
+            category_percent = round(category_complete / len(items) * 100)
+            lines.append(
+                f"| {markdown(category)} | {category_complete} | {len(items)} | "
+                f"{progress_bar(category_percent, 10)} | "
+                f"{sum(item['expected'] for item in items):,} | "
+                f"{human_bytes(sum(item['raw_bytes'] for item in items))} |"
+            )
+
+        lines.extend(
+            [
+                "",
+                f"### All {markdown(theme['title'].lower())} targets",
+                "",
+            ]
+        )
+        for category, items in sorted(
+            categories.items(), key=lambda row: row[0].casefold()
+        ):
+            items.sort(key=lambda item: item["target_order"] or 10**9)
+            category_complete = sum(
+                item["status"] == "complete" for item in items
+            )
+            lines.extend(
+                [
+                    "<details>",
+                    f"<summary><strong>{markdown(category)}</strong> — "
+                    f"{category_complete}/{len(items)} complete</summary>",
+                    "",
+                    "| Subreddit | Status | Expected records | Raw files | Raw size |",
+                    "| --- | --- | ---: | ---: | ---: |",
+                ]
+            )
+            for item in items:
+                lines.append(
+                    f"| `r/{markdown(item['name'])}` | "
+                    f"{status_label(item['status'])} | {item['expected']:,} | "
+                    f"{item['raw_files']}/2 | "
+                    f"{human_bytes(item['raw_bytes']) if item['raw_bytes'] else '—'} |"
+                )
+            lines.extend(["", "</details>", ""])
+
+    lines.extend(
+        [
+            "---",
+            "",
+            "🟢 present in both MongoDB collections · 🟠 fetching/validating/loading · "
+            "🟡 one raw file present · ⚪ pending",
+            "",
+        ]
+    )
+    return "\n".join(lines)
+
+
+def render_comics_movies_track_dashboard(
+    themes: list[dict], slug: str
+) -> str:
+    theme = next(item for item in themes if item["slug"] == slug)
+    panel = [
+        item for item in theme["subreddits"] if item["target_order"] is not None
+    ]
+    queue = sorted(
+        (item for item in panel if item["status"] != "complete"),
+        key=lambda item: (
+            item["expected"],
+            item["target_order"] or 10**9,
+        ),
+    )
+    excluded = [item for item in theme["subreddits"] if not item["selected"]]
+    excluded_by_verification = Counter(
+        item["verification"] or "uncatalogued" for item in excluded
+    )
+    complete = sum(item["status"] == "complete" for item in panel)
+    active = sum(item["status"] in {"fetching", "loading"} for item in panel)
+    partial = sum(item["status"] == "partial" for item in panel)
+    remaining = len(panel) - complete
+    completion_percent = round(complete / len(panel) * 100) if panel else 0
+    expected = sum(item["expected"] for item in panel)
+    raw_bytes = sum(item["raw_bytes"] for item in panel)
+    generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+
+    worker_state = read_comics_movies_state()
+    current_status = str(worker_state.get("status", "not started"))
+    current_subreddit = worker_state.get("subreddit")
+    current_collection = worker_state.get("collection")
+    if current_subreddit and current_collection:
+        current = (
+            f"`{markdown(current_status)}` — {markdown(current_collection)} "
+            f"`r/{markdown(current_subreddit)}` "
+            f"({worker_state.get('position', '?')}/{worker_state.get('queued', '?')})"
+        )
+    else:
+        current = f"`{markdown(current_status)}`"
+
+    categories: dict[str, list[dict]] = {}
+    for item in panel:
+        categories.setdefault(item["category"], []).append(item)
+
+    title = markdown(theme["title"])
+    lines = [
+        f"# {title} subreddit collection dashboard",
+        "",
+        f"_Refreshed {generated_at} from MongoDB, the reviewed {slug} catalogue, "
+        "`targets.txt`, shared-worker state, and `data/raw/`._",
+        "",
+        "> Open with **Markdown: Open Preview** (`Ctrl+Shift+V` / `Cmd+Shift+V`). "
+        "The shared tmux worker refreshes this file at every fetch, validation, "
+        "and load transition.",
+        "",
+        "## Status",
+        "",
+        "| Panel | Complete | Active | Partial raw | Remaining | Expected records | Raw data | Workflow |",
+        "| ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |",
+        f"| {len(panel)} | {complete} | {active} | {partial} | {remaining} | "
+        f"{expected:,} | {human_bytes(raw_bytes)} | `{theme['state']}` |",
+        "",
+        f"**MongoDB completion:** {progress_bar(completion_percent, 24)}",
+        "",
+        f"- shared worker: {current}",
+        "- tmux session: `reddit_comics_movies`",
+        "- runtime log: `data/logs/comics-movies-collection.log`",
+        "- destination: MongoDB `localhost:27019`, database `reddit`",
+        "- payload: submissions and comments",
+        "- queue policy: one low-priority worker, globally smallest expected capture first",
+        "- completion gate: both MongoDB collections and two decodable raw files per target",
+        "- combined view: [`COMICS_MOVIES_PROGRESS.md`](../../COMICS_MOVIES_PROGRESS.md)",
+        "",
+        f"## Next {markdown(slug)} targets",
+        "",
+        "The shared queue may interleave targets from the other collection.",
+        "",
+        "| # | Subreddit | Stratum | Status | Expected records | Existing raw |",
+        "| ---: | --- | --- | --- | ---: | ---: |",
+    ]
+    for position, item in enumerate(queue[:20], start=1):
+        lines.append(
+            f"| {position} | `r/{markdown(item['name'])}` | "
+            f"{markdown(item['category'])} | {status_label(item['status'])} | "
+            f"{item['expected']:,} | {item['raw_files']}/2 files |"
+        )
+    if not queue:
+        lines.append("| — | Queue complete | — | — | — | — |")
+
+    lines.extend(
+        [
+            "",
+            "## Progress by stratum",
+            "",
+            "| Stratum | Complete | Tracked | Progress | Expected records | Raw data |",
+            "| --- | ---: | ---: | --- | ---: | ---: |",
+        ]
+    )
+    for category, items in sorted(
+        categories.items(), key=lambda row: row[0].casefold()
+    ):
+        category_complete = sum(item["status"] == "complete" for item in items)
+        category_percent = round(category_complete / len(items) * 100)
+        lines.append(
+            f"| {markdown(category)} | {category_complete} | {len(items)} | "
+            f"{progress_bar(category_percent, 10)} | "
+            f"{sum(item['expected'] for item in items):,} | "
+            f"{human_bytes(sum(item['raw_bytes'] for item in items))} |"
+        )
+
+    lines.extend(
+        [
+            "",
+            "## Selection boundary",
+            "",
+            f"The acquisition panel contains {len(panel)} reviewed communities; "
+            f"{len(excluded)} catalogue candidates are outside it.",
+            "",
+            "| Excluded catalogue status | Communities |",
+            "| --- | ---: |",
+        ]
+    )
+    for verification, count in sorted(excluded_by_verification.items()):
+        lines.append(f"| {markdown(verification)} | {count} |")
+
+    lines.extend(
+        [
+            "",
+            "## All panel communities",
+            "",
+            "Expand a stratum below. Use VS Code search to jump directly to a subreddit.",
+            "",
+        ]
+    )
+    for category, items in sorted(
+        categories.items(), key=lambda row: row[0].casefold()
+    ):
+        items.sort(key=lambda item: item["target_order"] or 10**9)
+        category_complete = sum(item["status"] == "complete" for item in items)
+        lines.extend(
+            [
+                "<details>",
+                f"<summary><strong>{markdown(category)}</strong> — "
+                f"{category_complete}/{len(items)} complete</summary>",
+                "",
+                "| Subreddit | Status | Expected records | Raw files | Raw size |",
+                "| --- | --- | ---: | ---: | ---: |",
+            ]
+        )
+        for item in items:
+            lines.append(
+                f"| `r/{markdown(item['name'])}` | {status_label(item['status'])} | "
+                f"{item['expected']:,} | {item['raw_files']}/2 | "
+                f"{human_bytes(item['raw_bytes']) if item['raw_bytes'] else '—'} |"
+            )
+        lines.extend(["", "</details>", ""])
+
+    lines.extend(
+        [
+            "---",
+            "",
+            "🟢 present in both MongoDB collections · 🟠 fetching/validating/loading · "
+            "🟡 one raw file present · ⚪ pending",
+            "",
+        ]
+    )
+    return "\n".join(lines)
+
+
+def render_oss_dashboard(themes: list[dict]) -> str:
+    theme = next(item for item in themes if item["slug"] == "oss")
+    panel = [item for item in theme["subreddits"] if item["selected"]]
+    excluded = [item for item in theme["subreddits"] if not item["selected"]]
+    complete = sum(item["status"] == "complete" for item in panel)
+    active = sum(item["status"] in {"fetching", "loading"} for item in panel)
+    partial = sum(item["status"] == "partial" for item in panel)
+    remaining = len(panel) - complete
+    completion_percent = round(complete / len(panel) * 100) if panel else 0
+    expected = sum(item["expected"] for item in panel)
+    raw_bytes = sum(item["raw_bytes"] for item in panel)
+    generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    worker_state = read_oss_state()
+    queue = sorted(
+        (item for item in panel if item["status"] != "complete"),
+        key=lambda item: (
+            item["expected"] or 10**30,
+            item["target_order"] or 10**9,
+        ),
+    )
+
+    categories: dict[str, list[dict]] = {}
+    for item in panel:
+        categories.setdefault(item["category"], []).append(item)
+
+    current_status = str(worker_state.get("status", "not started"))
+    current_name = str(worker_state.get("subreddit", ""))
+    current_activity = current_status
+    if current_name and current_status in {"fetching", "validating", "loading"}:
+        current_activity = f"{current_status} r/{current_name}"
+    updated_at = str(worker_state.get("updated_at", "not yet recorded"))
+
+    lines = [
+        "# Open-source software subreddit collection dashboard",
+        "",
+        f"_Refreshed {generated_at} from the OSS worker state, catalogue, "
+        "`targets.txt`, MongoDB evidence, and `data/raw/`._",
+        "",
+        "> Open with **Markdown: Open Preview** (`Ctrl+Shift+V` / `Cmd+Shift+V`). "
+        "The tmux worker refreshes this file at each acquisition stage.",
+        "",
+        "## Status",
+        "",
+        "| Panel N | Available in MongoDB | Active/staged | Partial raw | Remaining | Expected records | Raw data | Workflow |",
+        "| ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |",
+        f"| {len(panel)} | {complete} | {active} | {partial} | {remaining} | "
+        f"{expected:,} | {human_bytes(raw_bytes)} | `{theme['state']}` |",
+        "",
+        f"**MongoDB availability:** {progress_bar(completion_percent, 24)}",
+        "",
+        f"- worker activity: `{markdown(current_activity)}`",
+        f"- worker state updated: `{markdown(updated_at)}`",
+        "- tmux session: `reddit_oss_collection`",
+        "- runtime log: `data/logs/oss-collection.log`",
+        "- destination: MongoDB `localhost:27017`, database `reddit`",
+        "- queue policy: one low-priority worker, smallest expected capture first",
+        "- API priority: yields while the comics/movies worker is fetching",
+        "",
+        "## Next in queue",
+        "",
+        "| # | Subreddit | Category | Expected records | Existing raw |",
+        "| ---: | --- | --- | ---: | ---: |",
+    ]
+    for position, item in enumerate(queue[:15], start=1):
+        lines.append(
+            f"| {position} | `r/{markdown(item['name'])}` | "
+            f"{markdown(item['category'])} | {item['expected']:,} | "
+            f"{item['raw_files']}/2 files |"
+        )
+    if not queue:
+        lines.append("| — | Queue complete | — | — | — |")
+
+    lines.extend(
+        [
+            "",
+            "## Progress by category",
+            "",
+            "| Category | Available | Tracked | Progress | Expected records | Raw data |",
+            "| --- | ---: | ---: | --- | ---: | ---: |",
+        ]
+    )
+    for category, items in sorted(categories.items(), key=lambda row: row[0].casefold()):
+        category_complete = sum(item["status"] == "complete" for item in items)
+        category_percent = round(category_complete / len(items) * 100)
+        lines.append(
+            f"| {markdown(category)} | {category_complete} | {len(items)} | "
+            f"{progress_bar(category_percent, 10)} | "
+            f"{sum(item['expected'] for item in items):,} | "
+            f"{human_bytes(sum(item['raw_bytes'] for item in items))} |"
+        )
+
+    unresolved = Counter(item["verification"] or "uncatalogued" for item in excluded)
+    unresolved_summary = ", ".join(
+        f"{count} {status}" for status, count in sorted(unresolved.items())
+    )
+    lines.extend(
+        [
+            "",
+            "## Selection boundary",
+            "",
+            f"The active census contains all {len(panel)} catalogue-verified "
+            f"communities. Excluded unresolved candidates: {len(excluded)} "
+            f"({unresolved_summary}).",
+            "",
+            "## All panel communities",
+            "",
+            "Expand a category below. Use VS Code search to jump directly to a subreddit.",
+            "",
+        ]
+    )
+    for category, items in sorted(categories.items(), key=lambda row: row[0].casefold()):
+        items.sort(key=lambda item: item["target_order"] or 10**9)
+        category_complete = sum(item["status"] == "complete" for item in items)
+        lines.extend(
+            [
+                "<details>",
+                f"<summary><strong>{markdown(category)}</strong> — "
+                f"{category_complete}/{len(items)} available</summary>",
+                "",
+                "| Subreddit | Status | Expected records | Raw files | Raw size |",
+                "| --- | --- | ---: | ---: | ---: |",
+            ]
+        )
+        for item in items:
+            lines.append(
+                f"| `r/{markdown(item['name'])}` | {status_label(item['status'])} | "
+                f"{item['expected']:,} | {item['raw_files']}/2 | "
+                f"{human_bytes(item['raw_bytes']) if item['raw_bytes'] else '—'} |"
+            )
+        lines.extend(["", "</details>", ""])
+
+    lines.extend(
+        [
+            "---",
+            "",
+            "🟢 present in both MongoDB collections · 🟠 fetching/validating/loading · "
+            "🟡 one raw file present · ⚪ pending",
+            "",
+        ]
+    )
+    return "\n".join(lines)
+
+
 def write_report(path: Path, content: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     temporary = path.with_suffix(path.suffix + ".tmp")
@@ -747,14 +1474,66 @@ def main() -> None:
         type=Path,
         default=LINUX_DIR / "dashboard.md",
     )
+    parser.add_argument(
+        "--beer-output",
+        type=Path,
+        default=BEER_DIR / "dashboard.md",
+    )
+    parser.add_argument(
+        "--comics-movies-output",
+        type=Path,
+        default=DEFAULT_COMICS_MOVIES_OUTPUT,
+    )
+    parser.add_argument(
+        "--comics-output",
+        type=Path,
+        default=COMICS_DIR / "dashboard.md",
+    )
+    parser.add_argument(
+        "--movies-output",
+        type=Path,
+        default=MOVIES_DIR / "dashboard.md",
+    )
+    parser.add_argument(
+        "--oss-output",
+        type=Path,
+        default=OSS_DIR / "dashboard.md",
+    )
+    parser.add_argument(
+        "--only-oss",
+        action="store_true",
+        help="refresh only the OSS dashboard without querying other collections",
+    )
     args = parser.parse_args()
-    themes, total_raw_bytes = collect_state()
+    themes, total_raw_bytes = collect_state("oss" if args.only_oss else None)
     output = args.output.resolve()
     music_output = args.music_output.resolve()
     linux_output = args.linux_output.resolve()
+    beer_output = args.beer_output.resolve()
+    comics_movies_output = args.comics_movies_output.resolve()
+    comics_output = args.comics_output.resolve()
+    movies_output = args.movies_output.resolve()
+    oss_output = args.oss_output.resolve()
+    if args.only_oss:
+        write_report(oss_output, render_oss_dashboard(themes))
+        return
     write_report(output, render(themes, total_raw_bytes))
     write_report(music_output, render_music_dashboard(themes))
     write_report(linux_output, render_linux_dashboard(themes))
+    write_report(beer_output, render_beer_dashboard(themes))
+    write_report(
+        comics_movies_output,
+        render_comics_movies_dashboard(themes),
+    )
+    write_report(
+        comics_output,
+        render_comics_movies_track_dashboard(themes, "comics"),
+    )
+    write_report(
+        movies_output,
+        render_comics_movies_track_dashboard(themes, "movies"),
+    )
+    write_report(oss_output, render_oss_dashboard(themes))
 
 
 if __name__ == "__main__":

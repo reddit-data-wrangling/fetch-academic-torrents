@@ -1,4 +1,5 @@
 title = "Open-source software"
-state = "planning"
+state = "active"
+mongo_uri = "mongodb://localhost:27017"
 mongo_database = "reddit"
-notes = "Catalogue and selection are not complete."
+notes = "Verified-community census of 120 subreddits; low-priority acquisition loads into MongoDB on port 27017 and yields to the comics/movies fetcher."
